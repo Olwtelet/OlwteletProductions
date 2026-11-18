@@ -1,0 +1,263 @@
+/* Case-study page blocks — verbatim ports of the original CSS (docs/recon/project-template.md §2–§5):
+ *   css/476a00d43455ee73 (hero media, meta row, summary, title)
+ *   css/68494fcd82ef4e48 (Section / Separator, Stagger, ABOUT description + features, AWARDS)
+ * Class keys keep the original module key names. Where a rule must beat a typography token applied on the
+ * same element (Summary line-height), the selector is doubled so the original cascade result does not depend
+ * on chunk order. */
+
+/* ---- hero media container (module 2969: styles_Container___m_50) */
+.HeroContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.HeroContainer img,
+.HeroContainer video {
+  background-color: rgba(0, 0, 0, 0);
+  height: auto;
+  margin-top: 12px;
+  object-fit: contain;
+  position: relative;
+  width: 100%;
+}
+.HeroContainer img {
+  pointer-events: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.HeroContainer__Overscale {
+  overflow: visible;
+}
+.HeroContainer__Overscale img {
+  margin-bottom: -20px;
+  margin-top: -50px;
+}
+
+/* ---- meta row (module 88758: styles_Container__7MMG_ / ContentWrapper / Pill) */
+.MetaContainer {
+  height: 40px;
+  position: relative;
+}
+.MetaContainer hr {
+  border: none;
+  border-top: 1px solid var(--color-primary);
+  margin-bottom: 12px;
+}
+.MetaContainer a {
+  align-items: center;
+  display: flex;
+  gap: 9px;
+  text-decoration: none;
+}
+.ContentWrapper {
+  display: none;
+  height: 28px;
+  justify-content: space-between;
+}
+.ContentWrapper > div {
+  align-items: center;
+  display: flex;
+  gap: 9px;
+}
+@media (min-width: 1024px) {
+  .ContentWrapper {
+    display: flex;
+  }
+}
+.MetaPill {
+  background-color: color-mix(in srgb, var(--color-primary) 10%, transparent);
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+/* ---- summary + parallax wrapper (module 17030) */
+.Summary.Summary {
+  line-height: 0.9;
+}
+.ParalaxContainer {
+  margin-bottom: 24px;
+  position: relative;
+}
+.ParalaxObserver {
+  position: relative;
+}
+
+/* ---- title (module 73335) */
+div.TitleContainer {
+  display: block;
+  margin-bottom: 56px;
+  margin-top: 24px;
+  position: relative;
+}
+h1.TitleText {
+  margin-block: 0;
+  opacity: 0;
+  text-align: center;
+  transition: opacity 0.5s ease-in-out;
+}
+h1.TitleText,
+h1.TitleText * {
+  font-feature-settings: "kern" off;
+  font-kerning: none;
+}
+h1.TitleText__visible {
+  opacity: 1;
+}
+/* Olwtelet: the title animates the SplitType lines themselves (opacity, y), so their global overflow mask hides
+   nothing that moves; it only clipped the tops of accented capitals ("GRÁTIS": the Á reaches 0.9 em, the mask
+   0.825 em, about half the accent cut at every width). */
+h1.TitleText :global(.split-line) {
+  overflow: visible;
+}
+/* with the mask gone the whole accent shows, and at 0.9 leading it touched the letter above (the Á rises to 0.9 em):
+   titles with accented letters get 0.08 em between lines; the others keep the replica's leading */
+h1.TitleText_Accented :global(.split-line) + :global(.split-line) {
+  padding-top: 0.08em;
+}
+
+/* ---- Section (module 37492 → styles_Container__47ljQ) + Separator (module 64747) */
+.Section {
+  margin-bottom: 40px;
+}
+.Separator {
+  border: none;
+  border-top: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+  display: block;
+  margin-block: 14px;
+  transform-origin: top left;
+}
+
+/* ---- Stagger (module 20778) */
+.Stagger {
+  display: contents;
+}
+
+/* ---- ABOUT (module 53291) */
+.Description {
+  grid-column: 1/-1;
+  margin-bottom: 32px;
+}
+@media (min-width: 1024px) {
+  .Description {
+    grid-column: 1 / span 5;
+    margin-bottom: 80px;
+  }
+}
+@media (min-width: 1440px) {
+  .Description {
+    column-count: 2;
+    column-gap: 24px;
+    grid-column: 1 / span 8;
+  }
+}
+@media (min-width: 1920px) {
+  .Description {
+    grid-column: 5 / span 8;
+  }
+}
+.Description a {
+  color: inherit;
+}
+.Description p {
+  margin-bottom: 1rem;
+}
+.ProjectFeatures {
+  grid-column: 1/-1;
+}
+.ProjectFeatures > :first-child {
+  position: absolute;
+}
+.ProjectFeatures ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.ProjectFeatures ul a {
+  text-decoration: none;
+}
+@media (min-width: 1024px) {
+  .ProjectFeatures {
+    grid-column: 6 / span 3;
+    margin-top: -35px;
+  }
+}
+@media (min-width: 1440px) {
+  .ProjectFeatures {
+    column-gap: 24px;
+    grid-column: 9 / span 4;
+  }
+}
+@media (min-width: 1920px) {
+  .ProjectFeatures {
+    grid-column: 13 / span 4;
+    margin-top: 0;
+  }
+}
+.FeatureLi {
+  border-bottom: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 12px;
+  text-align: end;
+}
+.FeaturePill {
+  background-color: color-mix(in srgb, var(--color-primary) 10%, transparent);
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 8px;
+  width: fit-content;
+}
+
+/* ---- AWARDS (module 55792) */
+.AwardsList {
+  display: contents;
+  grid-column: 1/-1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.AwardsList a {
+  color: inherit;
+  display: contents;
+}
+.AwardsList > li {
+  grid-column: span 4;
+}
+@media (min-width: 1024px) {
+  .AwardsList > li {
+    grid-column: span 2;
+  }
+}
+.AwardsList > li:first-child {
+  grid-column: 1 / span 4;
+}
+@media (min-width: 1024px) {
+  .AwardsList > li:first-child {
+    grid-column: 1 / span 2;
+  }
+}
+@media (min-width: 1440px) {
+  .AwardsList > li:first-child {
+    grid-column: 3 / span 2;
+  }
+}
+@media (min-width: 1920px) {
+  .AwardsList > li:first-child {
+    grid-column: 4 / span 2;
+  }
+}
+.AwardSvg {
+  height: 48px;
+  margin-top: 12px;
+}
+@media (min-width: 1024px) {
+  .AwardSvg {
+    height: 64px;
+  }
+}

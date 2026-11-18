@@ -1,0 +1,51 @@
+/* about_scrolling_carousel — verbatim port of css/68494fcd l.2316-2365 (module 42206). docs/recon/about.md §7.1 */
+.ScrollingCarouselContainer {
+  height: 100%;
+  margin: 36px 0 36px -20px;
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+}
+@media (min-width: 1024px) {
+  .ScrollingCarouselContainer {
+    margin: 60px 0 60px -24px;
+  }
+}
+@media (min-width: 1920px) {
+  .ScrollingCarouselContainer {
+    margin: 90px 0 90px calc((-100vw + 1920px) / 2 - 24px);
+    width: calc(100vw + 24px);
+  }
+}
+.ScrollingCarouselTrack {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  height: 220px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+@media (min-width: 1024px) {
+  .ScrollingCarouselTrack {
+    height: 300px;
+  }
+}
+@media (min-width: 1920px) {
+  .ScrollingCarouselTrack {
+    height: 380px;
+  }
+}
+.ScrollingCarouselItem {
+  box-sizing: border-box;
+  height: 100%;
+  overflow-y: clip;
+}
+.ScrollingCarouselItem img {
+  height: 100%;
+  object-fit: cover;
+  width: auto;
+}
+.ScrollingCarouselItem video {
+  height: 100%;
+  width: auto;
+}

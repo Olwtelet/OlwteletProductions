@@ -1,0 +1,82 @@
+{
+  "$meta": {
+    "generator": "scripts/brand/build-brand-assets.mjs (task atlas)",
+    "layout": "6×6 cells per atlas; cellX = atlas row from the top, cellY = column (shader convention)",
+    "fonts": {
+      "helveticaNow": true,
+      "ballingerMono": true
+    }
+  },
+  "atlases": [
+    {
+      "type": "image",
+      "mediaAtlas": "/assets/workgrid/media-rgb-atlas-0.jpg",
+      "mediaAlphaAtlas": "/assets/workgrid/media-alpha-atlas-0.jpg",
+      "labelsAtlas": "/assets/workgrid/label-atlas-0.png"
+    }
+  ],
+  "cells": [
+    {
+      "id": "olwtelet-filmes-hd-online-gratis",
+      "uid": "filmes-hd-online-gratis",
+      "title": "Filmes HD Online Grátis",
+      "atlas": {
+        "index": 0,
+        "cellX": 0,
+        "cellY": 0
+      }
+    },
+    {
+      "id": "olwtelet-veil",
+      "uid": "veil",
+      "title": "Veil",
+      "atlas": {
+        "index": 0,
+        "cellX": 0,
+        "cellY": 1
+      }
+    }
+  ],
+  "emptyCells": [
+    {
+      "variant": "corners",
+      "atlas": {
+        "index": 0,
+        "cellX": 0,
+        "cellY": 2
+      }
+    },
+    {
+      "variant": "cross",
+      "atlas": {
+        "index": 0,
+        "cellX": 0,
+        "cellY": 3
+      }
+    },
+    {
+      "variant": "frame",
+      "atlas": {
+        "index": 0,
+        "cellX": 0,
+        "cellY": 4
+      }
+    },
+    {
+      "variant": "dots",
+      "atlas": {
+        "index": 0,
+        "cellX": 0,
+        "cellY": 5
+      }
+    },
+    {
+      "variant": "surface",
+      "atlas": {
+        "index": 0,
+        "cellX": 1,
+        "cellY": 0
+      }
+    }
+  ]
+}

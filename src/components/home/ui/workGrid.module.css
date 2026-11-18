@@ -1,0 +1,8 @@
+/* WorkGrid stage container (module 55607 `eE` = styles_Container__Wa4pi, css 4515242e). docs/recon/home-interaction.md §1 */
+.Container {
+  background-color: #000;
+  height: 100vh;
+  height: 100svh;
+  position: fixed;
+  width: 100vw;
+}

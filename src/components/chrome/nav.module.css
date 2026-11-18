@@ -1,0 +1,108 @@
+/* Bottom navigation pill — verbatim port of css/4515242e7372a102.css (module 32743 "styles_NavigationWrapper",
+ * module 95553 "NavigationContainer"). design-system.md §4.7, intro-and-chrome.md §13.
+ * The <nav> asks for `navigationWrapper` (lowercase), which does not exist, so the NavigationContainer rule never
+ * applies (MEASURED: <nav> is static, 0 px tall) — kept unused here as in the original. */
+nav.NavigationContainer_NavigationWrapper {
+  bottom: 0;
+  left: 50%;
+}
+@keyframes ease-up {
+  0% {
+    bottom: -4rem;
+  }
+  to {
+    bottom: 2rem;
+  }
+}
+@keyframes ease-down {
+  0% {
+    top: -6rem;
+  }
+  to {
+    top: 0;
+  }
+}
+@keyframes ease-down-medium {
+  0% {
+    transform: translate(-50%, -100%);
+  }
+  to {
+    transform: translate(-50%, -50%);
+  }
+}
+ul.NavigationWrapper {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: hsla(0, 0%, 100%, 0.5333333333);
+  border-radius: 48px;
+  bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  left: 50%;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  place-items: center center;
+  position: fixed;
+  transform: translateX(-50%);
+  width: fit-content;
+  z-index: 100;
+  animation-duration: 1s;
+  animation-name: ease-up;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+@media (min-width: 1024px) {
+  ul.NavigationWrapper {
+    gap: 9px;
+  }
+}
+@media (min-width: 1440px) {
+  ul.NavigationWrapper {
+    gap: 12px;
+    padding: 7px;
+  }
+}
+ul.NavigationWrapper > div {
+  background: #fff;
+  border-radius: 40px;
+  height: calc(100% - 10px);
+  left: 5px;
+  opacity: 0;
+  position: absolute;
+  top: 5px;
+  transition:
+    translate 0.7s cubic-bezier(0.93, -0.24, 0.4, 1.17),
+    opacity 1s ease-in-out;
+  translate: 0 0;
+  width: calc((100% - 10px) / 3);
+  z-index: -1;
+}
+ul.NavigationWrapper li {
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+ul.NavigationWrapper li a {
+  color: #000;
+  display: flex;
+  font-size: clamp(14px, 1.2vw, 16px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 8px 9px;
+  place-items: center center;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+}
+@media (min-width: 1440px) {
+  ul.NavigationWrapper li a {
+    padding: 11px 17px;
+  }
+}
+@media (min-width: 1920px) {
+  ul.NavigationWrapper li a {
+    font-size: clamp(16px, 1.2vw, 18px);
+  }
+}

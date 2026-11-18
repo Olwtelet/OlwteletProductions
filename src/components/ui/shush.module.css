@@ -1,0 +1,49 @@
+/* 404 / error view — verbatim css/d9ac49a4e75e07af.css (module 28197). In the original this file loads after
+ * 68494fcd, so `.ShushWrapper{padding:24px 16px}` beats layout_Wrapper's media-query paddings at every width
+ * (MEASURED text x = 16 at 1920) and `.ShushTitle{line-height:1em}` beats MonoDetail's 1.1. The doubled class
+ * selectors below guarantee the same cascade result regardless of CSS-module chunk order. */
+.ShushContainer {
+  background-image: url(/brand/404.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100svh;
+  position: relative;
+  width: 100%;
+}
+.ShushWrapper.ShushWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 24px 16px;
+  width: 100%;
+}
+.ShushCopy {
+  border-top: 1px solid hsla(0, 0%, 100%, 0.5);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+  width: 100%;
+}
+.ShushTitle.ShushTitle {
+  line-height: 1em;
+  margin: 0;
+}
+.HomeCTA {
+  bottom: 150px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: fit-content;
+}
+/* Olwtelet: on portrait screens the landscape background is shown whole (the mark is centred), on its own colour */
+.ShushContainer {
+  background-color: #161616;
+}
+@media (max-aspect-ratio: 1/1) {
+  .ShushContainer {
+    background-size: contain;
+  }
+}

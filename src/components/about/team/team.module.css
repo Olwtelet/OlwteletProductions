@@ -1,0 +1,218 @@
+/* team_section — verbatim port of css/68494fcd l.4007-4036 (SceneWrapper, module 86923) and l.4293-4466
+ * (FaceParticleDemoWrapper 64884, TeamSection 41412, CurrentEmployee 46699, Department 10032,
+ * DepartmentList 91041, TeamUi 78549). docs/recon/about.md §7.4 */
+div.SceneWrapper {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+div.SceneWrapper_DisableTouch {
+  cursor: default;
+  pointer-events: none;
+  touch-action: none;
+}
+div.SceneWrapper_DisableTouch canvas {
+  pointer-events: none;
+  touch-action: none;
+}
+div.SceneWrapper_Fixed canvas {
+  position: fixed;
+}
+
+.FaceParticleDemoWrapper {
+  aspect-ratio: 1/1;
+  max-height: 80vh;
+  position: relative;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .FaceParticleDemoWrapper {
+    left: -2.5%;
+  }
+}
+.TeamSectionElement canvas {
+  background-color: unset;
+}
+.TeamSectionContent {
+  height: 100%;
+  position: relative;
+}
+.CurrentEmployeeContainer {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+@media (min-width: 599px) {
+  .CurrentEmployeeContainer {
+    left: max(0px, 50% - 350px);
+  }
+}
+@media (min-width: 1440px) {
+  .CurrentEmployeeContainer {
+    left: calc(25% + 10px);
+  }
+}
+.CurrentEmployeeName,
+.CurrentEmployeeTitle {
+  margin: 0 0 0.25em;
+}
+.CurrentEmployeeName:before {
+  background-color: #fff;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 0.75em;
+  margin-right: 0.5em;
+  width: 0.75em;
+}
+.CurrentEmployeeTitle {
+  opacity: 0.5;
+}
+.Wrapper {
+  cursor: pointer;
+  display: flex;
+  opacity: 0.3;
+  position: relative;
+  transition: opacity 0.2s ease-in-out;
+}
+.Wrapper:not(:last-child) {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.3);
+}
+.Wrapper:has(+ .Wrapper_Current) {
+  border-bottom: 1px solid #fff !important;
+}
+.Wrapper:hover {
+  opacity: 0.8;
+}
+.Wrapper:hover .Count {
+  background-color: hsla(0, 0%, 100%, 0.1);
+  border: 1px solid hsla(0, 0%, 100%, 0);
+  color: #fff;
+}
+.Wrapper_Current {
+  opacity: 1;
+  pointer-events: none;
+}
+.Wrapper_Current .Count {
+  background-color: hsla(0, 0%, 100%, 0.1);
+  border: 1px solid hsla(0, 0%, 100%, 0);
+  color: #fff;
+}
+.Count {
+  align-items: center;
+  aspect-ratio: 1;
+  background-color: hsla(0, 0%, 100%, 0);
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  font-size: clamp(0.1rem, 1vw, 0.75rem);
+  justify-content: center;
+  margin-left: 0.5em;
+  transition:
+    color 0.2s ease-in-out,
+    background-color 0.2s ease-in-out,
+    border 0.2s ease-in-out;
+  width: 34px;
+}
+/* The original stylesheet order (typography 6b553615 before 68494fcd) makes Count's font-size beat MonoDetail's;
+ * CSS-module chunk order is not guaranteed here, so the same result is pinned with a doubled class. */
+.Count.Count {
+  font-size: clamp(0.1rem, 1vw, 0.75rem);
+}
+.TeamUiEmployeesContainer {
+  align-self: end;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  grid-column: 1/-1;
+  margin-inline: -20px;
+  margin-bottom: 30px;
+  overflow-x: auto;
+  padding-inline: 50%;
+  pointer-events: auto;
+  position: relative;
+  scroll-snap-type: x mandatory;
+  white-space: nowrap;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.TeamUiEmployeesContainer::-webkit-scrollbar {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .TeamUiEmployeesContainer {
+    display: grid;
+    gap: unset;
+    grid-template-columns: subgrid;
+    height: fit-content;
+    margin: auto 0;
+    overflow: hidden;
+    padding: unset;
+    grid-column: 7 / span 3;
+  }
+}
+@media (min-width: 1024px) and (min-width: 1024px) {
+  .TeamUiEmployeesContainer {
+    grid-column: 7 / span 3;
+  }
+}
+@media (min-width: 1024px) and (min-width: 1440px) {
+  .TeamUiEmployeesContainer {
+    grid-column: 9 / span 3;
+  }
+}
+@media (min-width: 1024px) and (min-width: 1920px) {
+  .TeamUiEmployeesContainer {
+    grid-column: 12 / span 5;
+  }
+}
+.TeamUiDepartmentContainer {
+  scroll-snap-align: center;
+}
+@media (min-width: 1024px) {
+  .TeamUiDepartmentContainer {
+    display: grid;
+    gap: inherit;
+    grid-template-columns: subgrid;
+    row-gap: 0;
+    grid-column: 1 / span 4;
+  }
+}
+@media (min-width: 1024px) and (min-width: 1024px) {
+  .TeamUiDepartmentContainer {
+    grid-column: 1 / span 3;
+  }
+}
+@media (min-width: 1024px) and (min-width: 1440px) {
+  .TeamUiDepartmentContainer {
+    grid-column: 1 / span 4;
+  }
+}
+@media (min-width: 1024px) and (min-width: 1920px) {
+  .TeamUiDepartmentContainer {
+    grid-column: 1 / span 5;
+  }
+}
+.TeamUiDepartmentEmployeeName {
+  font-size: 64px;
+}
+.TeamUiContainer {
+  color: #fff;
+  height: 100%;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+/* In the original file these rules come after layout_Grid/layout_Wrapper (l.4476 vs l.613/634) and win on order;
+ * pinned with a doubled class here because CSS-module chunk order is not guaranteed. */
+@media (max-width: 1024px) {
+  .TeamUiContainer.TeamUiContainer {
+    grid-template-columns: unset;
+    padding: 0;
+  }
+}

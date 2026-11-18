@@ -1,0 +1,285 @@
+/* Slice CSS — verbatim ports from css/68494fcd82ef4e48 (case_study_media, LazyVideo, carousel, cursor element,
+ * copy_section description, hero_video), css/e96fd3a11841e036 (copy_section section) and
+ * css/baf2942aa9f53546 (RowsMain). docs/recon/project-template.md §6. */
+
+/* ---------------- case_study_media (module 75282) */
+.CsmSection {
+  margin: 24px auto;
+}
+.CsmContainer {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+.CsmContainer > div {
+  min-width: 100%;
+}
+.CsmContainer__Double > div {
+  max-width: calc(50% - 10px);
+  min-width: calc(50% - 10px);
+}
+@media (min-width: 1024px) {
+  .CsmContainer {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .CsmContainer > div {
+    max-width: 100%;
+    min-width: auto;
+  }
+}
+.MediaContainer {
+  flex: 1 1;
+  position: relative;
+}
+.MediaContainer img,
+.MediaContainer video {
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+/* ---------------- LazyVideo (module 72470) */
+.VideoLoading {
+  background-color: #000;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.LazyVideoWrapper {
+  position: relative;
+}
+
+/* ---------------- carousel (modules 31266, 48195, 20047, 61347) */
+section.CarouselSection {
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto auto;
+}
+@media (min-width: 1024px) {
+  section.CarouselSection {
+    margin-top: 24px;
+  }
+}
+div.CarouselContainer {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  div.CarouselContainer {
+    gap: 2rem;
+  }
+}
+div.ImageContainer {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+div.CarouselImageItem {
+  flex: 1 1;
+  opacity: 0.2;
+  transition: opacity 1s ease-in-out;
+}
+div.CarouselImageItem img {
+  height: auto;
+  transform: scale(0.9);
+  transition: transform 1s ease-in-out;
+  width: 100%;
+}
+div.CarouselImageItem_Current {
+  opacity: 1;
+}
+div.CarouselImageItem_Current img {
+  transform: scale(1);
+}
+div.IndexRow {
+  margin-top: 0;
+  position: relative;
+  width: 100%;
+}
+@media (min-width: 599px) {
+  div.IndexRow {
+    margin-top: 35px;
+  }
+}
+p.IndexContainer {
+  display: flex;
+  grid-column: span 1 1;
+  min-width: 100px;
+}
+@media (min-width: 599px) {
+  p.IndexContainer {
+    grid-column-end: -3;
+  }
+}
+span.Index {
+  display: flex;
+  flex-direction: column;
+}
+span.IndexItem {
+  opacity: 0;
+}
+span.IndexItem_Current {
+  opacity: 1;
+}
+div.FileNames {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  grid-column-end: -1;
+}
+@media (min-width: 599px) {
+  div.FileNames {
+    align-items: flex-start;
+    grid-column: span 2;
+    grid-column-end: -1;
+  }
+}
+.FileNamesWrapper {
+  display: flex;
+  flex-direction: column;
+}
+p.FileNamesItem {
+  cursor: pointer;
+  opacity: 0.2;
+  transition: opacity 0.2s ease-in-out;
+}
+p.FileNamesItem:hover {
+  opacity: 0.6;
+}
+p.FileNamesItem_Current {
+  opacity: 1;
+  pointer-events: none;
+}
+.MobileButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  margin-top: 7px;
+  position: relative;
+  text-transform: uppercase;
+  width: 100%;
+}
+@media (min-width: 599px) {
+  .MobileButtons {
+    display: none;
+  }
+}
+
+/* ---------------- cursor element (modules 61093, 84271) */
+div.CursorElement {
+  cursor: default;
+  height: 100%;
+  inset: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+div.CursorElement_BlendMode {
+  mix-blend-mode: difference;
+}
+.CursorWrapper {
+  height: 0;
+  top: 0;
+  width: 0;
+}
+.CursorContainer {
+  position: relative;
+}
+@media (min-width: 1024px) {
+  .CursorContainer {
+    display: block;
+  }
+}
+div.CursorBubble {
+  background-color: #fff;
+  border-radius: var(--size);
+  color: #000;
+  display: grid;
+  height: var(--size);
+  mix-blend-mode: difference;
+  place-items: center center;
+  position: relative;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: var(--size);
+  --size: 80px;
+}
+
+/* ---------------- copy_section (modules 9116, 23059, 7928) */
+.CopySection {
+  margin: 0 auto 40px;
+}
+.CopySection a {
+  color: inherit;
+}
+.RowsMain {
+  display: contents;
+}
+.RowsMain p:not(:last-child) {
+  margin-bottom: 24px;
+}
+.RowsMain:not(.HasColumns) {
+  display: inline-block;
+  grid-column: 1/-1;
+  margin-top: 10px;
+}
+@media (min-width: 1024px) {
+  .RowsMain:not(.HasColumns) {
+    grid-column: 3 / span 4;
+  }
+}
+@media (min-width: 1440px) {
+  .RowsMain:not(.HasColumns) {
+    grid-column: 4 / span 6;
+  }
+}
+@media (min-width: 1920px) {
+  .RowsMain:not(.HasColumns) {
+    grid-column: 5 / span 8;
+  }
+}
+.CopyDescription {
+  grid-column: 1/-1;
+}
+@media (min-width: 1024px) {
+  .CopyDescription {
+    grid-column: 3 / span 4;
+  }
+}
+@media (min-width: 1440px) {
+  .CopyDescription {
+    column-count: 2;
+    grid-column: 4 / span 6;
+  }
+}
+@media (min-width: 1920px) {
+  .CopyDescription {
+    column-count: 2;
+    grid-column: 5 / span 8;
+  }
+}
+
+/* ---------------- hero_video (module 75015) */
+.VideoWrapper {
+  align-items: center;
+  aspect-ratio: 16/9;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.VideoWrapper video {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  position: relative;
+}

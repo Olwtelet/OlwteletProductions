@@ -1,0 +1,80 @@
+/* Typography tokens — verbatim port of css/6b55361586431d06.css (JS module 75923). design-system.md §1.2 */
+.LargeTitle {
+  --scale-font: 1;
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  font-feature-settings: "kern" off;
+  font-kerning: none;
+  font-size: calc(clamp(3rem, 12vw, 15.6rem) * var(--scale-font));
+  font-weight: 800;
+  letter-spacing: -0.0425em;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+.MidTitle {
+  font-size: clamp(1.5rem, 6vw, 6.3rem);
+  line-height: 0.9;
+}
+.LargeSubTitle,
+.MidTitle {
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+}
+.LargeSubTitle {
+  font-size: clamp(1.5rem, 5.5vw, 5.5rem);
+  line-height: 0.98;
+}
+.MidSubTitle {
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  font-size: clamp(1rem, 3.7vw, 3.7rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 0.95;
+}
+.SmallSubTitle {
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  font-size: clamp(2.5rem, 3.5vw, 3.3rem);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+}
+.LargeBody {
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  font-size: clamp(1rem, 1.7vw, 1.25rem);
+  font-weight: 400;
+  line-height: 1.2;
+}
+.DefaultBody {
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 0.95;
+}
+.LargeButtonUi {
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  font-size: clamp(1rem, 1.5vw, 1.12rem);
+  font-weight: 500;
+  line-height: 1.4;
+}
+.MonoDetail {
+  font-family: ballinger-mono, sans-serif;
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.1;
+  text-transform: uppercase;
+}

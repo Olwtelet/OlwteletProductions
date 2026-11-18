@@ -1,0 +1,677 @@
+/* Contact flow (steps 1–3 + container) — verbatim port of css/821e706809b66240 (the /contact route CSS;
+ * JS class maps 82114 ContactStepOne_, 87241 Contact_, 56986 ContactStepThree_, 2294 ContactStepTwo_).
+ * Only the classes the shipped components render are kept (the original file also carries dead selectors for an
+ * older radio-based step two: SliderContainer, RadioOption, FormField… — never rendered). */
+
+/* ------------------------------------------------------------ ContactStepOne_ */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.ContactGrid,
+.Step_InitialAnimation {
+  animation: fade-in 0.6s ease-out 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.ContactGrid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 4rem;
+}
+.ContactGrid div:first-child {
+  height: 100%;
+}
+@media (max-width: 1024px) {
+  .ContactGrid > :last-child {
+    grid-column: span 2;
+  }
+}
+@media (min-width: 1024px) {
+  .ContactGrid {
+    margin-top: 3rem;
+  }
+}
+@media (min-width: 1440px) {
+  .ContactGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.BackgroundVideo {
+  aspect-ratio: 1;
+  display: var(--display);
+  height: 150%;
+  left: 50%;
+  object-fit: contain;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease-in-out;
+  z-index: -1;
+}
+@media (min-width: 1440px) {
+  .BackgroundVideo {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    right: unset;
+    top: 0;
+    transform: unset;
+    width: 100%;
+  }
+}
+.BackgroundVideo_OnHover {
+  opacity: 0;
+}
+.ArrowButtonContainer {
+  align-items: center;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  border-radius: 50%;
+  display: flex;
+  flex-shrink: 0; /* Olwtelet: stays a circle in the row cards (1024–1439), where a long title squeezed it */
+  height: 32px;
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+  transition-property: background, border;
+  width: 32px;
+}
+.ArrowButtonContainer svg {
+  height: 100%;
+  width: 100%;
+}
+.ArrowButtonContainer svg path {
+  fill: #fff;
+}
+@media (min-width: 1440px) {
+  .ArrowButtonContainer {
+    border: 1px solid #fff;
+    height: 56px;
+    padding: 20px;
+    width: 56px;
+  }
+}
+.ContactGridTileLink {
+  color: #fff;
+  text-decoration: none;
+}
+.ContactGridTile {
+  align-items: flex-start;
+  background: hsla(0, 0%, 100%, 0.04);
+  border: 0.6px solid hsla(0, 0%, 100%, 0.1);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+}
+.ContactGridTile:nth-child(3) {
+  grid-column: 1/-1;
+  min-height: 250px;
+}
+@media (min-width: 1440px) {
+  .ContactGridTile:nth-child(3) {
+    min-height: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .ContactGridTile {
+    align-items: center;
+    flex-direction: row;
+  }
+}
+@media (min-width: 1440px) {
+  .ContactGridTile {
+    align-items: flex-start;
+    aspect-ratio: 1;
+    flex-direction: column;
+    padding: max(20px, 10%);
+  }
+  .ContactGridTile:nth-child(3) {
+    grid-column: unset;
+  }
+}
+/* Olwtelet: hover effects only where there is a real hover (a tap on a touch screen left them stuck: the inverted
+   arrow after the mailto link, the image flashing while the flow slides to step 2) */
+@media (hover: hover) {
+  .ContactGridTile:hover {
+    background: rgba(0, 0, 0, 0);
+  }
+  .ContactGridTile:hover .ArrowButtonContainer {
+    background: #fff !important;
+    border: 1px solid #000;
+  }
+  .ContactGridTile:hover .ArrowButtonContainer svg path {
+    fill: #000;
+  }
+  .ContactGridTile:hover .BackgroundVideo_OnHover {
+    opacity: 1;
+  }
+}
+.ContactGridTile_Pointer {
+  cursor: pointer;
+}
+.CircleSvg {
+  fill: #fff;
+  flex-shrink: 0;
+  height: 10px;
+  width: 10px;
+}
+.Subtitle {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+.ContactGridTitle {
+  font-size: clamp(1.25rem, 1.35vw, 1.75rem);
+  font-weight: 400;
+  line-height: 120%;
+  margin: 20px 0;
+  width: 90%;
+}
+@media (min-width: 1024px) {
+  .ContactGridTitle {
+    margin: 20px 0 0;
+  }
+}
+@media (min-width: 1440px) {
+  .ContactGridTitle {
+    margin: 20px 0;
+  }
+}
+.TileContactContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+@media (min-width: 1440px) {
+  .TileContactContainer {
+    flex-wrap: wrap;
+  }
+}
+.TileContact {
+  background-color: rgba(165, 165, 165, 0.5333333333);
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  flex: 1 1 140px;
+  gap: 8px;
+  max-width: 140px;
+  padding: 17px 10px;
+  text-decoration: none;
+}
+@media (min-width: 1920px) {
+  .TileContact {
+    max-width: 180px;
+  }
+}
+.TileContact:active,
+.TileContact:visited {
+  color: #fff;
+  text-decoration: none;
+}
+/* Olwtelet: real hover only (a tap left the e-mail / LinkedIn tile inverted after returning from the mail app);
+   keyboard focus shows the same inversion */
+@media (hover: hover) {
+  .TileContact:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  .TileContact:hover svg path {
+    fill: #000;
+  }
+}
+.TileContact:focus-visible {
+  background-color: #fff;
+  color: #000;
+}
+.TileContact:focus-visible svg path {
+  fill: #000;
+}
+.TileContact svg {
+  aspect-ratio: 1;
+  display: none;
+  height: 24px;
+}
+@media (min-width: 1920px) {
+  .TileContact svg {
+    display: block;
+  }
+}
+.TileContact svg path {
+  fill: #fff;
+}
+@media (hover: hover) {
+  .TileContact_Whatsapp:hover {
+    background-color: #47bb56;
+    color: #fff;
+  }
+  .TileContact_Whatsapp:hover svg path {
+    fill: #fff;
+  }
+}
+div.ContactContentInner {
+  height: 50vh;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+/* ------------------------------------------------------------ Contact_ */
+.ContactContainer {
+  color: #fff;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.ContactContainer_Modal {
+  z-index: 100;
+}
+.ContactContainerInner {
+  row-gap: 0;
+}
+.ContactContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100vh;
+  margin: 0 auto 0 0.25rem;
+  max-width: 760px;
+  min-height: 400px;
+  overflow: hidden auto;
+  -ms-overflow-style: none;
+  padding: 6rem 1rem 2rem;
+  scrollbar-gutter: stable;
+  scrollbar-width: none;
+  z-index: 1000;
+}
+.ContactContentContainer > a {
+  bottom: 1rem;
+  left: 0;
+  position: absolute;
+}
+.ContactContentContainer::-webkit-scrollbar {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .ContactContentContainer {
+    max-width: 1200px;
+  }
+}
+@media (min-width: 1440px) {
+  .ContactContentContainer {
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    padding-block: 10rem;
+    padding-right: calc(2rem + 56px);
+  }
+}
+.ContactContentContainer.ContactContentContainer_Centered {
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  grid-column: 1/-1;
+}
+@media (min-width: 1024px) {
+  .ContactContentContainer.ContactContentContainer_Centered {
+    grid-column: 2 / span 6;
+  }
+}
+@media (min-width: 1440px) {
+  .ContactContentContainer.ContactContentContainer_Centered {
+    grid-column: 1 / span 12;
+  }
+}
+@media (min-width: 1920px) {
+  .ContactContentContainer.ContactContentContainer_Centered {
+    grid-column: 3 / span 12;
+  }
+}
+.ContactContentContainer.ContactContentContainer_StepTwo {
+  --button-gap: 2rem;
+  --button-size: 56px;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+@media screen and (max-height: 400px) {
+  .ContactContentContainer {
+    padding: 208px 0;
+    top: 104px;
+  }
+}
+.ContactTitle {
+  max-width: 100%;
+  position: absolute;
+  width: max-content;
+}
+.ContactTitle h1 {
+  font-size: clamp(2.5rem, 3vw, 3.875rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 0.9;
+  margin: 0;
+}
+.Button {
+  background: rgba(165, 165, 165, 0.5333333333);
+  border: none;
+  border-radius: 48px;
+  color: #fff;
+  cursor: pointer;
+  padding: 16px 36px;
+  transition: all 0.3s ease-in-out;
+  width: fit-content;
+}
+.Button:hover {
+  background: #fff;
+  color: #000;
+}
+.Step {
+  font-family: ballinger-mono, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-bottom: 1.25rem;
+  text-transform: uppercase;
+}
+.Step span {
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  border-radius: 50%;
+  display: inline-block;
+  height: 0.5rem;
+  margin-right: 0.5rem;
+  position: relative;
+  width: 0.5rem;
+}
+
+/* ------------------------------------------------------------ ContactStepThree_ */
+div.NextStepsWrapper {
+  counter-reset: ruler;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 38px 0;
+}
+@media (min-width: 1024px) {
+  div.NextStepsWrapper {
+    display: grid;
+    gap: 2%;
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+div.NextStepsWrapper p {
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  font-weight: 400;
+  min-width: 280px;
+  width: 70%;
+}
+div.StepThreeWrapper {
+  margin: 0 auto;
+  max-width: 1024px;
+  position: relative;
+  width: 100%;
+}
+div.StepThreeWrapper h1 {
+  color: #fff;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 93%;
+  margin: 22px 0 0;
+}
+div.StepThreeWrapper h1 strong {
+  color: rgba(165, 165, 165, 0.5333333333);
+  font-weight: 800;
+}
+@media (min-width: 1024px) {
+  div.StepThreeWrapper h1 {
+    font-size: clamp(2rem, 13vw, 4.8rem);
+  }
+}
+.NumberedBox {
+  background-color: hsla(0, 0%, 100%, 0.0509803922);
+  border-radius: 3px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  grid-column: span 4;
+  padding: 24px;
+}
+.NumberedBox:before {
+  content: counter(ruler, decimal-leading-zero) " ";
+  counter-increment: ruler;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* ------------------------------------------------------------ ContactStepTwo_ */
+.FormContainer {
+  position: relative;
+  width: 100%;
+}
+.FormContainer form {
+  padding-bottom: 4rem;
+}
+.FormContainer [data-complexity="full"],
+.FormContainer [data-complexity="medium"] {
+  display: grid;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  transition: grid-template-rows 0.3s ease-in-out;
+}
+.FormContainer [data-complexity="full"] > *,
+.FormContainer [data-complexity="medium"] > * {
+  min-height: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  visibility: hidden;
+}
+.FormContainer.FormContainer_ComplexityMedium [data-complexity="medium"] {
+  grid-template-rows: 1fr;
+}
+.FormContainer.FormContainer_ComplexityMedium [data-complexity="medium"] > * {
+  opacity: 1;
+  visibility: unset;
+}
+.FormContainer.FormContainer_ComplexityFull [data-complexity="full"],
+.FormContainer.FormContainer_ComplexityFull [data-complexity="medium"] {
+  grid-template-rows: 1fr;
+}
+.FormContainer.FormContainer_ComplexityFull [data-complexity="full"] > *,
+.FormContainer.FormContainer_ComplexityFull [data-complexity="medium"] > * {
+  opacity: 1;
+  visibility: unset;
+}
+.ContactStepTwoInner {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 auto;
+  max-width: 880px;
+}
+@media (min-width: 1440px) {
+  .ContactStepTwoInner {
+    flex-direction: row;
+  }
+}
+.PrevButtonContainer {
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  grid-column: 2/3;
+  height: var(--button-size);
+  padding: 20px;
+  rotate: -90deg;
+  top: 0;
+  transition: 0.2s ease-in-out;
+  transition-property: background-color;
+  width: var(--button-size);
+}
+.PrevButtonContainer svg {
+  height: 100%;
+  width: 100%;
+}
+.PrevButtonContainer svg path {
+  fill: #fff;
+}
+.PrevButtonContainer:hover {
+  background: #fff;
+}
+.PrevButtonContainer:hover svg path {
+  fill: #000;
+}
+@media (min-width: 1440px) {
+  .PrevButtonContainer {
+    position: sticky;
+  }
+}
+
+/* ================================================================ Olwtelet
+ * Below 768 px the step-one cards (Portuguese texts, taller than the replica's) can reach the bottom of the screen,
+ * where the privacy link sits absolutely and was drawn over the last card. On phones the link follows the cards in
+ * the flow instead (.PrivacyLinkInline, rendered after the grid) and the bottom one is hidden. */
+.PrivacyLinkInline {
+  display: none;
+}
+@media (width < 768px) {
+  .ContactContentContainer_Centered > a {
+    display: none;
+  }
+  .PrivacyLinkInline {
+    animation: fade-in 0.6s ease-out 1s;
+    animation-fill-mode: forwards;
+    display: block;
+    margin-top: 2rem;
+    opacity: 0;
+    padding-bottom: 2rem;
+    width: fit-content;
+  }
+}
+
+/* ================================================================ Olwtelet: still images on the step-one cards
+ * The replica only had background videos: a centred square 150 % of the card (contain), cover from 1440 px. Still
+ * images went through the same rule, so the Olwtelet mark was blown up behind the text and the Veil slide lost its
+ * wordmark and tagline. Images now get their own frame (.TileMedia, a span: card 1 sits inside a <button>):
+ *   - inside the card, below the title and beside the arrow (the card clips nothing that matters);
+ *   - framed per content: the mark whole (its frame is the mark's own box, the transparent canvas around it hangs
+ *     outside and is clipped), the Veil slide whole at its 16:9 (any crop loses the wordmark or the tagline);
+ *   - never under the card text: shown only where the card has a free area (768–1023 and ≥ 1440 px);
+ *   - revealed on hover (pointer devices) and on keyboard focus; never on touch; hidden below 768 px (the text fills
+ *     the card there). Videos keep .BackgroundVideo. */
+.ContactGridTile {
+  isolation: isolate; /* the z-index:-1 media stays inside the card: above its background, below its text */
+}
+.TileMedia {
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 0.4s ease-in-out;
+  z-index: -1;
+}
+.TileMedia img {
+  display: block;
+  position: absolute;
+}
+/* the mark: footer-mark-porcelain.png is 440 × 890 with the mark at (19, 193) 402 × 504 */
+.TileMedia_Mark {
+  aspect-ratio: 402 / 504;
+}
+.TileMedia_Mark img {
+  height: 176.59%;
+  left: -4.73%;
+  object-fit: contain;
+  top: -38.29%;
+  width: 109.45%;
+}
+/* the Veil slide: 2400 × 1350, whole */
+.TileMedia_Poster {
+  aspect-ratio: 16 / 9;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.TileMedia_Poster img {
+  height: 100%;
+  inset: 0;
+  object-fit: contain;
+  width: 100%;
+}
+@media (hover: hover) {
+  .ContactGridTile:hover .TileMedia {
+    opacity: 1;
+  }
+}
+/* keyboard: focus on the card's <button> / <a> mirrors the hover */
+.ContactGrid > :focus-visible .TileMedia {
+  opacity: 1;
+}
+.ContactGrid > :focus-visible .ContactGridTile {
+  background: rgba(0, 0, 0, 0);
+}
+.ContactGrid > :focus-visible .ArrowButtonContainer {
+  background: #fff !important;
+  border: 1px solid #000;
+}
+.ContactGrid > :focus-visible .ArrowButtonContainer svg path {
+  fill: #000;
+}
+@media (prefers-reduced-motion: reduce) {
+  .TileMedia {
+    transition: none;
+  }
+}
+@media (width < 768px) {
+  .TileMedia {
+    display: none;
+  }
+}
+/* 768–1023: column card about 356 × 174, title on top, arrow bottom-left: the image in the free area bottom-right,
+   below the title (the Veil slide kept small enough to clear the title's first line) */
+@media (768px <= width < 1024px) {
+  .TileMedia {
+    bottom: 20px;
+    right: 20px;
+  }
+  .TileMedia_Mark {
+    height: 60%;
+  }
+  .TileMedia_Poster {
+    filter: brightness(0.92);
+    height: 32%;
+  }
+}
+/* 1024–1439: the card is a single row (text across, arrow on the right), with no area free of text: a still image
+   there could only sit under the title, so none is shown; the card reacts as the third one does */
+@media (1024px <= width < 1440px) {
+  .TileMedia {
+    display: none;
+  }
+}
+/* ≥ 1440: square card, padding 10 %: the free area under the title, beside the arrow, at full brightness */
+@media (width >= 1440px) {
+  .TileMedia {
+    bottom: 10%;
+    right: 10%;
+  }
+  .TileMedia_Mark {
+    height: 38%;
+  }
+  .TileMedia_Poster {
+    filter: brightness(0.92);
+    width: 60%;
+  }
+}

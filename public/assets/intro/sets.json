@@ -1,0 +1,16 @@
+{
+  "frames": 25,
+  "desktop": [
+    "porcelain",
+    "chrome",
+    "graphite",
+    "glass",
+    "copper",
+    "signal"
+  ],
+  "mobile": [
+    "porcelain",
+    "chrome",
+    "signal"
+  ]
+}

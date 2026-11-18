@@ -1,0 +1,320 @@
+/* AboutColumns slice — verbatim port of css/68494fcd l.1290-1771 (module 39986 `AboutColumns_*`).
+ * docs/recon/about.md §4. `--font-helvetica-bold` is undefined in the original (invalid at computed time ⇒
+ * inherits "Helvetica Now"); kept as is. */
+.AboutColumnsContainer {
+  padding-bottom: 60px;
+  position: relative;
+}
+@media (min-width: 1024px) {
+  .AboutColumnsContainer {
+    padding-bottom: 100px;
+  }
+}
+@media (min-width: 1920px) {
+  .AboutColumnsContainer {
+    padding-bottom: 120px;
+  }
+}
+.AboutColumnsContainer_PageTitle {
+  margin-top: 52px;
+  padding-bottom: 30px;
+}
+@media (min-width: 1024px) {
+  .AboutColumnsContainer_PageTitle {
+    margin-top: 104px;
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 1440px) {
+  .AboutColumnsContainer_PageTitle {
+    padding-bottom: 65px;
+  }
+}
+@media (min-width: 1920px) {
+  .AboutColumnsContainer_PageTitle {
+    margin-top: 124px;
+  }
+}
+.LineContainer {
+  margin-bottom: 10px;
+  grid-column: 1/-1;
+}
+@media (min-width: 1024px) {
+  .LineContainer {
+    grid-column: 1 / span 8;
+  }
+}
+@media (min-width: 1440px) {
+  .LineContainer {
+    grid-column: 1 / span 12;
+  }
+}
+@media (min-width: 1920px) {
+  .LineContainer {
+    grid-column: 1 / span 16;
+  }
+}
+.AboutColumnSubtext {
+  vertical-align: top;
+}
+.AboutColumnOne,
+.AboutColumnTitleDescription {
+  font-family: var(--font-helvetica-bold);
+  font-size: clamp(1.5rem, 3vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+.AboutColumnTags ul {
+  margin: 0;
+  padding: 0;
+}
+.AboutColumnContent_Default {
+  width: 100%;
+  grid-column: 1/-1;
+}
+@media (min-width: 1024px) {
+  .AboutColumnContent_Default {
+    grid-column: 1 / span 8;
+  }
+}
+@media (min-width: 1440px) {
+  .AboutColumnContent_Default {
+    grid-column: 4 / span 9;
+  }
+}
+@media (min-width: 1920px) {
+  .AboutColumnContent_Default {
+    grid-column: 5 / span 11;
+  }
+}
+.AboutColumnContent_Default .AboutColumnTitle {
+  font-size: clamp(2.5rem, 5.8vw, 7.5rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 0.9;
+  margin: 0.05em 0 0;
+  width: 100%;
+}
+.AboutColumnContent_Default .AboutColumnTitle .AboutColumnSubtext {
+  line-height: 1.75;
+  margin-right: 30px;
+}
+@media (min-width: 1024px) {
+  .AboutColumnContent_Default .AboutColumnTitle .AboutColumnSubtext {
+    line-height: 2.25vw;
+  }
+}
+@media (min-width: 1920px) {
+  .AboutColumnContent_Default .AboutColumnTitle .AboutColumnSubtext {
+    line-height: 1.8vw;
+  }
+}
+.AboutColumnContent_Default .AboutColumnTitle .MaskTextStaggerElement {
+  margin-top: -0.25em;
+}
+.AboutColumnContent_Default .AboutColumnContentInner {
+  position: relative;
+}
+.AboutColumnContent_Default .AboutColumnContentInner .AboutColumnSubtext {
+  line-height: 1.75;
+  margin-right: 38px;
+}
+@media (min-width: 1024px) {
+  .AboutColumnContent_Default .AboutColumnContentInner .AboutColumnSubtext {
+    line-height: 2.25vw;
+  }
+}
+@media (min-width: 1920px) {
+  .AboutColumnContent_Default .AboutColumnContentInner .AboutColumnSubtext {
+    line-height: 2.4;
+  }
+}
+.AboutColumnContent_Default img,
+.AboutColumnContent_Default video {
+  margin-top: 46px;
+  width: 100%;
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .AboutColumnContent_FourColumnZone,
+  .AboutColumnContent_FourColumn {
+    grid-template-rows: auto;
+  }
+}
+.AboutColumnContent_FourColumnZone .AboutColumnOne,
+.AboutColumnContent_FourColumn .AboutColumnOne {
+  grid-column: 1/-1;
+}
+@media (min-width: 1024px) {
+  .AboutColumnContent_FourColumnZone .AboutColumnOne,
+  .AboutColumnContent_FourColumn .AboutColumnOne {
+    grid-column: 1 / span 2;
+  }
+}
+@media (min-width: 1440px) {
+  .AboutColumnContent_FourColumnZone .AboutColumnOne,
+  .AboutColumnContent_FourColumn .AboutColumnOne {
+    grid-column: 1 / span 3;
+  }
+}
+@media (min-width: 1920px) {
+  .AboutColumnContent_FourColumnZone .AboutColumnOne,
+  .AboutColumnContent_FourColumn .AboutColumnOne {
+    grid-column: 1 / span 4;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .AboutColumnContent_FourColumnZone .AboutColumnOne,
+  .AboutColumnContent_FourColumn .AboutColumnOne {
+    grid-area: 1/1/3/3;
+  }
+}
+.AboutColumnContent_FourColumnZone .AboutColumnOne .AboutColumnIcon,
+.AboutColumnContent_FourColumn .AboutColumnOne .AboutColumnIcon {
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+.AboutColumnContent_FourColumnZone .AboutColumnOne .AboutColumnIcon img,
+.AboutColumnContent_FourColumn .AboutColumnOne .AboutColumnIcon img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.AboutColumnContent_FourColumnZone .AboutGroupedTitle,
+.AboutColumnContent_FourColumn .AboutGroupedTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .AboutColumnContent_FourColumnZone .AboutGroupedTitle,
+  .AboutColumnContent_FourColumn .AboutGroupedTitle {
+    flex-direction: row;
+  }
+}
+.AboutColumnContent_FourColumnZone .AboutColumnTitleDescription,
+.AboutColumnContent_FourColumn .AboutColumnTitleDescription {
+  grid-column: 1/-1;
+}
+@media (min-width: 1024px) {
+  .AboutColumnContent_FourColumnZone .AboutColumnTitleDescription,
+  .AboutColumnContent_FourColumn .AboutColumnTitleDescription {
+    grid-column: 3 / span 6;
+  }
+}
+@media (min-width: 1440px) {
+  .AboutColumnContent_FourColumnZone .AboutColumnTitleDescription,
+  .AboutColumnContent_FourColumn .AboutColumnTitleDescription {
+    grid-column: 4 / span 3;
+  }
+}
+@media (min-width: 1920px) {
+  .AboutColumnContent_FourColumnZone .AboutColumnTitleDescription,
+  .AboutColumnContent_FourColumn .AboutColumnTitleDescription {
+    grid-column: 5 / span 4;
+  }
+}
+.AboutColumnContent_FourColumnZone .AboutColumnBodyWrapper,
+.AboutColumnContent_FourColumn .AboutColumnBodyWrapper {
+  grid-column: 1/-1;
+}
+@media (min-width: 1024px) {
+  .AboutColumnContent_FourColumnZone .AboutColumnBodyWrapper,
+  .AboutColumnContent_FourColumn .AboutColumnBodyWrapper {
+    grid-column: 3 / span 6;
+  }
+}
+@media (min-width: 1440px) {
+  .AboutColumnContent_FourColumnZone .AboutColumnBodyWrapper,
+  .AboutColumnContent_FourColumn .AboutColumnBodyWrapper {
+    grid-column: 7 / span 3;
+  }
+}
+@media (min-width: 1920px) {
+  .AboutColumnContent_FourColumnZone .AboutColumnBodyWrapper,
+  .AboutColumnContent_FourColumn .AboutColumnBodyWrapper {
+    grid-column: 9 / span 4;
+  }
+}
+.AboutColumnContent_FourColumnZone .AboutColumnBody,
+.AboutColumnContent_FourColumn .AboutColumnBody {
+  white-space: pre-line;
+}
+.AboutColumnContent_FourColumnZone .AboutColumnFour,
+.AboutColumnContent_FourColumn .AboutColumnFour {
+  grid-column: 1/-1;
+}
+@media (min-width: 1024px) {
+  .AboutColumnContent_FourColumnZone .AboutColumnFour,
+  .AboutColumnContent_FourColumn .AboutColumnFour {
+    grid-column: 3 / span 6;
+  }
+}
+@media (min-width: 1440px) {
+  .AboutColumnContent_FourColumnZone .AboutColumnFour,
+  .AboutColumnContent_FourColumn .AboutColumnFour {
+    grid-column: 10 / span 3;
+  }
+}
+@media (min-width: 1920px) {
+  .AboutColumnContent_FourColumnZone .AboutColumnFour,
+  .AboutColumnContent_FourColumn .AboutColumnFour {
+    grid-column: 14 / span 4;
+  }
+}
+.AboutColumnContent_FourColumnZone .AboutColumnFour .AboutColumnImage img,
+.AboutColumnContent_FourColumn .AboutColumnFour .AboutColumnImage img {
+  border-radius: 4px;
+  object-fit: contain;
+  width: 100%;
+}
+.AboutColumnContent_FourColumnZone .AboutColumnFour .AboutColumnVideo,
+.AboutColumnContent_FourColumn .AboutColumnFour .AboutColumnVideo {
+  max-width: 400px;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .AboutColumnContent_FourColumnZone .AboutColumnFour .AboutColumnVideo,
+  .AboutColumnContent_FourColumn .AboutColumnFour .AboutColumnVideo {
+    float: right;
+    max-width: 400px;
+    width: 42%;
+  }
+}
+@media (min-width: 1440px) {
+  .AboutColumnContent_FourColumnZone .AboutColumnFour .AboutColumnVideo,
+  .AboutColumnContent_FourColumn .AboutColumnFour .AboutColumnVideo {
+    width: 100%;
+  }
+}
+.CTALink {
+  margin-top: 20px;
+}
+@media (min-width: 1440px) {
+  .CTALink {
+    margin-top: 40px;
+  }
+}
+@media (min-width: 1920px) {
+  .CTALink {
+    margin-top: 60px;
+  }
+}
+.VideoBlendContainer {
+  height: 100%;
+  padding: 2px;
+  position: relative;
+  width: 100%;
+}
+.VideoBlendContainer_darken {
+  background-color: var(--color-secondary);
+  overflow: hidden;
+}
+.VideoBlendContainer_darken video {
+  background-blend-mode: darken;
+  background-color: var(--color-secondary);
+  mix-blend-mode: darken;
+  overflow: hidden;
+  position: relative;
+}

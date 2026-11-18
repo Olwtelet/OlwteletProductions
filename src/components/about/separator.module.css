@@ -1,0 +1,8 @@
+/* styles_Separator__rFyRk (module 64747), css/68494fcd l.966-973 */
+.Separator {
+  border: none;
+  border-top: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+  display: block;
+  margin-block: 14px;
+  transform-origin: top left;
+}

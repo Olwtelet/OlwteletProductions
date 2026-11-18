@@ -1,0 +1,18 @@
+/* Trophy image sequence — verbatim port of css/68494fcd l.949-965 (module 62752 `styles_Container__Qyef6`). */
+div.Container {
+  position: unset;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  div.Container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: unset;
+  }
+}
+div.Container canvas {
+  background-color: rgba(0, 0, 0, 0);
+  height: 100%;
+  width: 100%;
+}

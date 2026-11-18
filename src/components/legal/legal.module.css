@@ -1,0 +1,236 @@
+/* Legal / CMS page sections ("copy_section" slices) — verbatim ports of the original CSS:
+ *   styles_Section__KsgW4            css/e96fd3a11841e036
+ *   styles_Container__47ljQ, styles_Separator__rFyRk, styles_Container__tmcc8, styles_Title__FzKow,
+ *   styles_RichText__EF5iN, styles_Column*, styles_ColumnsSection__EvQTJ, styles_Container__19sh4   css/68494fcd
+ *   styles_RowsMain__Swrfz, styles_HasColumns__4OFMv                                               css/baf2942a
+ * (labels: @/components/ui/label.module.css = styles_Label__MI0Aa / styles_Label__7QeQ9, css/6b553615)
+ * docs/recon/careers-contact-legal.md §1.3 + §7. */
+
+/* ------------------------------------------------------------ section (e96fd3a1) */
+.Section {
+  margin: 0 auto 40px;
+}
+.Section a {
+  color: inherit;
+}
+
+/* ------------------------------------------------------------ reveal block (module 37492) */
+.Container {
+  margin-bottom: 40px;
+}
+.Separator {
+  border: none;
+  border-top: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+  display: block;
+  margin-block: 14px;
+  transform-origin: top left;
+}
+
+/* ------------------------------------------------------------ stagger container (module 61856) */
+.Stagger {
+  display: contents;
+}
+
+/* ------------------------------------------------------------ title slice (module 29853) */
+.Title {
+  margin: 0 0 100px;
+  width: 100%;
+}
+
+/* ------------------------------------------------------------ rows (module 90998, css baf2942a) */
+.RowsMain {
+  display: contents;
+}
+.RowsMain p:not(:last-child) {
+  margin-bottom: 24px;
+}
+.RowsMain:not(.HasColumns) {
+  display: inline-block;
+  grid-column: 1/-1;
+  margin-top: 10px;
+}
+@media (min-width: 1024px) {
+  .RowsMain:not(.HasColumns) {
+    grid-column: 3 / span 4;
+  }
+}
+@media (min-width: 1440px) {
+  .RowsMain:not(.HasColumns) {
+    grid-column: 4 / span 6;
+  }
+}
+@media (min-width: 1920px) {
+  .RowsMain:not(.HasColumns) {
+    grid-column: 5 / span 8;
+  }
+}
+.RowsMain:not(.HasColumns) h1 {
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  font-size: clamp(1.5rem, 6vw, 6.3rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 0.9;
+  font-size: clamp(1.5rem, 6vw, 5rem);
+  margin: 0 0 0.5rem;
+}
+.RowsMain:not(.HasColumns) > label .RowsMain:not(.HasColumns) span:first-child,
+.RowsMain:not(.HasColumns) > p:first-child {
+  line-height: 1.2;
+}
+.HasColumns {
+}
+
+/* ------------------------------------------------------------ rich text (styles_RichText__EF5iN) */
+.RichText h1 {
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  font-size: clamp(1.5rem, 6vw, 6.3rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 0.9;
+  margin-top: 0;
+}
+.RichText h2 {
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.56px;
+  line-height: 1;
+  margin-top: 20px;
+}
+@media (min-width: 1024px) {
+  .RichText h2 {
+    font-family:
+      Helvetica Now,
+      sans-serif;
+    font-size: clamp(1rem, 3.7vw, 3.7rem);
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 0.95;
+  }
+}
+.RichText h3 {
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 1.1;
+  margin-bottom: 6px;
+  margin-top: 0;
+}
+.RichText a {
+  color: inherit;
+}
+.RichText li,
+.RichText p,
+.RichText ul {
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  font-size: clamp(1rem, 1.7vw, 1.25rem);
+  font-weight: 400;
+  line-height: 1.2;
+}
+.RichText ul {
+  padding-left: 25px;
+}
+.RichText li {
+  margin-bottom: 10px;
+}
+
+/* ------------------------------------------------------------ two columns (module 77527) */
+.Column {
+  grid-column: 1/-1;
+}
+@media (min-width: 1024px) {
+  .Column {
+    grid-column: 3 / span 4;
+  }
+}
+@media (min-width: 1440px) {
+  .Column_Left {
+    grid-column: 4 / span 3;
+  }
+}
+@media (min-width: 1440px) {
+  .Column_Right {
+    grid-column: 7 / span 3;
+  }
+}
+@media (min-width: 1920px) {
+  .Column_Left {
+    grid-column: 5 / span 4;
+  }
+}
+@media (min-width: 1920px) {
+  .Column_Right {
+    grid-column: 9 / span 4;
+  }
+}
+.Column_Margin {
+  margin-bottom: 40px;
+}
+.ColumnsSection {
+  display: contents;
+}
+
+/* ------------------------------------------------------------ consent radios (styles_Container__19sh4) */
+.Consent fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-left: 0;
+  padding-left: 0;
+}
+.Consent div {
+  align-items: center;
+  display: flex;
+  margin: 5px 0 0;
+  padding: 0;
+}
+.Consent label {
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+@media (min-width: 1440px) {
+  .Consent label {
+    margin-top: 0;
+  }
+}
+.Consent input {
+  align-items: center;
+  appearance: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 20px;
+  justify-content: center;
+  margin-left: 0;
+  padding-left: 0;
+  position: relative;
+  width: 20px;
+}
+.Consent input:checked:after {
+  background-color: #fff;
+  border-radius: 50%;
+  content: "";
+  height: 10px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+}

@@ -1,0 +1,29 @@
+/* TransitionElement (module 23522, css 4515242e) */
+.TransitionElementContainer {
+  height: 100%;
+  inset: 0;
+  pointer-events: none;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+/* defined but never applied by the original (the `transitioning` variant prop is not passed) */
+.TransitionElementContainer.TransitionElementContainer_Transitioning {
+  pointer-events: all;
+  touch-action: none;
+}
+.TransitionElementFill {
+  height: 100%;
+  width: 100%;
+}
+.Underlay {
+  background-color: var(--color-secondary);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.AnimatePresenceListContainer {
+  display: contents;
+}

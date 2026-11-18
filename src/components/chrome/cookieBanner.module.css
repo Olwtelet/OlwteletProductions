@@ -1,0 +1,69 @@
+/* Cookie banner — verbatim port of css/4515242e7372a102.css (module 92407 "CookieBanner_*").
+ * design-system.md §4.11, intro-and-chrome.md §12. The slide-in keyframes and CrossSvg are defined but never used
+ * by the original (MEASURED animationName none, no close button rendered). */
+@keyframes slide-in {
+  0% {
+    transform: translateY(150%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.CookieBannerContainer {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: #fff;
+  border-radius: 32px;
+  bottom: 0;
+  color: #000;
+  margin: 14px;
+  padding: 32px;
+  position: fixed;
+  right: 24px;
+  width: 225px;
+  z-index: 10000;
+}
+.CookieBannerContainer_Hide {
+  display: none;
+}
+.CookieBannerContent {
+  display: flex;
+  flex-direction: column;
+}
+.CrossSvg {
+  aspect-ratio: 1;
+  cursor: pointer;
+  fill: #000;
+  position: absolute;
+  right: 26px;
+  width: 18px;
+}
+.CrossSvg path {
+  stroke: #000;
+}
+.CookieBannerDescription {
+  margin-bottom: 8px;
+  padding-right: 32px;
+}
+.CookieBannerButton {
+  background: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  transition: color 0.2s ease-in-out;
+  z-index: 2;
+}
+.CookieBannerButton:nth-child(3) {
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: -0.2em;
+  z-index: 1;
+}
+.CookieBannerButton:hover {
+  color: #50baa3;
+}

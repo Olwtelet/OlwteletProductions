@@ -1,0 +1,38 @@
+/* TextReveal (module 88303, css 68494fcd) */
+div.Container {
+  display: block;
+  position: relative;
+  text-indent: inherit;
+  width: 100%;
+}
+div.SectionName {
+  padding: 0.3em 2em 0 0;
+  position: absolute;
+  width: fit-content;
+}
+@media (min-width: 1440px) {
+  div.SectionName {
+    padding: 0.6em 2em 0 0;
+  }
+}
+@media (min-width: 1920px) {
+  div.SectionName {
+    padding: 1em 2em 0 0;
+  }
+}
+div.Text {
+  font-feature-settings: "kern" off;
+  font-kerning: none;
+  position: relative;
+  text-indent: var(--text-indent);
+  --text-indent: 0;
+}
+div.Text * {
+  text-indent: 0;
+}
+div.Text:has(div) {
+  text-indent: 0;
+}
+div.Text:has(div) > :first-child {
+  text-indent: var(--text-indent);
+}

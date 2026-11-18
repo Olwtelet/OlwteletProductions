@@ -1,0 +1,277 @@
+/* Work-grid filters — verbatim port of the original css/68494fcd82ef4e48.css l.4039–4300 (CSS-MAIN):
+ * FilterItem_* (JS 88022), FilterItemList_* (40996), overlay section (29871), Filter button (62800).
+ * docs/recon/home-interaction.md §7.1–§7.4. */
+
+/* ---------------------------------------------------------------- 88022 FilterItem */
+.FilterItemElement {
+  cursor: pointer;
+  position: relative;
+  width: fit-content;
+}
+.FilterItemElement:hover {
+  text-decoration: underline;
+}
+.FilterItemElement_Zone {
+  opacity: 0.3;
+  transition: opacity 0.15s ease-in-out;
+}
+.FilterItemElement_Zone:hover {
+  opacity: 1;
+}
+@media (min-width: 1440px) {
+  .FilterItemElement_Zone:not(:last-child):after {
+    content: ",";
+  }
+}
+.FilterItemElement_Current {
+  opacity: 1;
+}
+.FilterItemElement_Current:after {
+  content: "•";
+  font-size: 24px;
+  position: absolute;
+  right: -14px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.FilterItemElement_Current.FilterItemElement_Zone {
+  opacity: 1;
+}
+.FilterItemElement_Current.FilterItemElement_Zone:after {
+  content: "";
+}
+
+/* ---------------------------------------------------------------- 40996 FilterItemList */
+.FilterItemListContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+.FilterItemListContainer::-webkit-scrollbar {
+  width: 4px;
+}
+.FilterItemListContainer::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+.FilterItemListContainer::-webkit-scrollbar-thumb {
+  background: hsla(0, 0%, 100%, 0.2);
+  border-radius: 2px;
+}
+.FilterItemListContainer_Zone {
+  gap: 2%;
+  overflow: hidden;
+}
+@media (min-width: 1440px) {
+  .FilterItemListContainer_Zone {
+    flex-flow: row wrap;
+  }
+}
+
+/* ---------------------------------------------------------------- 29871 overlay */
+.Section {
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  background-color: rgba(0, 0, 0, 0.7490196078);
+  color: #fff;
+  height: 100%;
+  overflow: hidden;
+  padding: 12vh 24px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  z-index: 50;
+}
+@media (min-width: 1440px) {
+  .Section {
+    padding: 104px 24px;
+    width: 30vw;
+  }
+}
+.Container {
+  align-content: center;
+  gap: 12%;
+  height: fit-content;
+}
+.PrimaryContainer {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr;
+  height: 40vh;
+  overflow-y: auto;
+}
+@media (min-width: 1024px) {
+  .PrimaryContainer {
+    overflow-y: hidden;
+    padding-right: 30%;
+  }
+}
+@media (min-width: 1440px) {
+  .PrimaryContainer {
+    padding-right: 30%;
+  }
+}
+.SecondaryContainer {
+  align-content: flex-start;
+  display: grid;
+  gap: inherit;
+  height: 100%;
+  max-height: 100%;
+}
+@media (min-width: 1024px) {
+  .SecondaryContainer {
+    overflow: hidden;
+  }
+}
+.FiltersSection {
+  align-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+@media (min-width: 1440px) {
+  .FiltersSection {
+    gap: 20px;
+  }
+}
+.Title {
+  filter: brightness(50%);
+}
+.HeadersWrapper {
+  margin-bottom: 49px;
+}
+@media (min-width: 1440px) {
+  .HeadersWrapper {
+    margin-bottom: 69px;
+  }
+}
+
+/* ---------------------------------------------------------------- 62800 Filter button */
+@keyframes ease-up {
+  0% {
+    bottom: -4rem;
+  }
+  to {
+    bottom: 2rem;
+  }
+}
+@keyframes ease-down {
+  0% {
+    top: -6rem;
+  }
+  to {
+    top: 0;
+  }
+}
+@keyframes ease-down-medium {
+  0% {
+    transform: translate(-50%, -100%);
+  }
+  to {
+    transform: translate(-50%, -50%);
+  }
+}
+.Button {
+  --radius: 48px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(32, 32, 32, 0.5019607843);
+  border: 1px solid hsla(0, 0%, 100%, 0.4);
+  border-radius: var(--radius);
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  left: 50%;
+  padding: 8px 10px;
+  place-self: flex-start flex-start;
+  position: fixed;
+  text-align: center;
+  top: 52px;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  z-index: 10000;
+  animation-duration: 0.7s;
+  animation-name: ease-down-medium;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+.Button.showFilterOverLay {
+  background-color: #fff;
+  right: 34px;
+}
+.Button.showFilterOverLay p {
+  color: #000 !important;
+}
+@media (min-width: 1024px) {
+  .Button {
+    animation-duration: 1s;
+    animation-name: ease-up;
+    animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+    background-color: hsla(0, 0%, 100%, 0.5333333333);
+    border: none;
+    inset: auto 34px 2rem auto;
+    padding: 16px 21px;
+    transform: none;
+  }
+  .Button p {
+    color: #000 !important;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .Button {
+    background-color: hsla(0, 0%, 100%, 0.5333333333);
+    bottom: 2rem;
+    padding: 16px 21px;
+    top: auto;
+  }
+}
+@media (min-width: 1920px) {
+  .Button {
+    background-color: hsla(0, 0%, 100%, 0.5333333333);
+    bottom: 2rem;
+    padding: 18px 21px;
+    right: 40px;
+    top: auto;
+  }
+}
+.Button p {
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-family: ballinger-mono, sans-serif;
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+@media (min-width: 1024px) {
+  .Button p {
+    font-family:
+      Helvetica Now,
+      sans-serif;
+    font-size: clamp(1rem, 1.5vw, 1.12rem);
+    font-weight: 500;
+    line-height: 1.4;
+    text-transform: capitalize;
+  }
+}
+
+/* ================================================================ Olwtelet
+ * Below 1024 px "Filtrar" is centred in the header row and "Vamos conversar" is right-aligned. That label is longer
+ * than the replica's, and wider still if the Adobe font falls back to sans-serif, so under 384 px the two pills would
+ * touch or overlap. There the button moves left by (192 px - half the width), which keeps at least 8 px between them
+ * (12 px with the fallback font, 20 px with ballinger-mono). The open overlay ("Fechar") keeps its place: the CTA is
+ * hidden then. */
+@media (width < 1024px) {
+  .Button:not(.showFilterOverLay) {
+    margin-left: min(0px, calc(50vw - 192px));
+  }
+}

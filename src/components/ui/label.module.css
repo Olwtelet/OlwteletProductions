@@ -1,0 +1,36 @@
+/* `styles_Label__MI0Aa` / `styles_Label__7QeQ9` — shipped in the same file as the typography tokens (6b553615). */
+.Label {
+  display: flex;
+  gap: 8px;
+  grid-column: 1 / span 5;
+}
+.Label:before {
+  background-color: var(--color-primary);
+  border-radius: 10px;
+  content: "";
+  height: 10px;
+  min-height: 10px;
+  min-width: 10px;
+  width: 10px;
+}
+@media (min-width: 1024px) {
+  .Label {
+    grid-column: 1 / span 2;
+  }
+}
+@media (min-width: 1440px) {
+  .Label {
+    grid-column: 1 / span 3;
+  }
+}
+@media (min-width: 1920px) {
+  .Label {
+    grid-column: 1 / span 4;
+  }
+}
+.LabelEnd {
+  grid-column: span 2;
+  grid-column-end: -1;
+  grid-row: 1;
+  text-align: end;
+}

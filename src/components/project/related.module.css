@@ -1,0 +1,171 @@
+/* "Related work" block — port of css/476a00d43455ee73 (modules 7441 + 12277); the "all projects" CTA is Olwtelet's.
+ * The wrapper also carries `styles_PageWrapper__Am6yo` on the original; there the later SimilarProjectsWrapper
+ * rule wins (`min-height:auto`, MEASURED block height 815 px at 1440), so the merged result is written here. */
+.SimilarProjectCardContainer {
+  grid-column: span 1;
+  position: relative;
+}
+.SimilarProjectCardContainer > a:hover .CustomLabel > div {
+  translate: 0 -16px;
+}
+.SimilarProjectCardContainer > a:hover .SimilarProjectMediaWrapper video,
+.SimilarProjectCardContainer > a:hover .SimilarProjectMediaWrapper > img {
+  opacity: 0.5;
+  scale: 1.05;
+}
+.SimilarProjectMediaWrapper {
+  background-color: #000;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+.SimilarProjectMediaWrapper video,
+.SimilarProjectMediaWrapper > img {
+  aspect-ratio: 16/9;
+  display: block;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  padding: 0;
+  transition:
+    opacity,
+    scale 0.5s ease-in-out;
+  width: 100%;
+}
+.ProjectInfoContainer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-height: 60px;
+  position: relative;
+}
+.ProjectInfoContainer > div {
+  display: inline;
+  flex: 1 1;
+  position: relative;
+}
+.ProjectInfoContainer > div p {
+  display: inline;
+}
+.ProjectInfoContainer__isOwn img {
+  max-height: 60px;
+  padding: 10px 0;
+}
+.ProjectInfoContainer img {
+  max-height: auto;
+  max-width: 90px;
+}
+.CustomDot {
+  background-color: #fff;
+  border-radius: 10px;
+  display: inline-block;
+  height: 10px;
+  margin-right: 10px;
+  min-height: 10px;
+  min-width: 10px;
+  position: relative;
+  width: 10px;
+}
+.CustomLabel {
+  display: inline-block;
+  height: 15px;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+.CustomLabel h3 {
+  margin: 0;
+  font-family: ballinger-mono, sans-serif;
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+.CustomLabel > div {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: space-between;
+  padding: 3px 0;
+  position: relative;
+  transition: translate 0.5s ease-in-out;
+}
+.SimilarProjectsContainer {
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 0 20px 100px;
+  position: relative;
+}
+/* styles_PageWrapper__Am6yo (margin/max-width/position/width) overridden by styles_SimilarProjectsWrapper__5dBHh */
+.SimilarProjectsWrapper {
+  margin: auto;
+  max-width: 1920px;
+  min-height: auto;
+  position: relative;
+  width: 100%;
+}
+.SimilarProjectsWrapper span {
+  margin-bottom: 16px;
+}
+.SimilarProjectsWrapper hr {
+  border: none;
+  border-top: 1px solid #fff;
+  margin: 16px 0;
+}
+.SimilarProjectsCardsContainer {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 100%;
+  max-width: 100vw;
+  position: relative;
+}
+@media (min-width: 1024px) {
+  .SimilarProjectsCardsContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* Olwtelet: "Ver todos os projetos". The replica sized its short English label to fill one line (font up to 329 px,
+ * nowrap, inside an overflow:hidden flex box); the Portuguese phrase is 1.7 times as wide, so about 40 % of it was
+ * always cut off. Here the CTA is a wrapping block at an editorial scale (between the page title and the mid titles)
+ * with room above and at the sides; the whole phrase is visible and clickable at every width, and nothing relies on
+ * clipping. Keep these rules after `.SimilarProjectsWrapper span` (same specificity). */
+.SimilarProjectsAllWorkCta {
+  display: block;
+  /* room above, and below for the fixed navigation pill at the end of the page */
+  margin: clamp(56px, 8vw, 128px) auto clamp(24px, 4vw, 72px);
+  max-width: calc(100% - 2 * clamp(16px, 5vw, 96px));
+  position: relative;
+  /* keyboard focus scrolls the link into view only as far as the viewport bottom, where the fixed pill (2rem from the
+     bottom, up to ~58 px tall) would cover it: keep room for the pill (the browser stops at the end of the page) */
+  scroll-margin-bottom: 9rem;
+  text-align: center;
+  text-decoration: none;
+  width: fit-content;
+}
+.SimilarProjectsAllWorkCta span {
+  /* #777 on #222: 3.6:1, readable at this size (the replica's #444 was a 1.6:1 backdrop word) */
+  color: #777;
+  display: block;
+  font-size: clamp(2.5rem, 7.5vw, 8.5rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1;
+  margin: 0;
+  overflow-wrap: break-word;
+  /* the p/j descenders (to -0.2 em) stay inside the box */
+  padding-bottom: 0.1em;
+  text-wrap: balance;
+  transition: color 0.5s ease-in-out;
+}
+@media (hover: hover) {
+  .SimilarProjectsAllWorkCta:hover span {
+    color: #dfdfdf;
+  }
+}
+.SimilarProjectsAllWorkCta:focus-visible span {
+  color: #dfdfdf;
+}

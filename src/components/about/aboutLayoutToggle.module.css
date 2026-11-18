@@ -1,0 +1,166 @@
+/* Agency | Approach toggle — verbatim port of css/68494fcd:
+ *   SharedAboutComponents_* (module 4373, l.1785-1819), styles_Toggle* (module 92953, l.333-411),
+ *   styles_ToggleOptionContainer* (module 5431, l.296-332). docs/recon/about.md §3.2 */
+.AboutLayoutToggle {
+  left: 50%;
+  opacity: 0;
+  position: fixed;
+  top: 40px;
+  transform: translateX(-50%);
+  transition: opacity 0.5s ease-in-out;
+  z-index: 10001;
+}
+@media (min-width: 1024px) {
+  .AboutLayoutToggle {
+    display: grid;
+    height: 0;
+    left: 20px;
+    margin-block: 40px -40px;
+    position: sticky;
+    top: 120px;
+    transform: translateX(0);
+    width: fit-content;
+    z-index: 10001;
+  }
+}
+@media (min-width: 1440px) {
+  .AboutLayoutToggle {
+    margin-block: 125px -125px;
+  }
+}
+@media (min-width: 1920px) {
+  .AboutLayoutToggle {
+    margin-block: 155px -155px;
+  }
+}
+.AboutLayoutToggle__visible {
+  opacity: 1;
+}
+
+.ToggleOptionContainer {
+  font-family: ballinger-mono, sans-serif;
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.1;
+  text-transform: uppercase;
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  min-height: 30px;
+  min-width: 30px;
+  padding: 0 10px;
+  transition: color 0.3s ease-in-out;
+  transition-delay: 0.35s;
+  z-index: 1;
+}
+.ToggleOptionContainer a,
+.ToggleOptionContainer button {
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  text-decoration: none;
+  z-index: 1;
+}
+.ToggleOptionContainer img,
+.ToggleOptionContainer svg {
+  height: 20px;
+  width: 20px;
+}
+.ToggleOptionContainer svg * {
+  stroke: #fff;
+  transition: stroke 0.3s ease-in-out;
+  transition-delay: 0.35s;
+}
+.ToggleOptionContainer__active {
+  color: #000;
+}
+.ToggleOptionContainer__active svg * {
+  stroke: #000;
+}
+@media (min-width: 1024px) {
+  .ToggleOptionContainer {
+    font-family:
+      Helvetica Now,
+      sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 10px;
+    text-transform: none;
+  }
+}
+.Toggle {
+  align-items: center;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgb(from var(--color-primary) r g b/25%);
+  border-radius: 40px;
+  color: #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.Toggle .Highlight {
+  background-color: #fff;
+  border-radius: 40px;
+  inset: 0;
+  position: absolute;
+  transition: translate 0.7s cubic-bezier(0.93, -0.24, 0.4, 1.17);
+  width: 50%;
+}
+.Toggle .Highlight__active {
+  translate: 100%;
+}
+.Toggle__disableTransition .Highlight {
+  transition: none;
+}
+.Toggle__vertical {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.Toggle__vertical .Highlight {
+  height: 50%;
+  width: 100%;
+}
+.Toggle__vertical .Highlight__active {
+  translate: 0 100%;
+}
+.Toggle__vertical > li {
+  width: 20px;
+}
+@media (min-width: 1024px) {
+  .Toggle {
+    height: 50px;
+    padding: 5px;
+  }
+  .Toggle .Highlight {
+    inset: 5px;
+    width: calc(50% - 5px);
+  }
+  .Toggle__vertical {
+    height: auto;
+    width: 50px;
+  }
+  .Toggle__vertical .Highlight {
+    height: 40px;
+    width: calc(100% - 10px);
+  }
+}
+
+/* ================================================================ Olwtelet
+ * "Estúdio | Processo" is wider than the replica's labels. Centred in the header row it reaches the right-aligned
+ * "Vamos conversar" button below about 460 px (sooner when the Adobe font falls back), and logo + toggle + button do
+ * not fit in one row on a phone. Below 480 px the toggle sits just under the header row (the logo ends at about 80 px),
+ * above the page title. */
+@media (width < 480px) {
+  .AboutLayoutToggle {
+    top: 96px;
+  }
+}

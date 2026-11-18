@@ -1,0 +1,75 @@
+/* Clocks — verbatim port of css/52ff62001aa9af50.css (chunk 3764, module 59317 "Timezones_*").
+ * design-system.md §4.5, intro-and-chrome.md §11. `Timezones_LightBackground` and `Timezone_Live` are referenced
+ * by the original JS but have no CSS. */
+@keyframes blinking-dot {
+  0% {
+    opacity: 0.4;
+  }
+  35% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.4;
+  }
+}
+.Timezones {
+  color: var(--color-primary);
+  display: none;
+  width: 280px;
+  z-index: 1;
+  grid-column: 1 / span 3;
+}
+@media (min-width: 1024px) {
+  .Timezones {
+    grid-column: 8 / span 1;
+  }
+}
+@media (min-width: 1440px) {
+  .Timezones {
+    grid-column: 9 / span 1;
+  }
+}
+@media (min-width: 1920px) {
+  .Timezones {
+    grid-column: 13 / span 1;
+  }
+}
+@media (min-width: 1024px) {
+  .Timezones {
+    display: block;
+  }
+}
+.TimezonesLabel {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+.Timezone {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(1, 115px);
+}
+@media (min-width: 1440px) {
+  .Timezone {
+    grid-template-columns: repeat(2, 115px);
+  }
+}
+.Timezone_NotLive {
+  color: color-mix(in srgb, var(--color-primary) 30%, transparent);
+}
+.TimezoneIcon {
+  height: 8px;
+  width: 8px;
+}
+.TimezoneIcon_Dot {
+  animation: blinking-dot 1.4s infinite;
+  fill: var(--color-primary);
+  margin-top: 2px;
+}
+.TimezoneIcon_Moon {
+  fill: var(--color-primary);
+  margin-left: 1px;
+}

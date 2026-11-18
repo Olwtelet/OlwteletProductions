@@ -1,0 +1,26 @@
+/* LayoutWrapper (module 37974 / 39310, css 4515242e) */
+.Container {
+  height: 100%;
+  left: 0;
+  padding: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 10000;
+}
+.Container__order0 {
+  z-index: 10000;
+}
+.Container__order1 {
+  z-index: 9999;
+}
+.Container__order2 {
+  z-index: 9998;
+}
+.Container * {
+  pointer-events: all;
+}
+.Container__hidden {
+  visibility: hidden;
+}

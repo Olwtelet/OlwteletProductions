@@ -1,0 +1,291 @@
+/* Olwtelet: Processo steps (ProcessSteps.tsx, ProcessDiagrams.tsx). Processo only: Estúdio's aboutColumns.module.css
+ * is not touched. Values reuse the About tokens: rule spacing and section padding of AboutColumns, the 3vw / 700 title
+ * token, LargeBody for the text, MonoDetail labels, and the site grid (8 / 12 / 16 columns, gaps 20 / 24), restated
+ * here so its gap and columns never depend on stylesheet order.
+ *   < 1024 px     number + title on one line, text, then the figure (max 560 px wide)
+ *   1024–1439 px  number (2 cols) | title + text (3) | figure (3)
+ *   ≥ 1440 px     number (cols 1–3, as the Estúdio rows) | title + text (4–7) | figure (8–12)
+ *   ≥ 1920 px     number (1–4) | title + text (5–9) | figure (11–16) */
+
+.ProcessSteps {
+  padding-bottom: 60px;
+  position: relative;
+}
+@media (width >= 1024px) {
+  .ProcessSteps {
+    padding-bottom: 100px;
+  }
+}
+@media (width >= 1920px) {
+  .ProcessSteps {
+    padding-bottom: 120px;
+  }
+}
+
+/* the 30 % rule above the intro and each step (as the AboutColumns .LineContainer) */
+.Rule {
+  margin-bottom: 10px;
+}
+
+.IntroGrid,
+.StepGrid {
+  column-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(8, minmax(5px, 1fr));
+}
+/* below 1024 a step is two columns: its number, then title and text (the figure spans both) */
+@media (width < 1024px) {
+  .StepGrid {
+    column-gap: 16px;
+    grid-template-columns: max-content minmax(0, 1fr);
+  }
+}
+@media (width >= 1024px) {
+  .IntroGrid,
+  .StepGrid {
+    column-gap: 24px;
+  }
+}
+@media (width >= 1440px) {
+  .IntroGrid,
+  .StepGrid {
+    grid-template-columns: repeat(12, minmax(5px, 1fr));
+  }
+}
+@media (width >= 1920px) {
+  .IntroGrid,
+  .StepGrid {
+    grid-template-columns: repeat(16, minmax(5px, 1fr));
+  }
+}
+
+/* ---------------------------------------------------------------- intro */
+.Intro {
+  padding-bottom: 60px;
+}
+@media (width >= 1024px) {
+  .Intro {
+    padding-bottom: 100px;
+  }
+}
+@media (width >= 1920px) {
+  .Intro {
+    padding-bottom: 120px;
+  }
+}
+/* the lead: the paragraph token of the About pages, in the paragraphs' column, but measured (about 4 lines) */
+.Lead {
+  font-family: var(--font-helvetica-bold);
+  font-size: clamp(1.5rem, 3vw, 3.5rem);
+  font-weight: 700;
+  grid-column: 1 / -1;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  max-width: 16em;
+}
+@media (width >= 1024px) {
+  .Lead {
+    grid-column: 1 / span 8;
+  }
+}
+@media (width >= 1440px) {
+  .Lead {
+    grid-column: 4 / span 9;
+  }
+}
+@media (width >= 1920px) {
+  .Lead {
+    grid-column: 5 / span 11;
+  }
+}
+
+/* ---------------------------------------------------------------- steps */
+.Steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.Step {
+  padding-bottom: 48px;
+}
+@media (width >= 1024px) {
+  .Step {
+    padding-bottom: 72px;
+  }
+}
+@media (width >= 1920px) {
+  .Step {
+    padding-bottom: 96px;
+  }
+}
+.Step:last-child {
+  padding-bottom: 0;
+}
+
+.StepGrid {
+  align-items: start;
+  row-gap: 16px;
+}
+.StepNumber,
+.StepTitle {
+  font-family: var(--font-helvetica-bold);
+  font-size: clamp(1.5rem, 3vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  margin: 0;
+}
+/* the number is set in the ink at 50 % (3.7:1 on the Processo paper): it orders, the title names */
+.StepNumber {
+  color: color-mix(in srgb, currentColor 50%, transparent);
+  font-variant-numeric: tabular-nums;
+}
+.StepBody {
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  font-size: clamp(1rem, 1.7vw, 1.25rem);
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 16px 0 0;
+  max-width: 34ch;
+  text-wrap: pretty;
+}
+
+/* < 1024: number and title share a line, the text below, the figure last */
+.StepNumber {
+  grid-column: 1;
+  grid-row: 1;
+}
+.StepText {
+  grid-column: 2;
+  grid-row: 1;
+}
+.StepFigure {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  margin: 8px 0 0; /* also clears the UA figure margin (40 px each side) */
+  max-width: 560px;
+}
+@media (width >= 1024px) {
+  .StepGrid {
+    row-gap: 0;
+  }
+  .StepNumber {
+    grid-column: 1 / span 2;
+  }
+  .StepText {
+    grid-column: 3 / span 3;
+  }
+  .StepFigure {
+    grid-column: 6 / span 3;
+    grid-row: 1;
+    margin-top: 0;
+    max-width: none;
+  }
+  .StepBody {
+    margin-top: 20px;
+  }
+}
+@media (width >= 1440px) {
+  .StepNumber {
+    grid-column: 1 / span 3;
+  }
+  .StepText {
+    grid-column: 4 / span 4;
+  }
+  .StepFigure {
+    grid-column: 8 / span 5;
+  }
+}
+@media (width >= 1920px) {
+  .StepNumber {
+    grid-column: 1 / span 4;
+  }
+  .StepText {
+    grid-column: 5 / span 5;
+  }
+  .StepFigure {
+    grid-column: 11 / span 6;
+  }
+}
+
+/* ---------------------------------------------------------------- figure: labels | diagram */
+/* one label column width for all four figures (the longest label, "NECESSIDADES", is about 4.9 rem in MonoDetail;
+   5.75 rem leaves room for the sans-serif fallback), so the four diagrams share one size and left edge */
+.StepFigure {
+  column-gap: 8px;
+  display: grid;
+  grid-template-columns: 5.75rem minmax(0, 1fr);
+}
+@media (width >= 1024px) {
+  .StepFigure {
+    column-gap: 12px;
+  }
+}
+/* three labels centred at 25 / 50 / 75 % of the diagram's height, level with its three inputs (y 90 / 180 / 270 of 360) */
+.FigureLabels {
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.FigureLabels li {
+  align-self: center;
+  white-space: nowrap;
+}
+.FigureLabels li:nth-child(1) {
+  grid-row: 2;
+}
+.FigureLabels li:nth-child(2) {
+  grid-row: 3;
+}
+.FigureLabels li:nth-child(3) {
+  grid-row: 4;
+}
+.FigureSvg {
+  aspect-ratio: 520 / 360;
+  display: block;
+  height: auto;
+  overflow: visible;
+  width: 100%;
+}
+.FigureSvg * {
+  vector-effect: non-scaling-stroke;
+}
+
+/* diagram classes (ProcessDiagrams.tsx): ink = currentColor, paper = the page background */
+.DGrid line {
+  shape-rendering: crispEdges;
+  stroke: color-mix(in srgb, currentColor 12%, transparent);
+}
+.DLine,
+.DLine * {
+  fill: none;
+  stroke: currentColor;
+}
+.DMuted,
+.DMuted * {
+  fill: none;
+  stroke: color-mix(in srgb, currentColor 35%, transparent);
+}
+.DDashed,
+.DDashed * {
+  stroke-dasharray: 5 4;
+}
+.DSketch {
+  fill: none;
+  stroke: color-mix(in srgb, currentColor 55%, transparent);
+}
+.DDot {
+  fill: currentColor;
+}
+.DSolid {
+  fill: currentColor;
+  stroke: currentColor;
+}
+.DPaper {
+  fill: var(--color-secondary);
+  stroke: currentColor;
+}

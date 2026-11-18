@@ -1,0 +1,33 @@
+/* Intro "CLICK TO ENABLE SOUND" cursor follower — verbatim from css__4515242e7372a102.css L288-302
+   (styles_SoundInteraction*) and the sound icon parts of Sound_* (L120-134). */
+.SoundInteractionWrapper {
+  color: var(--color-primary);
+  opacity: 0;
+  padding: 0 0 5px 15px;
+  pointer-events: none;
+  position: absolute;
+  z-index: 100;
+}
+.SoundInteractionInner {
+  align-items: center;
+  display: flex;
+}
+.SoundInteractionLabel {
+  composes: MonoDetail from '@/components/ui/typography.module.css';
+  align-items: center;
+}
+.SoundAnimationWrapper {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 5px;
+}
+@media (min-width: 1024px) {
+  .SoundAnimationWrapper {
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+}
+.Circle {
+  fill: var(--color-primary);
+}

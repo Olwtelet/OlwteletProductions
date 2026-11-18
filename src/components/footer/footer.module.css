@@ -1,0 +1,265 @@
+/* Footer — verbatim port of css/68494fcd82ef4e48.css lines 54–280 (module 80437 "Footer_*").
+ * The <footer> also carries layout Wrapper (src/components/ui/layout.module.css). In the original both rules have
+ * the same specificity and layout_Wrapper comes LATER in the same file, so its `padding: 0 16|24|38|40px` always
+ * beats `.Footer_Container{padding:0 0 100px}` / `{padding:0}` (MEASURED: footer padding 0 38px at 1440). The
+ * footer padding declarations are therefore wrapped in :where() so that result does not depend on stylesheet order.
+ * `--ease-in-out` is undefined in the original too (left undefined on purpose). */
+.Container {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  height: 100svh;
+  max-height: 442px;
+  position: relative;
+}
+:where(.Container) {
+  padding: 0 0 100px;
+}
+@media (min-width: 1024px) {
+  .Container {
+    height: 100vh;
+    max-height: unset;
+    min-height: 56vw;
+  }
+  :where(.Container) {
+    padding: 0;
+  }
+}
+.Container .SocialLinks a path,
+.Container .SocialLinks svg path {
+  fill: var(--color-primary);
+}
+.Container .FooterLink {
+  color: var(--color-primary);
+}
+.Container .FooterLink:after,
+.Container .FooterLink:before {
+  background-color: var(--color-primary);
+}
+.Wrapper {
+  align-items: flex-end;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  padding: 20px 0;
+  position: relative;
+}
+.ContentWrapper {
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  .ContentWrapper {
+    margin: 176px 0;
+    width: 100%;
+  }
+}
+.Content {
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 0.95;
+}
+.CustomLink {
+  position: relative;
+  text-decoration: underline;
+}
+.CustomLink:after,
+.CustomLink:before {
+  background-color: var(--color-secondary);
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  will-change: transform;
+}
+.CustomLink:after {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.4s var(--ease-in-out) 0.1s;
+}
+.CustomLink:before {
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s var(--ease-in-out);
+}
+@media (min-width: 1024px) {
+  .CustomLink:hover:after {
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s var(--ease-in-out);
+  }
+  .CustomLink:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.4s var(--ease-in-out) 0.1s;
+  }
+}
+.MainImage {
+  height: 70%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+}
+.MainImage img {
+  object-fit: contain;
+}
+.Column {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+  position: relative;
+  width: 45%;
+}
+@media (max-width: 1024px) {
+  .Column:nth-child(2) {
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .Column:nth-child(2) p {
+    text-align: right;
+  }
+}
+@media (min-width: 1024px) {
+  .Column {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+.Column .FooterText {
+  bottom: 120px;
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: 14.88px;
+  position: absolute;
+}
+.Column .FooterText a {
+  text-decoration: none;
+}
+/* Below 360 px the e-mail (right column, right-aligned, 204 px) reaches "Brasília, DF", on the same row in the left
+ * column: they overlap under 350 px (30 px at 320) and nearly touch from 350 to 359 px. There, and only there, the
+ * two-line version is shown (OLWTELET@ / OUTLOOK.COM). The row of "Brasília, DF" then holds only OUTLOOK.COM (111 px),
+ * and the closest pair on a row becomes OLWTELET.VERCEL.APP / "Brasil". From 360 px up the one-line version is shown,
+ * the same text as before.
+ * The two-line version wraps at its <wbr>: an inline-block as wide as its widest piece (min-content), so it always
+ * breaks there whatever the other lines measure, and the copied address has no line break. text-decoration does not
+ * reach into an inline-block, hence the hover underline on the span itself. */
+.EmailTwoLines {
+  display: none;
+}
+@media (max-width: 359.98px) {
+  .EmailOneLine {
+    display: none;
+  }
+  .EmailTwoLines {
+    display: inline-block;
+    width: min-content;
+  }
+  .Column .FooterText a:hover .EmailTwoLines {
+    text-decoration: underline;
+  }
+}
+.Column .FooterText a:hover {
+  text-decoration: underline;
+}
+@media (min-width: 1024px) {
+  .Column .FooterText {
+    bottom: unset;
+    font-size: clamp(1rem, 2.3vw, 3rem);
+    letter-spacing: -0.01vw;
+    line-height: clamp(14.88px, 2.14vw, 2.79rem);
+    margin-bottom: 0;
+    position: relative;
+    text-transform: uppercase;
+  }
+}
+.SocialLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+@media (min-width: 1024px) {
+  .SocialLinks {
+    bottom: 0;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+  }
+}
+.SocialLinks a,
+.SocialLinks svg {
+  height: 16px;
+  width: 16px;
+}
+.SocialLinks a path,
+.SocialLinks svg path {
+  fill: var(--color-secondary);
+}
+.CustomLinksWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  height: 66px;
+  justify-content: center;
+  margin-bottom: -6px;
+  position: relative;
+}
+@media (min-width: 1024px) {
+  .CustomLinksWrapper {
+    margin-bottom: 0;
+  }
+}
+.CustomLinksWrapper a {
+  width: max-content;
+}
+.FooterPart {
+  bottom: 0;
+  display: flex;
+  font-family: ballinger-mono, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  gap: 2em;
+  left: 0;
+  letter-spacing: -0.016em;
+  line-height: 1.1;
+  position: absolute;
+  text-transform: uppercase;
+}
+/* Olwtelet mark in the footer (where the replica had a certification badge): theme colour, its own proportion */
+.FooterMark {
+  color: var(--color-primary);
+  height: 66px;
+}
+.FooterMark svg {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+.FooterLogoContainer {
+  border: 0.28px solid;
+  height: 66px;
+  width: 100px;
+}
+.FooterLogoContainer p {
+  font-family: inherit;
+  font-size: 0.4rem;
+  line-height: 1;
+  margin: 0;
+}
+.FooterLogoContainer svg {
+  height: 66px;
+  width: 100%;
+}

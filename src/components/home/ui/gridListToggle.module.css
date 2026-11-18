@@ -1,0 +1,145 @@
+/* Grid / List toggle — verbatim port of the original css/68494fcd82ef4e48.css l.296–431 (CSS-MAIN),
+ * JS modules 5431 (ToggleOptionContainer), 92953 (Toggle/Highlight), 46849 (GridListToggleContainer).
+ * docs/recon/home-interaction.md §5.3. */
+
+/* ---------------------------------------------------------------- 5431 */
+.ToggleOptionContainer {
+  font-family: ballinger-mono, sans-serif;
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.1;
+  text-transform: uppercase;
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  min-height: 30px;
+  min-width: 30px;
+  padding: 0 10px;
+  transition: color 0.3s ease-in-out;
+  transition-delay: 0.35s;
+  z-index: 1;
+}
+.ToggleOptionContainer a,
+.ToggleOptionContainer button {
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  text-decoration: none;
+  z-index: 1;
+}
+.ToggleOptionContainer img,
+.ToggleOptionContainer svg {
+  height: 20px;
+  width: 20px;
+}
+.ToggleOptionContainer svg * {
+  stroke: #fff;
+  transition: stroke 0.3s ease-in-out;
+  transition-delay: 0.35s;
+}
+.ToggleOptionContainer__active {
+  color: #000;
+}
+.ToggleOptionContainer__active svg * {
+  stroke: #000;
+}
+@media (min-width: 1024px) {
+  .ToggleOptionContainer {
+    font-family:
+      Helvetica Now,
+      sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 10px;
+    text-transform: none;
+  }
+}
+
+/* ---------------------------------------------------------------- 92953 */
+.Toggle {
+  align-items: center;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgb(from var(--color-primary) r g b/25%);
+  border-radius: 40px;
+  color: #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.Toggle .Highlight {
+  background-color: #fff;
+  border-radius: 40px;
+  inset: 0;
+  position: absolute;
+  transition: translate 0.7s cubic-bezier(0.93, -0.24, 0.4, 1.17);
+  width: 50%;
+}
+.Toggle .Highlight__active {
+  translate: 100%;
+}
+.Toggle__disableTransition .Highlight {
+  transition: none;
+}
+.Toggle__vertical {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.Toggle__vertical .Highlight {
+  height: 50%;
+  width: 100%;
+}
+.Toggle__vertical .Highlight__active {
+  translate: 0 100%;
+}
+.Toggle__vertical > li {
+  width: 20px;
+}
+@media (min-width: 1024px) {
+  .Toggle {
+    height: 50px;
+    padding: 5px;
+  }
+  .Toggle .Highlight {
+    inset: 5px;
+    width: calc(50% - 5px);
+  }
+  .Toggle__vertical {
+    height: auto;
+    width: 50px;
+  }
+  .Toggle__vertical .Highlight {
+    height: 40px;
+    width: calc(100% - 10px);
+  }
+}
+
+/* ---------------------------------------------------------------- 46849 */
+.GridListToggleContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  left: 15px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+}
+.GridListToggleContainer > div {
+  display: flex;
+}
+@media (min-width: 1024px) {
+  .GridListToggleContainer {
+    bottom: 2rem;
+    top: auto;
+    transform: none;
+  }
+}

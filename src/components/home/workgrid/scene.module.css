@@ -1,0 +1,21 @@
+/* R3F scene wrapper — verbatim from css__68494fcd82ef4e48.css L4020-4038 (styles_SceneWrapper*).
+   The global `canvas { background:#000; height:100dvh; inset:0; width:100vw }` lives in src/styles/globals.css. */
+div.SceneWrapper {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+div.SceneWrapper_DisableTouch {
+  cursor: default;
+  pointer-events: none;
+  touch-action: none;
+}
+div.SceneWrapper_DisableTouch canvas {
+  pointer-events: none;
+  touch-action: none;
+}
+div.SceneWrapper_Fixed canvas {
+  position: fixed;
+}

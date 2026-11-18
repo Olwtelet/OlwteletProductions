@@ -1,0 +1,15 @@
+/* hero_video wrapper — verbatim port of css/68494fcd l.3845-3858 (module 75015 `styles_VideoWrapper__XNQb7`). */
+.VideoWrapper {
+  align-items: center;
+  aspect-ratio: 16/9;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.VideoWrapper video {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  position: relative;
+}

@@ -1,0 +1,426 @@
+/* List view — verbatim port of the original css/02b0644b0c33a4a4.css (CSS-HOME), JS modules 36141 / 86031 / 42004.
+ * docs/recon/home-interaction.md §6.3. Quirks kept on purpose: undefined --color-neutral-800/-900/-400 and
+ * --color-white (no link top border, no link hover background, client/title inherit #fff). */
+
+/* ---------------------------------------------------------------- 36141 */
+.ListViewWrapper {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  font-family:
+    Helvetica Now,
+    sans-serif;
+  gap: 2rem;
+  height: 100vh;
+  left: 0;
+  opacity: 0;
+  overflow-y: auto;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  transition: opacity 0.3s ease-in-out;
+  width: 100vw;
+  z-index: 100;
+}
+.ListViewWrapper > div {
+  background-color: #000;
+}
+.ListViewWrapper.IsOpen {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* ---------------------------------------------------------------- 86031 */
+.ProjectListWrapper {
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  padding-top: 110px;
+}
+@media (min-width: 1440px) {
+  .ProjectListWrapper {
+    padding-top: 180px;
+  }
+}
+.ProjectListContainer {
+  margin: 0 auto;
+}
+.ProjectListItemsWrapper {
+  margin-top: 26px;
+  padding-left: 0;
+}
+@media (min-width: 1440px) {
+  .ProjectListItemsWrapper {
+    margin-top: 48px;
+  }
+}
+.Header {
+  align-items: flex-end;
+  display: flex;
+  gap: 16px;
+}
+.Header h2,
+.Header h3 {
+  font-size: 28px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+.Header h2:last-child,
+.Header h3:last-child {
+  color: hsla(0, 0%, 100%, 0.4);
+}
+@media (min-width: 1440px) {
+  .Header {
+    display: grid;
+    gap: 0;
+    grid-template-columns: 1fr 2fr;
+  }
+  .Header h2,
+  .Header h3 {
+    font-size: 56px;
+    line-height: 52px;
+  }
+  .Header h3:last-child {
+    margin-inline-start: -0.05em;
+  }
+}
+.ProjectGroup {
+  border-top: 1px solid hsla(0, 0%, 100%, 0.2);
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin-bottom: 88px;
+}
+@media (min-width: 1440px) {
+  .ProjectGroup {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+.ProjectGroup > p {
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  height: fit-content;
+  padding-block-start: 36px;
+  padding-inline-start: 0.25rem;
+  position: sticky;
+  top: 200px;
+}
+@media (min-width: 1440px) {
+  .ProjectGroup > p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-block-start: 48px;
+    padding-inline-start: 0.5rem;
+    position: unset;
+  }
+}
+
+/* ---------------------------------------------------------------- 42004 */
+.ProjectLink {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
+  border-top: 1px solid var(--color-neutral-800);
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  height: fit-content;
+  min-height: 45px;
+  padding: 3px 0;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+  width: 100%;
+}
+.ProjectLink:hover {
+  background-color: var(--color-neutral-900);
+}
+@media (min-width: 1024px) {
+  .ProjectLink {
+    grid-template-columns: 0.8fr 1.2fr;
+  }
+}
+.ProjectInfo {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+.ProjectTitle {
+  color: var(--color-white);
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+  text-transform: capitalize;
+}
+@media (min-width: 1440px) {
+  .ProjectTitle {
+    font-size: 18px;
+  }
+}
+.FeaturesList {
+  display: none;
+}
+@media (min-width: 1440px) {
+  .FeaturesList {
+    display: flex;
+    gap: 0.5rem;
+  }
+}
+.FeaturesList span {
+  background-color: hsla(0, 0%, 100%, 0.1490196078);
+  color: #fff;
+  display: none;
+  margin: 0;
+}
+@media (min-width: 1440px) {
+  .FeaturesList span {
+    display: flex;
+  }
+}
+.FeaturesList li {
+  list-style: none;
+}
+@media (min-width: 1024px) {
+  .FeaturesList li:first-child span {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid hsla(0, 0%, 100%, 0.2);
+    display: flex;
+  }
+}
+.MetaInfo {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+@media (min-width: 1440px) {
+  .MetaInfo {
+    justify-content: space-between;
+  }
+}
+.ClientsList {
+  display: flex;
+  gap: 1rem;
+}
+.Client {
+  color: var(--color-neutral-400);
+  font-size: 0.75rem;
+  text-align: right;
+}
+@media (min-width: 1440px) {
+  .Client {
+    font-size: 1rem;
+  }
+}
+.ProjectListItemWrapper {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+.ProjectListItemWrapper:after {
+  background-color: hsla(0, 0%, 100%, 0.1490196078);
+  content: "";
+  height: 100%;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.28s cubic-bezier(0, 0.5, 0.22, 1);
+  width: 100%;
+}
+.ProjectListItemWrapper:hover:after {
+  transform: scaleY(1);
+}
+.Pill {
+  align-items: center;
+  background-color: hsla(0, 0%, 100%, 0.0509803922);
+  border-radius: 14px;
+  color: #fff;
+  display: flex;
+  height: 28px;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 0 16px;
+  width: max-content;
+}
+.Pill,
+.Pill a {
+  text-decoration: none;
+}
+
+/* ================================================================ Olwtelet: real text lengths
+ * The replica's list was sized for years ("2025") and short client names. Here the group labels are words
+ * ("Publicados", "Em desenvolvimento"), the secondary text is a web address or "Apresentação do projeto", and the count
+ * is a phrase. Typography, colours, dividers and spacing are the replica's; only the column structure adapts.
+ *   < 768 px      groups stack (label line, then the rows at full width); each row = title line + detail line
+ *   768–1023 px   label column as wide as its label on one line; row = title | detail (one line, ellipsis if ever too long)
+ *   1024–1439 px  the replica's grid; the header takes the groups' 1fr | 4fr columns (count above the project rows)
+ *   ≥ 1440 px     the replica's grid; the title column gives the address the room it needs
+ * From 1024 px the header title keeps 32 px from the count (it wraps rather than run into it). Below 1024 px the list
+ * texts keep clear of the fixed grid/list toggle and sound label (end of this section).
+ * The bands use range syntax, each the exact complement of the next: browser zoom gives fractional widths, and a
+ * max-width: 1023px / min-width: 1024px pair leaves 1023.x matched by neither.
+ * A truncated detail keeps its full text in the DOM and in the title attribute. */
+
+/* count: each part stays whole, the line can only break at the " · " (below 360 px, narrower than the targets, a part
+   may wrap between its words rather than overflow) */
+@media (width >= 360px) {
+  .CountPart {
+    white-space: nowrap;
+  }
+}
+
+/* header: title above the count below 1024 px (each gets the full width); from 1024 px the count starts over the
+   project rows, as the replica's header already does from 1440 px */
+@media (width < 1024px) {
+  .Header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+@media (1024px <= width < 1440px) {
+  .Header {
+    display: grid;
+    gap: 0;
+    grid-template-columns: 1fr 4fr;
+  }
+}
+@media (width >= 1024px) {
+  .Header h2 {
+    padding-inline-end: 32px;
+  }
+}
+
+/* the detail never breaks inside a word; it is shortened with an ellipsis if the space is ever too small */
+.Client {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.MetaInfo,
+.ProjectInfo {
+  min-width: 0;
+}
+.ProjectTitle {
+  overflow-wrap: normal;
+}
+
+@media (width < 768px) {
+  .ProjectGroup {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .ProjectGroup > p {
+    padding-block-end: 8px;
+    position: static;
+  }
+  .ProjectListItemsWrapper {
+    margin-top: 0;
+  }
+  .ProjectLink {
+    gap: 4px;
+    grid-template-columns: minmax(0, 1fr);
+    padding: 12px 0;
+  }
+  .MetaInfo {
+    justify-content: flex-start;
+  }
+  .Client {
+    max-width: 100%;
+    text-align: left;
+  }
+}
+@media (768px <= width < 1024px) {
+  /* label column wide enough for the longest label on one line ("Em desenvolvimento", about 151 px, plus the 38 px
+     gutter below) and the same in every group, so the rows of the groups line up; a longer label wraps between words */
+  .ProjectGroup {
+    column-gap: 16px;
+    grid-template-columns: minmax(200px, 1fr) 3fr;
+  }
+  /* the detail column is capped at 45 % of the row: a longer detail is cut with an ellipsis instead of squeezing the
+     title column */
+  .ProjectLink {
+    column-gap: 16px;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 45%);
+  }
+}
+
+/* empty state: the "Ver todos os projetos" pill aligned with the message (same steps as .ProjectGroup > p) */
+.EmptyCta {
+  align-self: start;
+  padding-block-start: 36px;
+}
+@media (width >= 1440px) {
+  .EmptyCta {
+    padding-block-start: 48px;
+  }
+}
+@media (width < 768px) {
+  .EmptyCta {
+    padding-block-start: 8px;
+  }
+}
+
+/* below 1024 px the grid/list toggle (left edge, x 15–45) and the sound label (right edge, its box starts about 60 px
+   from the edge) stay fixed at mid-height over the list, which scrolls under them. The texts keep clear of them at any
+   height and scroll position: every list text starts 34 px in (x 54, 9 px right of the toggle) and the rows, labels and
+   empty-state message stop 48 px (56 px for the right-aligned detail at 768–1023) before the edge. The padding goes on
+   the texts, not on the groups, so the group line and the row dividers keep the replica's lengths. */
+@media (width < 1024px) {
+  .Header {
+    padding-inline-start: 34px;
+  }
+  .ProjectGroup > p {
+    padding-inline-start: calc(34px + 0.25rem);
+  }
+}
+@media (width < 768px) {
+  .ProjectGroup > p {
+    padding-inline-end: 48px;
+  }
+  .ProjectLink {
+    padding-inline: 34px 48px;
+  }
+  .EmptyCta {
+    padding-inline-start: 34px;
+  }
+}
+@media (768px <= width < 1024px) {
+  .ProjectLink {
+    padding-inline-end: 56px;
+  }
+}
+/* short phones (a browser's visible height under 660 px, e.g. 375 × 548 with the toolbars): the count is nearly as wide
+   as the screen and would sit at mid-height beside the sound label; the list starts 60 px higher, still 35 px below
+   the logo, so the header stays above the mid-height controls (down to about 510 px of height) */
+@media (width < 768px) and (height < 660px) {
+  .ProjectListWrapper {
+    padding-top: 50px;
+  }
+}
+
+/* from 1440 px the row shows the type/category pills and the full address: the title column gives up the space it
+   does not use (titles are short), so the address fits with room to spare, also when the pills' mono font falls back
+   to a wider one; the pills stay aligned from row to row */
+@media (width >= 1440px) {
+  .ProjectLink {
+    grid-template-columns: 0.5fr 1.5fr;
+  }
+}
+
+/* list shell: PageContainer (144 px top padding) > PageWrapper (min-height 100svh) > .ProjectListWrapper (min-height
+   100vh) made the list 100vh + 164 px tall whatever its content, so two rows could still scroll 164 px of empty space
+   and push the heading under the fixed header. Without the two min-heights the list is as tall as its content plus the
+   replica's paddings and margins: still enough to scroll the last row above the bottom navigation on short screens.
+   The open list is drawn 100 px higher (riseOut "visible", y: -100), which a transform does not take out of the layout:
+   the negative margin gives those 100 px back, so the list only scrolls when its content is taller than the screen.
+   .ListViewWrapper stays full height and black. */
+.ProjectListWrapper {
+  margin-bottom: -100px;
+  min-height: 0;
+}
+.ListViewWrapper .ListPageWrapper {
+  min-height: 0;
+}

@@ -1,0 +1,10 @@
+/* About page shell — verbatim port of css/68494fcd (module 87512 `About_*`). docs/recon/about.md §2.1
+ * Note: no `display:flex` in the original, so `align-items`/`flex-direction` have no effect (block box). */
+div.SlicesWrapper {
+  align-items: center;
+  background-color: var(--color-secondary);
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+}

@@ -1,0 +1,41 @@
+/* Circular cursor — verbatim port of css/68494fcd l.2500-2537:
+ * module 84271 (CursorElement, CursorElement_BlendMode, Wrapper) and module 61093 (Container, Element). */
+div.CursorElement {
+  cursor: default;
+  height: 100%;
+  inset: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+div.CursorElement_BlendMode {
+  mix-blend-mode: difference;
+}
+.Wrapper {
+  height: 0;
+  top: 0;
+  width: 0;
+}
+.Container {
+  position: relative;
+}
+@media (min-width: 1024px) {
+  .Container {
+    display: block;
+  }
+}
+div.Element {
+  background-color: #fff;
+  border-radius: var(--size);
+  color: #000;
+  display: grid;
+  height: var(--size);
+  mix-blend-mode: difference;
+  place-items: center center;
+  position: relative;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: var(--size);
+  --size: 80px;
+}

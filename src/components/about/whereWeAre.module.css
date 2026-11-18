@@ -1,0 +1,83 @@
+/* about_where_we_are — verbatim port of css/68494fcd l.3020-3083 (module 11922). docs/recon/about.md §5.10 */
+div.Container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+@media (min-width: 599px) {
+  div.Container {
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+div.Copy,
+div.Location {
+  display: grid;
+  width: 100%;
+}
+div.Copy {
+  gap: 1rem;
+  grid-template-columns: repeat(8, 1fr);
+  margin-bottom: 1.5rem;
+}
+div.Copy p {
+  margin: 0;
+  padding: 0;
+}
+div.Copy > .Address,
+div.Copy > .Contact {
+  grid-column: 5 / span 4;
+}
+div.Copy > .Logo {
+  grid-column: 1 / span 4;
+}
+@media (min-width: 1440px) {
+  div.Copy > .Logo {
+    grid-column: 1 / span 3;
+  }
+  div.Copy > .Address {
+    grid-column: 4 / span 2;
+  }
+  div.Copy > .Contact {
+    grid-column: 6 / span 3;
+  }
+}
+/* LINKEDIN.COM/IN/OLWTELET (157 px, no break opportunity) is wider than the contact column (4 of 8 tracks) up to about
+ * 370 px. The grid is the window minus 40 px (the page container's 20 px sides; div.Container zeroes the Wrapper's
+ * padding), so the column is 132 px at 320. The tracks keep their size and the line overflows its column; its right
+ * edge is at 50vw + 164.7 px. Up to about 330 px that is past the screen edge: 324.7 px at 320, and the page became
+ * 325 px wide. From 330 to 339 px it stops less than 5 px from the edge; from 340 px it stays in the page margin.
+ * Below 340 px, and only there, the address and contacts start one track earlier (5 tracks: 169 px at 320) and the logo
+ * keeps 3 tracks, as it already does from 1440 px. From 340 px up nothing changes. */
+@media (max-width: 339.98px) {
+  div.Copy > .Logo {
+    grid-column: 1 / span 3;
+  }
+  div.Copy > .Address,
+  div.Copy > .Contact {
+    grid-column: 4 / span 5;
+  }
+}
+div.Logo {
+  display: flex;
+  grid-template-columns: 1;
+  max-height: 2.5rem;
+  object-fit: contain;
+  overflow: hidden;
+}
+div.Logo img {
+  align-self: flex-start;
+  height: 100%;
+  width: auto;
+}
+div.ImageContainer {
+  align-self: flex-end;
+}
+div.ImageContainer img {
+  height: fit-content;
+  object-fit: contain;
+  width: 100%;
+}

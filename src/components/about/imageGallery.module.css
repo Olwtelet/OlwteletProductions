@@ -1,0 +1,98 @@
+/* image_gallery — verbatim port of css/68494fcd l.3859-3940 (module 87008). docs/recon/about.md §6.10 */
+section.ImageGallerySection {
+  --overlap-margin: -140px;
+  margin-bottom: 60px;
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+  section.ImageGallerySection {
+    --overlap-margin: -55px;
+  }
+}
+@media (max-width: 1024px) {
+  section.ImageGallerySection {
+    --overlap-margin: -80px;
+  }
+}
+section.ImageGallerySection_ReduceMarginTop {
+  margin-top: -40px;
+}
+section.ImageGallerySection_ReduceMarginBottom {
+  margin-bottom: -40px;
+}
+@media (min-width: 1024px) {
+  section.ImageGallerySection_ReduceMarginTop {
+    margin-top: -36px;
+  }
+  section.ImageGallerySection_ReduceMarginBottom {
+    margin-bottom: -36px;
+  }
+}
+@media (max-width: 1024px) {
+  section.ImageGallerySection_ReduceMarginTop {
+    margin-top: -55px;
+  }
+  section.ImageGallerySection_ReduceMarginBottom {
+    margin-bottom: -55px;
+  }
+}
+div.GalleryImageContainer {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  gap: 20px;
+}
+@media (min-width: 1024px) {
+  div.GalleryImageContainer {
+    gap: 24px;
+  }
+}
+@media (max-width: 1024px) {
+  div.GalleryImageContainer {
+    grid-template-columns: 1fr !important;
+  }
+}
+div.GalleryImageContainer_FullWidth {
+  --margin: 24px;
+  margin: 0 var(--margin);
+  width: calc(100% - var(--margin) * 2);
+}
+div.GalleryImageContainer_OverlapNone {
+  margin: 0 auto;
+}
+div.GalleryImageContainer_OverlapBoth {
+  margin: var(--overlap-margin) auto;
+}
+div.GalleryImageContainer_OverlapTop {
+  margin-top: var(--overlap-margin);
+}
+div.GalleryImageContainer_OverlapBottom {
+  margin-bottom: var(--overlap-margin);
+}
+div.GalleryImageContainer_Grid {
+  display: grid;
+  place-content: center center;
+}
+div.GalleryImageItem {
+  display: flex;
+  flex: 1 1 auto;
+  height: 100%;
+  place-content: center center;
+  width: 100%;
+}
+div.GalleryImageItem img,
+div.GalleryImageItem video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+div.GalleryImageItem_DontCrop {
+  height: auto;
+}
+div.GalleryImageItem_DontCrop img,
+div.GalleryImageItem_DontCrop video {
+  height: auto;
+  object-fit: contain;
+  width: 100%;
+}

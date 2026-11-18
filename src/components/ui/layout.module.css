@@ -1,0 +1,88 @@
+/* Layout primitives — verbatim port of css/68494fcd (JS module 43774) and the page shell (module 83439).
+ * design-system.md §3.1. `--page-width-xl` is undefined in the original, so `max-width` is invalid → none (kept). */
+.split-line {
+  margin-bottom: -10px;
+  overflow: hidden;
+  padding-bottom: 10px;
+  text-indent: 0;
+}
+.split-char,
+.split-word {
+  text-indent: 0;
+}
+.Wrapper {
+  margin: 0 auto;
+  max-width: var(--page-width-xl);
+  padding: 0 16px;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .Wrapper {
+    padding: 0 24px;
+  }
+}
+@media (min-width: 1440px) {
+  .Wrapper {
+    padding: 0 38px;
+  }
+}
+@media (min-width: 1920px) {
+  .Wrapper {
+    padding: 0 40px;
+  }
+}
+.Grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(8, minmax(5px, 1fr));
+}
+@media (min-width: 1024px) {
+  .Grid {
+    gap: 24px;
+    grid-template-columns: repeat(8, minmax(5px, 1fr));
+  }
+}
+@media (min-width: 1440px) {
+  .Grid {
+    grid-template-columns: repeat(12, minmax(5px, 1fr));
+  }
+}
+@media (min-width: 1920px) {
+  .Grid {
+    grid-template-columns: repeat(16, minmax(5px, 1fr));
+  }
+}
+.Spaced {
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+/* page shell (styles_PageContainer__LKCEk / styles_PageWrapper__Am6yo) */
+.PageContainer {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  max-width: 100%;
+  padding: 144px 20px 20px;
+  position: relative;
+}
+@media (min-width: 1024px) {
+  .PageContainer {
+    padding: 144px 24px 24px;
+  }
+}
+.PageWrapper {
+  margin: auto;
+  max-width: 1920px;
+  min-height: 100vh;
+  min-height: 100svh;
+  position: relative;
+  width: 100%;
+}
+
+/* AnimatePresence list wrapper (module 68830) */
+.AnimatePresenceListContainer {
+  display: contents;
+}

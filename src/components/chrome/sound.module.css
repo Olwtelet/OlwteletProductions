@@ -1,0 +1,70 @@
+/* Sound toggle — verbatim port of css/4515242e7372a102.css (module 87460 "Sound_*").
+ * design-system.md §4.3, intro-and-chrome.md §9.5. */
+.Sound {
+  align-items: center;
+  color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  height: 14px;
+  justify-content: center;
+  position: fixed;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  z-index: 1;
+  grid-column: 1 / span 3;
+}
+@media (min-width: 1024px) {
+  .Sound {
+    grid-column: 4 / span 1;
+  }
+}
+@media (min-width: 1440px) {
+  .Sound {
+    grid-column: 5 / span 1;
+  }
+}
+@media (min-width: 1920px) {
+  .Sound {
+    grid-column: 8 / span 1;
+  }
+}
+@media (min-width: 1024px) {
+  .Sound {
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    right: auto;
+    top: auto;
+    transform: translateY(0);
+    width: 110px;
+  }
+}
+.SoundLabel {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .Sound {
+    text-align: left;
+  }
+}
+.SoundAnimationWrapper {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 5px;
+}
+@media (min-width: 1024px) {
+  .SoundAnimationWrapper {
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+}
+.Circle {
+  fill: var(--color-primary);
+}
