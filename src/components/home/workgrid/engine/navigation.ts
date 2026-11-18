@@ -5,7 +5,7 @@
 // Behaviour identical to the original, including its frame-rate dependence (owner review 2026-11-08 removed the former
 // "60 fps calibration"): Navigation.update applies `offset += v; v.lerp(0, clamp(4·dt))` once per RENDERED frame, as
 // module 55607 does, so the inertia glide length depends on the display rate (≈15× the last pointer delta per frame
-// at 60 Hz, ≈30× at 120 Hz, ≈36× at 144 Hz) exactly like on phantom.land.
+// at 60 Hz, ≈30× at 120 Hz, ≈36× at 144 Hz) exactly like the original.
 import gsap from 'gsap';
 import * as THREE from 'three';
 import { clamp, HOME_FOCUS } from './env';

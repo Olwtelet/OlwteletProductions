@@ -24,7 +24,8 @@ export interface WorkGridFilters {
   service?: string;
   client?: string;
 }
-/** Client logo shown beside the Phantom logo on project pages (original store `logos[]`, always 0 or 1 item). */
+/** Client logo shown beside the site's logo on project pages (first item of the original store `logos[]`, which holds
+ *  up to two; see headerLogos). */
 export interface HeaderLogo {
   id: string;
   url: string;

@@ -9,7 +9,7 @@
 //     x/y lerp toward pointer − rect origin by 0.2 per frame
 //   - click: scale [1,0.8,1] 0.2 s cubicBezier(.44,0,.44,1), then handleMouseClick()
 // The 0.2 lerp runs once per framer frame with no time term, exactly as the original (owner review 2026-11-08 removed
-// the former time-based calibration): the follow speed depends on the display refresh rate, like on phantom.land.
+// the former time-based calibration): the follow speed depends on the display refresh rate, like the original.
 import { animate, cubicBezier, frame, cancelFrame, motion, useMotionValue } from 'framer-motion';
 import { useEffect, useRef, type ReactNode } from 'react';
 import { typography } from '@/components/ui/typography';

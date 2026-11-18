@@ -76,8 +76,8 @@ function CaseLogo({ logo, delay }: { logo: HeaderLogo; delay: number }) {
 }
 
 /**
- * Client logos. The original store keeps `logos[]` (a case study pushes every non-Phantom client logo: 23 of the 140
- * projects show two, MEASURED on /projects/erase-your-ex). The shared store exposes a single `headerLogo`, which the
+ * Client logos. The original store keeps `logos[]` (a case study pushes each client logo other than the site's own,
+ * beside the site's logo; some cases showed two). The shared store exposes a single `headerLogo`, which the
  * ThemeController clears (together with `headerLogos`) when leaving a case study. A page sets both
  * `headerLogo` and `headerLogos: HeaderLogo[]` (first item === headerLogo); the array is honoured only while
  * `headerLogo` is set.

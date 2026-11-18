@@ -2,7 +2,7 @@
 
 Site of **Olwtelet Productions**, the independent studio of Isaac Rodrigues (Olwtelet) in Brasília: software, games and digital experiences. Next.js 16 + TypeScript, pt-BR.
 
-The site keeps the visual and interaction system of an earlier technical reproduction (curved WebGL work grid, intro, transitions, About toggle, contact modal, sound). That reproduction is documented in [docs/REPORT.md](docs/REPORT.md) and `docs/evidence/**` (reproduction documentation; recovery point: tag `phantom-replica-checkpoint`). The transformation into Olwtelet Productions — sources, centralized data, logo applications, external dependencies — is in [docs/OLWTELET.md](docs/OLWTELET.md).
+The site keeps the visual and interaction system of an earlier technical reproduction (curved WebGL work grid, intro, transitions, About toggle, contact modal, sound). That reproduction's documentation, evidence, scripts and media mirror stay only in the history of the local repository, from commit `228dc9e0`, and are not part of this version; its engine is the base of this one (see "Pendências de publicação", item 8, in docs/OLWTELET.md). The transformation into Olwtelet Productions — sources, centralized data, logo applications, external dependencies — is in [docs/OLWTELET.md](docs/OLWTELET.md).
 
 ## Requirements
 
@@ -69,7 +69,7 @@ npm run lint
 - `src/components/`: one folder per area (`brand`, `chrome`, `home`, `project`, `about`, `contact`, `legal`, `footer`, `transition`, `providers`, `ui`).
 - `public/brand/`, `public/projects/`, `public/assets/`: generated brand files, project images, intro frames, atlases, sounds, fonts.
 - `assets-src/`: sources of the generated files (the owner's logo, captures of the published project).
-- `docs/`: the reproduction's documentation and evidence, plus `docs/OLWTELET.md`.
+- `docs/`: `docs/OLWTELET.md` and its evidence (`docs/evidence/olwtelet/`).
 
 ## License
 

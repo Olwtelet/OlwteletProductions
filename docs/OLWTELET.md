@@ -1,9 +1,8 @@
 # Olwtelet Productions — transformação da réplica
 
-Registro da passagem da réplica técnica para o site da **Olwtelet Productions** (16/11/2026). A réplica continua
-documentada em `docs/REPORT.md` e `docs/evidence/**` como **documentação da reprodução**; as menções ao site
-reproduzido nesses arquivos são históricas. Ponto de recuperação: commit `228dc9e0`, tag `phantom-replica-checkpoint`
-(branch `olwtelet-productions`).
+Registro da passagem da réplica técnica para o site da **Olwtelet Productions** (16/11/2026). A documentação, as
+evidências, os scripts e o espelho de mídia da réplica ficam no histórico do repositório local, a partir do commit
+`228dc9e0`, e não fazem parte desta versão. O motor dela é a base deste site ("Pendências de publicação", item 8).
 
 ## Fontes usadas
 
@@ -104,7 +103,7 @@ simulado.
 Fonts, análise só quando configurada e direitos pela LGPD.
 
 **Removido**: vagas e candidatura, escritórios de Londres e Auckland, certificado ISO, prêmios, clientes, equipe,
-redes do site antigo, `phantom.land` em canonicals, metadados e sitemap.
+redes do site antigo, o domínio antigo em canonicals, metadados e sitemap.
 
 ## Rodada de ajustes do proprietário (17/11/2026)
 
@@ -924,6 +923,55 @@ e o site servido, cada um seguido de um verificador adversarial.
   primeiro quadro, a causa do toque tardio, as somas das tarefas longas, a faixa do atraso do app, a origem dos números
   e o horário do lint) e 1 rejeitado.
 
+## Limpeza da marca anterior (18/11/2026)
+
+Os arquivos da versão atual (branch publicado `olwtelet-productions`) não citam mais a marca nem o domínio do site
+reproduzido.
+- **O que havia**: 10 linhas, nenhuma visível no site. Foram reescritas sem o nome, sem mudar caminho, import ou
+  comportamento:
+  - no README e neste documento: o nome da tag de checkpoint, o domínio antigo e o nome de um navegador
+    automatizado;
+  - um comentário do gerador de conteúdo (`scripts/brand/build-content.mjs`);
+  - 5 comentários de `src/`.
+- **Já fora desta versão**: a documentação, as evidências e os scripts da reprodução, e o espelho de mídia antigo.
+  Ficam no histórico do repositório local, a partir do commit `228dc9e0`.
+- **Imagens e outros arquivos**: nenhum logo, favicon, imagem ou texto em imagem traz a identidade antiga.
+  - Os únicos arquivos de mídia herdados sem mudança são os sons (`public/assets/sounds`) e as fontes Helvetica
+    Now. Não trazem o nome da marca, mas os sons são a identidade sonora do site reproduzido ("Pendências de
+    publicação", itens 3 e 4).
+  - Nenhum nome de arquivo ou pasta versionado cita a marca.
+- **Geradores**: `build-content.mjs` rodou de novo, e os JSON de `src/content/` saíram idênticos.
+  `build-brand-assets.mjs` não cita a marca e não precisou rodar.
+- **Conferido** no build `BOgrxcTDg4qWhhxvDxK6i` (`.next/BUILD_ID` de 18/11/2026, 20:24 de Brasília):
+  - **Arquivos versionados**: a busca sem diferenciar maiúsculas e minúsculas, em texto, binários e nomes, não
+    encontrou nenhuma ocorrência.
+  - **Site servido**: nenhuma ocorrência no HTML de 12 rotas (inclusive sitemap, robots, manifest, ícone e 404) nem
+    nos arquivos enviados ao navegador (`.next/static`).
+  - **Código do servidor gerado pelo build**: a única ocorrência é o nome de um navegador automatizado. Ele está na
+    lista de detecção de navegadores que o Next.js embute (`ua-parser-js`): é código de terceiros, sem relação com a
+    marca.
+  - **Código**: typecheck sem erros; lint com 0 erros e 50 avisos, os de `src/`. Os 53 avisos dos scripts da
+    reprodução saíram com eles.
+  - **Navegador**, em 1440 × 900 e 390 × 844:
+    - a home abre com o grid;
+    - Estúdio, Processo, Filmes HD Online Grátis e a política renderizam;
+    - o contato aberto pelo "Contato" da navegação abre, e o Esc o fecha, volta à página e libera a rolagem;
+    - o "Vamos conversar" no fim de Estúdio e Processo carrega `/contact` por inteiro, e o Esc leva à home. A revisão
+      desta limpeza encontrou esse comportamento; ele é anterior a ela e não foi corrigido aqui;
+    - nenhum erro no console.
+- **Fora do Git**: a pasta local do projeto ainda guarda pastas ignoradas, sem versionamento e sem publicação:
+  - builds antigos (`.next-*`), inclusive o backup do build promovido da réplica, mantidos por serem backups locais;
+  - `.cache/`: dados de testes da época da réplica e, em `.cache/img`, o cache em uso da rota `/api/img`,
+    regravado pelo servidor atual.
+
+  A saída antiga do servidor de desenvolvimento (`.next/dev`), anterior à limpeza, foi apagada; o `next dev` a
+  recria.
+- **Histórico do Git**: o branch publicado tem histórico próprio, que começa em `21cc5ff6` e não contém `228dc9e0`.
+  - A mensagem desse commit raiz, já no GitHub, ainda cita o domínio antigo e a tag de checkpoint, e foi mantida.
+  - A réplica só existe no repositório local: no branch `main` (que também guarda as primeiras cópias dos commits da
+    transformação), na tag de checkpoint e no stash. Nenhum deles foi enviado ao GitHub.
+  - Nada disso foi reescrito.
+
 ## Aplicações do logo
 
 Prancha: `docs/evidence/olwtelet/aplicacoes-do-logo.jpg`.
@@ -943,8 +991,9 @@ Prancha: `docs/evidence/olwtelet/aplicacoes-do-logo.jpg`.
 
 ### Segunda rodada (build `_kmMjqBIsp2D5eFvDbNj_`)
 
-O build servido agora é `_kmMjqBIsp2D5eFvDbNj_` (`.next/BUILD_ID` de 18/11/2026, 14:58:45 de Brasília), com a nova
-narrativa de Processo e a correção do fechamento logo depois de Voltar.
+O build da segunda rodada é `_kmMjqBIsp2D5eFvDbNj_` (`.next/BUILD_ID` de 18/11/2026, 14:58:45 de Brasília), com a
+nova narrativa de Processo e a correção do fechamento logo depois de Voltar. O build servido depois da limpeza da marca
+anterior está em "Disponibilidade local".
 - **Verificações direcionadas**, como pedido, todas nesse build e descritas na seção da segunda rodada:
   - `process-narrative.mjs`: Processo de 320 a 2560 px;
   - `modal-restore.mjs`: o fluxo do modal, os percursos de Voltar/Avançar, o contato direto e o clique duplo. A
@@ -1138,13 +1187,15 @@ Resultados da lista:
     O rejeitado pedia que a curadoria das capturas morasse no repositório. Ela continua rastreável pelo
     `captures-index.json`, que liga cada JPG à captura e ao relatório de origem.
 - **Rodada de transformação**: busca de resíduo e revisão adversarial de 4 revisores e 4 verificadores. Nenhum texto
-  visível, conteúdo, arquivo público ou chunk do build cita o site antigo. A única ocorrência é `phantomjs` na lista
-  de robôs do próprio Next. Em `src/`, restam 5 linhas de comentário com notas da reprodução.
+  visível, conteúdo, arquivo público ou chunk do build cita o site antigo. A única ocorrência era o nome de um
+  navegador automatizado na lista de detecção de navegadores (`ua-parser-js`) que o Next embute. Em `src/`, restavam
+  5 linhas de comentário com notas da reprodução, reescritas na limpeza da marca anterior (acima).
 
 ### Disponibilidade local
 
-O servidor de produção (`scripts/start-production.cmd`, `next start -p 3000`) serve o build `_kmMjqBIsp2D5eFvDbNj_`
-em http://localhost:3000. O HTML servido traz o mesmo `"b"` que `.next/BUILD_ID`.
+O servidor de produção (`scripts/start-production.cmd`, `next start -p 3000`) serve o build `BOgrxcTDg4qWhhxvDxK6i`
+em http://localhost:3000, gerado depois da limpeza da marca anterior a partir do branch publicado
+`olwtelet-productions`. O HTML servido traz o mesmo `"b"` que `.next/BUILD_ID`.
 
 ## Pendências de publicação (decisão do proprietário)
 

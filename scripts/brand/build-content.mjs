@@ -2,7 +2,7 @@
 //   node scripts/brand/build-content.mjs
 // Shapes are the ones the components already read (Prismic-like slices), so the editorial system is unchanged; the
 // facts and texts are the owner's (brief of 2026-11-16 and the owner's sites). Re-run after editing brand.ts or the
-// texts below. The Phantom snapshot these files replaced stays in git history (tag phantom-replica-checkpoint).
+// texts below. The content these files replaced stays only in the history of the local repository.
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
