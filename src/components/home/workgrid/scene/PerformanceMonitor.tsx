@@ -2,6 +2,7 @@
 // Port of the drei-style PerformanceMonitor shipped with the original (chunks__3671 module 13923). The original only
 // passes `onDecline: () => setGraphicsTier(LOW)`; nothing ever switches back to HIGH (no onIncline).
 // Defaults: iterations 10, ms 250, threshold .75, step .1, factor .5, bounds = refreshrate > 100 ? [60,100] : [40,60].
+// Adapted from the PerformanceMonitor of @react-three/drei, under the MIT license: see THIRD_PARTY_NOTICES.md.
 import { useFrame } from '@react-three/fiber';
 import { useState } from 'react';
 

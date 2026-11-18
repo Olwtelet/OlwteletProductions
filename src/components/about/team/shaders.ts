@@ -1,6 +1,8 @@
 // GLSL of the team particle portraits — copied verbatim from the original chunk 105
 // (module 3247 = shared noise: mod289/permute/taylorInvSqrt/fade, snoise + sNoise3, cnoise, curlNoise;
 //  module 60105 = fragment `v` and vertex `m`). docs/recon/about.md §7.4
+// The noise functions below (mod289, permute, taylorInvSqrt, fade, snoise, cnoise) are webgl-noise, by Ashima Arts and
+// Stefan Gustavson, under the MIT license: see THIRD_PARTY_NOTICES.md.
 
 const noiseCommon = `
   vec3 mod289(vec3 x) {

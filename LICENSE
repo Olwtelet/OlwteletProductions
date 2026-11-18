@@ -1,0 +1,67 @@
+Copyright © 2026 Olwtelet Productions. Todos os direitos reservados.
+
+LICENÇA PROPRIETÁRIA
+
+Este repositório contém o site da Olwtelet Productions. Este aviso vale apenas
+para os materiais cujos direitos pertencem à Olwtelet Productions e não concede
+nenhuma licença pública sobre eles.
+
+1. Materiais da Olwtelet Productions
+
+Estão cobertos, na medida em que os direitos pertencem à Olwtelet Productions:
+- o código-fonte escrito para este site, ressalvado o item 4;
+- os textos, o conteúdo e a documentação próprios;
+- o nome, o símbolo e a identidade visual da Olwtelet Productions, e os
+  arquivos de marca e as imagens gerados a partir deles;
+- as imagens e apresentações dos projetos próprios, ressalvado o item 4.
+
+2. Usos que dependem de autorização
+
+Nenhuma permissão, expressa ou implícita, é concedida para copiar, modificar,
+redistribuir, republicar, sublicenciar, vender ou criar obras derivadas desses
+materiais, no todo ou em parte. Esses usos dependem de autorização prévia,
+expressa e por escrito da Olwtelet Productions. Ter acesso a este repositório
+não autoriza esses usos.
+
+3. Usos que continuam permitidos
+
+Este aviso não restringe:
+- as limitações e exceções previstas em lei, como as da Lei nº 9.610/1998
+  (direitos autorais) e da Lei nº 9.609/1998 (programas de computador);
+- a navegação normal no site publicado, incluindo as cópias temporárias que o
+  navegador faz para exibi-lo;
+- as operações necessárias à hospedagem e à publicação autorizadas pela
+  Olwtelet Productions, como instalação de dependências, compilação,
+  armazenamento, cópias de segurança e entrega por rede de distribuição de
+  conteúdo.
+
+4. Materiais de terceiros
+
+Este aviso não afirma propriedade sobre materiais de terceiros nem substitui as
+licenças deles. Esses materiais continuam sujeitos aos direitos e às licenças
+de seus titulares, e as licenças, os avisos e as atribuições que eles exigem
+devem ser preservados. Entre eles:
+- as dependências listadas em package.json e package-lock.json e instaladas
+  pelo npm, cada uma sob a própria licença;
+- trechos de código aberto incorporados a src/, que seguem sob as licenças
+  originais, com os avisos reproduzidos em THIRD_PARTY_NOTICES.md: as funções
+  de ruído GLSL do webgl-noise (Ashima Arts e Stefan Gustavson, licença MIT) e
+  o PerformanceMonitor adaptado do @react-three/drei (licença MIT);
+- as fontes: Helvetica Now (arquivos em public/fonts) e as fontes carregadas
+  do Adobe Fonts;
+- os sons em public/assets/sounds, que vieram da reprodução técnica descrita
+  no README e não pertencem à Olwtelet Productions;
+- obras de terceiros que aparecem em imagens dos projetos, como cartazes e
+  cenas de filmes nas capturas de Filmes HD Online Grátis;
+- o código, as folhas de estilo (CSS), os shaders (GLSL) e os desenhos SVG
+  que o sistema visual e de interação do site herdou dessa reprodução técnica,
+  copiados ou adaptados do site reproduzido (os arquivos de src/ cujos
+  comentários os indicam como cópia ou adaptação do original), na medida em
+  que reproduzam material protegido de terceiros.
+
+As pendências de licenciamento desses materiais estão em docs/OLWTELET.md, na
+seção "Pendências de publicação".
+
+5. Autorizações
+
+Pedidos de autorização: olwtelet@outlook.com.

@@ -1170,3 +1170,15 @@ Registradas à parte: não fazem parte desta verificação e precisam de decisã
 5. **Análise**: o aviso de cookies e as opções de consentimento só aparecem com `NEXT_PUBLIC_GA_ID`.
 6. **Fotografia do criador**: nenhum retrato foi fornecido. O painel de partículas mostra o símbolo; um retrato
    autorizado (mapas de profundidade e cor de 256 px) pode substituí-lo.
+7. **Imagens dos filmes**: as capturas de Filmes HD Online Grátis mostram cenas e cartazes dos filmes da programação,
+   cujos direitos são dos titulares de cada filme.
+   - Elas aparecem em `public/projects/filmes-hd-online-gratis/`, em `public/brand/og-filmes-hd-online-gratis.jpg` e
+     no atlas do grid (`public/assets/workgrid/media-rgb-atlas-0.jpg`).
+   - O uso precisa ser avaliado antes de uma publicação aberta.
+8. **Código herdado da reprodução**: parte do código de `src/`, inclusive CSS, shaders GLSL e desenhos SVG, foi
+   copiada ou adaptada do site reproduzido, como indicam os comentários dos próprios arquivos.
+   - Esse material não pertence à Olwtelet Productions (`LICENSE`, item 4).
+   - Precisa ser reescrito ou licenciado antes de uma publicação aberta.
+
+Os avisos exigidos pelo código aberto incorporado a `src/` (webgl-noise e o PerformanceMonitor do drei, ambos sob
+licença MIT) estão em `THIRD_PARTY_NOTICES.md`.

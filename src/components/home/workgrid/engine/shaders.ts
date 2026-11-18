@@ -352,6 +352,8 @@ void main() {
 }
 `;
 
+// NOISE_S, NOISE_R and NOISE_N (mod289, permute, taylorInvSqrt, fade, snoise, cnoise) are webgl-noise, by Ashima Arts
+// and Stefan Gustavson, under the MIT license: see THIRD_PARTY_NOTICES.md.
 /** module 3247 export R (`${s}${r}${n}${o}`) — noise library */
 const NOISE_S = `
   vec3 mod289(vec3 x) {

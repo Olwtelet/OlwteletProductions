@@ -70,3 +70,9 @@ npm run lint
 - `public/brand/`, `public/projects/`, `public/assets/`: generated brand files, project images, intro frames, atlases, sounds, fonts.
 - `assets-src/`: sources of the generated files (the owner's logo, captures of the published project).
 - `docs/`: the reproduction's documentation and evidence, plus `docs/OLWTELET.md`.
+
+## License
+
+Proprietary. Copyright © 2026 Olwtelet Productions. All rights reserved. The materials whose rights belong to Olwtelet Productions may not be copied, modified, redistributed, republished, sublicensed, sold or used for derivative works without prior written authorization. [LICENSE](LICENSE), in Portuguese, has the full terms, including what remains allowed: uses permitted by law, normal browsing of the site and authorized hosting.
+
+The license claims nothing over third-party materials: dependencies, fonts, sounds, film images in the project captures, code inherited from the earlier reproduction and other third-party works keep their own rights and licenses. The notices required by the open-source code embedded in `src/` are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The licensing items still open are listed in [docs/OLWTELET.md](docs/OLWTELET.md), under "Pendências de publicação".
