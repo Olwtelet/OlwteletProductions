@@ -1,0 +1,859 @@
+{
+  "m390-veil-cta": {
+    "text": "Ver todos os projetos",
+    "fontSize": "40px",
+    "whiteSpace": "normal",
+    "box": [
+      40,
+      351
+    ],
+    "textBox": [
+      97,
+      293
+    ],
+    "cutPx": -57,
+    "lines": 2
+  },
+  "m390-filmes-hd-online-gratis-cta": {
+    "text": "Ver todos os projetos",
+    "fontSize": "40px",
+    "whiteSpace": "normal",
+    "box": [
+      40,
+      351
+    ],
+    "textBox": [
+      97,
+      293
+    ],
+    "cutPx": -57,
+    "lines": 2
+  },
+  "t768-veil-cta": {
+    "text": "Ver todos os projetos",
+    "fontSize": "57.6px",
+    "whiteSpace": "normal",
+    "box": [
+      114,
+      654
+    ],
+    "textBox": [
+      114,
+      654
+    ],
+    "cutPx": 0,
+    "lines": 1
+  },
+  "t768-filmes-hd-online-gratis-cta": {
+    "text": "Ver todos os projetos",
+    "fontSize": "57.6px",
+    "whiteSpace": "normal",
+    "box": [
+      114,
+      654
+    ],
+    "textBox": [
+      114,
+      654
+    ],
+    "cutPx": 0,
+    "lines": 1
+  },
+  "d1440-veil-cta": {
+    "text": "Ver todos os projetos",
+    "fontSize": "108px",
+    "whiteSpace": "normal",
+    "box": [
+      213,
+      1227
+    ],
+    "textBox": [
+      213,
+      1227
+    ],
+    "cutPx": 0,
+    "lines": 1
+  },
+  "d1440-filmes-hd-online-gratis-cta": {
+    "text": "Ver todos os projetos",
+    "fontSize": "108px",
+    "whiteSpace": "normal",
+    "box": [
+      213,
+      1227
+    ],
+    "textBox": [
+      213,
+      1227
+    ],
+    "cutPx": 0,
+    "lines": 1
+  },
+  "d1920-veil-cta": {
+    "text": "Ver todos os projetos",
+    "fontSize": "136px",
+    "whiteSpace": "normal",
+    "box": [
+      322,
+      1598
+    ],
+    "textBox": [
+      322,
+      1598
+    ],
+    "cutPx": 0,
+    "lines": 1
+  },
+  "d1920-filmes-hd-online-gratis-cta": {
+    "text": "Ver todos os projetos",
+    "fontSize": "136px",
+    "whiteSpace": "normal",
+    "box": [
+      322,
+      1598
+    ],
+    "textBox": [
+      322,
+      1598
+    ],
+    "cutPx": 0,
+    "lines": 1
+  },
+  "w2560-veil-cta": {
+    "text": "Ver todos os projetos",
+    "fontSize": "136px",
+    "whiteSpace": "normal",
+    "box": [
+      642,
+      1918
+    ],
+    "textBox": [
+      642,
+      1918
+    ],
+    "cutPx": 0,
+    "lines": 1
+  },
+  "w2560-filmes-hd-online-gratis-cta": {
+    "text": "Ver todos os projetos",
+    "fontSize": "136px",
+    "whiteSpace": "normal",
+    "box": [
+      642,
+      1918
+    ],
+    "textBox": [
+      642,
+      1918
+    ],
+    "cutPx": 0,
+    "lines": 1
+  },
+  "sound": [
+    [
+      "first visit, no click (no saved choice)",
+      {
+        "contexts": 1,
+        "started": 0,
+        "activeLoops": 0,
+        "state": "suspended",
+        "rms": 0,
+        "audible": false,
+        "label": "Som [LIG]",
+        "pref": null,
+        "url": "/"
+      }
+    ],
+    [
+      "after the first click on the page",
+      {
+        "contexts": 1,
+        "started": 1,
+        "activeLoops": 1,
+        "state": "running",
+        "rms": 0.3324,
+        "audible": true,
+        "label": "Som [LIG]",
+        "pref": null,
+        "url": "/"
+      }
+    ],
+    [
+      "navigated to Sobre (client navigation)",
+      {
+        "contexts": 1,
+        "started": 3,
+        "activeLoops": 1,
+        "state": "running",
+        "rms": 0.1791,
+        "audible": true,
+        "label": "Som [LIG]",
+        "pref": null,
+        "url": "/about/studio"
+      }
+    ],
+    [
+      "navigated back to Projetos",
+      {
+        "contexts": 1,
+        "started": 6,
+        "activeLoops": 1,
+        "state": "running",
+        "rms": 0.3037,
+        "audible": true,
+        "label": "Som [LIG]",
+        "pref": null,
+        "url": "/"
+      }
+    ],
+    [
+      "turned OFF with the Sound control",
+      {
+        "contexts": 1,
+        "started": 6,
+        "activeLoops": 0,
+        "state": "running",
+        "rms": 0,
+        "audible": false,
+        "label": "Som [DESL]",
+        "pref": "off",
+        "url": "/"
+      }
+    ],
+    [
+      "navigated to Sobre after OFF",
+      {
+        "contexts": 1,
+        "started": 7,
+        "activeLoops": 0,
+        "state": "running",
+        "rms": 0,
+        "audible": false,
+        "label": "Som [DESL]",
+        "pref": "off",
+        "url": "/about/studio"
+      }
+    ],
+    [
+      "clicked on the page after OFF",
+      {
+        "contexts": 1,
+        "started": 7,
+        "activeLoops": 0,
+        "state": "running",
+        "rms": 0,
+        "audible": false,
+        "label": "Som [DESL]",
+        "pref": "off",
+        "url": "/about/studio"
+      }
+    ],
+    [
+      "reloaded (saved OFF) and clicked",
+      {
+        "contexts": 1,
+        "started": 0,
+        "activeLoops": 0,
+        "state": "suspended",
+        "rms": 0,
+        "audible": false,
+        "label": "Som [DESL]",
+        "pref": "off",
+        "url": "/about/studio"
+      }
+    ],
+    [
+      "turned ON again",
+      {
+        "contexts": 1,
+        "started": 1,
+        "activeLoops": 1,
+        "state": "running",
+        "rms": 0.1786,
+        "audible": true,
+        "label": "Som [LIG]",
+        "pref": "on",
+        "url": "/about/studio"
+      }
+    ],
+    [
+      "keyboard Enter on the Sound control (OFF)",
+      {
+        "contexts": 1,
+        "started": 1,
+        "activeLoops": 0,
+        "state": "running",
+        "rms": 0,
+        "audible": false,
+        "label": "Som [DESL]",
+        "pref": "off",
+        "url": "/about/studio"
+      }
+    ],
+    [
+      "keyboard Enter again (ON)",
+      {
+        "contexts": 1,
+        "started": 2,
+        "activeLoops": 1,
+        "state": "running",
+        "rms": 0.1643,
+        "audible": true,
+        "label": "Som [LIG]",
+        "pref": "on",
+        "url": "/about/studio"
+      }
+    ]
+  ],
+  "m390-process-structure": {
+    "height": 2949,
+    "text": "ESTÚDIO PROCESSO PROCESSO DA IDEIA AO REFINAMENTO. ETAPAS Os projetos da Olwtelet Productions passam por quatro momentos: ideia, investigação, construção e refinamento. 01 01. Ideia Definir o que o projeto precisa fazer, para quem e qual experiência queremos criar. PROJETO PARA QUEM EXPERIÊNCIA 02 02. Investigação Explorar referências, necessidades e restrições. Comparar possibilidades antes de escolher um caminho. REFERÊNCIAS NECESSIDADES RESTRIÇÕES 03 03. Construção Dar forma à interface e à lógica, conectando conteúdo, interação e tecnologia. CONTEÚDO INTERAÇÃO TECNOLOGIA 04 04. Refinamento Testar o uso real, revisar os detalhes e ajustar a experiência para que tudo funcione em conjunto. TESTAR REVISAR AJUSTAR CONTATO Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. VAMOS CONVERSAR Olwtelet Productions Brasília, DF Brasil POLÍTICA DE PRIVACIDADE OLWTELET@OUTLOOK.COM OLWTELET.VERCEL.APP SOM [LIG] VAMOS CONVERSAR Projetos Sobre Contato",
+    "elements": [
+      "LI 123,2201 72x30 Estúdio",
+      "LI 195,2201 72x30 Processo",
+      "H1 20,213 350x72 ProcessoDA IDEIA AO REFINAMENT",
+      "IMG -576,351 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG -214,351 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 148,351 391x220 /api/img?src=%2Fprojects%2Fvei",
+      "IMG 549,351 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 911,351 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 1273,351 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 1635,351 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 1997,351 391x220 /api/img?src=%2Fprojects%2Fvei",
+      "IMG 2398,351 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 2760,351 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "LI 20,792 350x342 0101. IdeiaDefinir o que o pro",
+      "H2 66,807 304x24 01. Ideia",
+      "P 66,847 304x42 Definir o que o projeto precis",
+      "LI 20,950 92x12 Projeto",
+      "LI 20,993 92x12 Para quem",
+      "LI 20,1036 92x12 Experiência",
+      "LI 20,1148 350x362 0202. InvestigaçãoExplorar ref",
+      "H2 66,1163 304x24 02. Investigação",
+      "P 66,1203 304x62 Explorar referências, necessid",
+      "LI 20,1326 92x12 Referências",
+      "LI 20,1370 92x12 Necessidades",
+      "LI 20,1413 92x12 Restrições",
+      "LI 20,1524 350x342 0303. ConstruçãoDar forma à in",
+      "H2 66,1539 304x24 03. Construção",
+      "P 66,1579 304x42 Dar forma à interface e à lógi",
+      "LI 20,1682 92x12 Conteúdo",
+      "LI 20,1725 92x12 Interação",
+      "LI 20,1769 92x12 Tecnologia",
+      "LI 20,1880 350x314 0404. RefinamentoTestar o uso ",
+      "H2 66,1895 304x24 04. Refinamento",
+      "P 66,1935 304x62 Testar o uso real, revisar os ",
+      "LI 20,2058 92x12 Testar",
+      "LI 20,2102 92x12 Revisar",
+      "LI 20,2145 92x12 Ajustar",
+      "P 36,2745 141x45 Olwtelet ProductionsBrasília, ",
+      "P 150,2759 204x30 OLWTELET@OUTLOOK.COMOLWTELET@O",
+      "IMG 163,2553 64x309 /api/img?src=%2Fbrand%2Ffooter",
+      "LI 99,2879 69x33 Projetos",
+      "LI 167,2879 56x33 Sobre",
+      "LI 223,2879 68x33 Contato"
+    ]
+  },
+  "t768-process-structure": {
+    "height": 3430,
+    "text": "ESTÚDIO PROCESSO PROCESSO DA IDEIA AO REFINAMENTO. ETAPAS Os projetos da Olwtelet Productions passam por quatro momentos: ideia, investigação, construção e refinamento. 01 01. Ideia Definir o que o projeto precisa fazer, para quem e qual experiência queremos criar. PROJETO PARA QUEM EXPERIÊNCIA 02 02. Investigação Explorar referências, necessidades e restrições. Comparar possibilidades antes de escolher um caminho. REFERÊNCIAS NECESSIDADES RESTRIÇÕES 03 03. Construção Dar forma à interface e à lógica, conectando conteúdo, interação e tecnologia. CONTEÚDO INTERAÇÃO TECNOLOGIA 04 04. Refinamento Testar o uso real, revisar os detalhes e ajustar a experiência para que tudo funcione em conjunto. TESTAR REVISAR AJUSTAR CONTATO Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. VAMOS CONVERSAR Olwtelet Productions Brasília, DF Brasil POLÍTICA DE PRIVACIDADE OLWTELET@OUTLOOK.COM OLWTELET.VERCEL.APP SOM [LIG] VAMOS CONVERSAR Projetos Sobre Contato",
+    "elements": [
+      "LI 312,2446 72x30 Estúdio",
+      "LI 384,2446 72x30 Processo",
+      "H1 20,213 728x40 ProcessoDA IDEIA AO REFINAMENT",
+      "IMG -1276,319 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG -914,319 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG -552,319 391x220 /api/img?src=%2Fprojects%2Fvei",
+      "IMG -151,319 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 211,319 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 573,319 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 935,319 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 1297,319 391x220 /api/img?src=%2Fprojects%2Fvei",
+      "IMG 1698,319 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 2060,319 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "LI 20,760 728x487 0101. IdeiaDefinir o que o pro",
+      "H2 66,775 682x24 01. Ideia",
+      "P 66,815 335x42 Definir o que o projeto precis",
+      "LI 20,955 92x12 Projeto",
+      "LI 20,1034 92x12 Para quem",
+      "LI 20,1114 92x12 Experiência",
+      "LI 20,1261 728x508 0202. InvestigaçãoExplorar ref",
+      "H2 66,1276 682x24 02. Investigação",
+      "P 66,1316 335x62 Explorar referências, necessid",
+      "LI 20,1476 92x12 Referências",
+      "LI 20,1556 92x12 Necessidades",
+      "LI 20,1636 92x12 Restrições",
+      "LI 20,1783 728x487 0303. ConstruçãoDar forma à in",
+      "H2 66,1798 682x24 03. Construção",
+      "P 66,1838 335x42 Dar forma à interface e à lógi",
+      "LI 20,1977 92x12 Conteúdo",
+      "LI 20,2057 92x12 Interação",
+      "LI 20,2137 92x12 Tecnologia",
+      "LI 20,2284 728x439 0404. RefinamentoTestar o uso ",
+      "H2 66,2299 682x24 04. Refinamento",
+      "P 66,2339 335x42 Testar o uso real, revisar os ",
+      "LI 20,2478 92x12 Testar",
+      "LI 20,2558 92x12 Revisar",
+      "LI 20,2638 92x12 Ajustar",
+      "P 36,3226 141x45 Olwtelet ProductionsBrasília, ",
+      "P 528,3240 204x30 OLWTELET@OUTLOOK.COMOLWTELET@O",
+      "IMG 314,3035 139x309 /api/img?src=%2Fbrand%2Ffooter",
+      "LI 281,3360 69x33 Projetos",
+      "LI 356,3360 56x33 Sobre",
+      "LI 419,3360 68x33 Contato"
+    ]
+  },
+  "d1440-process-structure": {
+    "height": 4109,
+    "text": "Estúdio Processo PROCESSO DA IDEIA AO REFINAMENTO. ETAPAS Os projetos da Olwtelet Productions passam por quatro momentos: ideia, investigação, construção e refinamento. 01 01. Ideia Definir o que o projeto precisa fazer, para quem e qual experiência queremos criar. PROJETO PARA QUEM EXPERIÊNCIA 02 02. Investigação Explorar referências, necessidades e restrições. Comparar possibilidades antes de escolher um caminho. REFERÊNCIAS NECESSIDADES RESTRIÇÕES 03 03. Construção Dar forma à interface e à lógica, conectando conteúdo, interação e tecnologia. CONTEÚDO INTERAÇÃO TECNOLOGIA 04 04. Refinamento Testar o uso real, revisar os detalhes e ajustar a experiência para que tudo funcione em conjunto. TESTAR REVISAR AJUSTAR CONTATO Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. VAMOS CONVERSAR OLWTELET PRODUCTIONS BRASÍLIA, DF BRASIL POLÍTICA DE PRIVACIDADE OLWTELET@OUTLOOK.COM OLWTELET.VERCEL.APP SOM [LIG] ESTÚDIO INDEPENDENTE EM BRASÍLIA: SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. BRASÍLIA, BR 01:13 GMT-3 Vamos Conversar Projetos Sobre Contato",
+    "elements": [
+      "LI 29,3339 78x30 Estúdio",
+      "LI 107,3339 78x30 Processo",
+      "H1 378,267 1038x150 ProcessoDA IDEIA AO REFINAMENT",
+      "IMG -606,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "IMG -116,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 374,542 533x300 /api/img?src=%2Fprojects%2Fvei",
+      "IMG 917,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 1407,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 1897,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 2387,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 2877,542 533x300 /api/img?src=%2Fprojects%2Fvei",
+      "IMG 3420,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 3910,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "LI 24,1204 1392x407 0101. IdeiaDefinir o que o pro",
+      "H2 378,1219 448x43 01. Ideia",
+      "P 378,1283 419x52 Definir o que o projeto precis",
+      "LI 850,1293 92x12 Projeto",
+      "LI 850,1373 92x12 Para quem",
+      "LI 850,1453 92x12 Experiência",
+      "LI 24,1625 1392x407 0202. InvestigaçãoExplorar ref",
+      "H2 378,1640 448x43 02. Investigação",
+      "P 378,1703 419x78 Explorar referências, necessid",
+      "LI 850,1714 92x12 Referências",
+      "LI 850,1794 92x12 Necessidades",
+      "LI 850,1874 92x12 Restrições",
+      "LI 24,2046 1392x407 0303. ConstruçãoDar forma à in",
+      "H2 378,2061 448x43 03. Construção",
+      "P 378,2124 419x52 Dar forma à interface e à lógi",
+      "LI 850,2135 92x12 Conteúdo",
+      "LI 850,2215 92x12 Interação",
+      "LI 850,2295 92x12 Tecnologia",
+      "LI 24,2467 1392x335 0404. RefinamentoTestar o uso ",
+      "H2 378,2482 448x43 04. Refinamento",
+      "P 378,2545 419x52 Testar o uso real, revisar os ",
+      "LI 850,2556 92x12 Testar",
+      "LI 850,2636 92x12 Revisar",
+      "LI 850,2716 92x12 Ajustar",
+      "P 155,3589 405x92 Olwtelet ProductionsBrasília, ",
+      "P 866,3604 433x62 OLWTELET@OUTLOOK.COMOLWTELET@O",
+      "IMG 588,3320 263x630 /api/img?src=%2Fbrand%2Ffooter",
+      "P 732,3233 220x80 Estúdio independente em Brasíl",
+      "LI 570,4029 92x41 Projetos",
+      "LI 681,4029 77x41 Sobre",
+      "LI 779,4029 91x41 Contato"
+    ]
+  },
+  "w2560-process-structure": {
+    "height": 5490,
+    "text": "Estúdio Processo PROCESSO DA IDEIA AO REFINAMENTO. ETAPAS Os projetos da Olwtelet Productions passam por quatro momentos: ideia, investigação, construção e refinamento. 01 01. Ideia Definir o que o projeto precisa fazer, para quem e qual experiência queremos criar. PROJETO PARA QUEM EXPERIÊNCIA 02 02. Investigação Explorar referências, necessidades e restrições. Comparar possibilidades antes de escolher um caminho. REFERÊNCIAS NECESSIDADES RESTRIÇÕES 03 03. Construção Dar forma à interface e à lógica, conectando conteúdo, interação e tecnologia. CONTEÚDO INTERAÇÃO TECNOLOGIA 04 04. Refinamento Testar o uso real, revisar os detalhes e ajustar a experiência para que tudo funcione em conjunto. TESTAR REVISAR AJUSTAR CONTATO Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. VAMOS CONVERSAR OLWTELET PRODUCTIONS BRASÍLIA, DF BRASIL POLÍTICA DE PRIVACIDADE OLWTELET@OUTLOOK.COM OLWTELET.VERCEL.APP SOM [LIG] ESTÚDIO INDEPENDENTE EM BRASÍLIA: SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. BRASÍLIA, BR 01:13 GMT-3 Vamos Conversar Projetos Sobre Contato",
+    "elements": [
+      "LI 325,4180 78x30 Estúdio",
+      "LI 403,4180 78x30 Processo",
+      "H1 806,289 1313x216 ProcessoDA IDEIA AO REFINAMENT",
+      "IMG -585,660 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 33,660 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 651,660 676x380 /api/img?src=%2Fprojects%2Fvei",
+      "IMG 1337,660 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 1955,660 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 2573,660 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 3191,660 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 3809,660 676x380 /api/img?src=%2Fprojects%2Fvei",
+      "IMG 4494,660 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 5112,660 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "LI 320,1503 1920x527 0101. IdeiaDefinir o que o pro",
+      "H2 806,1518 584x56 01. Ideia",
+      "P 806,1594 419x52 Definir o que o projeto precis",
+      "LI 1535,1616 92x12 Projeto",
+      "LI 1535,1720 92x12 Para quem",
+      "LI 1535,1824 92x12 Experiência",
+      "LI 320,2044 1920x527 0202. InvestigaçãoExplorar ref",
+      "H2 806,2059 584x56 02. Investigação",
+      "P 806,2135 419x78 Explorar referências, necessid",
+      "LI 1535,2157 92x12 Referências",
+      "LI 1535,2261 92x12 Necessidades",
+      "LI 1535,2365 92x12 Restrições",
+      "LI 320,2585 1920x527 0303. ConstruçãoDar forma à in",
+      "H2 806,2600 584x56 03. Construção",
+      "P 806,2676 419x52 Dar forma à interface e à lógi",
+      "LI 1535,2698 92x12 Conteúdo",
+      "LI 1535,2802 92x12 Interação",
+      "LI 1535,2906 92x12 Tecnologia",
+      "LI 320,3126 1920x431 0404. RefinamentoTestar o uso ",
+      "H2 806,3141 584x56 04. Refinamento",
+      "P 806,3217 419x52 Testar o uso real, revisar os ",
+      "LI 1535,3239 92x12 Testar",
+      "LI 1535,3343 92x12 Revisar",
+      "LI 1535,3447 92x12 Ajustar",
+      "P 481,4679 586x134 Olwtelet ProductionsBrasília, ",
+      "P 1473,4702 626x89 OLWTELET@OUTLOOK.COMOLWTELET@O",
+      "IMG 1096,4242 368x1008 /api/img?src=%2Fbrand%2Ffooter",
+      "P 1449,4074 220x80 Estúdio independente em Brasíl",
+      "LI 1119,5407 99x44 Projetos",
+      "LI 1239,5407 83x44 Sobre",
+      "LI 1343,5407 98x44 Contato"
+    ]
+  },
+  "m390-studio-structure": {
+    "height": 4470,
+    "text": "ESTÚDIO PROCESSO ESTÚDIO SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. SOBRE A Olwtelet Productions é o espaço de criação independente de Isaac Rodrigues. A partir de Brasília, reúne projetos próprios de software, jogos e aplicações web, com atenção à arquitetura, à interface e ao comportamento de cada experiência. PROJETOS O primeiro projeto publicado é Filmes HD Online Grátis, uma curadoria cinematográfica com programação de sessões ao vivo no Discord. Também está em desenvolvimento Veil, um jogo de estratégia inspirado no xadrez. A proposta é construir um catálogo autoral, projeto por projeto. 01 Filmes HD Online Grátis Publicado. Curadoria cinematográfica independente com programação, textos sobre os filmes e sessões ao vivo no Discord. VER O PROJETO 02 Veil Em desenvolvimento. Jogo de estratégia para navegador inspirado no xadrez. Ainda sem versão pública. VER A APRESENTAÇÃO CRIADOR Por trás da Olwtelet Productions está Isaac Rodrigues, desenvolvedor de software em Brasília que assina como Olwtelet. Estuda Ciência da Computação e trabalha com desenvolvimento web, com interesse em inteligência artificial, cibersegurança e arquitetura de sistemas. ISAAC RODRIGUES (OLWTELET) CRIADOR · DESENVOLVEDOR DE SOFTWARE Olwtelet 1 Brasília, Brasil BRASÍLIA, DF BRASIL OLWTELET@OUTLOOK.COM GITHUB.COM/OLWTELET LINKEDIN.COM/IN/OLWTELET OLWTELET.VERCEL.APP CONTATO Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. VAMOS CONVERSAR Olwtelet Productions Brasília, DF Brasil POLÍTICA DE PRIVACIDADE OLWTELET@OUTLOOK.COM OLWTELET.VERCEL.APP SOM [LIG] VAMOS CONVERSAR Projetos Sobre Contato",
+    "elements": [
+      "LI 123,3722 72x30 Estúdio",
+      "LI 195,3722 72x30 Processo",
+      "H1 20,213 350x144 EstúdioSOFTWARE, JOGOS E EXPER",
+      "IMG -955,423 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG -593,423 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG -231,423 391x220 /api/img?src=%2Fprojects%2Fvei",
+      "IMG 170,423 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 532,423 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 894,423 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 1256,423 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 1618,423 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 1980,423 391x220 /api/img?src=%2Fprojects%2Fvei",
+      "IMG 2381,423 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 2743,423 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 3105,423 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 20,1623 350x219 /projects/filmes-hd-online-gra",
+      "IMG 20,2162 350x197 /projects/veil/veil-apresentac",
+      "CANVAS 20,2750 350x350 ",
+      "P 104,3026 145x44 Olwtelet",
+      "P 251,3026 34x34 1",
+      "IMG 20,3293 32x40 /brand/olwtelet-mark-white.svg",
+      "P 203,3293 167x24 Brasília, DFBrasil",
+      "P 203,3349 167x48 OLWTELET@OUTLOOK.COMGITHUB.COM",
+      "CANVAS 20,3654 350x350 ",
+      "P 36,4266 141x45 Olwtelet ProductionsBrasília, ",
+      "P 150,4280 204x30 OLWTELET@OUTLOOK.COMOLWTELET@O",
+      "IMG 163,4075 64x309 /api/img?src=%2Fbrand%2Ffooter",
+      "LI 99,4400 69x33 Projetos",
+      "LI 167,4400 56x33 Sobre",
+      "LI 223,4400 68x33 Contato"
+    ]
+  },
+  "t768-studio-structure": {
+    "height": 4786,
+    "text": "ESTÚDIO PROCESSO ESTÚDIO SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. SOBRE A Olwtelet Productions é o espaço de criação independente de Isaac Rodrigues. A partir de Brasília, reúne projetos próprios de software, jogos e aplicações web, com atenção à arquitetura, à interface e ao comportamento de cada experiência. PROJETOS O primeiro projeto publicado é Filmes HD Online Grátis, uma curadoria cinematográfica com programação de sessões ao vivo no Discord. Também está em desenvolvimento Veil, um jogo de estratégia inspirado no xadrez. A proposta é construir um catálogo autoral, projeto por projeto. 01 Filmes HD Online Grátis Publicado. Curadoria cinematográfica independente com programação, textos sobre os filmes e sessões ao vivo no Discord. VER O PROJETO 02 Veil Em desenvolvimento. Jogo de estratégia para navegador inspirado no xadrez. Ainda sem versão pública. VER A APRESENTAÇÃO CRIADOR Por trás da Olwtelet Productions está Isaac Rodrigues, desenvolvedor de software em Brasília que assina como Olwtelet. Estuda Ciência da Computação e trabalha com desenvolvimento web, com interesse em inteligência artificial, cibersegurança e arquitetura de sistemas. ISAAC RODRIGUES (OLWTELET) CRIADOR · DESENVOLVEDOR DE SOFTWARE Olwtelet 1 Brasília, Brasil BRASÍLIA, DF BRASIL OLWTELET@OUTLOOK.COM GITHUB.COM/OLWTELET LINKEDIN.COM/IN/OLWTELET OLWTELET.VERCEL.APP CONTATO Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. VAMOS CONVERSAR Olwtelet Productions Brasília, DF Brasil POLÍTICA DE PRIVACIDADE OLWTELET@OUTLOOK.COM OLWTELET.VERCEL.APP SOM [LIG] VAMOS CONVERSAR Projetos Sobre Contato",
+    "elements": [
+      "LI 312,3802 72x30 Estúdio",
+      "LI 384,3802 72x30 Processo",
+      "H1 20,213 728x80 EstúdioSOFTWARE, JOGOS E EXPER",
+      "IMG -1958,359 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG -1596,359 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG -1234,359 391x220 /api/img?src=%2Fprojects%2Fvei",
+      "IMG -832,359 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG -470,359 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG -108,359 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 254,359 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 616,359 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 978,359 391x220 /api/img?src=%2Fprojects%2Fvei",
+      "IMG 1379,359 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 1741,359 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 2103,359 352x220 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 20,1256 728x455 /projects/filmes-hd-online-gra",
+      "IMG 20,2016 728x410 /projects/veil/veil-apresentac",
+      "CANVAS 20,2697 728x728 ",
+      "P 293,3351 145x44 Olwtelet",
+      "P 442,3351 34x34 1",
+      "IMG 20,3598 32x40 /brand/olwtelet-mark-white.svg",
+      "P 204,3598 168x24 Brasília, DFBrasil",
+      "P 204,3654 168x48 OLWTELET@OUTLOOK.COMGITHUB.COM",
+      "CANVAS 20,3911 728x409 ",
+      "P 36,4582 141x45 Olwtelet ProductionsBrasília, ",
+      "P 528,4596 204x30 OLWTELET@OUTLOOK.COMOLWTELET@O",
+      "IMG 314,4391 139x309 /api/img?src=%2Fbrand%2Ffooter",
+      "LI 281,4716 69x33 Projetos",
+      "LI 356,4716 56x33 Sobre",
+      "LI 419,4716 68x33 Contato"
+    ]
+  },
+  "d1440-studio-structure": {
+    "height": 5692,
+    "text": "Estúdio Processo ESTÚDIO SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. SOBRE A Olwtelet Productions é o espaço de criação independente de Isaac Rodrigues. A partir de Brasília, reúne projetos próprios de software, jogos e aplicações web, com atenção à arquitetura, à interface e ao comportamento de cada experiência. PROJETOS O primeiro projeto publicado é Filmes HD Online Grátis, uma curadoria cinematográfica com programação de sessões ao vivo no Discord. Também está em desenvolvimento Veil, um jogo de estratégia inspirado no xadrez. A proposta é construir um catálogo autoral, projeto por projeto. 01 Filmes HD Online Grátis Publicado. Curadoria cinematográfica independente com programação, textos sobre os filmes e sessões ao vivo no Discord. VER O PROJETO 02 Veil Em desenvolvimento. Jogo de estratégia para navegador inspirado no xadrez. Ainda sem versão pública. VER A APRESENTAÇÃO CRIADOR Por trás da Olwtelet Productions está Isaac Rodrigues, desenvolvedor de software em Brasília que assina como Olwtelet. Estuda Ciência da Computação e trabalha com desenvolvimento web, com interesse em inteligência artificial, cibersegurança e arquitetura de sistemas. ISAAC RODRIGUES (OLWTELET) CRIADOR · DESENVOLVEDOR DE SOFTWARE Olwtelet 1 Brasília, Brasil BRASÍLIA, DF BRASIL OLWTELET@OUTLOOK.COM GITHUB.COM/OLWTELET LINKEDIN.COM/IN/OLWTELET OLWTELET.VERCEL.APP CONTATO Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. VAMOS CONVERSAR OLWTELET PRODUCTIONS BRASÍLIA, DF BRASIL POLÍTICA DE PRIVACIDADE OLWTELET@OUTLOOK.COM OLWTELET.VERCEL.APP SOM [LIG] ESTÚDIO INDEPENDENTE EM BRASÍLIA: SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. BRASÍLIA, BR 01:14 GMT-3 Vamos Conversar Projetos Sobre Contato",
+    "elements": [
+      "LI 29,4922 78x30 Estúdio",
+      "LI 107,4922 78x30 Processo",
+      "H1 378,267 1038x150 EstúdioSOFTWARE, JOGOS E EXPER",
+      "IMG -1648,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "IMG -1158,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "IMG -668,542 533x300 /api/img?src=%2Fprojects%2Fvei",
+      "IMG -125,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 365,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 855,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 1345,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 1835,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 2325,542 533x300 /api/img?src=%2Fprojects%2Fvei",
+      "IMG 2868,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 3358,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 3848,542 480x300 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 1086,1651 330x206 /projects/filmes-hd-online-gra",
+      "IMG 1086,2013 330x186 /projects/veil/veil-apresentac",
+      "CANVAS -11,2714 1392x720 ",
+      "P 955,3046 183x55 Olwtelet",
+      "P 1144,3046 34x34 1",
+      "IMG 24,3630 32x40 /brand/olwtelet-mark-white.svg",
+      "P 287,3630 159x24 Brasília, DFBrasil",
+      "P 462,3630 247x48 OLWTELET@OUTLOOK.COMGITHUB.COM",
+      "CANVAS 24,3985 1392x783 ",
+      "P 155,5172 405x92 Olwtelet ProductionsBrasília, ",
+      "P 866,5187 433x62 OLWTELET@OUTLOOK.COMOLWTELET@O",
+      "IMG 588,4903 263x630 /api/img?src=%2Fbrand%2Ffooter",
+      "P 732,4816 220x80 Estúdio independente em Brasíl",
+      "LI 570,5612 92x41 Projetos",
+      "LI 681,5612 77x41 Sobre",
+      "LI 779,5612 91x41 Contato"
+    ]
+  },
+  "w2560-studio-structure": {
+    "height": 7676,
+    "text": "Estúdio Processo ESTÚDIO SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. SOBRE A Olwtelet Productions é o espaço de criação independente de Isaac Rodrigues. A partir de Brasília, reúne projetos próprios de software, jogos e aplicações web, com atenção à arquitetura, à interface e ao comportamento de cada experiência. PROJETOS O primeiro projeto publicado é Filmes HD Online Grátis, uma curadoria cinematográfica com programação de sessões ao vivo no Discord. Também está em desenvolvimento Veil, um jogo de estratégia inspirado no xadrez. A proposta é construir um catálogo autoral, projeto por projeto. 01 Filmes HD Online Grátis Publicado. Curadoria cinematográfica independente com programação, textos sobre os filmes e sessões ao vivo no Discord. VER O PROJETO 02 Veil Em desenvolvimento. Jogo de estratégia para navegador inspirado no xadrez. Ainda sem versão pública. VER A APRESENTAÇÃO CRIADOR Por trás da Olwtelet Productions está Isaac Rodrigues, desenvolvedor de software em Brasília que assina como Olwtelet. Estuda Ciência da Computação e trabalha com desenvolvimento web, com interesse em inteligência artificial, cibersegurança e arquitetura de sistemas. ISAAC RODRIGUES (OLWTELET) CRIADOR · DESENVOLVEDOR DE SOFTWARE Olwtelet 1 Brasília, Brasil BRASÍLIA, DF BRASIL OLWTELET@OUTLOOK.COM GITHUB.COM/OLWTELET LINKEDIN.COM/IN/OLWTELET OLWTELET.VERCEL.APP CONTATO Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. VAMOS CONVERSAR OLWTELET PRODUCTIONS BRASÍLIA, DF BRASIL POLÍTICA DE PRIVACIDADE OLWTELET@OUTLOOK.COM OLWTELET.VERCEL.APP SOM [LIG] ESTÚDIO INDEPENDENTE EM BRASÍLIA: SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. BRASÍLIA, BR 01:14 GMT-3 Vamos Conversar Projetos Sobre Contato",
+    "elements": [
+      "LI 325,6366 78x30 Estúdio",
+      "LI 403,6366 78x30 Processo",
+      "H1 806,289 1313x324 EstúdioSOFTWARE, JOGOS E EXPER",
+      "IMG -3379,768 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "IMG -2761,768 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "IMG -2143,768 676x380 /api/img?src=%2Fprojects%2Fvei",
+      "IMG -1457,768 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "IMG -839,768 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "IMG -221,768 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 397,768 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 1015,768 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 1633,768 676x380 /api/img?src=%2Fprojects%2Fvei",
+      "IMG 2319,768 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 2937,768 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 3555,768 608x380 /api/img?src=%2Fprojects%2Ffil",
+      "IMG 1880,2167 360x225 /projects/filmes-hd-online-gra",
+      "IMG 1880,2544 360x203 /projects/veil/veil-apresentac",
+      "CANVAS 272,3354 1920x1152 ",
+      "P 1642,3901 192x58 Olwtelet",
+      "P 1839,3901 34x34 1",
+      "IMG 320,4711 32x40 /brand/olwtelet-mark-white.svg",
+      "P 682,4711 225x24 Brasília, DFBrasil",
+      "P 923,4711 346x48 OLWTELET@OUTLOOK.COMGITHUB.COM",
+      "CANVAS 320,5132 1920x1080 ",
+      "P 481,6865 586x134 Olwtelet ProductionsBrasília, ",
+      "P 1473,6888 626x89 OLWTELET@OUTLOOK.COMOLWTELET@O",
+      "IMG 1096,6428 368x1008 /api/img?src=%2Fbrand%2Ffooter",
+      "P 1449,6260 220x80 Estúdio independente em Brasíl",
+      "LI 1119,7593 99x44 Projetos",
+      "LI 1239,7593 83x44 Sobre",
+      "LI 1343,7593 98x44 Contato"
+    ]
+  },
+  "modal": [
+    [
+      "opened from home",
+      {
+        "url": "/contact",
+        "dialogOpen": true,
+        "dialogOpacity": "1",
+        "topAtCenter": "DIV.",
+        "bodyOverflow": "",
+        "htmlClass": "",
+        "scrollY": 0
+      }
+    ],
+    [
+      "clicked privacy",
+      {
+        "url": "/privacy-policy",
+        "dialogOpen": null,
+        "dialogOpacity": null,
+        "topAtCenter": "DIV.JvSkDG_Grid",
+        "bodyOverflow": "",
+        "htmlClass": "lenis",
+        "scrollY": 0
+      }
+    ],
+    [
+      "X after privacy: not applicable (dialog closed, no X on the page)",
+      {
+        "url": "/privacy-policy",
+        "dialogOpen": null,
+        "dialogOpacity": null,
+        "topAtCenter": "DIV.JvSkDG_Grid",
+        "bodyOverflow": "",
+        "htmlClass": "lenis",
+        "scrollY": 0,
+        "topAtNav": "A."
+      }
+    ],
+    [
+      "studio scrolled before opening",
+      {
+        "url": "/about/studio",
+        "dialogOpen": null,
+        "dialogOpacity": null,
+        "topAtCenter": "DIV.tr_r_2_ split-line",
+        "bodyOverflow": "",
+        "htmlClass": "lenis",
+        "scrollY": 900
+      }
+    ],
+    [
+      "opened over studio",
+      {
+        "url": "/contact",
+        "dialogOpen": true,
+        "dialogOpacity": "1",
+        "topAtCenter": "DIV.",
+        "bodyOverflow": "",
+        "htmlClass": "",
+        "scrollY": 900
+      }
+    ],
+    [
+      "Escape",
+      {
+        "url": "/about/studio",
+        "dialogOpen": null,
+        "dialogOpacity": null,
+        "topAtCenter": "DIV.OtHkpa_Text",
+        "bodyOverflow": "",
+        "htmlClass": "lenis",
+        "scrollY": 900
+      }
+    ],
+    [
+      "reopened",
+      {
+        "url": "/contact",
+        "dialogOpen": true,
+        "dialogOpacity": "1",
+        "topAtCenter": "DIV.",
+        "bodyOverflow": "",
+        "htmlClass": "",
+        "scrollY": 900
+      }
+    ],
+    [
+      "X twice",
+      {
+        "url": "/about/studio",
+        "dialogOpen": null,
+        "dialogOpacity": null,
+        "topAtCenter": "DIV.OtHkpa_Text",
+        "bodyOverflow": "",
+        "htmlClass": "lenis",
+        "scrollY": 900
+      }
+    ],
+    [
+      "opened again",
+      {
+        "url": "/contact",
+        "dialogOpen": true,
+        "dialogOpacity": "1",
+        "topAtCenter": "DIV.",
+        "bodyOverflow": "",
+        "htmlClass": "",
+        "scrollY": 900
+      }
+    ],
+    [
+      "browser Back",
+      {
+        "url": "/about/studio",
+        "dialogOpen": null,
+        "dialogOpacity": null,
+        "topAtCenter": "DIV.OtHkpa_Text",
+        "bodyOverflow": "",
+        "htmlClass": "lenis",
+        "scrollY": 900
+      }
+    ],
+    [
+      "browser Forward",
+      {
+        "url": "/contact",
+        "dialogOpen": true,
+        "dialogOpacity": "1",
+        "topAtCenter": "DIV.",
+        "bodyOverflow": "",
+        "htmlClass": "",
+        "scrollY": 900
+      }
+    ],
+    [
+      "Tab, Tab, Enter inside the modal over home",
+      {
+        "url": "/contact",
+        "dialogOpen": true,
+        "dialogOpacity": "1",
+        "topAtCenter": "DIV.",
+        "bodyOverflow": "",
+        "htmlClass": "",
+        "scrollY": 0
+      }
+    ],
+    [
+      "Escape after that",
+      {
+        "url": "/",
+        "dialogOpen": null,
+        "dialogOpacity": null,
+        "topAtCenter": "CANVAS.",
+        "bodyOverflow": "",
+        "htmlClass": "",
+        "scrollY": 0
+      }
+    ],
+    [
+      "direct /contact",
+      {
+        "url": "/contact",
+        "dialogOpen": true,
+        "dialogOpacity": "1",
+        "topAtCenter": "DIV.",
+        "bodyOverflow": "",
+        "htmlClass": "",
+        "scrollY": 0
+      }
+    ],
+    [
+      "direct then X",
+      {
+        "url": "/",
+        "dialogOpen": null,
+        "dialogOpacity": null,
+        "topAtCenter": "CANVAS.",
+        "bodyOverflow": "",
+        "htmlClass": "",
+        "scrollY": 0
+      }
+    ]
+  ],
+  "grid-d1440-dpr1": {
+    "pinHigh": true,
+    "declinedBeforeDrag": false,
+    "repins": 0,
+    "tierAtEnd": 0
+  },
+  "grid-d1440-dpr2": {
+    "pinHigh": true,
+    "declinedBeforeDrag": false,
+    "repins": 0,
+    "tierAtEnd": 0
+  },
+  "grid-w2560-dpr1": {
+    "pinHigh": true,
+    "declinedBeforeDrag": false,
+    "repins": 0,
+    "tierAtEnd": 0
+  },
+  "grid-m390-dpr2": {
+    "pinHigh": true,
+    "declinedBeforeDrag": false,
+    "repins": 0,
+    "tierAtEnd": 0
+  }
+}

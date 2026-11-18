@@ -1,0 +1,1533 @@
+{
+ "build": "2ScPNEWZjIwoLexHOGa25",
+ "sizes": {
+  "320x640": {
+   "docWidth": 320,
+   "docHeight": 2947,
+   "title": [
+    "Processo DA IDEIA  [20–260]",
+    "AO  [20–78]",
+    "REFINAMENTO.  [20–310]"
+   ],
+   "lead": [
+    "Etapas Os projetos da  [20–230]",
+    "Olwtelet Productions  [20–237]",
+    "passam por quatro  [20–213]",
+    "momentos: ideia,  [20–193]",
+    "investigação, construção e  [20–292]",
+    "refinamento.  [20–150]"
+   ],
+   "stepCount": 4,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Ideia  [66–115]"
+     ],
+     "body": [
+      "Definir o que o projeto precisa  [66–271]",
+      "fazer, para quem e qual  [66–223]",
+      "experiência queremos criar.  [66–255]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 180,
+      "height": 124.6
+     },
+     "labels": [
+      {
+       "text": "Projeto",
+       "textRight": 65.7,
+       "cy": 31.1
+      },
+      {
+       "text": "Para quem",
+       "textRight": 78.8,
+       "cy": 62.3
+      },
+      {
+       "text": "Experiência",
+       "textRight": 91.8,
+       "cy": 93.4
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Investigação  [66–195]"
+     ],
+     "body": [
+      "Explorar referências,  [66–206]",
+      "necessidades e restrições.  [66–248]",
+      "Comparar possibilidades antes de  [66–300]",
+      "escolher um caminho.  [66–216]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 180,
+      "height": 124.6
+     },
+     "labels": [
+      {
+       "text": "Referências",
+       "textRight": 91.8,
+       "cy": 31.1
+      },
+      {
+       "text": "Necessidades",
+       "textRight": 98.3,
+       "cy": 62.3
+      },
+      {
+       "text": "Restrições",
+       "textRight": 85.3,
+       "cy": 93.4
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Construção  [66–186]"
+     ],
+     "body": [
+      "Dar forma à interface e à lógica,  [66–280]",
+      "conectando conteúdo, interação  [66–288]",
+      "e tecnologia.  [66–154]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 180,
+      "height": 124.6
+     },
+     "labels": [
+      {
+       "text": "Conteúdo",
+       "textRight": 72.2,
+       "cy": 31.1
+      },
+      {
+       "text": "Interação",
+       "textRight": 78.8,
+       "cy": 62.3
+      },
+      {
+       "text": "Tecnologia",
+       "textRight": 85.3,
+       "cy": 93.4
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "04",
+     "title": [
+      "Refinamento  [66–197]"
+     ],
+     "body": [
+      "Testar o uso real, revisar os  [66–249]",
+      "detalhes e ajustar a experiência  [66–280]",
+      "para que tudo funcione  [66–225]",
+      "em conjunto.  [66–154]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 180,
+      "height": 124.6
+     },
+     "labels": [
+      {
+       "text": "Testar",
+       "textRight": 59.2,
+       "cy": 31.1
+      },
+      {
+       "text": "Revisar",
+       "textRight": 65.7,
+       "cy": 62.3
+      },
+      {
+       "text": "Ajustar",
+       "textRight": 65.7,
+       "cy": 93.4
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "360x740": {
+   "docWidth": 360,
+   "docHeight": 2932,
+   "title": [
+    "Processo D A I D E I A A O  [20–326]",
+    "R E F I N A M E N T O .  [20–310]"
+   ],
+   "lead": [
+    "Etapas Os projetos da Olwtelet  [20–321]",
+    "Productions passam por  [20–270]",
+    "quatro momentos: ideia,  [20–266]",
+    "investigação, construção e  [20–292]",
+    "refinamento.  [20–150]"
+   ],
+   "stepCount": 4,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Ideia  [66–115]"
+     ],
+     "body": [
+      "Definir o que o projeto precisa fazer,  [66–310]",
+      "para quem e qual experiência  [66–267]",
+      "queremos criar.  [66–172]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 220,
+      "height": 152.3
+     },
+     "labels": [
+      {
+       "text": "Projeto",
+       "textRight": 65.7,
+       "cy": 38.1
+      },
+      {
+       "text": "Para quem",
+       "textRight": 78.8,
+       "cy": 76.1
+      },
+      {
+       "text": "Experiência",
+       "textRight": 91.8,
+       "cy": 114.2
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Investigação  [66–195]"
+     ],
+     "body": [
+      "Explorar referências, necessidades e  [66–317]",
+      "restrições. Comparar possibilidades  [66–312]",
+      "antes de escolher um caminho.  [66–278]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 220,
+      "height": 152.3
+     },
+     "labels": [
+      {
+       "text": "Referências",
+       "textRight": 91.8,
+       "cy": 38.1
+      },
+      {
+       "text": "Necessidades",
+       "textRight": 98.3,
+       "cy": 76.1
+      },
+      {
+       "text": "Restrições",
+       "textRight": 85.3,
+       "cy": 114.2
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Construção  [66–186]"
+     ],
+     "body": [
+      "Dar forma à interface e à lógica,  [66–280]",
+      "conectando conteúdo, interação  [66–288]",
+      "e tecnologia.  [66–154]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 220,
+      "height": 152.3
+     },
+     "labels": [
+      {
+       "text": "Conteúdo",
+       "textRight": 72.2,
+       "cy": 38.1
+      },
+      {
+       "text": "Interação",
+       "textRight": 78.8,
+       "cy": 76.1
+      },
+      {
+       "text": "Tecnologia",
+       "textRight": 85.3,
+       "cy": 114.2
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "04",
+     "title": [
+      "Refinamento  [66–197]"
+     ],
+     "body": [
+      "Testar o uso real, revisar os detalhes e  [66–322]",
+      "ajustar a experiência para que tudo  [66–305]",
+      "funcione em conjunto.  [66–217]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 220,
+      "height": 152.3
+     },
+     "labels": [
+      {
+       "text": "Testar",
+       "textRight": 59.2,
+       "cy": 38.1
+      },
+      {
+       "text": "Revisar",
+       "textRight": 65.7,
+       "cy": 76.1
+      },
+      {
+       "text": "Ajustar",
+       "textRight": 65.7,
+       "cy": 114.2
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "390x844": {
+   "docWidth": 390,
+   "docHeight": 2949,
+   "title": [
+    "Processo DA IDEIA AO  [20–326]",
+    "REFINAMENTO.  [20–310]"
+   ],
+   "lead": [
+    "Etapas Os projetos da Olwtelet  [20–321]",
+    "Productions passam por quatro  [20–342]",
+    "momentos: ideia, investigação,  [20–332]",
+    "construção e refinamento.  [20–288]"
+   ],
+   "stepCount": 4,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Ideia  [66–115]"
+     ],
+     "body": [
+      "Definir o que o projeto precisa fazer, para  [66–344]",
+      "quem e qual experiência queremos criar.  [66–342]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 250,
+      "height": 173.1
+     },
+     "labels": [
+      {
+       "text": "Projeto",
+       "textRight": 65.7,
+       "cy": 43.3
+      },
+      {
+       "text": "Para quem",
+       "textRight": 78.8,
+       "cy": 86.5
+      },
+      {
+       "text": "Experiência",
+       "textRight": 91.8,
+       "cy": 129.8
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Investigação  [66–195]"
+     ],
+     "body": [
+      "Explorar referências, necessidades e  [66–317]",
+      "restrições. Comparar possibilidades antes  [66–353]",
+      "de escolher um caminho.  [66–237]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 250,
+      "height": 173.1
+     },
+     "labels": [
+      {
+       "text": "Referências",
+       "textRight": 91.8,
+       "cy": 43.3
+      },
+      {
+       "text": "Necessidades",
+       "textRight": 98.3,
+       "cy": 86.5
+      },
+      {
+       "text": "Restrições",
+       "textRight": 85.3,
+       "cy": 129.8
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Construção  [66–186]"
+     ],
+     "body": [
+      "Dar forma à interface e à lógica, conectando  [66–367]",
+      "conteúdo, interação e tecnologia.  [66–292]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 250,
+      "height": 173.1
+     },
+     "labels": [
+      {
+       "text": "Conteúdo",
+       "textRight": 72.2,
+       "cy": 43.3
+      },
+      {
+       "text": "Interação",
+       "textRight": 78.8,
+       "cy": 86.5
+      },
+      {
+       "text": "Tecnologia",
+       "textRight": 85.3,
+       "cy": 129.8
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "04",
+     "title": [
+      "Refinamento  [66–197]"
+     ],
+     "body": [
+      "Testar o uso real, revisar os detalhes e  [66–322]",
+      "ajustar a experiência para que tudo funcione  [66–369]",
+      "em conjunto.  [66–154]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 250,
+      "height": 173.1
+     },
+     "labels": [
+      {
+       "text": "Testar",
+       "textRight": 59.2,
+       "cy": 43.3
+      },
+      {
+       "text": "Revisar",
+       "textRight": 65.7,
+       "cy": 86.5
+      },
+      {
+       "text": "Ajustar",
+       "textRight": 65.7,
+       "cy": 129.8
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "414x896": {
+   "docWidth": 414,
+   "docHeight": 2992,
+   "title": [
+    "Processo DA IDEIA AO  [20–326]",
+    "REFINAMENTO.  [20–310]"
+   ],
+   "lead": [
+    "Etapas Os projetos da Olwtelet  [20–321]",
+    "Productions passam por quatro  [20–342]",
+    "momentos: ideia, investigação,  [20–332]",
+    "construção e refinamento.  [20–288]"
+   ],
+   "stepCount": 4,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Ideia  [66–115]"
+     ],
+     "body": [
+      "Definir o que o projeto precisa fazer, para quem  [66–387]",
+      "e qual experiência queremos criar.  [66–299]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 274,
+      "height": 189.7
+     },
+     "labels": [
+      {
+       "text": "Projeto",
+       "textRight": 65.7,
+       "cy": 47.4
+      },
+      {
+       "text": "Para quem",
+       "textRight": 78.8,
+       "cy": 94.8
+      },
+      {
+       "text": "Experiência",
+       "textRight": 91.8,
+       "cy": 142.3
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Investigação  [66–195]"
+     ],
+     "body": [
+      "Explorar referências, necessidades e restrições.  [66–391]",
+      "Comparar possibilidades antes de escolher  [66–363]",
+      "um caminho.  [66–153]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 274,
+      "height": 189.7
+     },
+     "labels": [
+      {
+       "text": "Referências",
+       "textRight": 91.8,
+       "cy": 47.4
+      },
+      {
+       "text": "Necessidades",
+       "textRight": 98.3,
+       "cy": 94.8
+      },
+      {
+       "text": "Restrições",
+       "textRight": 85.3,
+       "cy": 142.3
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Construção  [66–186]"
+     ],
+     "body": [
+      "Dar forma à interface e à lógica, conectando  [66–367]",
+      "conteúdo, interação e tecnologia.  [66–292]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 274,
+      "height": 189.7
+     },
+     "labels": [
+      {
+       "text": "Conteúdo",
+       "textRight": 72.2,
+       "cy": 47.4
+      },
+      {
+       "text": "Interação",
+       "textRight": 78.8,
+       "cy": 94.8
+      },
+      {
+       "text": "Tecnologia",
+       "textRight": 85.3,
+       "cy": 142.3
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "04",
+     "title": [
+      "Refinamento  [66–197]"
+     ],
+     "body": [
+      "Testar o uso real, revisar os detalhes e  [66–322]",
+      "ajustar a experiência para que tudo funcione  [66–369]",
+      "em conjunto.  [66–154]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 274,
+      "height": 189.7
+     },
+     "labels": [
+      {
+       "text": "Testar",
+       "textRight": 59.2,
+       "cy": 47.4
+      },
+      {
+       "text": "Revisar",
+       "textRight": 65.7,
+       "cy": 94.8
+      },
+      {
+       "text": "Ajustar",
+       "textRight": 65.7,
+       "cy": 142.3
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "768x1024": {
+   "docWidth": 768,
+   "docHeight": 3430,
+   "title": [
+    "Processo DA IDEIA AO REFINAMENTO.  [20–684]"
+   ],
+   "lead": [
+    "Etapas Os projetos da Olwtelet  [20–321]",
+    "Productions passam por quatro  [20–342]",
+    "momentos: ideia, investigação,  [20–332]",
+    "construção e refinamento.  [20–288]"
+   ],
+   "stepCount": 4,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Ideia  [66–115]"
+     ],
+     "body": [
+      "Definir o que o projeto precisa fazer, para quem e  [66–399]",
+      "qual experiência queremos criar.  [66–287]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 460,
+      "height": 318.5
+     },
+     "labels": [
+      {
+       "text": "Projeto",
+       "textRight": 65.7,
+       "cy": 79.6
+      },
+      {
+       "text": "Para quem",
+       "textRight": 78.8,
+       "cy": 159.2
+      },
+      {
+       "text": "Experiência",
+       "textRight": 91.8,
+       "cy": 238.8
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Investigação  [66–195]"
+     ],
+     "body": [
+      "Explorar referências, necessidades e restrições.  [66–391]",
+      "Comparar possibilidades antes de escolher  [66–363]",
+      "um caminho.  [66–153]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 460,
+      "height": 318.5
+     },
+     "labels": [
+      {
+       "text": "Referências",
+       "textRight": 91.8,
+       "cy": 79.6
+      },
+      {
+       "text": "Necessidades",
+       "textRight": 98.3,
+       "cy": 159.2
+      },
+      {
+       "text": "Restrições",
+       "textRight": 85.3,
+       "cy": 238.8
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Construção  [66–186]"
+     ],
+     "body": [
+      "Dar forma à interface e à lógica, conectando  [66–367]",
+      "conteúdo, interação e tecnologia.  [66–292]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 460,
+      "height": 318.5
+     },
+     "labels": [
+      {
+       "text": "Conteúdo",
+       "textRight": 72.2,
+       "cy": 79.6
+      },
+      {
+       "text": "Interação",
+       "textRight": 78.8,
+       "cy": 159.2
+      },
+      {
+       "text": "Tecnologia",
+       "textRight": 85.3,
+       "cy": 238.8
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "04",
+     "title": [
+      "Refinamento  [66–197]"
+     ],
+     "body": [
+      "Testar o uso real, revisar os detalhes e ajustar a  [66–383]",
+      "experiência para que tudo funcione em conjunto.  [66–399]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 460,
+      "height": 318.5
+     },
+     "labels": [
+      {
+       "text": "Testar",
+       "textRight": 59.2,
+       "cy": 79.6
+      },
+      {
+       "text": "Revisar",
+       "textRight": 65.7,
+       "cy": 159.2
+      },
+      {
+       "text": "Ajustar",
+       "textRight": 65.7,
+       "cy": 238.8
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "1024x768": {
+   "docWidth": 1024,
+   "docHeight": 3174,
+   "title": [
+    "Processo DA IDEIA AO REFINAMENTO.  [24–894]"
+   ],
+   "lead": [
+    "Etapas Os projetos da Olwtelet  [24–392]",
+    "Productions passam por quatro  [24–436]",
+    "momentos: ideia, investigação,  [24–423]",
+    "construção e refinamento.  [24–367]"
+   ],
+   "stepCount": 4,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Ideia  [274–336]"
+     ],
+     "body": [
+      "Definir o que o projeto precisa fazer, para quem  [274–623]",
+      "e qual experiência queremos criar.  [274–528]"
+     ],
+     "diagram": {
+      "left": 753,
+      "width": 247,
+      "height": 171
+     },
+     "labels": [
+      {
+       "text": "Projeto",
+       "textRight": 694.7,
+       "cy": 42.7
+      },
+      {
+       "text": "Para quem",
+       "textRight": 707.8,
+       "cy": 85.5
+      },
+      {
+       "text": "Experiência",
+       "textRight": 720.8,
+       "cy": 128.2
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Investigação  [274–439]"
+     ],
+     "body": [
+      "Explorar referências, necessidades e  [274–547]",
+      "restrições. Comparar possibilidades antes de  [274–609]",
+      "escolher um caminho.  [274–437]"
+     ],
+     "diagram": {
+      "left": 753,
+      "width": 247,
+      "height": 171
+     },
+     "labels": [
+      {
+       "text": "Referências",
+       "textRight": 720.8,
+       "cy": 42.7
+      },
+      {
+       "text": "Necessidades",
+       "textRight": 727.3,
+       "cy": 85.5
+      },
+      {
+       "text": "Restrições",
+       "textRight": 714.3,
+       "cy": 128.2
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Construção  [274–428]"
+     ],
+     "body": [
+      "Dar forma à interface e à lógica, conectando  [274–601]",
+      "conteúdo, interação e tecnologia.  [274–520]"
+     ],
+     "diagram": {
+      "left": 753,
+      "width": 247,
+      "height": 171
+     },
+     "labels": [
+      {
+       "text": "Conteúdo",
+       "textRight": 701.2,
+       "cy": 42.7
+      },
+      {
+       "text": "Interação",
+       "textRight": 707.8,
+       "cy": 85.5
+      },
+      {
+       "text": "Tecnologia",
+       "textRight": 714.3,
+       "cy": 128.2
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "04",
+     "title": [
+      "Refinamento  [274–442]"
+     ],
+     "body": [
+      "Testar o uso real, revisar os detalhes e  [274–553]",
+      "ajustar a experiência para que tudo funcione  [274–603]",
+      "em conjunto.  [274–370]"
+     ],
+     "diagram": {
+      "left": 753,
+      "width": 247,
+      "height": 171
+     },
+     "labels": [
+      {
+       "text": "Testar",
+       "textRight": 688.2,
+       "cy": 42.7
+      },
+      {
+       "text": "Revisar",
+       "textRight": 694.7,
+       "cy": 85.5
+      },
+      {
+       "text": "Ajustar",
+       "textRight": 694.7,
+       "cy": 128.2
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "1280x800": {
+   "docWidth": 1280,
+   "docHeight": 3532,
+   "title": [
+    "Processo  [24–76]",
+    "DA IDEIA AO REFINAMENTO.  [98–1082]"
+   ],
+   "lead": [
+    "Etapas Os projetos da Olwtelet  [24–469]",
+    "Productions passam por quatro  [24–539]",
+    "momentos: ideia, investigação,  [24–523]",
+    "construção e refinamento.  [24–453]"
+   ],
+   "stepCount": 4,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Ideia  [338–416]"
+     ],
+     "body": [
+      "Definir o que o projeto precisa fazer, para quem e  [338–754]",
+      "qual experiência queremos criar.  [338–615]"
+     ],
+     "diagram": {
+      "left": 913,
+      "width": 343,
+      "height": 237.5
+     },
+     "labels": [
+      {
+       "text": "Projeto",
+       "textRight": 854.7,
+       "cy": 59.4
+      },
+      {
+       "text": "Para quem",
+       "textRight": 867.8,
+       "cy": 118.7
+      },
+      {
+       "text": "Experiência",
+       "textRight": 880.8,
+       "cy": 178.1
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Investigação  [338–544]"
+     ],
+     "body": [
+      "Explorar referências, necessidades e restrições.  [338–744]",
+      "Comparar possibilidades antes de escolher  [338–709]",
+      "um caminho.  [338–447]"
+     ],
+     "diagram": {
+      "left": 913,
+      "width": 343,
+      "height": 237.5
+     },
+     "labels": [
+      {
+       "text": "Referências",
+       "textRight": 880.8,
+       "cy": 59.4
+      },
+      {
+       "text": "Necessidades",
+       "textRight": 887.3,
+       "cy": 118.7
+      },
+      {
+       "text": "Restrições",
+       "textRight": 874.3,
+       "cy": 178.1
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Construção  [338–530]"
+     ],
+     "body": [
+      "Dar forma à interface e à lógica, conectando  [338–714]",
+      "conteúdo, interação e tecnologia.  [338–621]"
+     ],
+     "diagram": {
+      "left": 913,
+      "width": 343,
+      "height": 237.5
+     },
+     "labels": [
+      {
+       "text": "Conteúdo",
+       "textRight": 861.2,
+       "cy": 59.4
+      },
+      {
+       "text": "Interação",
+       "textRight": 867.8,
+       "cy": 118.7
+      },
+      {
+       "text": "Tecnologia",
+       "textRight": 874.3,
+       "cy": 178.1
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "04",
+     "title": [
+      "Refinamento  [338–547]"
+     ],
+     "body": [
+      "Testar o uso real, revisar os detalhes e ajustar a  [338–735]",
+      "experiência para que tudo funcione em conjunto.  [338–754]"
+     ],
+     "diagram": {
+      "left": 913,
+      "width": 343,
+      "height": 237.5
+     },
+     "labels": [
+      {
+       "text": "Testar",
+       "textRight": 848.2,
+       "cy": 59.4
+      },
+      {
+       "text": "Revisar",
+       "textRight": 854.7,
+       "cy": 118.7
+      },
+      {
+       "text": "Ajustar",
+       "textRight": 854.7,
+       "cy": 178.1
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "1440x900": {
+   "docWidth": 1440,
+   "docHeight": 4109,
+   "title": [
+    "Processo  [378–430]",
+    "DA IDEIA AO  [452–937]",
+    "REFINAMENTO.  [378–983]"
+   ],
+   "lead": [
+    "Etapas Os projetos da Olwtelet  [378–871]",
+    "Productions passam por quatro  [378–958]",
+    "momentos: ideia, investigação,  [378–940]",
+    "construção e refinamento.  [378–861]"
+   ],
+   "stepCount": 4,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Ideia  [378–466]"
+     ],
+     "body": [
+      "Definir o que o projeto precisa fazer, para quem e  [378–794]",
+      "qual experiência queremos criar.  [378–655]"
+     ],
+     "diagram": {
+      "left": 954,
+      "width": 462,
+      "height": 319.8
+     },
+     "labels": [
+      {
+       "text": "Projeto",
+       "textRight": 895.7,
+       "cy": 79.9
+      },
+      {
+       "text": "Para quem",
+       "textRight": 908.8,
+       "cy": 159.9
+      },
+      {
+       "text": "Experiência",
+       "textRight": 921.8,
+       "cy": 239.9
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Investigação  [378–610]"
+     ],
+     "body": [
+      "Explorar referências, necessidades e restrições.  [378–784]",
+      "Comparar possibilidades antes de escolher  [378–749]",
+      "um caminho.  [378–487]"
+     ],
+     "diagram": {
+      "left": 954,
+      "width": 462,
+      "height": 319.8
+     },
+     "labels": [
+      {
+       "text": "Referências",
+       "textRight": 921.8,
+       "cy": 79.9
+      },
+      {
+       "text": "Necessidades",
+       "textRight": 928.3,
+       "cy": 159.9
+      },
+      {
+       "text": "Restrições",
+       "textRight": 915.3,
+       "cy": 239.9
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Construção  [378–594]"
+     ],
+     "body": [
+      "Dar forma à interface e à lógica, conectando  [378–754]",
+      "conteúdo, interação e tecnologia.  [378–661]"
+     ],
+     "diagram": {
+      "left": 954,
+      "width": 462,
+      "height": 319.8
+     },
+     "labels": [
+      {
+       "text": "Conteúdo",
+       "textRight": 902.2,
+       "cy": 79.9
+      },
+      {
+       "text": "Interação",
+       "textRight": 908.8,
+       "cy": 159.9
+      },
+      {
+       "text": "Tecnologia",
+       "textRight": 915.3,
+       "cy": 239.9
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "04",
+     "title": [
+      "Refinamento  [378–614]"
+     ],
+     "body": [
+      "Testar o uso real, revisar os detalhes e ajustar a  [378–775]",
+      "experiência para que tudo funcione em conjunto.  [378–794]"
+     ],
+     "diagram": {
+      "left": 954,
+      "width": 462,
+      "height": 319.8
+     },
+     "labels": [
+      {
+       "text": "Testar",
+       "textRight": 889.2,
+       "cy": 79.9
+      },
+      {
+       "text": "Revisar",
+       "textRight": 895.7,
+       "cy": 159.9
+      },
+      {
+       "text": "Ajustar",
+       "textRight": 895.7,
+       "cy": 239.9
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "1920x1080": {
+   "docWidth": 1944,
+   "docHeight": 5064,
+   "title": [
+    "Processo  [498–550]",
+    "DA IDEIA AO  [572–1219]",
+    "REFINAMENTO.  [498–1304]"
+   ],
+   "lead": [
+    "Etapas  [498–537]",
+    "Os projetos da Olwtelet  [559–1120]",
+    "Productions passam por quatro  [498–1250]",
+    "momentos: ideia, investigação,  [498–1226]",
+    "construção e refinamento.  [498–1124]"
+   ],
+   "stepCount": 4,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Ideia  [498–612]"
+     ],
+     "body": [
+      "Definir o que o projeto precisa fazer, para quem e  [498–914]",
+      "qual experiência queremos criar.  [498–775]"
+     ],
+     "diagram": {
+      "left": 1313,
+      "width": 583,
+      "height": 403.6
+     },
+     "labels": [
+      {
+       "text": "Projeto",
+       "textRight": 1254.7,
+       "cy": 100.9
+      },
+      {
+       "text": "Para quem",
+       "textRight": 1267.8,
+       "cy": 201.8
+      },
+      {
+       "text": "Experiência",
+       "textRight": 1280.8,
+       "cy": 302.7
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Investigação  [498–798]"
+     ],
+     "body": [
+      "Explorar referências, necessidades e restrições.  [498–904]",
+      "Comparar possibilidades antes de escolher  [498–869]",
+      "um caminho.  [498–607]"
+     ],
+     "diagram": {
+      "left": 1313,
+      "width": 583,
+      "height": 403.6
+     },
+     "labels": [
+      {
+       "text": "Referências",
+       "textRight": 1280.8,
+       "cy": 100.9
+      },
+      {
+       "text": "Necessidades",
+       "textRight": 1287.3,
+       "cy": 201.8
+      },
+      {
+       "text": "Restrições",
+       "textRight": 1274.3,
+       "cy": 302.7
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Construção  [498–778]"
+     ],
+     "body": [
+      "Dar forma à interface e à lógica, conectando  [498–874]",
+      "conteúdo, interação e tecnologia.  [498–781]"
+     ],
+     "diagram": {
+      "left": 1313,
+      "width": 583,
+      "height": 403.6
+     },
+     "labels": [
+      {
+       "text": "Conteúdo",
+       "textRight": 1261.2,
+       "cy": 100.9
+      },
+      {
+       "text": "Interação",
+       "textRight": 1267.8,
+       "cy": 201.8
+      },
+      {
+       "text": "Tecnologia",
+       "textRight": 1274.3,
+       "cy": 302.7
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "04",
+     "title": [
+      "Refinamento  [498–803]"
+     ],
+     "body": [
+      "Testar o uso real, revisar os detalhes e ajustar a  [498–895]",
+      "experiência para que tudo funcione em conjunto.  [498–914]"
+     ],
+     "diagram": {
+      "left": 1313,
+      "width": 583,
+      "height": 403.6
+     },
+     "labels": [
+      {
+       "text": "Testar",
+       "textRight": 1248.2,
+       "cy": 100.9
+      },
+      {
+       "text": "Revisar",
+       "textRight": 1254.7,
+       "cy": 201.8
+      },
+      {
+       "text": "Ajustar",
+       "textRight": 1254.7,
+       "cy": 302.7
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "2560x1440": {
+   "docWidth": 2560,
+   "docHeight": 5490,
+   "title": [
+    "Processo  [806–858]",
+    "DA IDEIA AO  [880–1577]",
+    "REFINAMENTO.  [806–1675]"
+   ],
+   "lead": [
+    "Etapas  [806–845]",
+    "Os projetos da Olwtelet  [867–1428]",
+    "Productions passam por quatro  [806–1558]",
+    "momentos: ideia, investigação,  [806–1534]",
+    "construção e refinamento.  [806–1432]"
+   ],
+   "stepCount": 4,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Ideia  [806–920]"
+     ],
+     "body": [
+      "Definir o que o projeto precisa fazer, para quem e  [806–1222]",
+      "qual experiência queremos criar.  [806–1083]"
+     ],
+     "diagram": {
+      "left": 1639,
+      "width": 601,
+      "height": 416.1
+     },
+     "labels": [
+      {
+       "text": "Projeto",
+       "textRight": 1580.7,
+       "cy": 104
+      },
+      {
+       "text": "Para quem",
+       "textRight": 1593.8,
+       "cy": 208
+      },
+      {
+       "text": "Experiência",
+       "textRight": 1606.8,
+       "cy": 312
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Investigação  [806–1106]"
+     ],
+     "body": [
+      "Explorar referências, necessidades e restrições.  [806–1212]",
+      "Comparar possibilidades antes de escolher  [806–1177]",
+      "um caminho.  [806–915]"
+     ],
+     "diagram": {
+      "left": 1639,
+      "width": 601,
+      "height": 416.1
+     },
+     "labels": [
+      {
+       "text": "Referências",
+       "textRight": 1606.8,
+       "cy": 104
+      },
+      {
+       "text": "Necessidades",
+       "textRight": 1613.3,
+       "cy": 208
+      },
+      {
+       "text": "Restrições",
+       "textRight": 1600.3,
+       "cy": 312
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Construção  [806–1086]"
+     ],
+     "body": [
+      "Dar forma à interface e à lógica, conectando  [806–1182]",
+      "conteúdo, interação e tecnologia.  [806–1089]"
+     ],
+     "diagram": {
+      "left": 1639,
+      "width": 601,
+      "height": 416.1
+     },
+     "labels": [
+      {
+       "text": "Conteúdo",
+       "textRight": 1587.2,
+       "cy": 104
+      },
+      {
+       "text": "Interação",
+       "textRight": 1593.8,
+       "cy": 208
+      },
+      {
+       "text": "Tecnologia",
+       "textRight": 1600.3,
+       "cy": 312
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "04",
+     "title": [
+      "Refinamento  [806–1111]"
+     ],
+     "body": [
+      "Testar o uso real, revisar os detalhes e ajustar a  [806–1203]",
+      "experiência para que tudo funcione em conjunto.  [806–1222]"
+     ],
+     "diagram": {
+      "left": 1639,
+      "width": 601,
+      "height": 416.1
+     },
+     "labels": [
+      {
+       "text": "Testar",
+       "textRight": 1574.2,
+       "cy": 104
+      },
+      {
+       "text": "Revisar",
+       "textRight": 1580.7,
+       "cy": 208
+      },
+      {
+       "text": "Ajustar",
+       "textRight": 1580.7,
+       "cy": 312
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  }
+ }
+}

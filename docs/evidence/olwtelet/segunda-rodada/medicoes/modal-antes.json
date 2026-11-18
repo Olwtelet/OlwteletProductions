@@ -1,0 +1,1145 @@
+{
+ "build": "2ScPNEWZjIwoLexHOGa25",
+ "cases": {
+  "studio-desktop-x-150ms": {
+   "y0": 1200,
+   "closeInputAfterBackMs": 148,
+   "yAtCloseInput": 168,
+   "underReachedMsAfterBack": 616,
+   "closeMs": 468,
+   "urlChangeMs": 559,
+   "framesAfterClose": 324,
+   "awayAfterClose": 51,
+   "awayValues": [
+    168,
+    272
+   ],
+   "steps": [
+    [
+     59,
+     168,
+     true,
+     1
+    ],
+    [
+     359,
+     272,
+     true,
+     0
+    ],
+    [
+     468,
+     1200,
+     false,
+     0
+    ]
+   ],
+   "underSteps": [
+    [
+     2,
+     168
+    ]
+   ],
+   "final": {
+    "url": "/about/studio",
+    "dialog": "removed",
+    "y": 1200,
+    "htmlOverflow": "",
+    "centre": "div",
+    "focus": "body \"{\n  \"@context\": \"https:/\"",
+    "pushesToContact": 1,
+    "backs": 1
+   }
+  },
+  "studio-desktop-x-300ms": {
+   "y0": 1200,
+   "closeInputAfterBackMs": 318,
+   "yAtCloseInput": 168,
+   "underReachedMsAfterBack": 592,
+   "closeMs": 376,
+   "urlChangeMs": 414,
+   "framesAfterClose": 254,
+   "awayAfterClose": 23,
+   "awayValues": [
+    168,
+    272
+   ],
+   "steps": [
+    [
+     38,
+     168,
+     true,
+     1
+    ],
+    [
+     186,
+     272,
+     true,
+     0.36
+    ],
+    [
+     274,
+     1200,
+     true,
+     0.26
+    ]
+   ],
+   "underSteps": [
+    [
+     3,
+     168
+    ]
+   ],
+   "final": {
+    "url": "/about/studio",
+    "dialog": "removed",
+    "y": 1200,
+    "htmlOverflow": "",
+    "centre": "div",
+    "focus": "body \"{\n  \"@context\": \"https:/\"",
+    "pushesToContact": 1,
+    "backs": 1
+   }
+  },
+  "studio-desktop-x-700ms": {
+   "y0": 1200,
+   "closeInputAfterBackMs": 698,
+   "yAtCloseInput": 272,
+   "underReachedMsAfterBack": null,
+   "closeMs": 1682,
+   "urlChangeMs": 1716,
+   "framesAfterClose": 80,
+   "awayAfterClose": 80,
+   "awayValues": [
+    272,
+    274
+   ],
+   "steps": [
+    [
+     1313,
+     272,
+     true,
+     1
+    ],
+    [
+     1749,
+     274,
+     null,
+     null
+    ],
+    [
+     1758,
+     272,
+     null,
+     null
+    ]
+   ],
+   "underSteps": [
+    [
+     1,
+     168
+    ]
+   ],
+   "final": {
+    "url": "/about/studio",
+    "dialog": "removed",
+    "y": 272,
+    "htmlOverflow": "",
+    "centre": "img",
+    "focus": "body \"{\n  \"@context\": \"https:/\"",
+    "pushesToContact": 1,
+    "backs": 1
+   }
+  },
+  "studio-desktop-esc-150ms": {
+   "y0": 1200,
+   "closeInputAfterBackMs": 150,
+   "yAtCloseInput": 168,
+   "underReachedMsAfterBack": 603,
+   "closeMs": 453,
+   "urlChangeMs": 550,
+   "framesAfterClose": 280,
+   "awayAfterClose": 53,
+   "awayValues": [
+    168,
+    272
+   ],
+   "steps": [
+    [
+     50,
+     168,
+     true,
+     1
+    ],
+    [
+     355,
+     272,
+     true,
+     0
+    ],
+    [
+     453,
+     1200,
+     false,
+     0
+    ]
+   ],
+   "underSteps": [
+    [
+     3,
+     168
+    ]
+   ],
+   "final": {
+    "url": "/about/studio",
+    "dialog": "removed",
+    "y": 1200,
+    "htmlOverflow": "",
+    "centre": "div",
+    "focus": "body \"{\n  \"@context\": \"https:/\"",
+    "pushesToContact": 1,
+    "backs": 1
+   }
+  },
+  "studio-desktop-esc-300ms": {
+   "y0": 1200,
+   "closeInputAfterBackMs": 291,
+   "yAtCloseInput": 168,
+   "underReachedMsAfterBack": 591,
+   "closeMs": 402,
+   "urlChangeMs": 424,
+   "framesAfterClose": 299,
+   "awayAfterClose": 28,
+   "awayValues": [
+    168,
+    272
+   ],
+   "steps": [
+    [
+     40,
+     168,
+     true,
+     1
+    ],
+    [
+     204,
+     272,
+     true,
+     0.22
+    ],
+    [
+     300,
+     1200,
+     true,
+     0.19
+    ]
+   ],
+   "underSteps": [
+    [
+     2,
+     168
+    ]
+   ],
+   "final": {
+    "url": "/about/studio",
+    "dialog": "removed",
+    "y": 1200,
+    "htmlOverflow": "",
+    "centre": "div",
+    "focus": "body \"{\n  \"@context\": \"https:/\"",
+    "pushesToContact": 1,
+    "backs": 1
+   }
+  },
+  "studio-desktop-esc-700ms": {
+   "y0": 1200,
+   "closeInputAfterBackMs": 745,
+   "yAtCloseInput": 1200,
+   "underReachedMsAfterBack": 600,
+   "closeMs": 379,
+   "urlChangeMs": 412,
+   "framesAfterClose": 321,
+   "awayAfterClose": 0,
+   "awayValues": [],
+   "steps": [
+    [
+     58,
+     1200,
+     true,
+     1
+    ]
+   ],
+   "underSteps": [
+    [
+     2,
+     168
+    ],
+    [
+     507,
+     272
+    ],
+    [
+     600,
+     1200
+    ]
+   ],
+   "final": {
+    "url": "/about/studio",
+    "dialog": "removed",
+    "y": 1200,
+    "htmlOverflow": "",
+    "centre": "div",
+    "focus": "body \"{\n  \"@context\": \"https:/\"",
+    "pushesToContact": 1,
+    "backs": 1
+   }
+  },
+  "studio-mobile-x-150ms": {
+   "y0": 1200,
+   "closeInputAfterBackMs": 14509,
+   "yAtCloseInput": 212,
+   "underReachedMsAfterBack": null,
+   "closeMs": 371,
+   "urlChangeMs": 423,
+   "framesAfterClose": 328,
+   "awayAfterClose": 328,
+   "awayValues": [
+    212,
+    216
+   ],
+   "steps": [
+    [
+     2,
+     212,
+     true,
+     1
+    ],
+    [
+     483,
+     216,
+     null,
+     null
+    ],
+    [
+     494,
+     212,
+     null,
+     null
+    ]
+   ],
+   "underSteps": [
+    [
+     14411,
+     212
+    ]
+   ],
+   "final": {
+    "url": "/about/studio",
+    "dialog": "removed",
+    "y": 212,
+    "htmlOverflow": "",
+    "centre": "img",
+    "focus": "body \"{\n  \"@context\": \"https:/\"",
+    "pushesToContact": 1,
+    "backs": 1
+   }
+  },
+  "studio-mobile-x-300ms": {
+   "y0": 1200,
+   "closeInputAfterBackMs": 371,
+   "yAtCloseInput": 164,
+   "underReachedMsAfterBack": 665,
+   "closeMs": 395,
+   "urlChangeMs": 424,
+   "framesAfterClose": 297,
+   "awayAfterClose": 11,
+   "awayValues": [
+    164,
+    216
+   ],
+   "steps": [
+    [
+     6,
+     164,
+     true,
+     1
+    ],
+    [
+     149,
+     216,
+     true,
+     0.78
+    ],
+    [
+     294,
+     1200,
+     true,
+     0.46
+    ]
+   ],
+   "underSteps": [
+    [
+     1,
+     164
+    ]
+   ],
+   "final": {
+    "url": "/about/studio",
+    "dialog": "removed",
+    "y": 1200,
+    "htmlOverflow": "",
+    "centre": "img",
+    "focus": "body \"{\n  \"@context\": \"https:/\"",
+    "pushesToContact": 1,
+    "backs": 1
+   }
+  },
+  "studio-mobile-x-700ms": {
+   "y0": 1200,
+   "closeInputAfterBackMs": 839,
+   "yAtCloseInput": 1200,
+   "underReachedMsAfterBack": 586,
+   "closeMs": 388,
+   "urlChangeMs": 410,
+   "framesAfterClose": 335,
+   "awayAfterClose": 0,
+   "awayValues": [],
+   "steps": [
+    [
+     3,
+     1200,
+     true,
+     1
+    ]
+   ],
+   "underSteps": [
+    [
+     0,
+     164
+    ],
+    [
+     495,
+     216
+    ],
+    [
+     586,
+     1200
+    ]
+   ],
+   "final": {
+    "url": "/about/studio",
+    "dialog": "removed",
+    "y": 1200,
+    "htmlOverflow": "",
+    "centre": "img",
+    "focus": "body \"{\n  \"@context\": \"https:/\"",
+    "pushesToContact": 1,
+    "backs": 1
+   }
+  },
+  "studio-mobile-esc-150ms": {
+   "y0": 1200,
+   "closeInputAfterBackMs": 152,
+   "yAtCloseInput": 164,
+   "underReachedMsAfterBack": 620,
+   "closeMs": 332,
+   "urlChangeMs": 409,
+   "framesAfterClose": 319,
+   "awayAfterClose": 57,
+   "awayValues": [
+    164,
+    216
+   ],
+   "steps": [
+    [
+     24,
+     164,
+     true,
+     1
+    ],
+    [
+     409,
+     216,
+     null,
+     null
+    ],
+    [
+     468,
+     1200,
+     null,
+     null
+    ]
+   ],
+   "underSteps": [
+    [
+     0,
+     164
+    ]
+   ],
+   "final": {
+    "url": "/about/studio",
+    "dialog": "removed",
+    "y": 1200,
+    "htmlOverflow": "",
+    "centre": "img",
+    "focus": "body \"{\n  \"@context\": \"https:/\"",
+    "pushesToContact": 1,
+    "backs": 1
+   }
+  },
+  "process-desktop-x-150ms": {
+   "y0": 1200,
+   "closeInputAfterBackMs": 218,
+   "yAtCloseInput": 168,
+   "underReachedMsAfterBack": 530,
+   "closeMs": 378,
+   "urlChangeMs": 395,
+   "framesAfterClose": 316,
+   "awayAfterClose": 39,
+   "awayValues": [
+    168,
+    272,
+    1244
+   ],
+   "steps": [
+    [
+     41,
+     168,
+     true,
+     1
+    ],
+    [
+     259,
+     272,
+     true,
+     0.08
+    ],
+    [
+     288,
+     1244,
+     true,
+     0.06
+    ],
+    [
+     312,
+     1200,
+     true,
+     0.01
+    ]
+   ],
+   "underSteps": [
+    [
+     3,
+     168
+    ]
+   ],
+   "final": {
+    "url": "/about/process",
+    "dialog": "removed",
+    "y": 1200,
+    "htmlOverflow": "",
+    "centre": "h2",
+    "focus": "body \"{\n  \"@context\": \"https:/\"",
+    "pushesToContact": 1,
+    "backs": 1
+   }
+  },
+  "veil-desktop-x-150ms": {
+   "y0": 900,
+   "closeInputAfterBackMs": 199,
+   "yAtCloseInput": 900,
+   "underReachedMsAfterBack": 4,
+   "closeMs": 351,
+   "urlChangeMs": 380,
+   "framesAfterClose": 319,
+   "awayAfterClose": 0,
+   "awayValues": [],
+   "steps": [
+    [
+     38,
+     900,
+     true,
+     1
+    ]
+   ],
+   "underSteps": [
+    [
+     4,
+     900
+    ]
+   ],
+   "final": {
+    "url": "/projects/veil",
+    "dialog": "removed",
+    "y": 900,
+    "htmlOverflow": "",
+    "centre": "div",
+    "focus": "body \"{\n  \"@context\": \"https:/\"",
+    "pushesToContact": 1,
+    "backs": 1
+   }
+  }
+ },
+ "interrupt": {
+  "desktop": {
+   "y0": 1200,
+   "gesture": "wheel 600 px",
+   "msFromCloseInputToGesture": 584,
+   "steps": [
+    [
+     2,
+     1200
+    ],
+    [
+     269,
+     1451
+    ],
+    [
+     282,
+     1488
+    ],
+    [
+     304,
+     1511
+    ],
+    [
+     333,
+     1532
+    ],
+    [
+     340,
+     1571
+    ],
+    [
+     349,
+     1614
+    ],
+    [
+     354,
+     1629
+    ],
+    [
+     360,
+     1637
+    ],
+    [
+     366,
+     1644
+    ],
+    [
+     371,
+     1650
+    ],
+    [
+     375,
+     1657
+    ],
+    [
+     382,
+     1664
+    ],
+    [
+     392,
+     1670
+    ],
+    [
+     399,
+     1681
+    ],
+    [
+     405,
+     1687
+    ],
+    [
+     408,
+     1692
+    ],
+    [
+     414,
+     1698
+    ],
+    [
+     419,
+     1702
+    ],
+    [
+     425,
+     1707
+    ],
+    [
+     430,
+     1712
+    ],
+    [
+     436,
+     1716
+    ],
+    [
+     442,
+     1721
+    ],
+    [
+     449,
+     1725
+    ],
+    [
+     476,
+     1729
+    ],
+    [
+     481,
+     1746
+    ],
+    [
+     488,
+     1749
+    ],
+    [
+     493,
+     1752
+    ],
+    [
+     504,
+     1755
+    ],
+    [
+     508,
+     1760
+    ],
+    [
+     516,
+     1763
+    ],
+    [
+     526,
+     1765
+    ],
+    [
+     531,
+     1769
+    ],
+    [
+     542,
+     1771
+    ],
+    [
+     549,
+     1775
+    ],
+    [
+     555,
+     1777
+    ],
+    [
+     561,
+     1778
+    ],
+    [
+     569,
+     1780
+    ],
+    [
+     575,
+     1783
+    ],
+    [
+     609,
+     1784
+    ],
+    [
+     620,
+     1790
+    ],
+    [
+     627,
+     1792
+    ],
+    [
+     632,
+     1793
+    ],
+    [
+     647,
+     1794
+    ],
+    [
+     654,
+     1795
+    ],
+    [
+     658,
+     1796
+    ],
+    [
+     676,
+     1797
+    ],
+    [
+     687,
+     1798
+    ],
+    [
+     759,
+     1800
+    ]
+   ],
+   "peak": 1800,
+   "end": 1800,
+   "pulledBack": false,
+   "final": {
+    "url": "/about/studio",
+    "dialog": "removed",
+    "y": 1800,
+    "htmlOverflow": "",
+    "centre": "div",
+    "focus": "body \"{\n  \"@context\": \"https:/\"",
+    "pushesToContact": 1,
+    "backs": 1
+   }
+  },
+  "mobile": {
+   "y0": 1200,
+   "gesture": "swipe up 400 px (CDP touch)",
+   "msFromCloseInputToGesture": 529,
+   "steps": [
+    [
+     2,
+     1200
+    ],
+    [
+     240,
+     1205
+    ],
+    [
+     299,
+     1225
+    ],
+    [
+     409,
+     1245
+    ],
+    [
+     492,
+     1265
+    ],
+    [
+     544,
+     1285
+    ],
+    [
+     570,
+     1305
+    ],
+    [
+     592,
+     1325
+    ],
+    [
+     637,
+     1345
+    ],
+    [
+     698,
+     1365
+    ],
+    [
+     740,
+     1385
+    ],
+    [
+     799,
+     1405
+    ],
+    [
+     847,
+     1425
+    ],
+    [
+     877,
+     1445
+    ],
+    [
+     1198,
+     1465
+    ],
+    [
+     1239,
+     1485
+    ],
+    [
+     1265,
+     1512
+    ],
+    [
+     1391,
+     1532
+    ],
+    [
+     1445,
+     1552
+    ],
+    [
+     1501,
+     1572
+    ],
+    [
+     1607,
+     1592
+    ]
+   ],
+   "peak": 1592,
+   "end": 1592,
+   "pulledBack": false,
+   "final": {
+    "url": "/about/studio",
+    "dialog": "removed",
+    "y": 1592,
+    "htmlOverflow": "",
+    "centre": "div",
+    "focus": "body \"{\n  \"@context\": \"https:/\"",
+    "pushesToContact": 1,
+    "backs": 1
+   }
+  }
+ },
+ "paths": {
+  "directContactX": {
+   "url": "/",
+   "dialog": "removed",
+   "y": 0,
+   "htmlOverflow": "",
+   "centre": "canvas",
+   "focus": "body \"{\n  \"@context\": \"https:/\"",
+   "pushesToContact": 0,
+   "backs": 0
+  },
+  "openThenX": {
+   "y0": 900,
+   "closeMs": 342,
+   "awayAfterClose": 0,
+   "final": {
+    "url": "/about/studio",
+    "dialog": "removed",
+    "y": 900,
+    "htmlOverflow": "",
+    "centre": "div",
+    "focus": "a \"Contato\"",
+    "pushesToContact": 1,
+    "backs": 1
+   }
+  },
+  "twoContactEntries": {
+   "y0": 1200,
+   "yUnder": 1200,
+   "awayAfterClose": 0,
+   "steps": [
+    [
+     37,
+     1200,
+     true,
+     1
+    ]
+   ],
+   "final": {
+    "url": "/about/studio",
+    "dialog": "removed",
+    "y": 1200,
+    "htmlOverflow": "",
+    "centre": "div",
+    "focus": "a \"Contato\"",
+    "pushesToContact": 2,
+    "backs": 1
+   }
+  },
+  "forwardThenClose": {
+   "y0": 1200,
+   "yScrolled": 400,
+   "yUnder": 1200,
+   "awayAfterClose": 0,
+   "steps": [
+    [
+     1,
+     1200,
+     true,
+     1
+    ],
+    [
+     403,
+     1199,
+     null,
+     null
+    ],
+    [
+     408,
+     1198,
+     null,
+     null
+    ],
+    [
+     415,
+     1200,
+     null,
+     null
+    ]
+   ],
+   "final": {
+    "url": "/about/studio",
+    "dialog": "removed",
+    "y": 1200,
+    "htmlOverflow": "",
+    "centre": "div",
+    "focus": "body \"{\n  \"@context\": \"https:/\"",
+    "pushesToContact": 1,
+    "backs": 1
+   }
+  },
+  "doubleClickX": {
+   "url": "/about/studio",
+   "dialog": "removed",
+   "y": 0,
+   "htmlOverflow": "",
+   "centre": "div",
+   "focus": "a \"Contato\"",
+   "pushesToContact": 1,
+   "backs": 1
+  }
+ },
+ "filmstrips": {
+  "desktop-x-150ms": {
+   "file": "filmstrip-desktop-x-150ms.jpg",
+   "y0": 1200,
+   "closeInputAfterBackMs": 308,
+   "frames": 30,
+   "tiles": [
+    {
+     "ms": -100,
+     "y": 168,
+     "modalOpen": true,
+     "modalOpacity": 1
+    },
+    {
+     "ms": 0,
+     "y": 168,
+     "modalOpen": true,
+     "modalOpacity": 1
+    },
+    {
+     "ms": 100,
+     "y": 168,
+     "modalOpen": true,
+     "modalOpacity": 0.94
+    },
+    {
+     "ms": 200,
+     "y": 168,
+     "modalOpen": true,
+     "modalOpacity": 0.59
+    },
+    {
+     "ms": 300,
+     "y": 272,
+     "modalOpen": true,
+     "modalOpacity": 0.56
+    },
+    {
+     "ms": 400,
+     "y": 1200,
+     "modalOpen": true,
+     "modalOpacity": 0.25
+    },
+    {
+     "ms": 500,
+     "y": 1200,
+     "modalOpen": false,
+     "modalOpacity": 0
+    },
+    {
+     "ms": 700,
+     "y": 1200,
+     "modalOpen": null,
+     "modalOpacity": null
+    },
+    {
+     "ms": 1000,
+     "y": 1200,
+     "modalOpen": null,
+     "modalOpacity": null
+    },
+    {
+     "ms": 1500,
+     "y": 1200,
+     "modalOpen": null,
+     "modalOpacity": null
+    }
+   ]
+  },
+  "mobile-x-150ms": {
+   "file": "filmstrip-mobile-x-150ms.jpg",
+   "y0": 1200,
+   "closeInputAfterBackMs": 184,
+   "frames": 82,
+   "tiles": [
+    {
+     "ms": -100,
+     "y": 164,
+     "modalOpen": true,
+     "modalOpacity": 1
+    },
+    {
+     "ms": 0,
+     "y": 164,
+     "modalOpen": true,
+     "modalOpacity": 1
+    },
+    {
+     "ms": 100,
+     "y": 164,
+     "modalOpen": true,
+     "modalOpacity": 0.92
+    },
+    {
+     "ms": 200,
+     "y": 164,
+     "modalOpen": true,
+     "modalOpacity": 0.34
+    },
+    {
+     "ms": 300,
+     "y": 164,
+     "modalOpen": true,
+     "modalOpacity": 0.05
+    },
+    {
+     "ms": 400,
+     "y": 216,
+     "modalOpen": true,
+     "modalOpacity": 0.05
+    },
+    {
+     "ms": 500,
+     "y": 1200,
+     "modalOpen": false,
+     "modalOpacity": 0
+    },
+    {
+     "ms": 700,
+     "y": 1200,
+     "modalOpen": null,
+     "modalOpacity": null
+    },
+    {
+     "ms": 1000,
+     "y": 1200,
+     "modalOpen": null,
+     "modalOpacity": null
+    },
+    {
+     "ms": 1500,
+     "y": 1200,
+     "modalOpen": null,
+     "modalOpacity": null
+    }
+   ]
+  }
+ }
+}

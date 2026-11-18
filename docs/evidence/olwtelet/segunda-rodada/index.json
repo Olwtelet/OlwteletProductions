@@ -1,0 +1,29 @@
+{
+  "rodada": "Segunda rodada do proprietário (18/11/2026): narrativa de Processo e fechamento do contato logo depois de Voltar",
+  "servidor": "http://localhost:3000 (next start, scripts/start-production.cmd), só requisições GET",
+  "antes": {
+    "build": "2ScPNEWZjIwoLexHOGa25",
+    "nota": "Gravado nesta rodada, antes das mudanças, com versões anteriores de dois scripts. modal-restore.mjs: mesmo fluxo, matriz e métricas por quadro; sem longTasks nem forwardSoon; tempos contados de um ouvinte de popstate instalado depois do carregamento (roda depois de o app tratar o Voltar); screencast iniciado depois do Voltar. process-narrative.mjs: separava por espaço as letras do título que se tocam (título de 360 px: \"D A I D E I A A O\"); quebras e medidas iguais."
+  },
+  "depois": {
+    "build": "_kmMjqBIsp2D5eFvDbNj_",
+    "scripts": [
+      "scripts/brand/owner-checks/process-narrative.mjs",
+      "scripts/brand/owner-checks/modal-restore.mjs (tempos contados do próprio evento de histórico)",
+      "scripts/brand/owner-checks/narrow-widths.mjs",
+      "scripts/brand/owner-checks/modal-reappear.mjs"
+    ]
+  },
+  "arquivos": {
+    "processo/process-<largura>-<title|steps>.jpg": "depois (_kmMjqBIsp2D5eFvDbNj_): título e etapas de Processo de 320 a 2560 px, elementos fixos ocultos",
+    "processo-titulo-<390|1440>-antes-depois.jpg": "título de Processo: antes (2ScPNEWZjIwoLexHOGa25) | depois (_kmMjqBIsp2D5eFvDbNj_)",
+    "processo-etapas-<390|1440>-antes-depois.jpg": "etapas de Processo: antes (2ScPNEWZjIwoLexHOGa25) | depois (_kmMjqBIsp2D5eFvDbNj_)",
+    "modal-fechar-apos-voltar-antes-depois.jpg": "Estúdio em 1200 → contato → Política → Voltar → X 150 ms depois: quadros apresentados pelo navegador (screencast), antes (2ScPNEWZjIwoLexHOGa25) e depois (_kmMjqBIsp2D5eFvDbNj_), 1440 e 390 px",
+    "medicoes/processo-antes.json": "2ScPNEWZjIwoLexHOGa25",
+    "medicoes/processo-depois.json": "_kmMjqBIsp2D5eFvDbNj_",
+    "medicoes/modal-antes.json": "2ScPNEWZjIwoLexHOGa25",
+    "medicoes/modal-depois.json": "_kmMjqBIsp2D5eFvDbNj_",
+    "medicoes/modal-reaparecimento.json": "_kmMjqBIsp2D5eFvDbNj_: modal-reappear.mjs, tempo do Voltar ao primeiro quadro novo, caminho atual e com o atraso de 500 ms",
+    "medicoes/larguras-estreitas.json": "_kmMjqBIsp2D5eFvDbNj_: narrow-widths.mjs no build final (regressão do rodapé e dos contatos; comparado com rodada-proprietario/medicoes/larguras-estreitas-depois.json, build 2ScPNEWZjIwoLexHOGa25)"
+  }
+}

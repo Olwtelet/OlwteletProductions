@@ -1,0 +1,284 @@
+{
+  "d1440x1": {
+    "env": {
+      "tier": 0,
+      "workgridState": "work",
+      "drawingBuffer": [
+        1440,
+        900
+      ],
+      "renderTarget": [
+        1440,
+        900
+      ],
+      "rtSamples": 0,
+      "dpr": 1,
+      "camZ": 3.43
+    },
+    "clip": {
+      "x": 72,
+      "y": 495,
+      "width": 432,
+      "height": 252
+    },
+    "slow": {
+      "E_cv": 0.159,
+      "dE": 0.032,
+      "peak_cv": 0.482,
+      "peak_range": [
+        9,
+        45
+      ],
+      "vlines": [
+        0,
+        2
+      ],
+      "hlines": [
+        0,
+        1
+      ]
+    },
+    "tail": {
+      "E_cv": 0.6583,
+      "peak_range": [
+        0,
+        47
+      ]
+    }
+  },
+  "d1440x2": {
+    "env": {
+      "tier": 0,
+      "workgridState": "work",
+      "drawingBuffer": [
+        2880,
+        1800
+      ],
+      "renderTarget": [
+        2880,
+        1800
+      ],
+      "rtSamples": 0,
+      "dpr": 2,
+      "camZ": 3.43
+    },
+    "clip": {
+      "x": 72,
+      "y": 495,
+      "width": 432,
+      "height": 252
+    },
+    "slow": {
+      "E_cv": 0.123,
+      "dE": 0.0407,
+      "peak_cv": 0.3484,
+      "peak_range": [
+        9,
+        32
+      ],
+      "vlines": [
+        0,
+        1
+      ],
+      "hlines": [
+        0,
+        1
+      ]
+    },
+    "tail": {
+      "E_cv": 0.4992,
+      "peak_range": [
+        9,
+        33
+      ]
+    }
+  },
+  "w2560x1": {
+    "env": {
+      "tier": 0,
+      "workgridState": "work",
+      "drawingBuffer": [
+        2560,
+        1440
+      ],
+      "renderTarget": [
+        2560,
+        1440
+      ],
+      "rtSamples": 0,
+      "dpr": 1,
+      "camZ": 3.43
+    },
+    "clip": {
+      "x": 128,
+      "y": 792,
+      "width": 768,
+      "height": 403
+    },
+    "slow": {
+      "E_cv": 0.1001,
+      "dE": 0.027,
+      "peak_cv": 0.3921,
+      "peak_range": [
+        9,
+        37
+      ],
+      "vlines": [
+        0,
+        2
+      ],
+      "hlines": [
+        0,
+        1
+      ]
+    },
+    "tail": {
+      "E_cv": 0.7282,
+      "peak_range": [
+        0,
+        38
+      ]
+    }
+  },
+  "t768x2": {
+    "env": {
+      "tier": 0,
+      "workgridState": "work",
+      "drawingBuffer": [
+        1536,
+        2048
+      ],
+      "renderTarget": [
+        1536,
+        2048
+      ],
+      "rtSamples": 0,
+      "dpr": 2,
+      "camZ": 3.43
+    },
+    "clip": {
+      "x": 64,
+      "y": 563,
+      "width": 230,
+      "height": 287
+    },
+    "slow": {
+      "E_cv": 0.3086,
+      "dE": 0.0616,
+      "peak_cv": 0.1725,
+      "peak_range": [
+        8,
+        41
+      ],
+      "vlines": [
+        1,
+        7
+      ],
+      "hlines": [
+        1,
+        4
+      ]
+    },
+    "tail": {
+      "E_cv": 1.4654,
+      "peak_range": [
+        0,
+        43
+      ]
+    }
+  },
+  "m390x2": {
+    "env": {
+      "tier": 0,
+      "workgridState": "work",
+      "drawingBuffer": [
+        780,
+        1688
+      ],
+      "renderTarget": [
+        780,
+        1688
+      ],
+      "rtSamples": 0,
+      "dpr": 2,
+      "camZ": 3.43
+    },
+    "clip": {
+      "x": 64,
+      "y": 464,
+      "width": 117,
+      "height": 236
+    },
+    "slow": {
+      "E_cv": 0.2216,
+      "dE": 0.0317,
+      "peak_cv": 0.2144,
+      "peak_range": [
+        101,
+        219
+      ],
+      "vlines": [
+        1,
+        6
+      ],
+      "hlines": [
+        4,
+        8
+      ]
+    },
+    "tail": {
+      "E_cv": 1.5405,
+      "peak_range": [
+        0,
+        43
+      ]
+    }
+  },
+  "d1440r": {
+    "env": {
+      "tier": 0,
+      "workgridState": "work",
+      "drawingBuffer": [
+        1440,
+        900
+      ],
+      "renderTarget": [
+        1680,
+        1050
+      ],
+      "rtSamples": 0,
+      "dpr": 1,
+      "camZ": 3.43
+    },
+    "clip": {
+      "x": 72,
+      "y": 495,
+      "width": 432,
+      "height": 252
+    },
+    "slow": {
+      "E_cv": 0.1511,
+      "dE": 0.0486,
+      "peak_cv": 0.4685,
+      "peak_range": [
+        9,
+        38
+      ],
+      "vlines": [
+        0,
+        2
+      ],
+      "hlines": [
+        0,
+        1
+      ]
+    },
+    "tail": {
+      "E_cv": 0.6114,
+      "peak_range": [
+        0,
+        35
+      ]
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "title": {
+    "390": {
+      "fontSize": "48px",
+      "gapPx": 3.02,
+      "class": true,
+      "ctaToNav": 53
+    },
+    "1440": {
+      "fontSize": "172.8px",
+      "gapPx": 13.33,
+      "class": true,
+      "ctaToNav": 81
+    },
+    "2560": {
+      "fontSize": "249.6px",
+      "gapPx": 19.58,
+      "class": true,
+      "ctaToNav": 96
+    }
+  },
+  "soundControl": {
+    "before": {
+      "ctx": 1,
+      "state": "suspended",
+      "loops": 0,
+      "rms": 0,
+      "label": "Som [LIG]",
+      "name": "Som",
+      "pressed": "true",
+      "pref": null,
+      "lowpass": null,
+      "url": "/about/studio"
+    },
+    "afterFirst": {
+      "ctx": 1,
+      "state": "running",
+      "loops": 1,
+      "rms": 0.09,
+      "label": "Som [LIG]",
+      "name": "Som",
+      "pressed": "true",
+      "pref": null,
+      "lowpass": 10000,
+      "url": "/about/studio"
+    },
+    "afterSecond": {
+      "ctx": 1,
+      "state": "running",
+      "loops": 0,
+      "rms": 0,
+      "label": "Som [DESL]",
+      "name": "Som",
+      "pressed": "false",
+      "pref": "off",
+      "lowpass": 10000,
+      "url": "/about/studio"
+    }
+  },
+  "lowpassOnContact": {
+    "ctx": 1,
+    "state": "running",
+    "loops": 1,
+    "rms": 0.161,
+    "label": "Som [LIG]",
+    "name": "Som",
+    "pressed": "true",
+    "pref": null,
+    "lowpass": 300,
+    "url": "/contact"
+  },
+  "lateLoop": {
+    "ctx": 1,
+    "state": "running",
+    "loops": 0,
+    "rms": 0,
+    "label": "Som [DESL]",
+    "name": "Som",
+    "pressed": "false",
+    "pref": "off",
+    "lowpass": 10000,
+    "url": "/"
+  },
+  "process": {
+    "390": {
+      "ctaColor": "rgb(0, 0, 0)",
+      "ctaBg": "color(srgb 0 0 0 / 0.15)",
+      "numberColor": "color(srgb 0 0 0 / 0.5)",
+      "figures": [
+        [
+          120,
+          250
+        ],
+        [
+          120,
+          250
+        ],
+        [
+          120,
+          250
+        ],
+        [
+          120,
+          250
+        ]
+      ]
+    },
+    "1440": {
+      "ctaColor": "rgb(0, 0, 0)",
+      "ctaBg": "color(srgb 0 0 0 / 0.15)",
+      "numberColor": "color(srgb 0 0 0 / 0.5)",
+      "figures": [
+        [
+          954,
+          462
+        ],
+        [
+          954,
+          462
+        ],
+        [
+          954,
+          462
+        ],
+        [
+          954,
+          462
+        ]
+      ]
+    }
+  },
+  "studioCta": {
+    "color": "rgb(255, 255, 255)",
+    "bg": "color(srgb 1 1 1 / 0.15)"
+  },
+  "tileAfterTap": "rgba(165, 165, 165, 0.533)",
+  "arrows1024": [
+    [
+      32,
+      32
+    ],
+    [
+      32,
+      32
+    ]
+  ],
+  "linkedinIcon": false,
+  "keyboardOpenerHome": {
+    "url": "/contact",
+    "open": true,
+    "afterEscape": {
+      "url": "/",
+      "focused": "Vamos conversar"
+    }
+  },
+  "focusAfterNavOpener": {
+    "url": "/about/studio",
+    "focused": "A /contact Contato"
+  },
+  "privacyBackClose": {
+    "y0": 1100,
+    "yUnderModal": 1100,
+    "afterClose": [
+      1100,
+      1100,
+      1100,
+      1100,
+      1100,
+      1100,
+      1100,
+      1100,
+      1100,
+      1100,
+      1100,
+      1100
+    ],
+    "url": "/about/studio"
+  }
+}

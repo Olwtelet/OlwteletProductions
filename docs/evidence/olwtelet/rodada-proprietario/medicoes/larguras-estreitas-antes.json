@@ -1,0 +1,1889 @@
+{
+  "build": "P8C65N6TJlkS5tbYPfqyw",
+  "shots": {
+    "studio-300": {
+      "scrollWidth": 315,
+      "innerWidth": 315,
+      "where": {
+        "contactBox": [
+          158,
+          280
+        ],
+        "lines": [
+          "OLWTELET@OUTLOOK.COM [158.0–288.6]",
+          "GITHUB.COM/OLWTELET [158.0–282.0]",
+          "LINKEDIN.COM/IN/OLWTELET [158.0–314.7]",
+          "OLWTELET.VERCEL.APP [158.0–282.0]"
+        ]
+      },
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 92.6,
+            "t": 241.5,
+            "b": 257.5
+          },
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 117.9,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 60,
+            "r": 264,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 93.5,
+            "r": 264,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": -49.6
+      }
+    },
+    "studio-320": {
+      "scrollWidth": 325,
+      "innerWidth": 325,
+      "where": {
+        "contactBox": [
+          168,
+          300
+        ],
+        "lines": [
+          "OLWTELET@OUTLOOK.COM [168.0–298.6]",
+          "GITHUB.COM/OLWTELET [168.0–292.0]",
+          "LINKEDIN.COM/IN/OLWTELET [168.0–324.7]",
+          "OLWTELET.VERCEL.APP [168.0–292.0]"
+        ]
+      },
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 92.6,
+            "t": 241.5,
+            "b": 257.5
+          },
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 117.9,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 80,
+            "r": 284,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 113.5,
+            "r": 284,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": -29.6
+      }
+    },
+    "studio-340": {
+      "scrollWidth": 340,
+      "innerWidth": 340,
+      "where": {
+        "contactBox": [
+          178,
+          320
+        ],
+        "lines": [
+          "OLWTELET@OUTLOOK.COM [178.0–308.6]",
+          "GITHUB.COM/OLWTELET [178.0–302.0]",
+          "LINKEDIN.COM/IN/OLWTELET [178.0–334.7]",
+          "OLWTELET.VERCEL.APP [178.0–302.0]"
+        ]
+      },
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 92.6,
+            "t": 241.5,
+            "b": 257.5
+          },
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 117.9,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 100,
+            "r": 304,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 133.5,
+            "r": 304,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": -9.6
+      }
+    },
+    "studio-350": {
+      "scrollWidth": 350,
+      "innerWidth": 350,
+      "where": {
+        "contactBox": [
+          183,
+          330
+        ],
+        "lines": [
+          "OLWTELET@OUTLOOK.COM [183.0–313.6]",
+          "GITHUB.COM/OLWTELET [183.0–307.0]",
+          "LINKEDIN.COM/IN/OLWTELET [183.0–339.7]",
+          "OLWTELET.VERCEL.APP [183.0–307.0]"
+        ]
+      },
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 92.6,
+            "t": 241.5,
+            "b": 257.5
+          },
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 117.9,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 110,
+            "r": 314,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 143.5,
+            "r": 314,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": 0.4
+      }
+    },
+    "studio-360": {
+      "scrollWidth": 360,
+      "innerWidth": 360,
+      "where": {
+        "contactBox": [
+          188,
+          340
+        ],
+        "lines": [
+          "OLWTELET@OUTLOOK.COM [188.0–318.6]",
+          "GITHUB.COM/OLWTELET [188.0–312.0]",
+          "LINKEDIN.COM/IN/OLWTELET [188.0–344.7]",
+          "OLWTELET.VERCEL.APP [188.0–312.0]"
+        ]
+      },
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 92.6,
+            "t": 241.5,
+            "b": 257.5
+          },
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 117.9,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 120,
+            "r": 324,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 153.5,
+            "r": 324,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": 10.4
+      }
+    },
+    "studio-375": {
+      "scrollWidth": 375,
+      "innerWidth": 375,
+      "where": {
+        "contactBox": [
+          195.5,
+          355
+        ],
+        "lines": [
+          "OLWTELET@OUTLOOK.COM [195.5–326.1]",
+          "GITHUB.COM/OLWTELET [195.5–319.5]",
+          "LINKEDIN.COM/IN/OLWTELET [195.5–352.2]",
+          "OLWTELET.VERCEL.APP [195.5–319.5]"
+        ]
+      },
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 92.6,
+            "t": 241.5,
+            "b": 257.5
+          },
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 117.9,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 135,
+            "r": 339,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 168.5,
+            "r": 339,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": 25.4
+      }
+    },
+    "studio-390": {
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "where": {
+        "contactBox": [
+          203,
+          370
+        ],
+        "lines": [
+          "OLWTELET@OUTLOOK.COM [203.0–333.6]",
+          "GITHUB.COM/OLWTELET [203.0–327.0]",
+          "LINKEDIN.COM/IN/OLWTELET [203.0–359.7]",
+          "OLWTELET.VERCEL.APP [203.0–327.0]"
+        ]
+      },
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 177.4,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 150,
+            "r": 354,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 183.5,
+            "r": 354,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": 40.4
+      }
+    },
+    "studio-414": {
+      "scrollWidth": 414,
+      "innerWidth": 414,
+      "where": {
+        "contactBox": [
+          215,
+          394
+        ],
+        "lines": [
+          "OLWTELET@OUTLOOK.COM [215.0–345.6]",
+          "GITHUB.COM/OLWTELET [215.0–339.0]",
+          "LINKEDIN.COM/IN/OLWTELET [215.0–371.7]",
+          "OLWTELET.VERCEL.APP [215.0–339.0]"
+        ]
+      },
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 177.4,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 174,
+            "r": 378,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 207.5,
+            "r": 378,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": 64.4
+      }
+    },
+    "studio-600": {
+      "scrollWidth": 600,
+      "innerWidth": 600,
+      "where": {
+        "contactBox": [
+          162,
+          288
+        ],
+        "lines": [
+          "OLWTELET@OUTLOOK.COM [162.0–292.6]",
+          "GITHUB.COM/OLWTELET [162.0–286.0]",
+          "LINKEDIN.COM/IN/OLWTELET [162.0–318.7]",
+          "OLWTELET.VERCEL.APP [162.0–286.0]"
+        ]
+      },
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 177.4,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 360,
+            "r": 564,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 393.5,
+            "r": 564,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": 250.4
+      }
+    },
+    "studio-768": {
+      "scrollWidth": 768,
+      "innerWidth": 768,
+      "where": {
+        "contactBox": [
+          204,
+          372
+        ],
+        "lines": [
+          "OLWTELET@OUTLOOK.COM [204.0–334.6]",
+          "GITHUB.COM/OLWTELET [204.0–328.0]",
+          "LINKEDIN.COM/IN/OLWTELET [204.0–360.7]",
+          "OLWTELET.VERCEL.APP [204.0–328.0]"
+        ]
+      },
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 177.4,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 528,
+            "r": 732,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 561.5,
+            "r": 732,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": 418.4
+      }
+    },
+    "studio-1024": {
+      "scrollWidth": 1024,
+      "innerWidth": 1024,
+      "where": {
+        "contactBox": [
+          270,
+          500
+        ],
+        "lines": [
+          "OLWTELET@OUTLOOK.COM [270.0–400.6]",
+          "GITHUB.COM/OLWTELET [270.0–394.0]",
+          "LINKEDIN.COM/IN/OLWTELET [270.0–426.7]",
+          "OLWTELET.VERCEL.APP [270.0–394.0]"
+        ]
+      },
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 112.7,
+            "r": 400.9,
+            "t": 285.1,
+            "b": 309.1
+          },
+          {
+            "text": "Brasília",
+            "l": 187.4,
+            "r": 287.1,
+            "t": 307,
+            "b": 331
+          },
+          {
+            "text": ",",
+            "l": 287.1,
+            "r": 296.5,
+            "t": 307,
+            "b": 331
+          },
+          {
+            "text": "DF",
+            "l": 296.5,
+            "r": 326.2,
+            "t": 307,
+            "b": 331
+          },
+          {
+            "text": "Brasil",
+            "l": 217.7,
+            "r": 295.9,
+            "t": 329,
+            "b": 353
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 668.3,
+            "r": 976,
+            "t": 574.2,
+            "b": 598.2
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 718.1,
+            "r": 976,
+            "t": 596.1,
+            "b": 620.1
+          }
+        ],
+        "minGapSameRow": null
+      }
+    },
+    "studio-1280": {
+      "scrollWidth": 1280,
+      "innerWidth": 1280,
+      "where": {
+        "contactBox": [
+          334,
+          628
+        ],
+        "lines": [
+          "OLWTELET@OUTLOOK.COM [334.0–464.6]",
+          "GITHUB.COM/OLWTELET [334.0–458.0]",
+          "LINKEDIN.COM/IN/OLWTELET [334.0–490.7]",
+          "OLWTELET.VERCEL.APP [334.0–458.0]"
+        ]
+      },
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 134.3,
+            "r": 494.5,
+            "t": 356.9,
+            "b": 386.9
+          },
+          {
+            "text": "Brasília",
+            "l": 227.7,
+            "r": 352.3,
+            "t": 384.3,
+            "b": 414.3
+          },
+          {
+            "text": ",",
+            "l": 352.3,
+            "r": 364.1,
+            "t": 384.3,
+            "b": 414.3
+          },
+          {
+            "text": "DF",
+            "l": 364.1,
+            "r": 401.1,
+            "t": 384.3,
+            "b": 414.3
+          },
+          {
+            "text": "Brasil",
+            "l": 265.5,
+            "r": 363.3,
+            "t": 411.7,
+            "b": 441.7
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 773.3,
+            "r": 1157.9,
+            "t": 370.6,
+            "b": 400.6
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 804.4,
+            "r": 1126.8,
+            "t": 398,
+            "b": 428
+          }
+        ],
+        "minGapSameRow": 278.8
+      }
+    },
+    "studio-1440": {
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "where": {
+        "contactBox": [
+          461.5,
+          708
+        ],
+        "lines": [
+          "OLWTELET@OUTLOOK.COM [461.5–592.1]",
+          "GITHUB.COM/OLWTELET [461.5–585.5]",
+          "LINKEDIN.COM/IN/OLWTELET [461.5–618.2]",
+          "OLWTELET.VERCEL.APP [461.5–585.5]"
+        ]
+      },
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 155.5,
+            "r": 560.7,
+            "t": 401.8,
+            "b": 434.8
+          },
+          {
+            "text": "Brasília",
+            "l": 260.5,
+            "r": 400.8,
+            "t": 432.6,
+            "b": 465.6
+          },
+          {
+            "text": ",",
+            "l": 400.8,
+            "r": 414,
+            "t": 432.6,
+            "b": 465.6
+          },
+          {
+            "text": "DF",
+            "l": 414,
+            "r": 455.6,
+            "t": 432.6,
+            "b": 465.6
+          },
+          {
+            "text": "Brasil",
+            "l": 303.1,
+            "r": 413.1,
+            "t": 463.4,
+            "b": 496.4
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 865.6,
+            "r": 1298.3,
+            "t": 417.2,
+            "b": 450.2
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 900.6,
+            "r": 1263.3,
+            "t": 448,
+            "b": 481
+          }
+        ],
+        "minGapSameRow": 304.9
+      }
+    },
+    "studio-1920": {
+      "scrollWidth": 1944,
+      "innerWidth": 1920,
+      "where": {
+        "contactBox": [
+          611.5,
+          948
+        ],
+        "lines": [
+          "OLWTELET@OUTLOOK.COM [611.5–742.1]",
+          "GITHUB.COM/OLWTELET [611.5–735.5]",
+          "LINKEDIN.COM/IN/OLWTELET [611.5–768.2]",
+          "OLWTELET.VERCEL.APP [611.5–735.5]"
+        ]
+      },
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 197.1,
+            "r": 737.3,
+            "t": 536.4,
+            "b": 581.4
+          },
+          {
+            "text": "Brasília",
+            "l": 337.2,
+            "r": 524.1,
+            "t": 577.5,
+            "b": 622.5
+          },
+          {
+            "text": ",",
+            "l": 524.1,
+            "r": 541.7,
+            "t": 577.5,
+            "b": 622.5
+          },
+          {
+            "text": "DF",
+            "l": 541.7,
+            "r": 597.2,
+            "t": 577.5,
+            "b": 622.5
+          },
+          {
+            "text": "Brasil",
+            "l": 393.8,
+            "r": 540.5,
+            "t": 618.5,
+            "b": 663.5
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 1164.3,
+            "r": 1741.3,
+            "t": 556.9,
+            "b": 601.9
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 1211,
+            "r": 1694.6,
+            "t": 598,
+            "b": 643
+          }
+        ],
+        "minGapSameRow": 427
+      }
+    },
+    "studio-2560": {
+      "scrollWidth": 2560,
+      "innerWidth": 2560,
+      "where": {
+        "contactBox": [
+          922.5,
+          1268
+        ],
+        "lines": [
+          "OLWTELET@OUTLOOK.COM [922.5–1053.1]",
+          "GITHUB.COM/OLWTELET [922.5–1046.5]",
+          "LINKEDIN.COM/IN/OLWTELET [922.5–1079.2]",
+          "OLWTELET.VERCEL.APP [922.5–1046.5]"
+        ]
+      },
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 480.8,
+            "r": 1067.1,
+            "t": 731,
+            "b": 779
+          },
+          {
+            "text": "Brasília",
+            "l": 632.9,
+            "r": 835.8,
+            "t": 775.7,
+            "b": 823.7
+          },
+          {
+            "text": ",",
+            "l": 835.8,
+            "r": 854.8,
+            "t": 775.7,
+            "b": 823.7
+          },
+          {
+            "text": "DF",
+            "l": 854.8,
+            "r": 915,
+            "t": 775.7,
+            "b": 823.7
+          },
+          {
+            "text": "Brasil",
+            "l": 694.4,
+            "r": 853.6,
+            "t": 820.3,
+            "b": 868.3
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 1472.9,
+            "r": 2099.1,
+            "t": 753.4,
+            "b": 801.4
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 1523.6,
+            "r": 2048.4,
+            "t": 798,
+            "b": 846
+          }
+        ],
+        "minGapSameRow": 405.8
+      }
+    },
+    "process-320": {
+      "scrollWidth": 320,
+      "innerWidth": 320,
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 92.6,
+            "t": 241.5,
+            "b": 257.5
+          },
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 117.9,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 80,
+            "r": 284,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 113.5,
+            "r": 284,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": -29.6
+      }
+    },
+    "process-340": {
+      "scrollWidth": 340,
+      "innerWidth": 340,
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 92.6,
+            "t": 241.5,
+            "b": 257.5
+          },
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 117.9,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 100,
+            "r": 304,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 133.5,
+            "r": 304,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": -9.6
+      }
+    },
+    "process-360": {
+      "scrollWidth": 360,
+      "innerWidth": 360,
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 92.6,
+            "t": 241.5,
+            "b": 257.5
+          },
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 117.9,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 120,
+            "r": 324,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 153.5,
+            "r": 324,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": 10.4
+      }
+    },
+    "process-390": {
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 177.4,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 150,
+            "r": 354,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 183.5,
+            "r": 354,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": 40.4
+      }
+    },
+    "process-768": {
+      "scrollWidth": 768,
+      "innerWidth": 768,
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 177.4,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 528,
+            "r": 732,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 561.5,
+            "r": 732,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": 418.4
+      }
+    },
+    "process-1440": {
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 155.5,
+            "r": 560.7,
+            "t": 401.8,
+            "b": 434.8
+          },
+          {
+            "text": "Brasília",
+            "l": 260.5,
+            "r": 400.8,
+            "t": 432.6,
+            "b": 465.6
+          },
+          {
+            "text": ",",
+            "l": 400.8,
+            "r": 414,
+            "t": 432.6,
+            "b": 465.6
+          },
+          {
+            "text": "DF",
+            "l": 414,
+            "r": 455.6,
+            "t": 432.6,
+            "b": 465.6
+          },
+          {
+            "text": "Brasil",
+            "l": 303.1,
+            "r": 413.1,
+            "t": 463.4,
+            "b": 496.4
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 865.6,
+            "r": 1298.3,
+            "t": 417.2,
+            "b": 450.2
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 900.6,
+            "r": 1263.3,
+            "t": 448,
+            "b": 481
+          }
+        ],
+        "minGapSameRow": 304.9
+      }
+    },
+    "privacy-320": {
+      "scrollWidth": 320,
+      "innerWidth": 320,
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 92.6,
+            "t": 241.5,
+            "b": 257.5
+          },
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 117.9,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 80,
+            "r": 284,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 113.5,
+            "r": 284,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": -29.6
+      }
+    },
+    "privacy-340": {
+      "scrollWidth": 340,
+      "innerWidth": 340,
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 92.6,
+            "t": 241.5,
+            "b": 257.5
+          },
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 117.9,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 100,
+            "r": 304,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 133.5,
+            "r": 304,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": -9.6
+      }
+    },
+    "privacy-360": {
+      "scrollWidth": 360,
+      "innerWidth": 360,
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 92.6,
+            "t": 241.5,
+            "b": 257.5
+          },
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 117.9,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 120,
+            "r": 324,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 153.5,
+            "r": 324,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": 10.4
+      }
+    },
+    "privacy-390": {
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 177.4,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 150,
+            "r": 354,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 183.5,
+            "r": 354,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": 40.4
+      }
+    },
+    "privacy-768": {
+      "scrollWidth": 768,
+      "innerWidth": 768,
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 36,
+            "r": 177.4,
+            "t": 256.4,
+            "b": 272.4
+          },
+          {
+            "text": "Brasília",
+            "l": 36,
+            "r": 84.1,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": ",",
+            "l": 84.1,
+            "r": 90,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "DF",
+            "l": 90,
+            "r": 109.6,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "Brasil",
+            "l": 36,
+            "r": 72.8,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 528,
+            "r": 732,
+            "t": 271.3,
+            "b": 287.3
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 561.5,
+            "r": 732,
+            "t": 286.1,
+            "b": 302.1
+          }
+        ],
+        "minGapSameRow": 418.4
+      }
+    },
+    "privacy-1440": {
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "footer": {
+        "left": [
+          {
+            "text": "Olwtelet Productions",
+            "l": 155.5,
+            "r": 560.7,
+            "t": 401.8,
+            "b": 434.8
+          },
+          {
+            "text": "Brasília",
+            "l": 260.5,
+            "r": 400.8,
+            "t": 432.6,
+            "b": 465.6
+          },
+          {
+            "text": ",",
+            "l": 400.8,
+            "r": 414,
+            "t": 432.6,
+            "b": 465.6
+          },
+          {
+            "text": "DF",
+            "l": 414,
+            "r": 455.6,
+            "t": 432.6,
+            "b": 465.6
+          },
+          {
+            "text": "Brasil",
+            "l": 303.1,
+            "r": 413.1,
+            "t": 463.4,
+            "b": 496.4
+          }
+        ],
+        "right": [
+          {
+            "text": "OLWTELET@OUTLOOK.COM",
+            "l": 865.6,
+            "r": 1298.3,
+            "t": 417.2,
+            "b": 450.2
+          },
+          {
+            "text": "OLWTELET.VERCEL.APP",
+            "l": 900.6,
+            "r": 1263.3,
+            "t": 448,
+            "b": 481
+          }
+        ],
+        "minGapSameRow": 304.9
+      }
+    }
+  }
+}

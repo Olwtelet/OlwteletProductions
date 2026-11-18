@@ -1,0 +1,320 @@
+{
+  "d1440x1": {
+    "env": {
+      "tier": 0,
+      "workgridState": "work",
+      "drawingBuffer": [
+        1440,
+        900
+      ],
+      "renderTarget": [
+        1440,
+        900
+      ],
+      "rtSamples": 0,
+      "dpr": 1,
+      "camZ": 3.43,
+      "pin": {
+        "enabled": true,
+        "declinedBeforeMeasuring": false,
+        "repins": 0,
+        "framesOnLow": 0
+      }
+    },
+    "clip": {
+      "x": 72,
+      "y": 495,
+      "width": 432,
+      "height": 252
+    },
+    "slow": {
+      "E_cv": 0.1017,
+      "dE": 0.0073,
+      "peak_cv": 0.088,
+      "peak_range": [
+        13,
+        19
+      ],
+      "vlines": [
+        0,
+        1
+      ],
+      "hlines": [
+        0,
+        0
+      ]
+    },
+    "tail": {
+      "E_cv": 0.831,
+      "peak_range": [
+        7,
+        23
+      ]
+    }
+  },
+  "d1440x2": {
+    "env": {
+      "tier": 0,
+      "workgridState": "work",
+      "drawingBuffer": [
+        2880,
+        1800
+      ],
+      "renderTarget": [
+        2880,
+        1800
+      ],
+      "rtSamples": 0,
+      "dpr": 2,
+      "camZ": 3.43,
+      "pin": {
+        "enabled": true,
+        "declinedBeforeMeasuring": false,
+        "repins": 0,
+        "framesOnLow": 0
+      }
+    },
+    "clip": {
+      "x": 72,
+      "y": 495,
+      "width": 432,
+      "height": 252
+    },
+    "slow": {
+      "E_cv": 0.0993,
+      "dE": 0.0073,
+      "peak_cv": 0.0825,
+      "peak_range": [
+        19,
+        25
+      ],
+      "vlines": [
+        0,
+        1
+      ],
+      "hlines": [
+        0,
+        1
+      ]
+    },
+    "tail": {
+      "E_cv": 0.6765,
+      "peak_range": [
+        0,
+        31
+      ]
+    }
+  },
+  "w2560x1": {
+    "env": {
+      "tier": 0,
+      "workgridState": "work",
+      "drawingBuffer": [
+        2560,
+        1440
+      ],
+      "renderTarget": [
+        2560,
+        1440
+      ],
+      "rtSamples": 0,
+      "dpr": 1,
+      "camZ": 3.43,
+      "pin": {
+        "enabled": true,
+        "declinedBeforeMeasuring": false,
+        "repins": 0,
+        "framesOnLow": 0
+      }
+    },
+    "clip": {
+      "x": 128,
+      "y": 792,
+      "width": 768,
+      "height": 403
+    },
+    "slow": {
+      "E_cv": 0.0521,
+      "dE": 0.0045,
+      "peak_cv": 0.0781,
+      "peak_range": [
+        20,
+        25
+      ],
+      "vlines": [
+        0,
+        1
+      ],
+      "hlines": [
+        0,
+        1
+      ]
+    },
+    "tail": {
+      "E_cv": 1.0963,
+      "peak_range": [
+        4,
+        27
+      ]
+    }
+  },
+  "t768x2": {
+    "env": {
+      "tier": 0,
+      "workgridState": "work",
+      "drawingBuffer": [
+        1536,
+        2048
+      ],
+      "renderTarget": [
+        1536,
+        2048
+      ],
+      "rtSamples": 0,
+      "dpr": 2,
+      "camZ": 3.43,
+      "pin": {
+        "enabled": true,
+        "declinedBeforeMeasuring": false,
+        "repins": 0,
+        "framesOnLow": 0
+      }
+    },
+    "clip": {
+      "x": 64,
+      "y": 563,
+      "width": 230,
+      "height": 287
+    },
+    "slow": {
+      "E_cv": 0.2962,
+      "dE": 0.0209,
+      "peak_cv": 0.1017,
+      "peak_range": [
+        25,
+        36
+      ],
+      "vlines": [
+        1,
+        7
+      ],
+      "hlines": [
+        1,
+        4
+      ]
+    },
+    "tail": {
+      "E_cv": 1.3135,
+      "peak_range": [
+        3,
+        33
+      ]
+    }
+  },
+  "m390x2": {
+    "env": {
+      "tier": 0,
+      "workgridState": "work",
+      "drawingBuffer": [
+        780,
+        1688
+      ],
+      "renderTarget": [
+        780,
+        1688
+      ],
+      "rtSamples": 0,
+      "dpr": 2,
+      "camZ": 3.43,
+      "pin": {
+        "enabled": true,
+        "declinedBeforeMeasuring": false,
+        "repins": 0,
+        "framesOnLow": 0
+      }
+    },
+    "clip": {
+      "x": 64,
+      "y": 464,
+      "width": 117,
+      "height": 236
+    },
+    "slow": {
+      "E_cv": 0.2202,
+      "dE": 0.0232,
+      "peak_cv": 0.2257,
+      "peak_range": [
+        101,
+        218
+      ],
+      "vlines": [
+        1,
+        6
+      ],
+      "hlines": [
+        4,
+        8
+      ]
+    },
+    "tail": {
+      "E_cv": 1.1623,
+      "peak_range": [
+        0,
+        38
+      ]
+    }
+  },
+  "d1440r": {
+    "env": {
+      "tier": 0,
+      "workgridState": "work",
+      "drawingBuffer": [
+        1440,
+        900
+      ],
+      "renderTarget": [
+        1440,
+        900
+      ],
+      "rtSamples": 0,
+      "dpr": 1,
+      "camZ": 3.43,
+      "pin": {
+        "enabled": true,
+        "declinedBeforeMeasuring": false,
+        "repins": 0,
+        "framesOnLow": 0
+      }
+    },
+    "clip": {
+      "x": 72,
+      "y": 495,
+      "width": 432,
+      "height": 252
+    },
+    "slow": {
+      "E_cv": 0.1017,
+      "dE": 0.0073,
+      "peak_cv": 0.088,
+      "peak_range": [
+        13,
+        19
+      ],
+      "vlines": [
+        0,
+        1
+      ],
+      "hlines": [
+        0,
+        0
+      ]
+    },
+    "tail": {
+      "E_cv": 0.8531,
+      "peak_range": [
+        11,
+        23
+      ]
+    }
+  }
+}

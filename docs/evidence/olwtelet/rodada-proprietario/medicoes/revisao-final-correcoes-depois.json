@@ -1,0 +1,1103 @@
+{
+  "sound-slow-navigate": {
+    "t0": 7033,
+    "offonAt": null,
+    "particleJpgEnd": [
+      16957
+    ],
+    "otherMp3End": [
+      4439
+    ],
+    "loops": [
+      {
+        "len": 59.1,
+        "at": 4600,
+        "ended": 7272,
+        "name": "other"
+      },
+      {
+        "len": 59.1,
+        "at": 8342,
+        "ended": null,
+        "name": "other"
+      },
+      {
+        "len": 60.1,
+        "at": 9665,
+        "ended": 9669,
+        "name": "grid"
+      }
+    ],
+    "onStudio": [
+      {
+        "t": 8861,
+        "active": [
+          "other"
+        ],
+        "rms": 0.146,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 9427,
+        "active": [
+          "other"
+        ],
+        "rms": 0.186,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 9931,
+        "active": [
+          "other"
+        ],
+        "rms": 0.131,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 10434,
+        "active": [
+          "other"
+        ],
+        "rms": 0.114,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 10951,
+        "active": [
+          "other"
+        ],
+        "rms": 0.068,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 11465,
+        "active": [
+          "other"
+        ],
+        "rms": 0.162,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 11979,
+        "active": [
+          "other"
+        ],
+        "rms": 0.101,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 12495,
+        "active": [
+          "other"
+        ],
+        "rms": 0.093,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 13008,
+        "active": [
+          "other"
+        ],
+        "rms": 0.201,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 13525,
+        "active": [
+          "other"
+        ],
+        "rms": 0.107,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 14040,
+        "active": [
+          "other"
+        ],
+        "rms": 0.113,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 14543,
+        "active": [
+          "other"
+        ],
+        "rms": 0.072,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 15062,
+        "active": [
+          "other"
+        ],
+        "rms": 0.101,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 15565,
+        "active": [
+          "other"
+        ],
+        "rms": 0.084,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 16067,
+        "active": [
+          "other"
+        ],
+        "rms": 0.096,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 16584,
+        "active": [
+          "other"
+        ],
+        "rms": 0.167,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 17421,
+        "active": [
+          "other"
+        ],
+        "rms": 0.103,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 17929,
+        "active": [
+          "other"
+        ],
+        "rms": 0.079,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 18445,
+        "active": [
+          "other"
+        ],
+        "rms": 0.142,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 18964,
+        "active": [
+          "other"
+        ],
+        "rms": 0.091,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 19481,
+        "active": [
+          "other"
+        ],
+        "rms": 0.106,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 19996,
+        "active": [
+          "other"
+        ],
+        "rms": 0.17,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 20513,
+        "active": [
+          "other"
+        ],
+        "rms": 0.089,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 21027,
+        "active": [
+          "other"
+        ],
+        "rms": 0.092,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 21540,
+        "active": [
+          "other"
+        ],
+        "rms": 0.108,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 22057,
+        "active": [
+          "other"
+        ],
+        "rms": 0.108,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 22570,
+        "active": [
+          "other"
+        ],
+        "rms": 0.115,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 23085,
+        "active": [
+          "other"
+        ],
+        "rms": 0.172,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      }
+    ],
+    "contexts": 1,
+    "gridOnStudioSamples": 0,
+    "final": {
+      "t": 23085,
+      "url": "/about/studio",
+      "ctx": 1,
+      "state": "running",
+      "active": [
+        59.1
+      ],
+      "rms": 0.172,
+      "label": "Som [LIG]",
+      "pressed": "true",
+      "iconOn": 8
+    }
+  },
+  "sound-slow-navigate+offon": {
+    "t0": 6837,
+    "offonAt": 12315,
+    "particleJpgEnd": [
+      16923
+    ],
+    "otherMp3End": [
+      4198
+    ],
+    "loops": [
+      {
+        "len": 59.1,
+        "at": 4379,
+        "ended": 7077,
+        "name": "other"
+      },
+      {
+        "len": 59.1,
+        "at": 8153,
+        "ended": 11877,
+        "name": "other"
+      },
+      {
+        "len": 60.1,
+        "at": 9469,
+        "ended": 9477,
+        "name": "grid"
+      },
+      {
+        "len": 59.1,
+        "at": 12312,
+        "ended": null,
+        "name": "other"
+      }
+    ],
+    "onStudio": [
+      {
+        "t": 12317,
+        "active": [
+          "other"
+        ],
+        "rms": 0,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 12831,
+        "active": [
+          "other"
+        ],
+        "rms": 0.113,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 13345,
+        "active": [
+          "other"
+        ],
+        "rms": 0.098,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 13861,
+        "active": [
+          "other"
+        ],
+        "rms": 0.134,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 14374,
+        "active": [
+          "other"
+        ],
+        "rms": 0.128,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 14877,
+        "active": [
+          "other"
+        ],
+        "rms": 0.074,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 15381,
+        "active": [
+          "other"
+        ],
+        "rms": 0.116,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 15896,
+        "active": [
+          "other"
+        ],
+        "rms": 0.101,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 16411,
+        "active": [
+          "other"
+        ],
+        "rms": 0.103,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 16945,
+        "active": [
+          "other"
+        ],
+        "rms": 0.185,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 17461,
+        "active": [
+          "other"
+        ],
+        "rms": 0.111,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 17970,
+        "active": [
+          "other"
+        ],
+        "rms": 0.112,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 18488,
+        "active": [
+          "other"
+        ],
+        "rms": 0.071,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 19003,
+        "active": [
+          "other"
+        ],
+        "rms": 0.11,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 19518,
+        "active": [
+          "other"
+        ],
+        "rms": 0.084,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 20033,
+        "active": [
+          "other"
+        ],
+        "rms": 0.096,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 20545,
+        "active": [
+          "other"
+        ],
+        "rms": 0.174,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 21063,
+        "active": [
+          "other"
+        ],
+        "rms": 0.11,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 21580,
+        "active": [
+          "other"
+        ],
+        "rms": 0.094,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 22099,
+        "active": [
+          "other"
+        ],
+        "rms": 0.144,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 22610,
+        "active": [
+          "other"
+        ],
+        "rms": 0.109,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 23126,
+        "active": [
+          "other"
+        ],
+        "rms": 0.106,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 23640,
+        "active": [
+          "other"
+        ],
+        "rms": 0.134,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 24156,
+        "active": [
+          "other"
+        ],
+        "rms": 0.119,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 24674,
+        "active": [
+          "other"
+        ],
+        "rms": 0.109,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 25192,
+        "active": [
+          "other"
+        ],
+        "rms": 0.088,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 25708,
+        "active": [
+          "other"
+        ],
+        "rms": 0.092,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 26223,
+        "active": [
+          "other"
+        ],
+        "rms": 0.106,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      },
+      {
+        "t": 26736,
+        "active": [
+          "other"
+        ],
+        "rms": 0.175,
+        "label": "Som [LIG]",
+        "iconOn": 8
+      }
+    ],
+    "contexts": 1,
+    "gridOnStudioSamples": 0,
+    "final": {
+      "t": 26736,
+      "url": "/about/studio",
+      "ctx": 1,
+      "state": "running",
+      "active": [
+        59.1
+      ],
+      "rms": 0.175,
+      "label": "Som [LIG]",
+      "pressed": "true",
+      "iconOn": 8
+    }
+  },
+  "sound-direct-/privacy-policy": {
+    "before": {
+      "t": 5331,
+      "url": "/privacy-policy",
+      "ctx": 1,
+      "state": "suspended",
+      "active": [],
+      "rms": 0,
+      "label": "Som [LIG]",
+      "pressed": "true",
+      "iconOn": 0
+    },
+    "after": {
+      "t": 9439,
+      "url": "/privacy-policy",
+      "ctx": 1,
+      "state": "running",
+      "active": [
+        60.1
+      ],
+      "rms": 0.304,
+      "label": "Som [LIG]",
+      "pressed": "true",
+      "iconOn": 8
+    },
+    "maxRms": 0.304,
+    "loops": [
+      "grid"
+    ]
+  },
+  "sound-direct-/pagina-que-nao-existe": {
+    "before": {
+      "t": 5218,
+      "url": "/pagina-que-nao-existe",
+      "ctx": 1,
+      "state": "suspended",
+      "active": [],
+      "rms": 0,
+      "label": "Som [LIG]",
+      "pressed": "true",
+      "iconOn": 0
+    },
+    "after": {
+      "t": 9316,
+      "url": "/pagina-que-nao-existe",
+      "ctx": 1,
+      "state": "running",
+      "active": [
+        60.1
+      ],
+      "rms": 0.251,
+      "label": "Som [LIG]",
+      "pressed": "true",
+      "iconOn": 8
+    },
+    "maxRms": 0.298,
+    "loops": [
+      "grid"
+    ]
+  },
+  "sound-space-held": {
+    "t": 8224,
+    "url": "/about/studio",
+    "ctx": 1,
+    "state": "running",
+    "active": [],
+    "rms": 0,
+    "label": "Som [DESL]",
+    "pressed": "false",
+    "iconOn": 0,
+    "pref": "off"
+  },
+  "doubleX": {
+    "veil-1440-350ms": {
+      "url": "/projects/veil",
+      "open": null,
+      "y": 600,
+      "pushesToContact": 1,
+      "backs": 1,
+      "htmlOverflow": "",
+      "topAtCenter": "DIV"
+    },
+    "veil-1440-450ms": {
+      "url": "/projects/veil",
+      "open": null,
+      "y": 600,
+      "pushesToContact": 1,
+      "backs": 1,
+      "htmlOverflow": "",
+      "topAtCenter": "DIV"
+    },
+    "studio-1440-600ms": {
+      "url": "/about/studio",
+      "open": null,
+      "y": 600,
+      "pushesToContact": 1,
+      "backs": 1,
+      "htmlOverflow": "",
+      "topAtCenter": "DIV"
+    },
+    "studio-390-tap-350ms": {
+      "url": "/about/studio",
+      "open": null,
+      "y": 300,
+      "pushesToContact": 1,
+      "backs": 1,
+      "htmlOverflow": "",
+      "topAtCenter": "DIV"
+    }
+  },
+  "twoContactEntries": {
+    "y0": 1200,
+    "under": {
+      "url": "/contact",
+      "open": true,
+      "y": 1200,
+      "pushesToContact": 2,
+      "backs": 0,
+      "htmlOverflow": "hidden",
+      "topAtCenter": "DIV"
+    },
+    "afterClose": {
+      "first": 1200,
+      "last": 1200,
+      "distinct": 1
+    },
+    "final": {
+      "url": "/about/studio",
+      "open": null,
+      "y": 1200,
+      "pushesToContact": 2,
+      "backs": 1,
+      "htmlOverflow": "",
+      "topAtCenter": "DIV"
+    }
+  },
+  "quickClose": {
+    "esc-150ms": {
+      "y0": 1200,
+      "afterClose": {
+        "first": 168,
+        "last": 1200,
+        "distinct": 3
+      },
+      "glideFrames": 2,
+      "steps": [
+        [
+          0,
+          168
+        ],
+        [
+          52,
+          272
+        ],
+        [
+          53,
+          1200
+        ]
+      ],
+      "final": {
+        "url": "/about/studio",
+        "open": null,
+        "y": 1200,
+        "pushesToContact": 1,
+        "backs": 1,
+        "htmlOverflow": "",
+        "topAtCenter": "DIV"
+      }
+    },
+    "x-150ms": {
+      "y0": 1200,
+      "afterClose": {
+        "first": 168,
+        "last": 1200,
+        "distinct": 3
+      },
+      "glideFrames": 2,
+      "steps": [
+        [
+          0,
+          168
+        ],
+        [
+          51,
+          272
+        ],
+        [
+          52,
+          1200
+        ]
+      ],
+      "final": {
+        "url": "/about/studio",
+        "open": null,
+        "y": 1200,
+        "pushesToContact": 1,
+        "backs": 1,
+        "htmlOverflow": "",
+        "topAtCenter": "DIV"
+      }
+    },
+    "x-300ms": {
+      "y0": 1200,
+      "afterClose": {
+        "first": 168,
+        "last": 1200,
+        "distinct": 2
+      },
+      "glideFrames": 1,
+      "steps": [
+        [
+          0,
+          168
+        ],
+        [
+          27,
+          1200
+        ]
+      ],
+      "final": {
+        "url": "/about/studio",
+        "open": null,
+        "y": 1200,
+        "pushesToContact": 1,
+        "backs": 1,
+        "htmlOverflow": "",
+        "topAtCenter": "DIV"
+      }
+    },
+    "esc-700ms": {
+      "y0": 1200,
+      "afterClose": {
+        "first": 1200,
+        "last": 1200,
+        "distinct": 1
+      },
+      "glideFrames": 0,
+      "steps": [
+        [
+          0,
+          1200
+        ]
+      ],
+      "final": {
+        "url": "/about/studio",
+        "open": null,
+        "y": 1200,
+        "pushesToContact": 1,
+        "backs": 1,
+        "htmlOverflow": "",
+        "topAtCenter": "DIV"
+      }
+    }
+  },
+  "tabAfterPrivacyLink": [
+    {
+      "focused": "BODY {\n  \"@context\": \"https:/",
+      "step": null,
+      "invisibleInput": false,
+      "containerScrollTop": 0
+    },
+    {
+      "focused": "BUTTON Fechar contato",
+      "step": null,
+      "invisibleInput": false,
+      "containerScrollTop": 0
+    },
+    {
+      "focused": "BUTTON Projetos e parceriasQuer",
+      "step": "1",
+      "invisibleInput": false,
+      "containerScrollTop": 0
+    }
+  ],
+  "keyboardSteps": {
+    "afterEnterOnCard": {
+      "focused": "BUTTON Etapa anterior",
+      "step": "2",
+      "invisibleInput": false,
+      "containerScrollTop": 0
+    },
+    "thenTab": {
+      "focused": "BUTTON Quero apenas conversar.",
+      "step": "2",
+      "invisibleInput": false,
+      "containerScrollTop": 0
+    },
+    "afterPrevious": {
+      "focused": "BUTTON Projetos e parceriasQuer",
+      "step": "1",
+      "invisibleInput": false,
+      "containerScrollTop": 0
+    }
+  },
+  "ctaFocus": {
+    "1024": {
+      "reached": true,
+      "scrollY": 1016,
+      "maxScroll": 1016,
+      "ctaBottom": 627,
+      "viewport": 768,
+      "pillTop": 693,
+      "gapToPill": 66,
+      "pointsCovered": 0,
+      "points": 27
+    },
+    "1280": {
+      "reached": true,
+      "scrollY": 1251,
+      "maxScroll": 1258,
+      "ctaBottom": 656,
+      "viewport": 800,
+      "pillTop": 724,
+      "gapToPill": 68,
+      "pointsCovered": 0,
+      "points": 27
+    },
+    "1440": {
+      "reached": true,
+      "scrollY": 1268,
+      "maxScroll": 1282,
+      "ctaBottom": 756,
+      "viewport": 900,
+      "pillTop": 813,
+      "gapToPill": 57,
+      "pointsCovered": 0,
+      "points": 27
+    },
+    "1920": {
+      "reached": true,
+      "scrollY": 1362,
+      "maxScroll": 1390,
+      "ctaBottom": 936,
+      "viewport": 1080,
+      "pillTop": 990,
+      "gapToPill": 54,
+      "pointsCovered": 0,
+      "points": 27
+    }
+  },
+  "tabAfterQuickClose": {
+    "y0": 3000,
+    "url": "/projects/filmes-hd-online-gratis",
+    "y": 128,
+    "focused": "Web",
+    "focusTop": 436,
+    "onScreen": true
+  },
+  "forwardThenClose": {
+    "yScrolled": 600,
+    "yUnder": 3000,
+    "afterClose": {
+      "first": 3000,
+      "last": 3000,
+      "distinct": 3
+    },
+    "moves": 3,
+    "steps": [
+      [
+        0,
+        3000
+      ],
+      [
+        49,
+        2999
+      ],
+      [
+        50,
+        2997
+      ],
+      [
+        51,
+        3000
+      ]
+    ],
+    "final": {
+      "url": "/projects/filmes-hd-online-gratis",
+      "open": null,
+      "y": 3000,
+      "pushesToContact": 1,
+      "backs": 1,
+      "htmlOverflow": "",
+      "topAtCenter": "IMG"
+    },
+    "scrollRestoration": "auto"
+  },
+  "inFlight": {
+    "studio→privacy": {
+      "url": "/privacy-policy",
+      "loops": [
+        "other"
+      ],
+      "final": {
+        "t": 25389,
+        "url": "/privacy-policy",
+        "ctx": 1,
+        "state": "running",
+        "active": [
+          59.1
+        ],
+        "rms": 0.118,
+        "label": "Som [LIG]",
+        "pressed": "true",
+        "iconOn": 8
+      }
+    },
+    "veil→contact": {
+      "url": "/contact",
+      "loops": [
+        "project"
+      ],
+      "final": {
+        "t": 24952,
+        "url": "/contact",
+        "ctx": 1,
+        "state": "running",
+        "active": [
+          52.9
+        ],
+        "rms": 0.24,
+        "label": "Som [LIG]",
+        "pressed": "true",
+        "iconOn": 8
+      }
+    }
+  },
+  "lowpassAfterQuickOpen": {
+    "url": "/contact",
+    "frequency": [
+      [
+        600,
+        300
+      ],
+      [
+        1500,
+        300
+      ],
+      [
+        2500,
+        300
+      ],
+      [
+        4000,
+        300
+      ]
+    ]
+  },
+  "retryAfterOffline": {
+    "requests": 3,
+    "loops": [
+      "grid(ended)",
+      "other"
+    ],
+    "final": {
+      "t": 16854,
+      "url": "/about/studio",
+      "ctx": 1,
+      "state": "running",
+      "active": [
+        59.1
+      ],
+      "rms": 0.165,
+      "label": "Som [LIG]",
+      "pressed": "true",
+      "iconOn": 8
+    }
+  },
+  "indexAlias": {
+    "onProject": {
+      "url": "/projects/veil",
+      "active": [
+        "project"
+      ]
+    },
+    "afterBack": {
+      "t": 26269,
+      "url": "/index",
+      "ctx": 1,
+      "state": "running",
+      "active": [
+        "grid"
+      ],
+      "rms": 0.171,
+      "label": "Som [LIG]",
+      "pressed": "true",
+      "iconOn": 8
+    }
+  }
+}

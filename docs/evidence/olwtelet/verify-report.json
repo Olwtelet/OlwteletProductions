@@ -1,0 +1,3482 @@
+{
+  "base": "http://localhost:3000",
+  "startedAt": "2026-11-18T03:00:58.863Z",
+  "complete": true,
+  "blockExternal": false,
+  "viewports": {
+    "d1440": {
+      "console": [
+        "warning: THREE.WebGLProgram: Program Info Log: (135,12-86): warning X3595: gradient instruction used in a loop with varying iteration; partial derivatives may have undefined value\n(135,12-86): warning X3595: g",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "error: Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+        "error: Network error submitting form: Error: Submission failed: {\"error\":\"integration not configured\"}\n    at $ (http://localhost:3000/_next/static/chunks/3fyfjpdoi4y3o.js:1:7326)\n    at async http://localho",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "external": [
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l"
+      ],
+      "checks": {
+        "webgl2": true,
+        "homeTitle": "Olwtelet Productions — Software, jogos e experiências digitais",
+        "lang": "pt-BR",
+        "h1": [
+          "Olwtelet Productions: software, jogos e experiências digitais."
+        ],
+        "headerMark": {
+          "w": 46,
+          "h": 58,
+          "color": "rgb(255, 255, 255)"
+        },
+        "clock": [
+          "Brasília, BR00:01 GMT-3",
+          "Brasília, BR00:01 GMT-3"
+        ],
+        "nav": [
+          "Projetos→/",
+          "Sobre→/about/studio",
+          "Contato→/contact"
+        ],
+        "probeClicks": [
+          "0.12,0.2→/",
+          "0.88,0.2→/",
+          "0.12,0.82→/",
+          "0.88,0.82→/",
+          "0.5,0.1→/"
+        ],
+        "probeNavigations": 0,
+        "toggleButtons": 2,
+        "list": {
+          "open": true,
+          "docOverflowX": 0,
+          "wrapOverflowX": 0,
+          "broken": [],
+          "overlaps": [],
+          "underControls": [],
+          "scrollTop": 0,
+          "scrollRange": 0,
+          "headerGap": {
+            "layout": "side by side",
+            "px": 234
+          },
+          "titleLines": 2,
+          "countLines": 2,
+          "count": "1 projeto publicado · 1 em desenvolvimento",
+          "rows": [
+            {
+              "href": "/projects/filmes-hd-online-gratis",
+              "title": "Filmes HD Online Grátis",
+              "titleLines": 1,
+              "detail": "filmeshdonlinegratis.vercel.app",
+              "detailTitleAttr": "filmeshdonlinegratis.vercel.app",
+              "detailSpare": 0,
+              "detailTruncated": false,
+              "detailLines": 1
+            },
+            {
+              "href": "/projects/veil",
+              "title": "Veil",
+              "titleLines": 1,
+              "detail": "Apresentação do projeto",
+              "detailTitleAttr": "Apresentação do projeto",
+              "detailSpare": 0,
+              "detailTruncated": false,
+              "detailLines": 1
+            }
+          ],
+          "groups": [
+            "Publicados",
+            "Em desenvolvimento"
+          ]
+        },
+        "filters": "TIPO | Todos | Web | Jogo | CATEGORIA | CINEMA | CURADORIA | COMUNIDADE | ESTRATÉGIA | NAVEGADOR",
+        "emptyList": "Todos os projetos | 0 projetos publicados | Nenhum projeto corresponde a este filtro. | VER TODOS OS PROJETOS",
+        "listAtEnd": {
+          "scrollTop": 0,
+          "scrollRange": 0,
+          "underControls": []
+        },
+        "listLinks": [
+          "Filmes HD Online Grátis→/projects/filmes-hd-online-gratis",
+          "Veil→/projects/veil"
+        ],
+        "listFilterWeb": {
+          "url": "/?zone=web",
+          "count": "1 projeto publicado",
+          "rows": [
+            "Filmes HD Online Grátis"
+          ]
+        },
+        "listAfterTodos": {
+          "url": "/",
+          "count": "1 projeto publicado · 1 em desenvolvimento",
+          "rows": 2
+        },
+        "listFilterJogo": {
+          "count": "1 em desenvolvimento",
+          "rows": [
+            "Veil"
+          ],
+          "groups": [
+            "Em desenvolvimento"
+          ]
+        },
+        "listEmpty": {
+          "count": "0 projetos publicados",
+          "groups": [
+            "Nenhum projeto corresponde a este filtro."
+          ]
+        },
+        "listEmptyRestored": {
+          "url": "/",
+          "count": "1 projeto publicado · 1 em desenvolvimento",
+          "rows": 2
+        },
+        "caseTitle": "Filmes HD Online Grátis · Olwtelet Productions",
+        "caseLive": [
+          "VER O SITEfilmeshdonlinegratis.vercel.app↗→https://filmeshdonlinegratis.vercel.app/"
+        ],
+        "caseText": "FILMES HD | ONLINE GRÁTIS | TIPO E STATUS | WEB | PUBLICADO | VER O SITE | FILMESHDONLINEGRATIS.VERCEL.APP↗ | Uma curadoria cinematográfica independente que reúne programação, textos sobre os filmes e sessões ao vivo no Discord. | SOBRE | Filmes HD Online Grátis é o primeiro projeto publicado da Olwtelet Productions. O site organiza uma programação de cinema: como ele mesmo descreve, cada sessão é escolhida por quem assistiu ao filme e tem o motivo da escolha registrado. | A exibição acontece ao vivo, em uma sala do Discord. O site não hospeda filmes: ele apresenta a programação, os textos e as informações de cada sessão, e leva quem quiser participar até a sala. | CATEGORIAS | CINEMA | CURADORIA | COMUNIDADE | PROGRAMAÇÃO | A página inicial é a própria programação. Cada sessão ocupa a tela com a data, o horário e a sala, e a navegação acontece arrastando o conteúdo, rolando entre as sessões ou indo direto a um filme pelo menu. | A programação também pode ser vista em outros modos e acompanhada por RSS. | CADA SESSÃO | Cada sessão tem uma página própria, com sinopse, ficha técnica, elenco, galeria, trailer e uma série de leituras curtas sobre cenas do filme. | A ficha da sessão reúne data, horário, sala, classificação etária e gêneros. | NA SALA | O bloco final de cada sessão explica como participar: o dia e o horário, a sala no Discord e os combinados para assistir junto, como chegar alguns minutos antes, manter o microfone mudo e não dar spoiler no chat. | SOBRE AS IMAGENS | As imagens desta página são capturas do site publicado, feitas em novembro de 2026. A programação ",
+        "veilTitle": "Veil · Olwtelet Productions",
+        "veilLinks": [],
+        "veilText": "VEIL | TIPO E STATUS | JOGO | EM DESENVOLVIMENTO | Um jogo de estratégia para navegador inspirado no xadrez, em desenvolvimento. | SOBRE | Veil é o projeto em desenvolvimento da Olwtelet Productions: um jogo de estratégia para navegador inspirado no xadrez. | Esta página é uma apresentação do projeto. Ainda não há versão pública, e a imagem acima é uma composição gráfica, não uma captura do jogo. | CATEGORIAS | ESTRATÉGIA | NAVEGADOR | Ver todos os projetos | SOM [LIG] | ESTÚDIO INDEPENDENTE EM BRASÍLIA: SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. | BRASÍLIA, BR | 00:03 GMT-3 | Vamos Conversar | Projetos | Sobre | Contato",
+        "about_studio": "Estúdio | Processo | ESTÚDIO | SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. | SOBRE | A Olwtelet Productions é o espaço de criação independente de Isaac Rodrigues. A partir de Brasília, reúne projetos próprios de software, jogos e aplicações web, com atenção à arquitetura, à interface e ao comportamento de cada experiência. | PROJETOS | O primeiro projeto publicado é Filmes HD Online Grátis, uma curadoria cinematográfica com programação de sessões ao vivo no Discord. Também está em desenvolvimento Veil, um jogo de estratégia inspirado no xadrez. A proposta é construir um catálogo autoral, projeto por projeto. | 01 | Filmes HD Online Grátis | Publicado. | Curadoria cinematográfica independente com programação, textos sobre os filmes e sessões ao vivo no Discord. | VER O PROJETO | 02 | Veil | Em desenvolvimento. | Jogo de estratégia para navegador inspirado no xadrez. Ainda sem versão pública. | VER A APRESENTAÇÃO | CRIADOR | Por trás da Olwtelet Productions está Isaac Rodrigues, desenvolvedor de software em Brasília que assina como Olwtelet. Estuda Ciência da Computação e trabalha com desenvolvimento web, com interesse em inteligência artificial, cibersegurança e arquitetura de sistemas. | ISAAC RODRIGUES (OLWTELET) | CRIADOR · DESENVOLVEDOR DE SOFTWARE | Olwtelet | 1 | Brasília, Brasil | BRASÍLIA, DF | BRASIL | OLWTELET@OUTLOOK.COM | GITHUB.COM/OLWTELET | LINKEDIN.COM/IN/OLWTELET | OLWTELET.VERCEL.APP | CONTATO | Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. | VAMOS CONVERSAR | OLWTELET PRODUCTIONS | BRASÍLIA, DF | BRASIL | POLÍTICA DE PRIVACIDADE | OLWTELET@OUTLOOK.COM | OLWTELET.VERCEL.APP | SOM [LIG] | ESTÚDIO INDEPENDENTE EM BRASÍLIA: SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. | BRASÍLIA, BR | 00:03 GMT-3 | Vamos Conversar | Projetos | Sobre | Contato",
+        "about_process": "Estúdio | Processo | PROCESSO | DA IDEIA AO REFINAMENTO. | ETAPAS | Os projetos da Olwtelet Productions passam por quatro momentos: ideia, investigação, construção e refinamento. | 01 | 01. | Ideia | Definir o que o projeto precisa fazer, para quem e qual experiência queremos criar. | PROJETO | PARA QUEM | EXPERIÊNCIA | 02 | 02. | Investigação | Explorar referências, necessidades e restrições. Comparar possibilidades antes de escolher um caminho. | REFERÊNCIAS | NECESSIDADES | RESTRIÇÕES | 03 | 03. | Construção | Dar forma à interface e à lógica, conectando conteúdo, interação e tecnologia. | CONTEÚDO | INTERAÇÃO | TECNOLOGIA | 04 | 04. | Refinamento | Testar o uso real, revisar os detalhes e ajustar a experiência para que tudo funcione em conjunto. | TESTAR | REVISAR | AJUSTAR | CONTATO | Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. | VAMOS CONVERSAR | OLWTELET PRODUCTIONS | BRASÍLIA, DF | BRASIL | POLÍTICA DE PRIVACIDADE | OLWTELET@OUTLOOK.COM | OLWTELET.VERCEL.APP | SOM [LIG] | ESTÚDIO INDEPENDENTE EM BRASÍLIA: SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. | BRASÍLIA, BR | 00:03 GMT-3 | Vamos Conversar | Projetos | Sobre | Contato",
+        "contactUrl": "/contact",
+        "contactText": "LWTELET.VERCEL.APP | SOM [LIG] | ESTÚDIO INDEPENDENTE EM BRASÍLIA: SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. | BRASÍLIA, BR | 00:03 GMT-3 | Vamos Conversar | VAMOS CONVERSAR | Olá! Que bom ter você por aqui. | PROJETOS E PARCERIAS | Quero conversar sobre um projeto ou uma parceria. | VEIL | Quero saber mais sobre o Veil. | OUTROS ASSUNTOS | Só quero dizer olá. | E-MAIL OLWTELET@OUTLOOK.COM | LINKEDIN OLWTELET | Política de privacidade | 01 | Conte um pouco sobre a sua ideia. | QUERO APENAS CONVERSAR. | TENHO ALGUMAS IDEIAS. | TENHO ALGO BEM DEFINIDO. | 02 | Nome completo* | 03 | E-mail* | 04 | Empresa ou projeto | 05 | Escreva uma mensagem. | Enviar | CONCLUÍDO | Mensagem enviada. | Obrigado pelo contato. | Sua mensagem foi enviada. | Se houver retorno, ele será feito pelo e-mail que você informou. | Se precisar complementar alguma informação, escreva para olwtelet@outlook.com. | Concluir",
+        "contactLinks": [
+          "mailto:olwtelet@outlook.com",
+          "https://www.linkedin.com/in/olwtelet/",
+          "mailto:olwtelet@outlook.com",
+          "https://www.linkedin.com/in/olwtelet/",
+          "mailto:olwtelet@outlook.com?subject=Veil",
+          "mailto:olwtelet@outlook.com",
+          "https://www.linkedin.com/in/olwtelet/"
+        ],
+        "contactSubmit": "Não foi possível enviar a mensagem agora. Escreva para olwtelet@outlook.com.",
+        "contactNameError": null,
+        "status /projects/alter-ego": 404,
+        "status /careers": 404,
+        "status /about/agency": 404,
+        "notFoundTitle": "Página não encontrada · Olwtelet Productions",
+        "head": {
+          "title": "Política de privacidade · Olwtelet Productions",
+          "description": "Como a Olwtelet Productions trata os dados de quem visita o site e usa o formulário de contato.",
+          "og": [
+            "og:title=Política de privacidade · Olwtelet Productions",
+            "og:description=Como a Olwtelet Productions trata os dados de quem visita o site e usa o formulário de contato.",
+            "og:site_name=Olwtelet Productions",
+            "og:locale=pt_BR",
+            "og:type=website"
+          ],
+          "icons": [
+            "manifest /manifest.webmanifest",
+            "icon /favicon.ico?favicon.01_kr7wrqt5zj.ico",
+            "icon /icon.svg?icon.1inz07-xs8ex7.svg",
+            "apple-touch-icon /apple-icon.png?apple-icon.0i0h-kzf7fiaq.png"
+          ],
+          "jsonld": [
+            "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Olwtelet Productions\",\n  \"description\": \"Espaço de criação independente de Isaac Rodrigues (Olwtelet), em Brasília: projetos próprios de software, jogos e aplicações web.\",\n  \"email\": \"olwtelet@outlook.com\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Brasília\",\n    \"addressRegion\": \"DF\",\n    \"addr",
+            "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebSite\",\n  \"name\": \"Olwtelet Productions\",\n  \"inLanguage\": \"pt-BR\"\n}"
+          ]
+        }
+      }
+    },
+    "d1920": {
+      "console": [
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "error: Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+        "error: Network error submitting form: Error: Submission failed: {\"error\":\"integration not configured\"}\n    at $ (http://localhost:3000/_next/static/chunks/3fyfjpdoi4y3o.js:1:7326)\n    at async http://localho",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "external": [
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l"
+      ],
+      "checks": {
+        "webgl2": true,
+        "homeTitle": "Olwtelet Productions — Software, jogos e experiências digitais",
+        "lang": "pt-BR",
+        "h1": [
+          "Olwtelet Productions: software, jogos e experiências digitais."
+        ],
+        "headerMark": {
+          "w": 46,
+          "h": 58,
+          "color": "rgb(255, 255, 255)"
+        },
+        "clock": [
+          "Brasília, BR00:04 GMT-3",
+          "Brasília, BR00:04 GMT-3"
+        ],
+        "nav": [
+          "Projetos→/",
+          "Sobre→/about/studio",
+          "Contato→/contact"
+        ],
+        "probeClicks": [
+          "0.12,0.2→/",
+          "0.88,0.2→/",
+          "0.12,0.82→/",
+          "0.88,0.82→/",
+          "0.5,0.1→/"
+        ],
+        "probeNavigations": 0,
+        "toggleButtons": 2,
+        "list": {
+          "open": true,
+          "docOverflowX": 0,
+          "wrapOverflowX": 0,
+          "broken": [],
+          "overlaps": [],
+          "underControls": [],
+          "scrollTop": 0,
+          "scrollRange": 0,
+          "headerGap": {
+            "layout": "side by side",
+            "px": 174
+          },
+          "titleLines": 1,
+          "countLines": 1,
+          "count": "1 projeto publicado · 1 em desenvolvimento",
+          "rows": [
+            {
+              "href": "/projects/filmes-hd-online-gratis",
+              "title": "Filmes HD Online Grátis",
+              "titleLines": 1,
+              "detail": "filmeshdonlinegratis.vercel.app",
+              "detailTitleAttr": "filmeshdonlinegratis.vercel.app",
+              "detailSpare": 0,
+              "detailTruncated": false,
+              "detailLines": 1
+            },
+            {
+              "href": "/projects/veil",
+              "title": "Veil",
+              "titleLines": 1,
+              "detail": "Apresentação do projeto",
+              "detailTitleAttr": "Apresentação do projeto",
+              "detailSpare": 0,
+              "detailTruncated": false,
+              "detailLines": 1
+            }
+          ],
+          "groups": [
+            "Publicados",
+            "Em desenvolvimento"
+          ]
+        },
+        "filters": "TIPO | Todos | Web | Jogo | CATEGORIA | CINEMA | CURADORIA | COMUNIDADE | ESTRATÉGIA | NAVEGADOR",
+        "emptyList": "Todos os projetos | 0 projetos publicados | Nenhum projeto corresponde a este filtro. | VER TODOS OS PROJETOS",
+        "listAtEnd": {
+          "scrollTop": 0,
+          "scrollRange": 0,
+          "underControls": []
+        },
+        "listLinks": [
+          "Filmes HD Online Grátis→/projects/filmes-hd-online-gratis",
+          "Veil→/projects/veil"
+        ],
+        "listFilterWeb": {
+          "url": "/?zone=web",
+          "count": "1 projeto publicado",
+          "rows": [
+            "Filmes HD Online Grátis"
+          ]
+        },
+        "listAfterTodos": {
+          "url": "/",
+          "count": "1 projeto publicado · 1 em desenvolvimento",
+          "rows": 2
+        },
+        "listFilterJogo": {
+          "count": "1 em desenvolvimento",
+          "rows": [
+            "Veil"
+          ],
+          "groups": [
+            "Em desenvolvimento"
+          ]
+        },
+        "listEmpty": {
+          "count": "0 projetos publicados",
+          "groups": [
+            "Nenhum projeto corresponde a este filtro."
+          ]
+        },
+        "listEmptyRestored": {
+          "url": "/",
+          "count": "1 projeto publicado · 1 em desenvolvimento",
+          "rows": 2
+        },
+        "caseTitle": "Filmes HD Online Grátis · Olwtelet Productions",
+        "caseLive": [
+          "VER O SITEfilmeshdonlinegratis.vercel.app↗→https://filmeshdonlinegratis.vercel.app/"
+        ],
+        "caseText": "FILMES HD | ONLINE GRÁTIS | TIPO E STATUS | WEB | PUBLICADO | VER O SITE | FILMESHDONLINEGRATIS.VERCEL.APP↗ | Uma curadoria cinematográfica independente que reúne programação, textos sobre os filmes e sessões ao vivo no Discord. | SOBRE | Filmes HD Online Grátis é o primeiro projeto publicado da Olwtelet Productions. O site organiza uma programação de cinema: como ele mesmo descreve, cada sessão é escolhida por quem assistiu ao filme e tem o motivo da escolha registrado. | A exibição acontece ao vivo, em uma sala do Discord. O site não hospeda filmes: ele apresenta a programação, os textos e as informações de cada sessão, e leva quem quiser participar até a sala. | CATEGORIAS | CINEMA | CURADORIA | COMUNIDADE | PROGRAMAÇÃO | A página inicial é a própria programação. Cada sessão ocupa a tela com a data, o horário e a sala, e a navegação acontece arrastando o conteúdo, rolando entre as sessões ou indo direto a um filme pelo menu. | A programação também pode ser vista em outros modos e acompanhada por RSS. | CADA SESSÃO | Cada sessão tem uma página própria, com sinopse, ficha técnica, elenco, galeria, trailer e uma série de leituras curtas sobre cenas do filme. | A ficha da sessão reúne data, horário, sala, classificação etária e gêneros. | NA SALA | O bloco final de cada sessão explica como participar: o dia e o horário, a sala no Discord e os combinados para assistir junto, como chegar alguns minutos antes, manter o microfone mudo e não dar spoiler no chat. | SOBRE AS IMAGENS | As imagens desta página são capturas do site publicado, feitas em novembro de 2026. A programação ",
+        "veilTitle": "Veil · Olwtelet Productions",
+        "veilLinks": [],
+        "veilText": "VEIL | TIPO E STATUS | JOGO | EM DESENVOLVIMENTO | Um jogo de estratégia para navegador inspirado no xadrez, em desenvolvimento. | SOBRE | Veil é o projeto em desenvolvimento da Olwtelet Productions: um jogo de estratégia para navegador inspirado no xadrez. | Esta página é uma apresentação do projeto. Ainda não há versão pública, e a imagem acima é uma composição gráfica, não uma captura do jogo. | CATEGORIAS | ESTRATÉGIA | NAVEGADOR | Ver todos os projetos | SOM [LIG] | ESTÚDIO INDEPENDENTE EM BRASÍLIA: SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. | BRASÍLIA, BR | 00:06 GMT-3 | Vamos Conversar | Projetos | Sobre | Contato",
+        "about_studio": "Estúdio | Processo | ESTÚDIO | SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. | SOBRE | A Olwtelet Productions é o espaço de criação independente de Isaac Rodrigues. A partir de Brasília, reúne projetos próprios de software, jogos e aplicações web, com atenção à arquitetura, à interface e ao comportamento de cada experiência. | PROJETOS | O primeiro projeto publicado é Filmes HD Online Grátis, uma curadoria cinematográfica com programação de sessões ao vivo no Discord. Também está em desenvolvimento Veil, um jogo de estratégia inspirado no xadrez. A proposta é construir um catálogo autoral, projeto por projeto. | 01 | Filmes HD Online Grátis | Publicado. | Curadoria cinematográfica independente com programação, textos sobre os filmes e sessões ao vivo no Discord. | VER O PROJETO | 02 | Veil | Em desenvolvimento. | Jogo de estratégia para navegador inspirado no xadrez. Ainda sem versão pública. | VER A APRESENTAÇÃO | CRIADOR | Por trás da Olwtelet Productions está Isaac Rodrigues, desenvolvedor de software em Brasília que assina como Olwtelet. Estuda Ciência da Computação e trabalha com desenvolvimento web, com interesse em inteligência artificial, cibersegurança e arquitetura de sistemas. | ISAAC RODRIGUES (OLWTELET) | CRIADOR · DESENVOLVEDOR DE SOFTWARE | Olwtelet | 1 | Brasília, Brasil | BRASÍLIA, DF | BRASIL | OLWTELET@OUTLOOK.COM | GITHUB.COM/OLWTELET | LINKEDIN.COM/IN/OLWTELET | OLWTELET.VERCEL.APP | CONTATO | Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. | VAMOS CONVERSAR | OLWTELET PRODUCTIONS | BRASÍLIA, DF | BRASIL | POLÍTICA DE PRIVACIDADE | OLWTELET@OUTLOOK.COM | OLWTELET.VERCEL.APP | SOM [LIG] | ESTÚDIO INDEPENDENTE EM BRASÍLIA: SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. | BRASÍLIA, BR | 00:06 GMT-3 | Vamos Conversar | Projetos | Sobre | Contato",
+        "about_process": "Estúdio | Processo | PROCESSO | DA IDEIA AO REFINAMENTO. | ETAPAS | Os projetos da Olwtelet Productions passam por quatro momentos: ideia, investigação, construção e refinamento. | 01 | 01. | Ideia | Definir o que o projeto precisa fazer, para quem e qual experiência queremos criar. | PROJETO | PARA QUEM | EXPERIÊNCIA | 02 | 02. | Investigação | Explorar referências, necessidades e restrições. Comparar possibilidades antes de escolher um caminho. | REFERÊNCIAS | NECESSIDADES | RESTRIÇÕES | 03 | 03. | Construção | Dar forma à interface e à lógica, conectando conteúdo, interação e tecnologia. | CONTEÚDO | INTERAÇÃO | TECNOLOGIA | 04 | 04. | Refinamento | Testar o uso real, revisar os detalhes e ajustar a experiência para que tudo funcione em conjunto. | TESTAR | REVISAR | AJUSTAR | CONTATO | Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. | VAMOS CONVERSAR | OLWTELET PRODUCTIONS | BRASÍLIA, DF | BRASIL | POLÍTICA DE PRIVACIDADE | OLWTELET@OUTLOOK.COM | OLWTELET.VERCEL.APP | SOM [LIG] | ESTÚDIO INDEPENDENTE EM BRASÍLIA: SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. | BRASÍLIA, BR | 00:06 GMT-3 | Vamos Conversar | Projetos | Sobre | Contato",
+        "contactUrl": "/contact",
+        "contactText": "LWTELET.VERCEL.APP | SOM [LIG] | ESTÚDIO INDEPENDENTE EM BRASÍLIA: SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. | BRASÍLIA, BR | 00:07 GMT-3 | Vamos Conversar | VAMOS CONVERSAR | Olá! Que bom ter você por aqui. | PROJETOS E PARCERIAS | Quero conversar sobre um projeto ou uma parceria. | VEIL | Quero saber mais sobre o Veil. | OUTROS ASSUNTOS | Só quero dizer olá. | E-MAIL OLWTELET@OUTLOOK.COM | LINKEDIN OLWTELET | Política de privacidade | 01 | Conte um pouco sobre a sua ideia. | QUERO APENAS CONVERSAR. | TENHO ALGUMAS IDEIAS. | TENHO ALGO BEM DEFINIDO. | 02 | Nome completo* | 03 | E-mail* | 04 | Empresa ou projeto | 05 | Escreva uma mensagem. | Enviar | CONCLUÍDO | Mensagem enviada. | Obrigado pelo contato. | Sua mensagem foi enviada. | Se houver retorno, ele será feito pelo e-mail que você informou. | Se precisar complementar alguma informação, escreva para olwtelet@outlook.com. | Concluir",
+        "contactLinks": [
+          "mailto:olwtelet@outlook.com",
+          "https://www.linkedin.com/in/olwtelet/",
+          "mailto:olwtelet@outlook.com",
+          "https://www.linkedin.com/in/olwtelet/",
+          "mailto:olwtelet@outlook.com?subject=Veil",
+          "mailto:olwtelet@outlook.com",
+          "https://www.linkedin.com/in/olwtelet/"
+        ],
+        "contactSubmit": "Não foi possível enviar a mensagem agora. Escreva para olwtelet@outlook.com.",
+        "contactNameError": null,
+        "status /projects/alter-ego": 404,
+        "status /careers": 404,
+        "status /about/agency": 404,
+        "notFoundTitle": "Página não encontrada · Olwtelet Productions",
+        "head": {
+          "title": "Política de privacidade · Olwtelet Productions",
+          "description": "Como a Olwtelet Productions trata os dados de quem visita o site e usa o formulário de contato.",
+          "og": [
+            "og:title=Política de privacidade · Olwtelet Productions",
+            "og:description=Como a Olwtelet Productions trata os dados de quem visita o site e usa o formulário de contato.",
+            "og:site_name=Olwtelet Productions",
+            "og:locale=pt_BR",
+            "og:type=website"
+          ],
+          "icons": [
+            "manifest /manifest.webmanifest",
+            "icon /favicon.ico?favicon.01_kr7wrqt5zj.ico",
+            "icon /icon.svg?icon.1inz07-xs8ex7.svg",
+            "apple-touch-icon /apple-icon.png?apple-icon.0i0h-kzf7fiaq.png"
+          ],
+          "jsonld": [
+            "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Olwtelet Productions\",\n  \"description\": \"Espaço de criação independente de Isaac Rodrigues (Olwtelet), em Brasília: projetos próprios de software, jogos e aplicações web.\",\n  \"email\": \"olwtelet@outlook.com\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Brasília\",\n    \"addressRegion\": \"DF\",\n    \"addr",
+            "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebSite\",\n  \"name\": \"Olwtelet Productions\",\n  \"inLanguage\": \"pt-BR\"\n}"
+          ]
+        }
+      }
+    },
+    "m390": {
+      "console": [
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "error: Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+        "error: Network error submitting form: Error: Submission failed: {\"error\":\"integration not configured\"}\n    at $ (http://localhost:3000/_next/static/chunks/3fyfjpdoi4y3o.js:1:7326)\n    at async http://localho",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "external": [
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l"
+      ],
+      "checks": {
+        "webgl2": true,
+        "homeTitle": "Olwtelet Productions — Software, jogos e experiências digitais",
+        "lang": "pt-BR",
+        "h1": [
+          "Olwtelet Productions: software, jogos e experiências digitais."
+        ],
+        "headerMark": {
+          "w": 34,
+          "h": 42,
+          "color": "rgb(255, 255, 255)"
+        },
+        "clock": [
+          "Brasília, BR00:07 GMT-3",
+          "Brasília, BR00:07 GMT-3"
+        ],
+        "nav": [
+          "Projetos→/",
+          "Sobre→/about/studio",
+          "Contato→/contact"
+        ],
+        "probeClicks": [
+          "0.12,0.2→/",
+          "0.88,0.2→/projects/veil",
+          "0.12,0.82→/",
+          "0.88,0.82→/",
+          "0.5,0.1→/"
+        ],
+        "probeNavigations": 1,
+        "toggleButtons": 2,
+        "list": {
+          "open": true,
+          "docOverflowX": 0,
+          "wrapOverflowX": 0,
+          "broken": [],
+          "overlaps": [],
+          "underControls": [],
+          "scrollTop": 0,
+          "scrollRange": 0,
+          "headerGap": {
+            "layout": "stacked",
+            "px": 35
+          },
+          "titleLines": 1,
+          "countLines": 2,
+          "count": "1 projeto publicado · 1 em desenvolvimento",
+          "rows": [
+            {
+              "href": "/projects/filmes-hd-online-gratis",
+              "title": "Filmes HD Online Grátis",
+              "titleLines": 1,
+              "detail": "filmeshdonlinegratis.vercel.app",
+              "detailTitleAttr": "filmeshdonlinegratis.vercel.app",
+              "detailSpare": 0,
+              "detailTruncated": false,
+              "detailLines": 1
+            },
+            {
+              "href": "/projects/veil",
+              "title": "Veil",
+              "titleLines": 1,
+              "detail": "Apresentação do projeto",
+              "detailTitleAttr": "Apresentação do projeto",
+              "detailSpare": 0,
+              "detailTruncated": false,
+              "detailLines": 1
+            }
+          ],
+          "groups": [
+            "Publicados",
+            "Em desenvolvimento"
+          ]
+        },
+        "filters": "TIPO | Todos | Web | Jogo | CATEGORIA | CINEMA | CURADORIA | COMUNIDADE | ESTRATÉGIA | NAVEGADOR",
+        "emptyList": "Todos os projetos | 0 projetos publicados | Nenhum projeto corresponde a este filtro. | VER TODOS OS PROJETOS",
+        "listAtEnd": {
+          "scrollTop": 0,
+          "scrollRange": 0,
+          "underControls": []
+        },
+        "listLinks": [
+          "Filmes HD Online Grátis→/projects/filmes-hd-online-gratis",
+          "Veil→/projects/veil"
+        ],
+        "listFilterWeb": {
+          "url": "/?zone=web",
+          "count": "1 projeto publicado",
+          "rows": [
+            "Filmes HD Online Grátis"
+          ]
+        },
+        "listAfterTodos": {
+          "url": "/",
+          "count": "1 projeto publicado · 1 em desenvolvimento",
+          "rows": 2
+        },
+        "listFilterJogo": {
+          "count": "1 em desenvolvimento",
+          "rows": [
+            "Veil"
+          ],
+          "groups": [
+            "Em desenvolvimento"
+          ]
+        },
+        "listEmpty": {
+          "count": "0 projetos publicados",
+          "groups": [
+            "Nenhum projeto corresponde a este filtro."
+          ]
+        },
+        "listEmptyRestored": {
+          "url": "/",
+          "count": "1 projeto publicado · 1 em desenvolvimento",
+          "rows": 2
+        },
+        "caseTitle": "Filmes HD Online Grátis · Olwtelet Productions",
+        "caseLive": [
+          "VER O SITEfilmeshdonlinegratis.vercel.app↗→https://filmeshdonlinegratis.vercel.app/"
+        ],
+        "caseText": "FILMES HD | ONLINE GRÁTIS | Uma curadoria cinematográfica independente que reúne programação, textos sobre os filmes e sessões ao vivo no Discord. | SOBRE | Filmes HD Online Grátis é o primeiro projeto publicado da Olwtelet Productions. O site organiza uma programação de cinema: como ele mesmo descreve, cada sessão é escolhida por quem assistiu ao filme e tem o motivo da escolha registrado. | A exibição acontece ao vivo, em uma sala do Discord. O site não hospeda filmes: ele apresenta a programação, os textos e as informações de cada sessão, e leva quem quiser participar até a sala. | CATEGORIAS | CINEMA | CURADORIA | COMUNIDADE | PROGRAMAÇÃO | A página inicial é a própria programação. Cada sessão ocupa a tela com a data, o horário e a sala, e a navegação acontece arrastando o conteúdo, rolando entre as sessões ou indo direto a um filme pelo menu. | A programação também pode ser vista em outros modos e acompanhada por RSS. | CADA SESSÃO | Cada sessão tem uma página própria, com sinopse, ficha técnica, elenco, galeria, trailer e uma série de leituras curtas sobre cenas do filme. | A ficha da sessão reúne data, horário, sala, classificação etária e gêneros. | NA SALA | O bloco final de cada sessão explica como participar: o dia e o horário, a sala no Discord e os combinados para assistir junto, como chegar alguns minutos antes, manter o microfone mudo e não dar spoiler no chat. | SOBRE AS IMAGENS | As imagens desta página são capturas do site publicado, feitas em novembro de 2026. A programação que aparece nelas muda a cada sessão. | Ver todos os projetos | SOM [LIG] | VAMOS ",
+        "veilTitle": "Veil · Olwtelet Productions",
+        "veilLinks": [],
+        "veilText": "VEIL | Um jogo de estratégia para navegador inspirado no xadrez, em desenvolvimento. | SOBRE | Veil é o projeto em desenvolvimento da Olwtelet Productions: um jogo de estratégia para navegador inspirado no xadrez. | Esta página é uma apresentação do projeto. Ainda não há versão pública, e a imagem acima é uma composição gráfica, não uma captura do jogo. | CATEGORIAS | ESTRATÉGIA | NAVEGADOR | Ver todos os projetos | SOM [LIG] | VAMOS CONVERSAR | Projetos | Sobre | Contato",
+        "about_studio": "ESTÚDIO | PROCESSO | ESTÚDIO | SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. | SOBRE | A Olwtelet Productions é o espaço de criação independente de Isaac Rodrigues. A partir de Brasília, reúne projetos próprios de software, jogos e aplicações web, com atenção à arquitetura, à interface e ao comportamento de cada experiência. | PROJETOS | O primeiro projeto publicado é Filmes HD Online Grátis, uma curadoria cinematográfica com programação de sessões ao vivo no Discord. Também está em desenvolvimento Veil, um jogo de estratégia inspirado no xadrez. A proposta é construir um catálogo autoral, projeto por projeto. | 01 | Filmes HD Online Grátis | Publicado. | Curadoria cinematográfica independente com programação, textos sobre os filmes e sessões ao vivo no Discord. | VER O PROJETO | 02 | Veil | Em desenvolvimento. | Jogo de estratégia para navegador inspirado no xadrez. Ainda sem versão pública. | VER A APRESENTAÇÃO | CRIADOR | Por trás da Olwtelet Productions está Isaac Rodrigues, desenvolvedor de software em Brasília que assina como Olwtelet. Estuda Ciência da Computação e trabalha com desenvolvimento web, com interesse em inteligência artificial, cibersegurança e arquitetura de sistemas. | ISAAC RODRIGUES (OLWTELET) | CRIADOR · DESENVOLVEDOR DE SOFTWARE | Olwtelet | 1 | Brasília, Brasil | BRASÍLIA, DF | BRASIL | OLWTELET@OUTLOOK.COM | GITHUB.COM/OLWTELET | LINKEDIN.COM/IN/OLWTELET | OLWTELET.VERCEL.APP | CONTATO | Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. | VAMOS CONVERSAR | Olwtelet Productions | Brasília, DF | Brasil | POLÍTICA DE PRIVACIDADE | OLWTELET@OUTLOOK.COM | OLWTELET.VERCEL.APP | SOM [LIG] | VAMOS CONVERSAR | Projetos | Sobre | Contato",
+        "about_process": "ESTÚDIO | PROCESSO | PROCESSO | DA IDEIA AO REFINAMENTO. | ETAPAS | Os projetos da Olwtelet Productions passam por quatro momentos: ideia, investigação, construção e refinamento. | 01 | 01. | Ideia | Definir o que o projeto precisa fazer, para quem e qual experiência queremos criar. | PROJETO | PARA QUEM | EXPERIÊNCIA | 02 | 02. | Investigação | Explorar referências, necessidades e restrições. Comparar possibilidades antes de escolher um caminho. | REFERÊNCIAS | NECESSIDADES | RESTRIÇÕES | 03 | 03. | Construção | Dar forma à interface e à lógica, conectando conteúdo, interação e tecnologia. | CONTEÚDO | INTERAÇÃO | TECNOLOGIA | 04 | 04. | Refinamento | Testar o uso real, revisar os detalhes e ajustar a experiência para que tudo funcione em conjunto. | TESTAR | REVISAR | AJUSTAR | CONTATO | Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. | VAMOS CONVERSAR | Olwtelet Productions | Brasília, DF | Brasil | POLÍTICA DE PRIVACIDADE | OLWTELET@OUTLOOK.COM | OLWTELET.VERCEL.APP | SOM [LIG] | VAMOS CONVERSAR | Projetos | Sobre | Contato",
+        "contactUrl": "/contact",
+        "contactText": "VERSAR | Olwtelet Productions | Brasília, DF | Brasil | POLÍTICA DE PRIVACIDADE | OLWTELET@OUTLOOK.COM | OLWTELET.VERCEL.APP | SOM [LIG] | VAMOS CONVERSAR | VAMOS CONVERSAR | Olá! Que bom ter você por aqui. | PROJETOS E PARCERIAS | Quero conversar sobre um projeto ou uma parceria. | VEIL | Quero saber mais sobre o Veil. | OUTROS ASSUNTOS | Só quero dizer olá. | E-MAIL OLWTELET@OUTLOOK.COM | LINKEDIN OLWTELET | Política de privacidade | 01 | Conte um pouco sobre a sua ideia. | QUERO APENAS CONVERSAR. | TENHO ALGUMAS IDEIAS. | TENHO ALGO BEM DEFINIDO. | 02 | Nome completo* | 03 | E-mail* | 04 | Empresa ou projeto | 05 | Escreva uma mensagem. | Enviar | CONCLUÍDO | Mensagem enviada. | Obrigado pelo contato. | Sua mensagem foi enviada. | Se houver retorno, ele será feito pelo e-mail que você informou. | Se precisar complementar alguma informação, escreva para olwtelet@outlook.com. | Concluir",
+        "contactLinks": [
+          "mailto:olwtelet@outlook.com",
+          "https://www.linkedin.com/in/olwtelet/",
+          "mailto:olwtelet@outlook.com",
+          "https://www.linkedin.com/in/olwtelet/",
+          "mailto:olwtelet@outlook.com?subject=Veil",
+          "mailto:olwtelet@outlook.com",
+          "https://www.linkedin.com/in/olwtelet/"
+        ],
+        "contactSubmit": "Não foi possível enviar a mensagem agora. Escreva para olwtelet@outlook.com.",
+        "contactNameError": null,
+        "status /projects/alter-ego": 404,
+        "status /careers": 404,
+        "status /about/agency": 404,
+        "notFoundTitle": "Página não encontrada · Olwtelet Productions",
+        "head": {
+          "title": "Política de privacidade · Olwtelet Productions",
+          "description": "Como a Olwtelet Productions trata os dados de quem visita o site e usa o formulário de contato.",
+          "og": [
+            "og:title=Política de privacidade · Olwtelet Productions",
+            "og:description=Como a Olwtelet Productions trata os dados de quem visita o site e usa o formulário de contato.",
+            "og:site_name=Olwtelet Productions",
+            "og:locale=pt_BR",
+            "og:type=website"
+          ],
+          "icons": [
+            "manifest /manifest.webmanifest",
+            "icon /favicon.ico?favicon.01_kr7wrqt5zj.ico",
+            "icon /icon.svg?icon.1inz07-xs8ex7.svg",
+            "apple-touch-icon /apple-icon.png?apple-icon.0i0h-kzf7fiaq.png"
+          ],
+          "jsonld": [
+            "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Olwtelet Productions\",\n  \"description\": \"Espaço de criação independente de Isaac Rodrigues (Olwtelet), em Brasília: projetos próprios de software, jogos e aplicações web.\",\n  \"email\": \"olwtelet@outlook.com\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Brasília\",\n    \"addressRegion\": \"DF\",\n    \"addr",
+            "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebSite\",\n  \"name\": \"Olwtelet Productions\",\n  \"inLanguage\": \"pt-BR\"\n}"
+          ]
+        }
+      }
+    },
+    "m360": {
+      "console": [
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "error: Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+        "error: Network error submitting form: Error: Submission failed: {\"error\":\"integration not configured\"}\n    at $ (http://localhost:3000/_next/static/chunks/3fyfjpdoi4y3o.js:1:7326)\n    at async http://localho",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "external": [
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l"
+      ],
+      "checks": {
+        "webgl2": true,
+        "homeTitle": "Olwtelet Productions — Software, jogos e experiências digitais",
+        "lang": "pt-BR",
+        "h1": [
+          "Olwtelet Productions: software, jogos e experiências digitais."
+        ],
+        "headerMark": {
+          "w": 34,
+          "h": 42,
+          "color": "rgb(255, 255, 255)"
+        },
+        "clock": [
+          "Brasília, BR00:10 GMT-3",
+          "Brasília, BR00:10 GMT-3"
+        ],
+        "nav": [
+          "Projetos→/",
+          "Sobre→/about/studio",
+          "Contato→/contact"
+        ],
+        "probeClicks": [
+          "0.12,0.2→/",
+          "0.88,0.2→/projects/veil",
+          "0.12,0.82→/",
+          "0.88,0.82→/",
+          "0.5,0.1→/"
+        ],
+        "probeNavigations": 1,
+        "toggleButtons": 2,
+        "list": {
+          "open": true,
+          "docOverflowX": 0,
+          "wrapOverflowX": 0,
+          "broken": [],
+          "overlaps": [],
+          "underControls": [],
+          "scrollTop": 0,
+          "scrollRange": 0,
+          "headerGap": {
+            "layout": "stacked",
+            "px": 35
+          },
+          "titleLines": 1,
+          "countLines": 2,
+          "count": "1 projeto publicado · 1 em desenvolvimento",
+          "rows": [
+            {
+              "href": "/projects/filmes-hd-online-gratis",
+              "title": "Filmes HD Online Grátis",
+              "titleLines": 1,
+              "detail": "filmeshdonlinegratis.vercel.app",
+              "detailTitleAttr": "filmeshdonlinegratis.vercel.app",
+              "detailSpare": 0,
+              "detailTruncated": false,
+              "detailLines": 1
+            },
+            {
+              "href": "/projects/veil",
+              "title": "Veil",
+              "titleLines": 1,
+              "detail": "Apresentação do projeto",
+              "detailTitleAttr": "Apresentação do projeto",
+              "detailSpare": 0,
+              "detailTruncated": false,
+              "detailLines": 1
+            }
+          ],
+          "groups": [
+            "Publicados",
+            "Em desenvolvimento"
+          ]
+        },
+        "filters": "TIPO | Todos | Web | Jogo | CATEGORIA | CINEMA | CURADORIA | COMUNIDADE | ESTRATÉGIA | NAVEGADOR",
+        "emptyList": "Todos os projetos | 0 projetos publicados | Nenhum projeto corresponde a este filtro. | VER TODOS OS PROJETOS",
+        "listAtEnd": {
+          "scrollTop": 0,
+          "scrollRange": 0,
+          "underControls": []
+        },
+        "listLinks": [
+          "Filmes HD Online Grátis→/projects/filmes-hd-online-gratis",
+          "Veil→/projects/veil"
+        ],
+        "listFilterWeb": {
+          "url": "/?zone=web",
+          "count": "1 projeto publicado",
+          "rows": [
+            "Filmes HD Online Grátis"
+          ]
+        },
+        "listAfterTodos": {
+          "url": "/",
+          "count": "1 projeto publicado · 1 em desenvolvimento",
+          "rows": 2
+        },
+        "listFilterJogo": {
+          "count": "1 em desenvolvimento",
+          "rows": [
+            "Veil"
+          ],
+          "groups": [
+            "Em desenvolvimento"
+          ]
+        },
+        "listEmpty": {
+          "count": "0 projetos publicados",
+          "groups": [
+            "Nenhum projeto corresponde a este filtro."
+          ]
+        },
+        "listEmptyRestored": {
+          "url": "/",
+          "count": "1 projeto publicado · 1 em desenvolvimento",
+          "rows": 2
+        },
+        "caseTitle": "Filmes HD Online Grátis · Olwtelet Productions",
+        "caseLive": [
+          "VER O SITEfilmeshdonlinegratis.vercel.app↗→https://filmeshdonlinegratis.vercel.app/"
+        ],
+        "caseText": "FILMES HD | ONLINE | GRÁTIS | Uma curadoria cinematográfica independente que reúne programação, textos sobre os filmes e sessões ao vivo no Discord. | SOBRE | Filmes HD Online Grátis é o primeiro projeto publicado da Olwtelet Productions. O site organiza uma programação de cinema: como ele mesmo descreve, cada sessão é escolhida por quem assistiu ao filme e tem o motivo da escolha registrado. | A exibição acontece ao vivo, em uma sala do Discord. O site não hospeda filmes: ele apresenta a programação, os textos e as informações de cada sessão, e leva quem quiser participar até a sala. | CATEGORIAS | CINEMA | CURADORIA | COMUNIDADE | PROGRAMAÇÃO | A página inicial é a própria programação. Cada sessão ocupa a tela com a data, o horário e a sala, e a navegação acontece arrastando o conteúdo, rolando entre as sessões ou indo direto a um filme pelo menu. | A programação também pode ser vista em outros modos e acompanhada por RSS. | CADA SESSÃO | Cada sessão tem uma página própria, com sinopse, ficha técnica, elenco, galeria, trailer e uma série de leituras curtas sobre cenas do filme. | A ficha da sessão reúne data, horário, sala, classificação etária e gêneros. | NA SALA | O bloco final de cada sessão explica como participar: o dia e o horário, a sala no Discord e os combinados para assistir junto, como chegar alguns minutos antes, manter o microfone mudo e não dar spoiler no chat. | SOBRE AS IMAGENS | As imagens desta página são capturas do site publicado, feitas em novembro de 2026. A programação que aparece nelas muda a cada sessão. | Ver todos os projetos | SOM [LIG] | VAMO",
+        "veilTitle": "Veil · Olwtelet Productions",
+        "veilLinks": [],
+        "veilText": "VEIL | Um jogo de estratégia para navegador inspirado no xadrez, em desenvolvimento. | SOBRE | Veil é o projeto em desenvolvimento da Olwtelet Productions: um jogo de estratégia para navegador inspirado no xadrez. | Esta página é uma apresentação do projeto. Ainda não há versão pública, e a imagem acima é uma composição gráfica, não uma captura do jogo. | CATEGORIAS | ESTRATÉGIA | NAVEGADOR | Ver todos os projetos | SOM [LIG] | VAMOS CONVERSAR | Projetos | Sobre | Contato",
+        "about_studio": "ESTÚDIO | PROCESSO | ESTÚDIO | SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. | SOBRE | A Olwtelet Productions é o espaço de criação independente de Isaac Rodrigues. A partir de Brasília, reúne projetos próprios de software, jogos e aplicações web, com atenção à arquitetura, à interface e ao comportamento de cada experiência. | PROJETOS | O primeiro projeto publicado é Filmes HD Online Grátis, uma curadoria cinematográfica com programação de sessões ao vivo no Discord. Também está em desenvolvimento Veil, um jogo de estratégia inspirado no xadrez. A proposta é construir um catálogo autoral, projeto por projeto. | 01 | Filmes HD Online Grátis | Publicado. | Curadoria cinematográfica independente com programação, textos sobre os filmes e sessões ao vivo no Discord. | VER O PROJETO | 02 | Veil | Em desenvolvimento. | Jogo de estratégia para navegador inspirado no xadrez. Ainda sem versão pública. | VER A APRESENTAÇÃO | CRIADOR | Por trás da Olwtelet Productions está Isaac Rodrigues, desenvolvedor de software em Brasília que assina como Olwtelet. Estuda Ciência da Computação e trabalha com desenvolvimento web, com interesse em inteligência artificial, cibersegurança e arquitetura de sistemas. | ISAAC RODRIGUES (OLWTELET) | CRIADOR · DESENVOLVEDOR DE SOFTWARE | Olwtelet | 1 | Brasília, Brasil | BRASÍLIA, DF | BRASIL | OLWTELET@OUTLOOK.COM | GITHUB.COM/OLWTELET | LINKEDIN.COM/IN/OLWTELET | OLWTELET.VERCEL.APP | CONTATO | Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. | VAMOS CONVERSAR | Olwtelet Productions | Brasília, DF | Brasil | POLÍTICA DE PRIVACIDADE | OLWTELET@OUTLOOK.COM | OLWTELET.VERCEL.APP | SOM [LIG] | VAMOS CONVERSAR | Projetos | Sobre | Contato",
+        "about_process": "ESTÚDIO | PROCESSO | PROCESSO | DA IDEIA AO REFINAMENTO. | ETAPAS | Os projetos da Olwtelet Productions passam por quatro momentos: ideia, investigação, construção e refinamento. | 01 | 01. | Ideia | Definir o que o projeto precisa fazer, para quem e qual experiência queremos criar. | PROJETO | PARA QUEM | EXPERIÊNCIA | 02 | 02. | Investigação | Explorar referências, necessidades e restrições. Comparar possibilidades antes de escolher um caminho. | REFERÊNCIAS | NECESSIDADES | RESTRIÇÕES | 03 | 03. | Construção | Dar forma à interface e à lógica, conectando conteúdo, interação e tecnologia. | CONTEÚDO | INTERAÇÃO | TECNOLOGIA | 04 | 04. | Refinamento | Testar o uso real, revisar os detalhes e ajustar a experiência para que tudo funcione em conjunto. | TESTAR | REVISAR | AJUSTAR | CONTATO | Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. | VAMOS CONVERSAR | Olwtelet Productions | Brasília, DF | Brasil | POLÍTICA DE PRIVACIDADE | OLWTELET@OUTLOOK.COM | OLWTELET.VERCEL.APP | SOM [LIG] | VAMOS CONVERSAR | Projetos | Sobre | Contato",
+        "contactUrl": "/contact",
+        "contactText": "VERSAR | Olwtelet Productions | Brasília, DF | Brasil | POLÍTICA DE PRIVACIDADE | OLWTELET@OUTLOOK.COM | OLWTELET.VERCEL.APP | SOM [LIG] | VAMOS CONVERSAR | VAMOS CONVERSAR | Olá! Que bom ter você por aqui. | PROJETOS E PARCERIAS | Quero conversar sobre um projeto ou uma parceria. | VEIL | Quero saber mais sobre o Veil. | OUTROS ASSUNTOS | Só quero dizer olá. | E-MAIL OLWTELET@OUTLOOK.COM | LINKEDIN OLWTELET | Política de privacidade | 01 | Conte um pouco sobre a sua ideia. | QUERO APENAS CONVERSAR. | TENHO ALGUMAS IDEIAS. | TENHO ALGO BEM DEFINIDO. | 02 | Nome completo* | 03 | E-mail* | 04 | Empresa ou projeto | 05 | Escreva uma mensagem. | Enviar | CONCLUÍDO | Mensagem enviada. | Obrigado pelo contato. | Sua mensagem foi enviada. | Se houver retorno, ele será feito pelo e-mail que você informou. | Se precisar complementar alguma informação, escreva para olwtelet@outlook.com. | Concluir",
+        "contactLinks": [
+          "mailto:olwtelet@outlook.com",
+          "https://www.linkedin.com/in/olwtelet/",
+          "mailto:olwtelet@outlook.com",
+          "https://www.linkedin.com/in/olwtelet/",
+          "mailto:olwtelet@outlook.com?subject=Veil",
+          "mailto:olwtelet@outlook.com",
+          "https://www.linkedin.com/in/olwtelet/"
+        ],
+        "contactSubmit": "Não foi possível enviar a mensagem agora. Escreva para olwtelet@outlook.com.",
+        "contactNameError": null,
+        "status /projects/alter-ego": 404,
+        "status /careers": 404,
+        "status /about/agency": 404,
+        "notFoundTitle": "Página não encontrada · Olwtelet Productions",
+        "head": {
+          "title": "Política de privacidade · Olwtelet Productions",
+          "description": "Como a Olwtelet Productions trata os dados de quem visita o site e usa o formulário de contato.",
+          "og": [
+            "og:title=Política de privacidade · Olwtelet Productions",
+            "og:description=Como a Olwtelet Productions trata os dados de quem visita o site e usa o formulário de contato.",
+            "og:site_name=Olwtelet Productions",
+            "og:locale=pt_BR",
+            "og:type=website"
+          ],
+          "icons": [
+            "manifest /manifest.webmanifest",
+            "icon /favicon.ico?favicon.01_kr7wrqt5zj.ico",
+            "icon /icon.svg?icon.1inz07-xs8ex7.svg",
+            "apple-touch-icon /apple-icon.png?apple-icon.0i0h-kzf7fiaq.png"
+          ],
+          "jsonld": [
+            "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Olwtelet Productions\",\n  \"description\": \"Espaço de criação independente de Isaac Rodrigues (Olwtelet), em Brasília: projetos próprios de software, jogos e aplicações web.\",\n  \"email\": \"olwtelet@outlook.com\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Brasília\",\n    \"addressRegion\": \"DF\",\n    \"addr",
+            "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebSite\",\n  \"name\": \"Olwtelet Productions\",\n  \"inLanguage\": \"pt-BR\"\n}"
+          ]
+        }
+      }
+    },
+    "t768": {
+      "console": [
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "warning: The resource http://localhost:3000/_next/static/chunks/2dma2523kox2m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app",
+        "error: Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+        "error: Network error submitting form: Error: Submission failed: {\"error\":\"integration not configured\"}\n    at $ (http://localhost:3000/_next/static/chunks/3fyfjpdoi4y3o.js:1:7326)\n    at async http://localho",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "external": [
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l",
+        "GET use.typekit.net/gtx3zug.css",
+        "GET p.typekit.net/p.css",
+        "GET use.typekit.net/af/29dd43/00000000000000007735c69f/31/l",
+        "GET use.typekit.net/af/21d91d/00000000000000007735c696/31/l"
+      ],
+      "checks": {
+        "webgl2": true,
+        "homeTitle": "Olwtelet Productions — Software, jogos e experiências digitais",
+        "lang": "pt-BR",
+        "h1": [
+          "Olwtelet Productions: software, jogos e experiências digitais."
+        ],
+        "headerMark": {
+          "w": 34,
+          "h": 42,
+          "color": "rgb(255, 255, 255)"
+        },
+        "clock": [
+          "Brasília, BR00:14 GMT-3",
+          "Brasília, BR00:14 GMT-3"
+        ],
+        "nav": [
+          "Projetos→/",
+          "Sobre→/about/studio",
+          "Contato→/contact"
+        ],
+        "probeClicks": [
+          "0.12,0.2→/",
+          "0.88,0.2→/projects/veil",
+          "0.12,0.82→/",
+          "0.88,0.82→/",
+          "0.5,0.1→/"
+        ],
+        "probeNavigations": 1,
+        "toggleButtons": 2,
+        "list": {
+          "open": true,
+          "docOverflowX": 0,
+          "wrapOverflowX": 0,
+          "broken": [],
+          "overlaps": [],
+          "underControls": [],
+          "scrollTop": 0,
+          "scrollRange": 0,
+          "headerGap": {
+            "layout": "stacked",
+            "px": 35
+          },
+          "titleLines": 1,
+          "countLines": 1,
+          "count": "1 projeto publicado · 1 em desenvolvimento",
+          "rows": [
+            {
+              "href": "/projects/filmes-hd-online-gratis",
+              "title": "Filmes HD Online Grátis",
+              "titleLines": 1,
+              "detail": "filmeshdonlinegratis.vercel.app",
+              "detailTitleAttr": "filmeshdonlinegratis.vercel.app",
+              "detailSpare": 0,
+              "detailTruncated": false,
+              "detailLines": 1
+            },
+            {
+              "href": "/projects/veil",
+              "title": "Veil",
+              "titleLines": 1,
+              "detail": "Apresentação do projeto",
+              "detailTitleAttr": "Apresentação do projeto",
+              "detailSpare": 0,
+              "detailTruncated": false,
+              "detailLines": 1
+            }
+          ],
+          "groups": [
+            "Publicados",
+            "Em desenvolvimento"
+          ]
+        },
+        "filters": "TIPO | Todos | Web | Jogo | CATEGORIA | CINEMA | CURADORIA | COMUNIDADE | ESTRATÉGIA | NAVEGADOR",
+        "emptyList": "Todos os projetos | 0 projetos publicados | Nenhum projeto corresponde a este filtro. | VER TODOS OS PROJETOS",
+        "listAtEnd": {
+          "scrollTop": 0,
+          "scrollRange": 0,
+          "underControls": []
+        },
+        "listLinks": [
+          "Filmes HD Online Grátis→/projects/filmes-hd-online-gratis",
+          "Veil→/projects/veil"
+        ],
+        "listFilterWeb": {
+          "url": "/?zone=web",
+          "count": "1 projeto publicado",
+          "rows": [
+            "Filmes HD Online Grátis"
+          ]
+        },
+        "listAfterTodos": {
+          "url": "/",
+          "count": "1 projeto publicado · 1 em desenvolvimento",
+          "rows": 2
+        },
+        "listFilterJogo": {
+          "count": "1 em desenvolvimento",
+          "rows": [
+            "Veil"
+          ],
+          "groups": [
+            "Em desenvolvimento"
+          ]
+        },
+        "listEmpty": {
+          "count": "0 projetos publicados",
+          "groups": [
+            "Nenhum projeto corresponde a este filtro."
+          ]
+        },
+        "listEmptyRestored": {
+          "url": "/",
+          "count": "1 projeto publicado · 1 em desenvolvimento",
+          "rows": 2
+        },
+        "caseTitle": "Filmes HD Online Grátis · Olwtelet Productions",
+        "caseLive": [
+          "VER O SITEfilmeshdonlinegratis.vercel.app↗→https://filmeshdonlinegratis.vercel.app/"
+        ],
+        "caseText": "FILMES HD | ONLINE GRÁTIS | Uma curadoria cinematográfica independente que reúne programação, textos sobre os filmes e sessões ao vivo no Discord. | SOBRE | Filmes HD Online Grátis é o primeiro projeto publicado da Olwtelet Productions. O site organiza uma programação de cinema: como ele mesmo descreve, cada sessão é escolhida por quem assistiu ao filme e tem o motivo da escolha registrado. | A exibição acontece ao vivo, em uma sala do Discord. O site não hospeda filmes: ele apresenta a programação, os textos e as informações de cada sessão, e leva quem quiser participar até a sala. | CATEGORIAS | CINEMA | CURADORIA | COMUNIDADE | PROGRAMAÇÃO | A página inicial é a própria programação. Cada sessão ocupa a tela com a data, o horário e a sala, e a navegação acontece arrastando o conteúdo, rolando entre as sessões ou indo direto a um filme pelo menu. | A programação também pode ser vista em outros modos e acompanhada por RSS. | CADA SESSÃO | Cada sessão tem uma página própria, com sinopse, ficha técnica, elenco, galeria, trailer e uma série de leituras curtas sobre cenas do filme. | A ficha da sessão reúne data, horário, sala, classificação etária e gêneros. | NA SALA | O bloco final de cada sessão explica como participar: o dia e o horário, a sala no Discord e os combinados para assistir junto, como chegar alguns minutos antes, manter o microfone mudo e não dar spoiler no chat. | SOBRE AS IMAGENS | As imagens desta página são capturas do site publicado, feitas em novembro de 2026. A programação que aparece nelas muda a cada sessão. | Ver todos os projetos | SOM [LIG] | VAMOS ",
+        "veilTitle": "Veil · Olwtelet Productions",
+        "veilLinks": [],
+        "veilText": "VEIL | Um jogo de estratégia para navegador inspirado no xadrez, em desenvolvimento. | SOBRE | Veil é o projeto em desenvolvimento da Olwtelet Productions: um jogo de estratégia para navegador inspirado no xadrez. | Esta página é uma apresentação do projeto. Ainda não há versão pública, e a imagem acima é uma composição gráfica, não uma captura do jogo. | CATEGORIAS | ESTRATÉGIA | NAVEGADOR | Ver todos os projetos | SOM [LIG] | VAMOS CONVERSAR | Projetos | Sobre | Contato",
+        "about_studio": "ESTÚDIO | PROCESSO | ESTÚDIO | SOFTWARE, JOGOS E EXPERIÊNCIAS DIGITAIS. | SOBRE | A Olwtelet Productions é o espaço de criação independente de Isaac Rodrigues. A partir de Brasília, reúne projetos próprios de software, jogos e aplicações web, com atenção à arquitetura, à interface e ao comportamento de cada experiência. | PROJETOS | O primeiro projeto publicado é Filmes HD Online Grátis, uma curadoria cinematográfica com programação de sessões ao vivo no Discord. Também está em desenvolvimento Veil, um jogo de estratégia inspirado no xadrez. A proposta é construir um catálogo autoral, projeto por projeto. | 01 | Filmes HD Online Grátis | Publicado. | Curadoria cinematográfica independente com programação, textos sobre os filmes e sessões ao vivo no Discord. | VER O PROJETO | 02 | Veil | Em desenvolvimento. | Jogo de estratégia para navegador inspirado no xadrez. Ainda sem versão pública. | VER A APRESENTAÇÃO | CRIADOR | Por trás da Olwtelet Productions está Isaac Rodrigues, desenvolvedor de software em Brasília que assina como Olwtelet. Estuda Ciência da Computação e trabalha com desenvolvimento web, com interesse em inteligência artificial, cibersegurança e arquitetura de sistemas. | ISAAC RODRIGUES (OLWTELET) | CRIADOR · DESENVOLVEDOR DE SOFTWARE | Olwtelet | 1 | Brasília, Brasil | BRASÍLIA, DF | BRASIL | OLWTELET@OUTLOOK.COM | GITHUB.COM/OLWTELET | LINKEDIN.COM/IN/OLWTELET | OLWTELET.VERCEL.APP | CONTATO | Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. | VAMOS CONVERSAR | Olwtelet Productions | Brasília, DF | Brasil | POLÍTICA DE PRIVACIDADE | OLWTELET@OUTLOOK.COM | OLWTELET.VERCEL.APP | SOM [LIG] | VAMOS CONVERSAR | Projetos | Sobre | Contato",
+        "about_process": "ESTÚDIO | PROCESSO | PROCESSO | DA IDEIA AO REFINAMENTO. | ETAPAS | Os projetos da Olwtelet Productions passam por quatro momentos: ideia, investigação, construção e refinamento. | 01 | 01. | Ideia | Definir o que o projeto precisa fazer, para quem e qual experiência queremos criar. | PROJETO | PARA QUEM | EXPERIÊNCIA | 02 | 02. | Investigação | Explorar referências, necessidades e restrições. Comparar possibilidades antes de escolher um caminho. | REFERÊNCIAS | NECESSIDADES | RESTRIÇÕES | 03 | 03. | Construção | Dar forma à interface e à lógica, conectando conteúdo, interação e tecnologia. | CONTEÚDO | INTERAÇÃO | TECNOLOGIA | 04 | 04. | Refinamento | Testar o uso real, revisar os detalhes e ajustar a experiência para que tudo funcione em conjunto. | TESTAR | REVISAR | AJUSTAR | CONTATO | Para conversar sobre um projeto, uma parceria ou o Veil, escreva para olwtelet@outlook.com. | VAMOS CONVERSAR | Olwtelet Productions | Brasília, DF | Brasil | POLÍTICA DE PRIVACIDADE | OLWTELET@OUTLOOK.COM | OLWTELET.VERCEL.APP | SOM [LIG] | VAMOS CONVERSAR | Projetos | Sobre | Contato",
+        "contactUrl": "/contact",
+        "contactText": "VERSAR | Olwtelet Productions | Brasília, DF | Brasil | POLÍTICA DE PRIVACIDADE | OLWTELET@OUTLOOK.COM | OLWTELET.VERCEL.APP | SOM [LIG] | VAMOS CONVERSAR | VAMOS CONVERSAR | Olá! Que bom ter você por aqui. | PROJETOS E PARCERIAS | Quero conversar sobre um projeto ou uma parceria. | VEIL | Quero saber mais sobre o Veil. | OUTROS ASSUNTOS | Só quero dizer olá. | E-MAIL OLWTELET@OUTLOOK.COM | LINKEDIN OLWTELET | Política de privacidade | 01 | Conte um pouco sobre a sua ideia. | QUERO APENAS CONVERSAR. | TENHO ALGUMAS IDEIAS. | TENHO ALGO BEM DEFINIDO. | 02 | Nome completo* | 03 | E-mail* | 04 | Empresa ou projeto | 05 | Escreva uma mensagem. | Enviar | CONCLUÍDO | Mensagem enviada. | Obrigado pelo contato. | Sua mensagem foi enviada. | Se houver retorno, ele será feito pelo e-mail que você informou. | Se precisar complementar alguma informação, escreva para olwtelet@outlook.com. | Concluir",
+        "contactLinks": [
+          "mailto:olwtelet@outlook.com",
+          "https://www.linkedin.com/in/olwtelet/",
+          "mailto:olwtelet@outlook.com",
+          "https://www.linkedin.com/in/olwtelet/",
+          "mailto:olwtelet@outlook.com?subject=Veil",
+          "mailto:olwtelet@outlook.com",
+          "https://www.linkedin.com/in/olwtelet/"
+        ],
+        "contactSubmit": "Não foi possível enviar a mensagem agora. Escreva para olwtelet@outlook.com.",
+        "contactNameError": null,
+        "status /projects/alter-ego": 404,
+        "status /careers": 404,
+        "status /about/agency": 404,
+        "notFoundTitle": "Página não encontrada · Olwtelet Productions",
+        "head": {
+          "title": "Política de privacidade · Olwtelet Productions",
+          "description": "Como a Olwtelet Productions trata os dados de quem visita o site e usa o formulário de contato.",
+          "og": [
+            "og:title=Política de privacidade · Olwtelet Productions",
+            "og:description=Como a Olwtelet Productions trata os dados de quem visita o site e usa o formulário de contato.",
+            "og:site_name=Olwtelet Productions",
+            "og:locale=pt_BR",
+            "og:type=website"
+          ],
+          "icons": [
+            "manifest /manifest.webmanifest",
+            "icon /favicon.ico?favicon.01_kr7wrqt5zj.ico",
+            "icon /icon.svg?icon.1inz07-xs8ex7.svg",
+            "apple-touch-icon /apple-icon.png?apple-icon.0i0h-kzf7fiaq.png"
+          ],
+          "jsonld": [
+            "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Olwtelet Productions\",\n  \"description\": \"Espaço de criação independente de Isaac Rodrigues (Olwtelet), em Brasília: projetos próprios de software, jogos e aplicações web.\",\n  \"email\": \"olwtelet@outlook.com\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Brasília\",\n    \"addressRegion\": \"DF\",\n    \"addr",
+            "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebSite\",\n  \"name\": \"Olwtelet Productions\",\n  \"inLanguage\": \"pt-BR\"\n}"
+          ]
+        }
+      }
+    }
+  },
+  "failures": [],
+  "captures": [
+    {
+      "file": "d1440-intro-00300.png",
+      "at": "2026-11-18T03:00:59.921Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-intro-01200.png",
+      "at": "2026-11-18T03:01:00.808Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-intro-02200.png",
+      "at": "2026-11-18T03:01:01.821Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-intro-03000.png",
+      "at": "2026-11-18T03:01:02.628Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-intro-03600.png",
+      "at": "2026-11-18T03:01:03.219Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-intro-04200.png",
+      "at": "2026-11-18T03:01:03.829Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-intro-04800.png",
+      "at": "2026-11-18T03:01:04.427Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-intro-05600.png",
+      "at": "2026-11-18T03:01:05.240Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-intro-06600.png",
+      "at": "2026-11-18T03:01:06.221Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-intro-08000.png",
+      "at": "2026-11-18T03:01:07.617Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-home-grid.png",
+      "at": "2026-11-18T03:01:10.176Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-home-hover-published.png",
+      "at": "2026-11-18T03:01:17.462Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-home-hover-veil.png",
+      "at": "2026-11-18T03:01:18.426Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-home-list.png",
+      "at": "2026-11-18T03:01:20.020Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-home-filters.png",
+      "at": "2026-11-18T03:01:22.234Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-home-filter-empty-grid.png",
+      "at": "2026-11-18T03:01:32.847Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-home-filter-empty-list.png",
+      "at": "2026-11-18T03:01:34.443Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-home-filter-web.png",
+      "at": "2026-11-18T03:01:44.019Z",
+      "url": "/?zone=web",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=web",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-list.png",
+      "at": "2026-11-18T03:01:55.243Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-list-filter-web.png",
+      "at": "2026-11-18T03:02:28.289Z",
+      "url": "/?zone=web",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-list-filter-jogo.png",
+      "at": "2026-11-18T03:02:43.591Z",
+      "url": "/?zone=jogo",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-list-empty.png",
+      "at": "2026-11-18T03:02:56.020Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-case-top.png",
+      "at": "2026-11-18T03:03:03.998Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-case-20.png",
+      "at": "2026-11-18T03:03:06.459Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-case-40.png",
+      "at": "2026-11-18T03:03:08.932Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-case-60.png",
+      "at": "2026-11-18T03:03:11.364Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-case-80.png",
+      "at": "2026-11-18T03:03:13.815Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-case-98.png",
+      "at": "2026-11-18T03:03:15.958Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-veil-top.png",
+      "at": "2026-11-18T03:03:19.600Z",
+      "url": "/projects/veil",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/veil",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-veil-bottom.png",
+      "at": "2026-11-18T03:03:21.880Z",
+      "url": "/projects/veil",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/veil",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-about-studio-top.png",
+      "at": "2026-11-18T03:03:26.893Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-about-studio-00.png",
+      "at": "2026-11-18T03:03:28.713Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-about-studio-02.png",
+      "at": "2026-11-18T03:03:32.225Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-about-studio-04.png",
+      "at": "2026-11-18T03:03:35.740Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-about-studio-05.png",
+      "at": "2026-11-18T03:03:37.517Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-about-process-top.png",
+      "at": "2026-11-18T03:03:41.713Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-about-process-00.png",
+      "at": "2026-11-18T03:03:43.488Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-about-process-02.png",
+      "at": "2026-11-18T03:03:46.941Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-about-process-03.png",
+      "at": "2026-11-18T03:03:48.652Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-contact-step1.png",
+      "at": "2026-11-18T03:03:55.505Z",
+      "url": "/contact",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-contact-step2.png",
+      "at": "2026-11-18T03:03:57.150Z",
+      "url": "/contact",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-contact-submit.png",
+      "at": "2026-11-18T03:03:59.761Z",
+      "url": "/contact",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-notfound.png",
+      "at": "2026-11-18T03:04:02.441Z",
+      "url": "/projects/alter-ego",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/alter-ego",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-privacy-top.png",
+      "at": "2026-11-18T03:04:10.868Z",
+      "url": "/privacy-policy",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/privacy-policy",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1440-privacy-bottom-footer.png",
+      "at": "2026-11-18T03:04:13.152Z",
+      "url": "/privacy-policy",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/privacy-policy",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-intro-00300.png",
+      "at": "2026-11-18T03:04:13.805Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-intro-01200.png",
+      "at": "2026-11-18T03:04:14.700Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-intro-02200.png",
+      "at": "2026-11-18T03:04:15.703Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-intro-03000.png",
+      "at": "2026-11-18T03:04:16.511Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-intro-03600.png",
+      "at": "2026-11-18T03:04:17.108Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-intro-04200.png",
+      "at": "2026-11-18T03:04:17.729Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-intro-04800.png",
+      "at": "2026-11-18T03:04:18.316Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-intro-05600.png",
+      "at": "2026-11-18T03:04:19.120Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-intro-06600.png",
+      "at": "2026-11-18T03:04:20.120Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-intro-08000.png",
+      "at": "2026-11-18T03:04:21.510Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-home-grid.png",
+      "at": "2026-11-18T03:04:24.080Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-home-hover-published.png",
+      "at": "2026-11-18T03:04:31.411Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-home-hover-veil.png",
+      "at": "2026-11-18T03:04:32.383Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-home-list.png",
+      "at": "2026-11-18T03:04:33.980Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-home-filters.png",
+      "at": "2026-11-18T03:04:36.190Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-home-filter-empty-grid.png",
+      "at": "2026-11-18T03:04:46.826Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-home-filter-empty-list.png",
+      "at": "2026-11-18T03:04:48.431Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-home-filter-web.png",
+      "at": "2026-11-18T03:04:58.021Z",
+      "url": "/?zone=web",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=web",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-list.png",
+      "at": "2026-11-18T03:05:09.250Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-list-filter-web.png",
+      "at": "2026-11-18T03:05:42.280Z",
+      "url": "/?zone=web",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-list-filter-jogo.png",
+      "at": "2026-11-18T03:05:57.606Z",
+      "url": "/?zone=jogo",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-list-empty.png",
+      "at": "2026-11-18T03:06:10.072Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-case-top.png",
+      "at": "2026-11-18T03:06:18.099Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-case-20.png",
+      "at": "2026-11-18T03:06:20.816Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-case-40.png",
+      "at": "2026-11-18T03:06:23.411Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-case-60.png",
+      "at": "2026-11-18T03:06:25.990Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-case-80.png",
+      "at": "2026-11-18T03:06:28.680Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-case-98.png",
+      "at": "2026-11-18T03:06:30.915Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-veil-top.png",
+      "at": "2026-11-18T03:06:34.572Z",
+      "url": "/projects/veil",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/veil",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-veil-bottom.png",
+      "at": "2026-11-18T03:06:36.872Z",
+      "url": "/projects/veil",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/veil",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-about-studio-top.png",
+      "at": "2026-11-18T03:06:41.495Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-about-studio-00.png",
+      "at": "2026-11-18T03:06:43.348Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-about-studio-02.png",
+      "at": "2026-11-18T03:06:46.935Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-about-studio-04.png",
+      "at": "2026-11-18T03:06:50.563Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-about-studio-05.png",
+      "at": "2026-11-18T03:06:52.429Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-about-studio-06.png",
+      "at": "2026-11-18T03:06:53.768Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-about-process-top.png",
+      "at": "2026-11-18T03:06:57.996Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-about-process-00.png",
+      "at": "2026-11-18T03:06:59.820Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-about-process-02.png",
+      "at": "2026-11-18T03:07:03.379Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-about-process-03.png",
+      "at": "2026-11-18T03:07:05.179Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-about-process-04.png",
+      "at": "2026-11-18T03:07:06.446Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-contact-step1.png",
+      "at": "2026-11-18T03:07:13.320Z",
+      "url": "/contact",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-contact-step2.png",
+      "at": "2026-11-18T03:07:15.004Z",
+      "url": "/contact",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-contact-submit.png",
+      "at": "2026-11-18T03:07:17.640Z",
+      "url": "/contact",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-notfound.png",
+      "at": "2026-11-18T03:07:20.310Z",
+      "url": "/projects/alter-ego",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/alter-ego",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-privacy-top.png",
+      "at": "2026-11-18T03:07:28.671Z",
+      "url": "/privacy-policy",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/privacy-policy",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "d1920-privacy-bottom-footer.png",
+      "at": "2026-11-18T03:07:30.949Z",
+      "url": "/privacy-policy",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/privacy-policy",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-intro-00300.png",
+      "at": "2026-11-18T03:07:32.355Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-intro-01200.png",
+      "at": "2026-11-18T03:07:33.244Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-intro-02200.png",
+      "at": "2026-11-18T03:07:34.251Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-intro-03000.png",
+      "at": "2026-11-18T03:07:35.064Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-intro-03600.png",
+      "at": "2026-11-18T03:07:35.658Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-intro-04200.png",
+      "at": "2026-11-18T03:07:36.260Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-intro-04800.png",
+      "at": "2026-11-18T03:07:36.865Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-intro-05600.png",
+      "at": "2026-11-18T03:07:37.660Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-intro-06600.png",
+      "at": "2026-11-18T03:07:38.660Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-intro-08000.png",
+      "at": "2026-11-18T03:07:40.065Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-home-grid.png",
+      "at": "2026-11-18T03:07:42.607Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-home-hover-published.png",
+      "at": "2026-11-18T03:07:58.974Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-home-hover-veil.png",
+      "at": "2026-11-18T03:07:59.921Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-home-list.png",
+      "at": "2026-11-18T03:08:01.506Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-home-filters.png",
+      "at": "2026-11-18T03:08:03.704Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-home-filter-empty-grid.png",
+      "at": "2026-11-18T03:08:14.306Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-home-filter-empty-list.png",
+      "at": "2026-11-18T03:08:15.881Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-home-filter-web.png",
+      "at": "2026-11-18T03:08:25.452Z",
+      "url": "/?zone=web",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=web",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-list.png",
+      "at": "2026-11-18T03:08:36.670Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-list-filter-web.png",
+      "at": "2026-11-18T03:09:09.698Z",
+      "url": "/?zone=web",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-list-filter-jogo.png",
+      "at": "2026-11-18T03:09:25.019Z",
+      "url": "/?zone=jogo",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-list-empty.png",
+      "at": "2026-11-18T03:09:37.462Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-case-top.png",
+      "at": "2026-11-18T03:09:45.375Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-case-20.png",
+      "at": "2026-11-18T03:09:47.592Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-case-40.png",
+      "at": "2026-11-18T03:09:49.799Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-case-60.png",
+      "at": "2026-11-18T03:09:52.041Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-case-80.png",
+      "at": "2026-11-18T03:09:54.254Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-case-98.png",
+      "at": "2026-11-18T03:09:56.167Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-veil-top.png",
+      "at": "2026-11-18T03:09:59.789Z",
+      "url": "/projects/veil",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/veil",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-veil-bottom.png",
+      "at": "2026-11-18T03:10:01.803Z",
+      "url": "/projects/veil",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/veil",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-about-studio-top.png",
+      "at": "2026-11-18T03:10:06.376Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-about-studio-00.png",
+      "at": "2026-11-18T03:10:08.130Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-about-studio-02.png",
+      "at": "2026-11-18T03:10:11.558Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-about-studio-04.png",
+      "at": "2026-11-18T03:10:14.905Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-about-process-top.png",
+      "at": "2026-11-18T03:10:19.057Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-about-process-00.png",
+      "at": "2026-11-18T03:10:20.805Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-about-process-02.png",
+      "at": "2026-11-18T03:10:24.122Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-contact-step1.png",
+      "at": "2026-11-18T03:10:30.970Z",
+      "url": "/contact",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-contact-step2.png",
+      "at": "2026-11-18T03:10:32.561Z",
+      "url": "/contact",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-contact-submit.png",
+      "at": "2026-11-18T03:10:35.130Z",
+      "url": "/contact",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-notfound.png",
+      "at": "2026-11-18T03:10:37.750Z",
+      "url": "/projects/alter-ego",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/alter-ego",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-privacy-top.png",
+      "at": "2026-11-18T03:10:46.083Z",
+      "url": "/privacy-policy",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/privacy-policy",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m390-privacy-bottom-footer.png",
+      "at": "2026-11-18T03:10:48.404Z",
+      "url": "/privacy-policy",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/privacy-policy",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-intro-00300.png",
+      "at": "2026-11-18T03:10:49.060Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-intro-01200.png",
+      "at": "2026-11-18T03:10:49.951Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-intro-02200.png",
+      "at": "2026-11-18T03:10:50.949Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-intro-03000.png",
+      "at": "2026-11-18T03:10:51.776Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-intro-03600.png",
+      "at": "2026-11-18T03:10:52.354Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-intro-04200.png",
+      "at": "2026-11-18T03:10:52.961Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-intro-04800.png",
+      "at": "2026-11-18T03:10:53.573Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-intro-05600.png",
+      "at": "2026-11-18T03:10:54.375Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-intro-06600.png",
+      "at": "2026-11-18T03:10:55.356Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-intro-08000.png",
+      "at": "2026-11-18T03:10:56.768Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-home-grid.png",
+      "at": "2026-11-18T03:10:59.307Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-home-hover-published.png",
+      "at": "2026-11-18T03:11:15.690Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-home-hover-veil.png",
+      "at": "2026-11-18T03:11:16.638Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-home-list.png",
+      "at": "2026-11-18T03:11:18.219Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-home-filters.png",
+      "at": "2026-11-18T03:11:20.422Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-home-filter-empty-grid.png",
+      "at": "2026-11-18T03:11:31.017Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-home-filter-empty-list.png",
+      "at": "2026-11-18T03:11:32.595Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-home-filter-web.png",
+      "at": "2026-11-18T03:11:42.155Z",
+      "url": "/?zone=web",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=web",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-list.png",
+      "at": "2026-11-18T03:11:53.363Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-list-filter-web.png",
+      "at": "2026-11-18T03:12:26.377Z",
+      "url": "/?zone=web",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-list-filter-jogo.png",
+      "at": "2026-11-18T03:12:41.686Z",
+      "url": "/?zone=jogo",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-list-empty.png",
+      "at": "2026-11-18T03:12:54.117Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-case-top.png",
+      "at": "2026-11-18T03:13:02.007Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-case-20.png",
+      "at": "2026-11-18T03:13:04.214Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-case-40.png",
+      "at": "2026-11-18T03:13:06.410Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-case-60.png",
+      "at": "2026-11-18T03:13:08.634Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-case-80.png",
+      "at": "2026-11-18T03:13:10.842Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-case-98.png",
+      "at": "2026-11-18T03:13:12.752Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-veil-top.png",
+      "at": "2026-11-18T03:13:16.373Z",
+      "url": "/projects/veil",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/veil",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-veil-bottom.png",
+      "at": "2026-11-18T03:13:18.392Z",
+      "url": "/projects/veil",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/veil",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-about-studio-top.png",
+      "at": "2026-11-18T03:13:22.969Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-about-studio-00.png",
+      "at": "2026-11-18T03:13:24.705Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-about-studio-02.png",
+      "at": "2026-11-18T03:13:28.078Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-about-studio-04.png",
+      "at": "2026-11-18T03:13:31.493Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-about-studio-05.png",
+      "at": "2026-11-18T03:13:32.759Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-about-process-top.png",
+      "at": "2026-11-18T03:13:36.924Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-about-process-00.png",
+      "at": "2026-11-18T03:13:38.650Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-about-process-02.png",
+      "at": "2026-11-18T03:13:41.996Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-contact-step1.png",
+      "at": "2026-11-18T03:13:48.800Z",
+      "url": "/contact",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-contact-step2.png",
+      "at": "2026-11-18T03:13:50.394Z",
+      "url": "/contact",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-contact-submit.png",
+      "at": "2026-11-18T03:13:52.964Z",
+      "url": "/contact",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-notfound.png",
+      "at": "2026-11-18T03:13:55.611Z",
+      "url": "/projects/alter-ego",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/alter-ego",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-privacy-top.png",
+      "at": "2026-11-18T03:14:03.967Z",
+      "url": "/privacy-policy",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/privacy-policy",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "m360-privacy-bottom-footer.png",
+      "at": "2026-11-18T03:14:06.316Z",
+      "url": "/privacy-policy",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/privacy-policy",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-intro-00300.png",
+      "at": "2026-11-18T03:14:06.961Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-intro-01200.png",
+      "at": "2026-11-18T03:14:07.852Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-intro-02200.png",
+      "at": "2026-11-18T03:14:08.861Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-intro-03000.png",
+      "at": "2026-11-18T03:14:09.665Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-intro-03600.png",
+      "at": "2026-11-18T03:14:10.274Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-intro-04200.png",
+      "at": "2026-11-18T03:14:10.893Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-intro-04800.png",
+      "at": "2026-11-18T03:14:11.476Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-intro-05600.png",
+      "at": "2026-11-18T03:14:12.280Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-intro-06600.png",
+      "at": "2026-11-18T03:14:13.263Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-intro-08000.png",
+      "at": "2026-11-18T03:14:14.675Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-home-grid.png",
+      "at": "2026-11-18T03:14:17.217Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-home-hover-published.png",
+      "at": "2026-11-18T03:14:33.565Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-home-hover-veil.png",
+      "at": "2026-11-18T03:14:34.516Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-home-list.png",
+      "at": "2026-11-18T03:14:36.100Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-home-filters.png",
+      "at": "2026-11-18T03:14:38.305Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-home-filter-empty-grid.png",
+      "at": "2026-11-18T03:14:48.901Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-home-filter-empty-list.png",
+      "at": "2026-11-18T03:14:50.480Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-home-filter-web.png",
+      "at": "2026-11-18T03:15:00.049Z",
+      "url": "/?zone=web",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=web",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-list.png",
+      "at": "2026-11-18T03:15:11.264Z",
+      "url": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-list-filter-web.png",
+      "at": "2026-11-18T03:15:44.253Z",
+      "url": "/?zone=web",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-list-filter-jogo.png",
+      "at": "2026-11-18T03:15:59.579Z",
+      "url": "/?zone=jogo",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-list-empty.png",
+      "at": "2026-11-18T03:16:12.012Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-case-top.png",
+      "at": "2026-11-18T03:16:19.972Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-case-20.png",
+      "at": "2026-11-18T03:16:22.393Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-case-40.png",
+      "at": "2026-11-18T03:16:24.791Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-case-60.png",
+      "at": "2026-11-18T03:16:27.257Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-case-80.png",
+      "at": "2026-11-18T03:16:29.700Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-case-98.png",
+      "at": "2026-11-18T03:16:31.819Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-veil-top.png",
+      "at": "2026-11-18T03:16:35.675Z",
+      "url": "/projects/veil",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/veil",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-veil-bottom.png",
+      "at": "2026-11-18T03:16:37.723Z",
+      "url": "/projects/veil",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/veil",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-about-studio-top.png",
+      "at": "2026-11-18T03:16:42.308Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-about-studio-00.png",
+      "at": "2026-11-18T03:16:44.174Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-about-studio-02.png",
+      "at": "2026-11-18T03:16:47.684Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-about-studio-03.png",
+      "at": "2026-11-18T03:16:49.492Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-about-studio-04.png",
+      "at": "2026-11-18T03:16:50.766Z",
+      "url": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-about-process-top.png",
+      "at": "2026-11-18T03:16:54.957Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-about-process-00.png",
+      "at": "2026-11-18T03:16:56.748Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-about-process-02.png",
+      "at": "2026-11-18T03:17:00.105Z",
+      "url": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/process",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-contact-step1.png",
+      "at": "2026-11-18T03:17:06.941Z",
+      "url": "/contact",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-contact-step2.png",
+      "at": "2026-11-18T03:17:08.552Z",
+      "url": "/contact",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-contact-submit.png",
+      "at": "2026-11-18T03:17:11.146Z",
+      "url": "/contact",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/about/studio",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-notfound.png",
+      "at": "2026-11-18T03:17:13.797Z",
+      "url": "/projects/alter-ego",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/projects/alter-ego",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-privacy-top.png",
+      "at": "2026-11-18T03:17:22.150Z",
+      "url": "/privacy-policy",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/privacy-policy",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    },
+    {
+      "file": "t768-privacy-bottom-footer.png",
+      "at": "2026-11-18T03:17:24.346Z",
+      "url": "/privacy-policy",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document",
+      "documentUrl": "/privacy-policy",
+      "lastRscBuildId": "2ScPNEWZjIwoLexHOGa25"
+    }
+  ],
+  "finishedAt": "2026-11-18T03:17:24.456Z",
+  "build": {
+    "verifiedAt": "2026-11-18T03:17:24.456Z",
+    "result": "verified",
+    "localBuildId": "2ScPNEWZjIwoLexHOGa25",
+    "localBuildIdFile": ".next/BUILD_ID",
+    "localBuildIdModified": "2026-11-18T02:36:39.503Z",
+    "localBuildAtEnd": {
+      "id": "2ScPNEWZjIwoLexHOGa25",
+      "modified": "2026-11-18T02:36:39.503Z"
+    },
+    "pageBuildIds": {
+      "2ScPNEWZjIwoLexHOGa25": 223
+    },
+    "responseBuildIds": {
+      "document": {
+        "2ScPNEWZjIwoLexHOGa25": 88
+      },
+      "rsc": {
+        "2ScPNEWZjIwoLexHOGa25": 1001
+      }
+    },
+    "staticFiles": {
+      "loaded": 31,
+      "identical": 31,
+      "mismatched": [],
+      "missingLocally": [],
+      "unreadable": [],
+      "failed": {},
+      "cancelledByNavigation": [],
+      "files": [
+        {
+          "path": "/_next/static/chunks/03cws7znwgvpy.js",
+          "sha256": "6a07e90e8d4ba3fa77ef1e849657b9691715631075e11cd25d4126f15d855c5a",
+          "localSha256": "6a07e90e8d4ba3fa77ef1e849657b9691715631075e11cd25d4126f15d855c5a",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/04ckmmz_oyox_.js",
+          "sha256": "66ec0600725b94c3582e70875f22c68b5cf8ed8a255b51d9de2406ddceb0a553",
+          "localSha256": "66ec0600725b94c3582e70875f22c68b5cf8ed8a255b51d9de2406ddceb0a553",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/07rhp9czrgf4p.js",
+          "sha256": "f316c83fbfd0eb02f2fd774381cb1f5b61786b7e5a07bfd78f435e13cc108412",
+          "localSha256": "f316c83fbfd0eb02f2fd774381cb1f5b61786b7e5a07bfd78f435e13cc108412",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/0a739m3p65r9o.js",
+          "sha256": "f8d1d0b408c064f69a89cfe5c96bde08036b86a32da6f5eedaf765dbc5a0dea0",
+          "localSha256": "f8d1d0b408c064f69a89cfe5c96bde08036b86a32da6f5eedaf765dbc5a0dea0",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/0cilam0slbzpk.js",
+          "sha256": "6709cc2b1c6becdd0aa4f76e656886c1771be9f78eda61f059a29f52508c5d7a",
+          "localSha256": "6709cc2b1c6becdd0aa4f76e656886c1771be9f78eda61f059a29f52508c5d7a",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/0d4i_7yynj2u8.js",
+          "sha256": "1ea230be85b5c4dad7999b0b48b0786bd22ab1198a26bea97dcffe7ca5d26f7b",
+          "localSha256": "1ea230be85b5c4dad7999b0b48b0786bd22ab1198a26bea97dcffe7ca5d26f7b",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/0fu0k42bfj-kl.js",
+          "sha256": "ce62a44ea1eea1d87a2f70aa6c5e0352e8dae0979f13cf9edf278713dd4bbefe",
+          "localSha256": "ce62a44ea1eea1d87a2f70aa6c5e0352e8dae0979f13cf9edf278713dd4bbefe",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/0oc2z7tsvr9_3.js",
+          "sha256": "06da5249391594eb139cdc5e65a1ef2e5cc5f4256935556824c47bd8cc47c013",
+          "localSha256": "06da5249391594eb139cdc5e65a1ef2e5cc5f4256935556824c47bd8cc47c013",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/0uk63h0tuavo5.js",
+          "sha256": "b4c355d04b63f1eb431de30c8fe01a968833e447eb0e820de93ac228afea31b7",
+          "localSha256": "b4c355d04b63f1eb431de30c8fe01a968833e447eb0e820de93ac228afea31b7",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/1b58lzx2zkoc9.js",
+          "sha256": "dc23dfe5135cb2ce7b59c1bcf2b029b42f41bc50283219d7bbdd8ce363925983",
+          "localSha256": "dc23dfe5135cb2ce7b59c1bcf2b029b42f41bc50283219d7bbdd8ce363925983",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/217ow4dm28wpc.js",
+          "sha256": "9dc7c80cadf567c337b788ba3d01514299dd5696544888820e6bd8dfc43dbb33",
+          "localSha256": "9dc7c80cadf567c337b788ba3d01514299dd5696544888820e6bd8dfc43dbb33",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/22h4xhfki0dft.js",
+          "sha256": "863c27f39583a9eef0cef625310636132487f9fe505b57cbb11c27e5b1fe4533",
+          "localSha256": "863c27f39583a9eef0cef625310636132487f9fe505b57cbb11c27e5b1fe4533",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/27y2pzw1v3xw7.js",
+          "sha256": "04a6ded4fae0fb1fd52eb1dfe28edc3f67ca5786b8c83ae550d522679bf4fade",
+          "localSha256": "04a6ded4fae0fb1fd52eb1dfe28edc3f67ca5786b8c83ae550d522679bf4fade",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/2dma2523kox2m.css",
+          "sha256": "1e4fd35ce45476a3793dd7a761fa417047c36b4351ec1e654132d1272edbbac5",
+          "localSha256": "1e4fd35ce45476a3793dd7a761fa417047c36b4351ec1e654132d1272edbbac5",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/2eml-ccul9dgi.css",
+          "sha256": "ec65193b4d7f9767dcf86229930f2f2b937bde4dd13d6b86b1fbb782e595de5a",
+          "localSha256": "ec65193b4d7f9767dcf86229930f2f2b937bde4dd13d6b86b1fbb782e595de5a",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/2r_6kbb5o1pkr.js",
+          "sha256": "b0fa1cb34908732091cc944579b5460cac26448b4bf88feb9887f63798dc0a18",
+          "localSha256": "b0fa1cb34908732091cc944579b5460cac26448b4bf88feb9887f63798dc0a18",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/2rd9jgx8scxht.js",
+          "sha256": "2ab2a258b76f4cd10af95662bdb63d6f5e995f68db08a14527ac86db9d3c663c",
+          "localSha256": "2ab2a258b76f4cd10af95662bdb63d6f5e995f68db08a14527ac86db9d3c663c",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/2thcxxn_iwddz.js",
+          "sha256": "995d8025cdffe301343b40717ad1a2fde3f47e3c185f6d8cc5afefbbae6e08a1",
+          "localSha256": "995d8025cdffe301343b40717ad1a2fde3f47e3c185f6d8cc5afefbbae6e08a1",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/2w_13_nd5z2en.js",
+          "sha256": "1e67dd2c1601ec54407da02b4e80f3d74e29cce6ab019cef6f7e902ca7f10065",
+          "localSha256": "1e67dd2c1601ec54407da02b4e80f3d74e29cce6ab019cef6f7e902ca7f10065",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/2z563j941metq.js",
+          "sha256": "dda6e399283425f92d46d963849bd112b3beae84d88c1ad4c48fc70aa9259d6d",
+          "localSha256": "dda6e399283425f92d46d963849bd112b3beae84d88c1ad4c48fc70aa9259d6d",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/2zm69m1ug1rcb.js",
+          "sha256": "c0e6f99aee4c6e122d5b632991ffe8f1dcd0351d0d7fcb3f354a0c6cf99e45d1",
+          "localSha256": "c0e6f99aee4c6e122d5b632991ffe8f1dcd0351d0d7fcb3f354a0c6cf99e45d1",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/3662gqy_hm4l4.js",
+          "sha256": "8f1d9d7ba78f4f2765468919a18f74e05a88f1fd0498175d6de38a6d361e4889",
+          "localSha256": "8f1d9d7ba78f4f2765468919a18f74e05a88f1fd0498175d6de38a6d361e4889",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/3e1p_ub5lpfjm.js",
+          "sha256": "5726345d9712bbd81ce1bee7f4e144f6a1316b3251dbaedfecf0f1d56fe90f23",
+          "localSha256": "5726345d9712bbd81ce1bee7f4e144f6a1316b3251dbaedfecf0f1d56fe90f23",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/3egcx5nvcok1g.js",
+          "sha256": "7ce120569bbc20ce7913f693560fe6efa6cdcb8b68c1428ac4ef7a348a6014cb",
+          "localSha256": "7ce120569bbc20ce7913f693560fe6efa6cdcb8b68c1428ac4ef7a348a6014cb",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/3fyfjpdoi4y3o.js",
+          "sha256": "a9101488f2fe2824c62207d017d51b8e918a14343003abcd096d185a3b82b8df",
+          "localSha256": "a9101488f2fe2824c62207d017d51b8e918a14343003abcd096d185a3b82b8df",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/3gkqeg8e_pf4b.js",
+          "sha256": "510390bfd8f336d64fdaf3ffd0ecd2c3bb1456fd3e15ae4ea095c0a8d2ebe49e",
+          "localSha256": "510390bfd8f336d64fdaf3ffd0ecd2c3bb1456fd3e15ae4ea095c0a8d2ebe49e",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/3kotshjlvczyu.css",
+          "sha256": "d2822c59f01600b01255832925d48ce8eb1ca973eea845ec476b208be5cc72dd",
+          "localSha256": "d2822c59f01600b01255832925d48ce8eb1ca973eea845ec476b208be5cc72dd",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/3kv46g0zilw43.js",
+          "sha256": "8e0020ee2d934d977281409a3306deba27afe4cfef82b791b0cba99ac4b3b576",
+          "localSha256": "8e0020ee2d934d977281409a3306deba27afe4cfef82b791b0cba99ac4b3b576",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/3o-2_fbfid8v2.css",
+          "sha256": "0cf76a9e4d6eaa284577c6bb4f339c5e8ed48c53c54c270b7def89211041c6ee",
+          "localSha256": "0cf76a9e4d6eaa284577c6bb4f339c5e8ed48c53c54c270b7def89211041c6ee",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/3tbg8bylhnzyk.js",
+          "sha256": "b2ea2d1ba6f4b283e445e9d06f1cdac63532096bd4b79bfe44ecda0edbe3c339",
+          "localSha256": "b2ea2d1ba6f4b283e445e9d06f1cdac63532096bd4b79bfe44ecda0edbe3c339",
+          "identical": true
+        },
+        {
+          "path": "/_next/static/chunks/turbopack-077hmtqrhcoji.js",
+          "sha256": "3f0ba0c36a0758d76b55b6717fd77e65f46ae1295bb22fa441476e1eb7854d51",
+          "localSha256": "3f0ba0c36a0758d76b55b6717fd77e65f46ae1295bb22fa441476e1eb7854d51",
+          "identical": true
+        }
+      ]
+    },
+    "method": "SHA-256 of every /_next/static/** response body vs <dist>/static/<same path> (any 4xx/5xx or failed static request fails); flight \"b\" field of the HTML document of every capture, and of every RSC response, vs <dist>/BUILD_ID, read at the start and again at the end of the run"
+  }
+}

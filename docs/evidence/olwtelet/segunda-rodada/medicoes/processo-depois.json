@@ -1,0 +1,1215 @@
+{
+ "build": "_kmMjqBIsp2D5eFvDbNj_",
+ "sizes": {
+  "320x640": {
+   "docWidth": 320,
+   "docHeight": 2643,
+   "title": [
+    "Processo DA  [20–151]",
+    "EPIFANIA AO  [20–264]",
+    "PROJETO.  [20–211]"
+   ],
+   "lead": [
+    "Etapas Os projetos da  [20–230]",
+    "Olwtelet Productions  [20–237]",
+    "nascem de uma epifania.  [20–272]",
+    "Quando ela se mostra  [20–243]",
+    "promissora, a ideia entra  [20–269]",
+    "em análise e  [20–146]",
+    "desenvolvimento.  [20–202]"
+   ],
+   "stepCount": 3,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Epifania  [66–147]"
+     ],
+     "body": [
+      "Todo projeto começa com uma  [66–280]",
+      "epifania, uma ideia que surge  [66–265]",
+      "de repente. Nem toda epifania  [66–272]",
+      "vira projeto.  [66–145]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 180,
+      "height": 124.6
+     },
+     "labels": [
+      {
+       "text": "Ideia",
+       "textRight": 52.6,
+       "cy": 31.1
+      },
+      {
+       "text": "Epifania",
+       "textRight": 72.2,
+       "cy": 62.3
+      },
+      {
+       "text": "Projeto",
+       "textRight": 65.7,
+       "cy": 93.4
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Análise  [66–141]"
+     ],
+     "body": [
+      "Quando a epifania se mostra  [66–261]",
+      "promissora, a ideia entra em  [66–257]",
+      "análise antes de seguir para  [66–256]",
+      "o desenvolvimento.  [66–198]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 180,
+      "height": 124.6
+     },
+     "labels": [
+      {
+       "text": "Epifania",
+       "textRight": 72.2,
+       "cy": 31.1
+      },
+      {
+       "text": "Promissora",
+       "textRight": 85.3,
+       "cy": 62.3
+      },
+      {
+       "text": "Análise",
+       "textRight": 65.7,
+       "cy": 93.4
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Desenvolvimento  [66–244]"
+     ],
+     "body": [
+      "Depois da análise, a ideia  [66–236]",
+      "é desenvolvida e se torna  [66–239]",
+      "software, jogo ou aplicação web.  [66–288]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 180,
+      "height": 124.6
+     },
+     "labels": [
+      {
+       "text": "Software",
+       "textRight": 72.2,
+       "cy": 31.1
+      },
+      {
+       "text": "Jogo",
+       "textRight": 46.1,
+       "cy": 62.3
+      },
+      {
+       "text": "Web",
+       "textRight": 39.6,
+       "cy": 93.4
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "360x740": {
+   "docWidth": 360,
+   "docHeight": 2576,
+   "title": [
+    "Processo DA EPIFANIA  [20–336]",
+    "AO PROJETO.  [20–277]"
+   ],
+   "lead": [
+    "Etapas Os projetos da Olwtelet  [20–321]",
+    "Productions nascem de uma  [20–312]",
+    "epifania. Quando ela se mostra  [20–333]",
+    "promissora, a ideia entra em  [20–307]",
+    "análise e desenvolvimento.  [20–295]"
+   ],
+   "stepCount": 3,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Epifania  [66–147]"
+     ],
+     "body": [
+      "Todo projeto começa com uma  [66–280]",
+      "epifania, uma ideia que surge de  [66–286]",
+      "repente. Nem toda epifania vira projeto.  [66–332]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 220,
+      "height": 152.3
+     },
+     "labels": [
+      {
+       "text": "Ideia",
+       "textRight": 52.6,
+       "cy": 38.1
+      },
+      {
+       "text": "Epifania",
+       "textRight": 72.2,
+       "cy": 76.1
+      },
+      {
+       "text": "Projeto",
+       "textRight": 65.7,
+       "cy": 114.2
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Análise  [66–141]"
+     ],
+     "body": [
+      "Quando a epifania se mostra  [66–261]",
+      "promissora, a ideia entra em análise  [66–308]",
+      "antes de seguir para o desenvolvimento.  [66–340]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 220,
+      "height": 152.3
+     },
+     "labels": [
+      {
+       "text": "Epifania",
+       "textRight": 72.2,
+       "cy": 38.1
+      },
+      {
+       "text": "Promissora",
+       "textRight": 85.3,
+       "cy": 76.1
+      },
+      {
+       "text": "Análise",
+       "textRight": 65.7,
+       "cy": 114.2
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Desenvolvimento  [66–244]"
+     ],
+     "body": [
+      "Depois da análise, a ideia  [66–236]",
+      "é desenvolvida e se torna software, jogo  [66–339]",
+      "ou aplicação web.  [66–188]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 220,
+      "height": 152.3
+     },
+     "labels": [
+      {
+       "text": "Software",
+       "textRight": 72.2,
+       "cy": 38.1
+      },
+      {
+       "text": "Jogo",
+       "textRight": 46.1,
+       "cy": 76.1
+      },
+      {
+       "text": "Web",
+       "textRight": 39.6,
+       "cy": 114.2
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "390x844": {
+   "docWidth": 390,
+   "docHeight": 2618,
+   "title": [
+    "Processo DA EPIFANIA  [20–336]",
+    "AO PROJETO.  [20–277]"
+   ],
+   "lead": [
+    "Etapas Os projetos da Olwtelet  [20–321]",
+    "Productions nascem de uma  [20–312]",
+    "epifania. Quando ela se mostra  [20–333]",
+    "promissora, a ideia entra em  [20–307]",
+    "análise e desenvolvimento.  [20–295]"
+   ],
+   "stepCount": 3,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Epifania  [66–147]"
+     ],
+     "body": [
+      "Todo projeto começa com uma epifania,  [66–341]",
+      "uma ideia que surge de repente. Nem toda  [66–356]",
+      "epifania vira projeto.  [66–202]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 250,
+      "height": 173.1
+     },
+     "labels": [
+      {
+       "text": "Ideia",
+       "textRight": 52.6,
+       "cy": 43.3
+      },
+      {
+       "text": "Epifania",
+       "textRight": 72.2,
+       "cy": 86.5
+      },
+      {
+       "text": "Projeto",
+       "textRight": 65.7,
+       "cy": 129.8
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Análise  [66–141]"
+     ],
+     "body": [
+      "Quando a epifania se mostra promissora,  [66–345]",
+      "a ideia entra em análise antes de seguir para  [66–366]",
+      "o desenvolvimento.  [66–198]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 250,
+      "height": 173.1
+     },
+     "labels": [
+      {
+       "text": "Epifania",
+       "textRight": 72.2,
+       "cy": 43.3
+      },
+      {
+       "text": "Promissora",
+       "textRight": 85.3,
+       "cy": 86.5
+      },
+      {
+       "text": "Análise",
+       "textRight": 65.7,
+       "cy": 129.8
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Desenvolvimento  [66–244]"
+     ],
+     "body": [
+      "Depois da análise, a ideia é desenvolvida  [66–342]",
+      "e se torna software, jogo ou aplicação web.  [66–359]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 250,
+      "height": 173.1
+     },
+     "labels": [
+      {
+       "text": "Software",
+       "textRight": 72.2,
+       "cy": 43.3
+      },
+      {
+       "text": "Jogo",
+       "textRight": 46.1,
+       "cy": 86.5
+      },
+      {
+       "text": "Web",
+       "textRight": 39.6,
+       "cy": 129.8
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "414x896": {
+   "docWidth": 414,
+   "docHeight": 2643,
+   "title": [
+    "Processo DA EPIFANIA  [20–336]",
+    "AO PROJETO.  [20–277]"
+   ],
+   "lead": [
+    "Etapas Os projetos da Olwtelet  [20–321]",
+    "Productions nascem de uma  [20–312]",
+    "epifania. Quando ela se mostra  [20–333]",
+    "promissora, a ideia entra em  [20–307]",
+    "análise e desenvolvimento.  [20–295]"
+   ],
+   "stepCount": 3,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Epifania  [66–147]"
+     ],
+     "body": [
+      "Todo projeto começa com uma epifania, uma  [66–374]",
+      "ideia que surge de repente. Nem toda epifania  [66–380]",
+      "vira projeto.  [66–145]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 274,
+      "height": 189.7
+     },
+     "labels": [
+      {
+       "text": "Ideia",
+       "textRight": 52.6,
+       "cy": 47.4
+      },
+      {
+       "text": "Epifania",
+       "textRight": 72.2,
+       "cy": 94.8
+      },
+      {
+       "text": "Projeto",
+       "textRight": 65.7,
+       "cy": 142.3
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Análise  [66–141]"
+     ],
+     "body": [
+      "Quando a epifania se mostra promissora, a ideia  [66–392]",
+      "entra em análise antes de seguir para  [66–319]",
+      "o desenvolvimento.  [66–198]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 274,
+      "height": 189.7
+     },
+     "labels": [
+      {
+       "text": "Epifania",
+       "textRight": 72.2,
+       "cy": 47.4
+      },
+      {
+       "text": "Promissora",
+       "textRight": 85.3,
+       "cy": 94.8
+      },
+      {
+       "text": "Análise",
+       "textRight": 65.7,
+       "cy": 142.3
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Desenvolvimento  [66–244]"
+     ],
+     "body": [
+      "Depois da análise, a ideia é desenvolvida e se  [66–373]",
+      "torna software, jogo ou aplicação web.  [66–328]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 274,
+      "height": 189.7
+     },
+     "labels": [
+      {
+       "text": "Software",
+       "textRight": 72.2,
+       "cy": 47.4
+      },
+      {
+       "text": "Jogo",
+       "textRight": 46.1,
+       "cy": 94.8
+      },
+      {
+       "text": "Web",
+       "textRight": 39.6,
+       "cy": 142.3
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "768x1024": {
+   "docWidth": 768,
+   "docHeight": 2974,
+   "title": [
+    "Processo DA EPIFANIA AO PROJETO.  [20–659]"
+   ],
+   "lead": [
+    "Etapas Os projetos da Olwtelet  [20–321]",
+    "Productions nascem de uma  [20–312]",
+    "epifania. Quando ela se mostra  [20–333]",
+    "promissora, a ideia entra em  [20–307]",
+    "análise e desenvolvimento.  [20–295]"
+   ],
+   "stepCount": 3,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Epifania  [66–147]"
+     ],
+     "body": [
+      "Todo projeto começa com uma epifania, uma  [66–374]",
+      "ideia que surge de repente. Nem toda epifania  [66–380]",
+      "vira projeto.  [66–145]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 460,
+      "height": 318.5
+     },
+     "labels": [
+      {
+       "text": "Ideia",
+       "textRight": 52.6,
+       "cy": 79.6
+      },
+      {
+       "text": "Epifania",
+       "textRight": 72.2,
+       "cy": 159.2
+      },
+      {
+       "text": "Projeto",
+       "textRight": 65.7,
+       "cy": 238.8
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Análise  [66–141]"
+     ],
+     "body": [
+      "Quando a epifania se mostra promissora, a ideia  [66–392]",
+      "entra em análise antes de seguir para  [66–319]",
+      "o desenvolvimento.  [66–198]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 460,
+      "height": 318.5
+     },
+     "labels": [
+      {
+       "text": "Epifania",
+       "textRight": 72.2,
+       "cy": 79.6
+      },
+      {
+       "text": "Promissora",
+       "textRight": 85.3,
+       "cy": 159.2
+      },
+      {
+       "text": "Análise",
+       "textRight": 65.7,
+       "cy": 238.8
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Desenvolvimento  [66–244]"
+     ],
+     "body": [
+      "Depois da análise, a ideia é desenvolvida e se  [66–373]",
+      "torna software, jogo ou aplicação web.  [66–328]"
+     ],
+     "diagram": {
+      "left": 120,
+      "width": 460,
+      "height": 318.5
+     },
+     "labels": [
+      {
+       "text": "Software",
+       "textRight": 72.2,
+       "cy": 79.6
+      },
+      {
+       "text": "Jogo",
+       "textRight": 46.1,
+       "cy": 159.2
+      },
+      {
+       "text": "Web",
+       "textRight": 39.6,
+       "cy": 238.8
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "1024x768": {
+   "docWidth": 1024,
+   "docHeight": 2932,
+   "title": [
+    "Processo DA EPIFANIA AO PROJETO.  [24–852]"
+   ],
+   "lead": [
+    "Etapas Os projetos da Olwtelet  [24–392]",
+    "Productions nascem de uma  [24–398]",
+    "epifania. Quando ela se mostra  [24–424]",
+    "promissora, a ideia entra em  [24–391]",
+    "análise e desenvolvimento.  [24–375]"
+   ],
+   "stepCount": 3,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Epifania  [274–378]"
+     ],
+     "body": [
+      "Todo projeto começa com uma epifania, uma  [274–609]",
+      "ideia que surge de repente. Nem toda epifania  [274–615]",
+      "vira projeto.  [274–360]"
+     ],
+     "diagram": {
+      "left": 753,
+      "width": 247,
+      "height": 171
+     },
+     "labels": [
+      {
+       "text": "Ideia",
+       "textRight": 681.6,
+       "cy": 42.7
+      },
+      {
+       "text": "Epifania",
+       "textRight": 701.2,
+       "cy": 85.5
+      },
+      {
+       "text": "Projeto",
+       "textRight": 694.7,
+       "cy": 128.2
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Análise  [274–370]"
+     ],
+     "body": [
+      "Quando a epifania se mostra promissora,  [274–577]",
+      "a ideia entra em análise antes de seguir para  [274–601]",
+      "o desenvolvimento.  [274–418]"
+     ],
+     "diagram": {
+      "left": 753,
+      "width": 247,
+      "height": 171
+     },
+     "labels": [
+      {
+       "text": "Epifania",
+       "textRight": 701.2,
+       "cy": 42.7
+      },
+      {
+       "text": "Promissora",
+       "textRight": 714.3,
+       "cy": 85.5
+      },
+      {
+       "text": "Análise",
+       "textRight": 694.7,
+       "cy": 128.2
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Desenvolvimento  [274–502]"
+     ],
+     "body": [
+      "Depois da análise, a ideia é desenvolvida e se  [274–608]",
+      "torna software, jogo ou aplicação web.  [274–559]"
+     ],
+     "diagram": {
+      "left": 753,
+      "width": 247,
+      "height": 171
+     },
+     "labels": [
+      {
+       "text": "Software",
+       "textRight": 701.2,
+       "cy": 42.7
+      },
+      {
+       "text": "Jogo",
+       "textRight": 675.1,
+       "cy": 85.5
+      },
+      {
+       "text": "Web",
+       "textRight": 668.6,
+       "cy": 128.2
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "1280x800": {
+   "docWidth": 1280,
+   "docHeight": 3232,
+   "title": [
+    "Processo  [24–76]",
+    "DA EPIFANIA AO PROJETO.  [98–1040]"
+   ],
+   "lead": [
+    "Etapas Os projetos da Olwtelet  [24–469]",
+    "Productions nascem de uma  [24–491]",
+    "epifania. Quando ela se mostra  [24–524]",
+    "promissora, a ideia entra em  [24–482]",
+    "análise e desenvolvimento.  [24–463]"
+   ],
+   "stepCount": 3,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Epifania  [338–468]"
+     ],
+     "body": [
+      "Todo projeto começa com uma epifania, uma  [338–723]",
+      "ideia que surge de repente. Nem toda epifania  [338–730]",
+      "vira projeto.  [338–436]"
+     ],
+     "diagram": {
+      "left": 913,
+      "width": 343,
+      "height": 237.5
+     },
+     "labels": [
+      {
+       "text": "Ideia",
+       "textRight": 841.6,
+       "cy": 59.4
+      },
+      {
+       "text": "Epifania",
+       "textRight": 861.2,
+       "cy": 118.7
+      },
+      {
+       "text": "Projeto",
+       "textRight": 854.7,
+       "cy": 178.1
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Análise  [338–458]"
+     ],
+     "body": [
+      "Quando a epifania se mostra promissora, a ideia  [338–746]",
+      "entra em análise antes de seguir para  [338–655]",
+      "o desenvolvimento.  [338–503]"
+     ],
+     "diagram": {
+      "left": 913,
+      "width": 343,
+      "height": 237.5
+     },
+     "labels": [
+      {
+       "text": "Epifania",
+       "textRight": 861.2,
+       "cy": 59.4
+      },
+      {
+       "text": "Promissora",
+       "textRight": 874.3,
+       "cy": 118.7
+      },
+      {
+       "text": "Análise",
+       "textRight": 854.7,
+       "cy": 178.1
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Desenvolvimento  [338–623]"
+     ],
+     "body": [
+      "Depois da análise, a ideia é desenvolvida e se  [338–722]",
+      "torna software, jogo ou aplicação web.  [338–665]"
+     ],
+     "diagram": {
+      "left": 913,
+      "width": 343,
+      "height": 237.5
+     },
+     "labels": [
+      {
+       "text": "Software",
+       "textRight": 861.2,
+       "cy": 59.4
+      },
+      {
+       "text": "Jogo",
+       "textRight": 835.1,
+       "cy": 118.7
+      },
+      {
+       "text": "Web",
+       "textRight": 828.6,
+       "cy": 178.1
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "1440x900": {
+   "docWidth": 1440,
+   "docHeight": 3731,
+   "title": [
+    "Processo  [378–430]",
+    "DA EPIFANIA AO  [452–1097]",
+    "PROJETO.  [378–776]"
+   ],
+   "lead": [
+    "Etapas Os projetos da Olwtelet  [378–871]",
+    "Productions nascem de uma  [378–903]",
+    "epifania. Quando ela se mostra  [378–941]",
+    "promissora, a ideia entra em  [378–894]",
+    "análise e desenvolvimento.  [378–872]"
+   ],
+   "stepCount": 3,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Epifania  [378–524]"
+     ],
+     "body": [
+      "Todo projeto começa com uma epifania, uma  [378–763]",
+      "ideia que surge de repente. Nem toda epifania  [378–770]",
+      "vira projeto.  [378–476]"
+     ],
+     "diagram": {
+      "left": 954,
+      "width": 462,
+      "height": 319.8
+     },
+     "labels": [
+      {
+       "text": "Ideia",
+       "textRight": 882.6,
+       "cy": 79.9
+      },
+      {
+       "text": "Epifania",
+       "textRight": 902.2,
+       "cy": 159.9
+      },
+      {
+       "text": "Projeto",
+       "textRight": 895.7,
+       "cy": 239.9
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Análise  [378–513]"
+     ],
+     "body": [
+      "Quando a epifania se mostra promissora, a ideia  [378–786]",
+      "entra em análise antes de seguir para  [378–695]",
+      "o desenvolvimento.  [378–543]"
+     ],
+     "diagram": {
+      "left": 954,
+      "width": 462,
+      "height": 319.8
+     },
+     "labels": [
+      {
+       "text": "Epifania",
+       "textRight": 902.2,
+       "cy": 79.9
+      },
+      {
+       "text": "Promissora",
+       "textRight": 915.3,
+       "cy": 159.9
+      },
+      {
+       "text": "Análise",
+       "textRight": 895.7,
+       "cy": 239.9
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Desenvolvimento  [378–698]"
+     ],
+     "body": [
+      "Depois da análise, a ideia é desenvolvida e se  [378–762]",
+      "torna software, jogo ou aplicação web.  [378–705]"
+     ],
+     "diagram": {
+      "left": 954,
+      "width": 462,
+      "height": 319.8
+     },
+     "labels": [
+      {
+       "text": "Software",
+       "textRight": 902.2,
+       "cy": 79.9
+      },
+      {
+       "text": "Jogo",
+       "textRight": 876.1,
+       "cy": 159.9
+      },
+      {
+       "text": "Web",
+       "textRight": 869.6,
+       "cy": 239.9
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "1920x1080": {
+   "docWidth": 1944,
+   "docHeight": 4592,
+   "title": [
+    "Processo  [498–550]",
+    "DA EPIFANIA AO  [572–1432]",
+    "PROJETO.  [498–1029]"
+   ],
+   "lead": [
+    "Etapas  [498–537]",
+    "Os projetos da Olwtelet  [559–1120]",
+    "Productions nascem de uma  [498–1179]",
+    "epifania. Quando ela se mostra  [498–1228]",
+    "promissora, a ideia entra em  [498–1166]",
+    "análise e desenvolvimento.  [498–1139]"
+   ],
+   "stepCount": 3,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Epifania  [498–687]"
+     ],
+     "body": [
+      "Todo projeto começa com uma epifania, uma  [498–883]",
+      "ideia que surge de repente. Nem toda epifania  [498–890]",
+      "vira projeto.  [498–596]"
+     ],
+     "diagram": {
+      "left": 1313,
+      "width": 583,
+      "height": 403.6
+     },
+     "labels": [
+      {
+       "text": "Ideia",
+       "textRight": 1241.6,
+       "cy": 100.9
+      },
+      {
+       "text": "Epifania",
+       "textRight": 1261.2,
+       "cy": 201.8
+      },
+      {
+       "text": "Projeto",
+       "textRight": 1254.7,
+       "cy": 302.7
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Análise  [498–673]"
+     ],
+     "body": [
+      "Quando a epifania se mostra promissora, a ideia  [498–906]",
+      "entra em análise antes de seguir para  [498–815]",
+      "o desenvolvimento.  [498–663]"
+     ],
+     "diagram": {
+      "left": 1313,
+      "width": 583,
+      "height": 403.6
+     },
+     "labels": [
+      {
+       "text": "Epifania",
+       "textRight": 1261.2,
+       "cy": 100.9
+      },
+      {
+       "text": "Promissora",
+       "textRight": 1274.3,
+       "cy": 201.8
+      },
+      {
+       "text": "Análise",
+       "textRight": 1254.7,
+       "cy": 302.7
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Desenvolvimento  [498–913]"
+     ],
+     "body": [
+      "Depois da análise, a ideia é desenvolvida e se  [498–882]",
+      "torna software, jogo ou aplicação web.  [498–825]"
+     ],
+     "diagram": {
+      "left": 1313,
+      "width": 583,
+      "height": 403.6
+     },
+     "labels": [
+      {
+       "text": "Software",
+       "textRight": 1261.2,
+       "cy": 100.9
+      },
+      {
+       "text": "Jogo",
+       "textRight": 1235.1,
+       "cy": 201.8
+      },
+      {
+       "text": "Web",
+       "textRight": 1228.6,
+       "cy": 302.7
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  },
+  "2560x1440": {
+   "docWidth": 2560,
+   "docHeight": 5005,
+   "title": [
+    "Processo  [806–858]",
+    "DA EPIFANIA AO  [880–1806]",
+    "PROJETO.  [806–1378]"
+   ],
+   "lead": [
+    "Etapas  [806–845]",
+    "Os projetos da Olwtelet  [867–1428]",
+    "Productions nascem de uma  [806–1487]",
+    "epifania. Quando ela se mostra  [806–1536]",
+    "promissora, a ideia entra em  [806–1474]",
+    "análise e desenvolvimento.  [806–1447]"
+   ],
+   "stepCount": 3,
+   "steps": [
+    {
+     "number": "01",
+     "title": [
+      "Epifania  [806–995]"
+     ],
+     "body": [
+      "Todo projeto começa com uma epifania, uma  [806–1191]",
+      "ideia que surge de repente. Nem toda epifania  [806–1198]",
+      "vira projeto.  [806–904]"
+     ],
+     "diagram": {
+      "left": 1639,
+      "width": 601,
+      "height": 416.1
+     },
+     "labels": [
+      {
+       "text": "Ideia",
+       "textRight": 1567.6,
+       "cy": 104
+      },
+      {
+       "text": "Epifania",
+       "textRight": 1587.2,
+       "cy": 208
+      },
+      {
+       "text": "Projeto",
+       "textRight": 1580.7,
+       "cy": 312
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "02",
+     "title": [
+      "Análise  [806–981]"
+     ],
+     "body": [
+      "Quando a epifania se mostra promissora, a ideia  [806–1214]",
+      "entra em análise antes de seguir para  [806–1123]",
+      "o desenvolvimento.  [806–971]"
+     ],
+     "diagram": {
+      "left": 1639,
+      "width": 601,
+      "height": 416.1
+     },
+     "labels": [
+      {
+       "text": "Epifania",
+       "textRight": 1587.2,
+       "cy": 104
+      },
+      {
+       "text": "Promissora",
+       "textRight": 1600.3,
+       "cy": 208
+      },
+      {
+       "text": "Análise",
+       "textRight": 1580.7,
+       "cy": 312
+      }
+     ],
+     "labelsClearOfDrawing": true
+    },
+    {
+     "number": "03",
+     "title": [
+      "Desenvolvimento  [806–1221]"
+     ],
+     "body": [
+      "Depois da análise, a ideia é desenvolvida e se  [806–1190]",
+      "torna software, jogo ou aplicação web.  [806–1133]"
+     ],
+     "diagram": {
+      "left": 1639,
+      "width": 601,
+      "height": 416.1
+     },
+     "labels": [
+      {
+       "text": "Software",
+       "textRight": 1587.2,
+       "cy": 104
+      },
+      {
+       "text": "Jogo",
+       "textRight": 1561.1,
+       "cy": 208
+      },
+      {
+       "text": "Web",
+       "textRight": 1554.6,
+       "cy": 312
+      }
+     ],
+     "labelsClearOfDrawing": true
+    }
+   ],
+   "pastEdge": []
+  }
+ }
+}

@@ -1,0 +1,660 @@
+{
+  "buildId": "2ScPNEWZjIwoLexHOGa25",
+  "verifiedAt": "2026-11-18T03:17:24.456Z",
+  "run": {
+    "startedAt": "2026-11-18T03:00:58.863Z",
+    "finishedAt": "2026-11-18T03:17:24.456Z"
+  },
+  "captures": [
+    {
+      "file": "captures/d1440-intro-01200.jpg",
+      "source": "d1440-intro-01200.png",
+      "capturedAt": "2026-11-18T03:01:00.808Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-intro-02200.jpg",
+      "source": "d1440-intro-02200.png",
+      "capturedAt": "2026-11-18T03:01:01.821Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-intro-03000.jpg",
+      "source": "d1440-intro-03000.png",
+      "capturedAt": "2026-11-18T03:01:02.628Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-intro-04200.jpg",
+      "source": "d1440-intro-04200.png",
+      "capturedAt": "2026-11-18T03:01:03.829Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-intro-04800.jpg",
+      "source": "d1440-intro-04800.png",
+      "capturedAt": "2026-11-18T03:01:04.427Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-home-grid.jpg",
+      "source": "d1440-home-grid.png",
+      "capturedAt": "2026-11-18T03:01:10.176Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-home-hover-published.jpg",
+      "source": "d1440-home-hover-published.png",
+      "capturedAt": "2026-11-18T03:01:17.462Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-home-hover-veil.jpg",
+      "source": "d1440-home-hover-veil.png",
+      "capturedAt": "2026-11-18T03:01:18.426Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-home-filters.jpg",
+      "source": "d1440-home-filters.png",
+      "capturedAt": "2026-11-18T03:01:22.234Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1920-home-grid.jpg",
+      "source": "d1920-home-grid.png",
+      "capturedAt": "2026-11-18T03:04:24.080Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/t768-home-grid.jpg",
+      "source": "t768-home-grid.png",
+      "capturedAt": "2026-11-18T03:14:17.217Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m390-intro-03000.jpg",
+      "source": "m390-intro-03000.png",
+      "capturedAt": "2026-11-18T03:07:35.064Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m390-home-grid.jpg",
+      "source": "m390-home-grid.png",
+      "capturedAt": "2026-11-18T03:07:42.607Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m360-home-grid.jpg",
+      "source": "m360-home-grid.png",
+      "capturedAt": "2026-11-18T03:10:59.307Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-home-list.jpg",
+      "source": "d1440-home-list.png",
+      "capturedAt": "2026-11-18T03:01:20.020Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m390-home-list.jpg",
+      "source": "m390-home-list.png",
+      "capturedAt": "2026-11-18T03:08:01.506Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m360-home-list.jpg",
+      "source": "m360-home-list.png",
+      "capturedAt": "2026-11-18T03:11:18.219Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-home-filter-empty-grid.jpg",
+      "source": "d1440-home-filter-empty-grid.png",
+      "capturedAt": "2026-11-18T03:01:32.847Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-home-filter-empty-list.jpg",
+      "source": "d1440-home-filter-empty-list.png",
+      "capturedAt": "2026-11-18T03:01:34.443Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m390-home-filter-empty-list.jpg",
+      "source": "m390-home-filter-empty-list.png",
+      "capturedAt": "2026-11-18T03:08:15.881Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-about-studio-02.jpg",
+      "source": "d1440-about-studio-02.png",
+      "capturedAt": "2026-11-18T03:03:32.225Z",
+      "url": "/about/studio",
+      "documentUrl": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-about-studio-04.jpg",
+      "source": "d1440-about-studio-04.png",
+      "capturedAt": "2026-11-18T03:03:35.740Z",
+      "url": "/about/studio",
+      "documentUrl": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-list.jpg",
+      "source": "d1440-list.png",
+      "capturedAt": "2026-11-18T03:01:55.243Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1920-list.jpg",
+      "source": "d1920-list.png",
+      "capturedAt": "2026-11-18T03:05:09.250Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/t768-list.jpg",
+      "source": "t768-list.png",
+      "capturedAt": "2026-11-18T03:15:11.264Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m390-list.jpg",
+      "source": "m390-list.png",
+      "capturedAt": "2026-11-18T03:08:36.670Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m360-list.jpg",
+      "source": "m360-list.png",
+      "capturedAt": "2026-11-18T03:11:53.363Z",
+      "url": "/",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-list-filter-web.jpg",
+      "source": "d1440-list-filter-web.png",
+      "capturedAt": "2026-11-18T03:02:28.289Z",
+      "url": "/?zone=web",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m390-list-filter-web.jpg",
+      "source": "m390-list-filter-web.png",
+      "capturedAt": "2026-11-18T03:09:09.698Z",
+      "url": "/?zone=web",
+      "documentUrl": "/",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-list-filter-jogo.jpg",
+      "source": "d1440-list-filter-jogo.png",
+      "capturedAt": "2026-11-18T03:02:43.591Z",
+      "url": "/?zone=jogo",
+      "documentUrl": "/?zone=jogo",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m360-list-filter-jogo.jpg",
+      "source": "m360-list-filter-jogo.png",
+      "capturedAt": "2026-11-18T03:12:41.686Z",
+      "url": "/?zone=jogo",
+      "documentUrl": "/?zone=jogo",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-list-empty.jpg",
+      "source": "d1440-list-empty.png",
+      "capturedAt": "2026-11-18T03:02:56.020Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m390-list-empty.jpg",
+      "source": "m390-list-empty.png",
+      "capturedAt": "2026-11-18T03:09:37.462Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m360-list-empty.jpg",
+      "source": "m360-list-empty.png",
+      "capturedAt": "2026-11-18T03:12:54.117Z",
+      "url": "/?zone=jogo&feature=cinema",
+      "documentUrl": "/?zone=jogo&feature=cinema",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-case-top.jpg",
+      "source": "d1440-case-top.png",
+      "capturedAt": "2026-11-18T03:03:03.998Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-case-20.jpg",
+      "source": "d1440-case-20.png",
+      "capturedAt": "2026-11-18T03:03:06.459Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-case-40.jpg",
+      "source": "d1440-case-40.png",
+      "capturedAt": "2026-11-18T03:03:08.932Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-case-60.jpg",
+      "source": "d1440-case-60.png",
+      "capturedAt": "2026-11-18T03:03:11.364Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-case-80.jpg",
+      "source": "d1440-case-80.png",
+      "capturedAt": "2026-11-18T03:03:13.815Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-case-98.jpg",
+      "source": "d1440-case-98.png",
+      "capturedAt": "2026-11-18T03:03:15.958Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m390-case-top.jpg",
+      "source": "m390-case-top.png",
+      "capturedAt": "2026-11-18T03:09:45.375Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m390-case-40.jpg",
+      "source": "m390-case-40.png",
+      "capturedAt": "2026-11-18T03:09:49.799Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/t768-case-top.jpg",
+      "source": "t768-case-top.png",
+      "capturedAt": "2026-11-18T03:16:19.972Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1920-case-top.jpg",
+      "source": "d1920-case-top.png",
+      "capturedAt": "2026-11-18T03:06:18.099Z",
+      "url": "/projects/filmes-hd-online-gratis",
+      "documentUrl": "/projects/filmes-hd-online-gratis",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-veil-top.jpg",
+      "source": "d1440-veil-top.png",
+      "capturedAt": "2026-11-18T03:03:19.600Z",
+      "url": "/projects/veil",
+      "documentUrl": "/projects/veil",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-veil-bottom.jpg",
+      "source": "d1440-veil-bottom.png",
+      "capturedAt": "2026-11-18T03:03:21.880Z",
+      "url": "/projects/veil",
+      "documentUrl": "/projects/veil",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m390-veil-top.jpg",
+      "source": "m390-veil-top.png",
+      "capturedAt": "2026-11-18T03:09:59.789Z",
+      "url": "/projects/veil",
+      "documentUrl": "/projects/veil",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-about-studio-top.jpg",
+      "source": "d1440-about-studio-top.png",
+      "capturedAt": "2026-11-18T03:03:26.893Z",
+      "url": "/about/studio",
+      "documentUrl": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-about-process-top.jpg",
+      "source": "d1440-about-process-top.png",
+      "capturedAt": "2026-11-18T03:03:41.713Z",
+      "url": "/about/process",
+      "documentUrl": "/about/process",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m390-about-studio-top.jpg",
+      "source": "m390-about-studio-top.png",
+      "capturedAt": "2026-11-18T03:10:06.376Z",
+      "url": "/about/studio",
+      "documentUrl": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-contact-step1.jpg",
+      "source": "d1440-contact-step1.png",
+      "capturedAt": "2026-11-18T03:03:55.505Z",
+      "url": "/contact",
+      "documentUrl": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-contact-step2.jpg",
+      "source": "d1440-contact-step2.png",
+      "capturedAt": "2026-11-18T03:03:57.150Z",
+      "url": "/contact",
+      "documentUrl": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-contact-submit.jpg",
+      "source": "d1440-contact-submit.png",
+      "capturedAt": "2026-11-18T03:03:59.761Z",
+      "url": "/contact",
+      "documentUrl": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m390-contact-step1.jpg",
+      "source": "m390-contact-step1.png",
+      "capturedAt": "2026-11-18T03:10:30.970Z",
+      "url": "/contact",
+      "documentUrl": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m390-contact-submit.jpg",
+      "source": "m390-contact-submit.png",
+      "capturedAt": "2026-11-18T03:10:35.130Z",
+      "url": "/contact",
+      "documentUrl": "/about/studio",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-notfound.jpg",
+      "source": "d1440-notfound.png",
+      "capturedAt": "2026-11-18T03:04:02.441Z",
+      "url": "/projects/alter-ego",
+      "documentUrl": "/projects/alter-ego",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m390-notfound.jpg",
+      "source": "m390-notfound.png",
+      "capturedAt": "2026-11-18T03:10:37.750Z",
+      "url": "/projects/alter-ego",
+      "documentUrl": "/projects/alter-ego",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-privacy-top.jpg",
+      "source": "d1440-privacy-top.png",
+      "capturedAt": "2026-11-18T03:04:10.868Z",
+      "url": "/privacy-policy",
+      "documentUrl": "/privacy-policy",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/d1440-privacy-bottom-footer.jpg",
+      "source": "d1440-privacy-bottom-footer.png",
+      "capturedAt": "2026-11-18T03:04:13.152Z",
+      "url": "/privacy-policy",
+      "documentUrl": "/privacy-policy",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    },
+    {
+      "file": "captures/m390-privacy-bottom-footer.jpg",
+      "source": "m390-privacy-bottom-footer.png",
+      "capturedAt": "2026-11-18T03:10:48.404Z",
+      "url": "/privacy-policy",
+      "documentUrl": "/privacy-policy",
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "buildIdFrom": "document"
+    }
+  ],
+  "supplementary": [
+    {
+      "report": "verify-report-tamanhos-extras.json",
+      "startedAt": "2026-11-18T03:17:24.698Z",
+      "finishedAt": "2026-11-18T03:47:28.629Z",
+      "blockExternal": false,
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "captures": [
+        {
+          "file": "captures/d1024-list.jpg",
+          "source": "d1024-list.png",
+          "capturedAt": "2026-11-18T03:18:20.793Z",
+          "url": "/",
+          "documentUrl": "/",
+          "buildId": "2ScPNEWZjIwoLexHOGa25",
+          "buildIdFrom": "document"
+        },
+        {
+          "file": "captures/d1280-list.jpg",
+          "source": "d1280-list.png",
+          "capturedAt": "2026-11-18T03:21:36.821Z",
+          "url": "/",
+          "documentUrl": "/",
+          "buildId": "2ScPNEWZjIwoLexHOGa25",
+          "buildIdFrom": "document"
+        },
+        {
+          "file": "captures/d1366-list.jpg",
+          "source": "d1366-list.png",
+          "capturedAt": "2026-11-18T03:24:53.005Z",
+          "url": "/",
+          "documentUrl": "/",
+          "buildId": "2ScPNEWZjIwoLexHOGa25",
+          "buildIdFrom": "document"
+        },
+        {
+          "file": "captures/t900-list.jpg",
+          "source": "t900-list.png",
+          "capturedAt": "2026-11-18T03:28:22.257Z",
+          "url": "/",
+          "documentUrl": "/",
+          "buildId": "2ScPNEWZjIwoLexHOGa25",
+          "buildIdFrom": "document"
+        },
+        {
+          "file": "captures/m375se-list.jpg",
+          "source": "m375se-list.png",
+          "capturedAt": "2026-11-18T03:38:25.260Z",
+          "url": "/",
+          "documentUrl": "/",
+          "buildId": "2ScPNEWZjIwoLexHOGa25",
+          "buildIdFrom": "document"
+        },
+        {
+          "file": "captures/m390s-list.jpg",
+          "source": "m390s-list.png",
+          "capturedAt": "2026-11-18T03:41:48.843Z",
+          "url": "/",
+          "documentUrl": "/",
+          "buildId": "2ScPNEWZjIwoLexHOGa25",
+          "buildIdFrom": "document"
+        },
+        {
+          "file": "captures/m320-list.jpg",
+          "source": "m320-list.png",
+          "capturedAt": "2026-11-18T03:45:08.966Z",
+          "url": "/",
+          "documentUrl": "/",
+          "buildId": "2ScPNEWZjIwoLexHOGa25",
+          "buildIdFrom": "document"
+        },
+        {
+          "file": "captures/m375se-list-empty.jpg",
+          "source": "m375se-list-empty.png",
+          "capturedAt": "2026-11-18T03:39:26.124Z",
+          "url": "/?zone=jogo&feature=cinema",
+          "documentUrl": "/?zone=jogo&feature=cinema",
+          "buildId": "2ScPNEWZjIwoLexHOGa25",
+          "buildIdFrom": "document"
+        }
+      ]
+    },
+    {
+      "report": "verify-report-sem-fontes-externas.json",
+      "startedAt": "2026-11-18T03:47:28.912Z",
+      "finishedAt": "2026-11-18T04:03:55.839Z",
+      "blockExternal": true,
+      "buildId": "2ScPNEWZjIwoLexHOGa25",
+      "captures": [
+        {
+          "file": "captures/d1440-list-sem-fontes-externas.jpg",
+          "source": "d1440-list.png",
+          "capturedAt": "2026-11-18T03:48:25.354Z",
+          "url": "/",
+          "documentUrl": "/",
+          "buildId": "2ScPNEWZjIwoLexHOGa25",
+          "buildIdFrom": "document"
+        },
+        {
+          "file": "captures/m360-list-sem-fontes-externas.jpg",
+          "source": "m360-list.png",
+          "capturedAt": "2026-11-18T03:58:24.059Z",
+          "url": "/",
+          "documentUrl": "/",
+          "buildId": "2ScPNEWZjIwoLexHOGa25",
+          "buildIdFrom": "document"
+        }
+      ]
+    }
+  ]
+}

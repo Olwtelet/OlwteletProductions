@@ -1,0 +1,114 @@
+{
+  "antes": {
+    "build": "H3iNmqV6aAhdjJIj1ioOM",
+    "gravado": "2026-11-16/17 (Brasília)"
+  },
+  "depois": {
+    "build": "2ScPNEWZjIwoLexHOGa25",
+    "gravado": "2026-11-17/18 (Brasília)"
+  },
+  "files": [
+    {
+      "antes": "antes/m390-veil-cta.jpg",
+      "depois": "depois/m390-veil-cta.jpg"
+    },
+    {
+      "antes": "antes/t768-veil-cta.jpg",
+      "depois": "depois/t768-veil-cta.jpg"
+    },
+    {
+      "antes": "antes/d1440-veil-cta.jpg",
+      "depois": "depois/d1440-veil-cta.jpg"
+    },
+    {
+      "antes": "antes/d1920-veil-cta.jpg",
+      "depois": "depois/d1920-veil-cta.jpg"
+    },
+    {
+      "antes": "antes/w2560-veil-cta.jpg",
+      "depois": "depois/w2560-veil-cta.jpg"
+    },
+    {
+      "antes": "antes/d1440-filmes-hd-online-gratis-cta.jpg",
+      "depois": "depois/d1440-filmes-hd-online-gratis-cta.jpg"
+    },
+    {
+      "antes": "antes/d1440-process-00.jpg",
+      "depois": "depois/d1440-process-00.jpg"
+    },
+    {
+      "antes": "antes/d1440-process-01.jpg",
+      "depois": "depois/d1440-process-01.jpg"
+    },
+    {
+      "antes": "antes/d1440-process-02.jpg",
+      "depois": "depois/d1440-process-02.jpg"
+    },
+    {
+      "antes": "antes/d1440-process-03.jpg",
+      "depois": "depois/d1440-process-03.jpg"
+    },
+    {
+      "antes": "antes/m390-process-00.jpg",
+      "depois": "depois/m390-process-00.jpg"
+    },
+    {
+      "antes": "antes/m390-process-01.jpg",
+      "depois": "depois/m390-process-01.jpg"
+    },
+    {
+      "antes": "antes/m390-process-02.jpg",
+      "depois": "depois/m390-process-02.jpg"
+    },
+    {
+      "antes": "antes/w2560-process-01.jpg",
+      "depois": "depois/w2560-process-01.jpg"
+    },
+    {
+      "antes": "antes/t768-process-01.jpg",
+      "depois": "depois/t768-process-01.jpg"
+    },
+    {
+      "antes": "antes/d1440-studio-00.jpg",
+      "depois": "depois/d1440-studio-00.jpg"
+    },
+    {
+      "antes": "antes/d1440-studio-02.jpg",
+      "depois": "depois/d1440-studio-02.jpg"
+    },
+    {
+      "antes": "antes/d1440-studio-04.jpg",
+      "depois": "depois/d1440-studio-04.jpg"
+    },
+    {
+      "antes": "antes/m390-studio-02.jpg",
+      "depois": "depois/m390-studio-02.jpg"
+    },
+    {
+      "antes": "antes/d1440-modal-after-privacy.jpg",
+      "depois": "depois/d1440-modal-after-privacy.jpg"
+    }
+  ],
+  "larguras_estreitas": {
+    "antes": {
+      "build": "P8C65N6TJlkS5tbYPfqyw"
+    },
+    "depois": {
+      "build": "2ScPNEWZjIwoLexHOGa25"
+    },
+    "files": [
+      {
+        "antes": "antes/rodape-320.jpg",
+        "depois": "depois/rodape-320.jpg"
+      },
+      {
+        "antes": "antes/rodape-340.jpg",
+        "depois": "depois/rodape-340.jpg"
+      },
+      {
+        "antes": "antes/estudio-contatos-320.jpg",
+        "depois": "depois/estudio-contatos-320.jpg"
+      }
+    ]
+  }
+}

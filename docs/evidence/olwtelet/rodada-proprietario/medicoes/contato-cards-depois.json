@@ -1,0 +1,2309 @@
+{
+  "m390": {
+    "rest": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          167,
+          282
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          167,
+          282
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          167,
+          282
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          358,
+          250
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "restLook": [
+      {
+        "tile": "rgba(255, 255, 255, 0.04)",
+        "arrow": "rgba(255, 255, 255, 0.1)"
+      },
+      {
+        "tile": "rgba(0, 0, 0, 0)",
+        "arrow": "rgba(255, 255, 255, 0.1)"
+      }
+    ],
+    "restTiles": [
+      "null: rgba(0, 0, 0, 0)",
+      "Escrever para olwtelet@outlook.com: rgba(165, 165, 165, 0.533)",
+      "Abrir o LinkedIn: rgba(165, 165, 165, 0.533)"
+    ],
+    "tap1": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          167,
+          282
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          167,
+          282
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          167,
+          282
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          358,
+          250
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "tap1Look": {
+      "tile": "rgba(255, 255, 255, 0.04)",
+      "arrow": "rgba(255, 255, 255, 0.1)"
+    },
+    "tap2": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          167,
+          282
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          167,
+          282
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          167,
+          282
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          358,
+          250
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "tap2Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgba(255, 255, 255, 0.1)"
+    },
+    "tilesAfterTaps": [
+      "null: rgba(0, 0, 0, 0)",
+      "Escrever para olwtelet@outlook.com: rgba(165, 165, 165, 0.533)",
+      "Abrir o LinkedIn: rgba(165, 165, 165, 0.533)"
+    ]
+  },
+  "t768": {
+    "rest": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "none",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          253,
+          50,
+          82,
+          103
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          237,
+          98,
+          98,
+          55
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          237,
+          98,
+          98,
+          55
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          736,
+          250
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "restLook": [
+      {
+        "tile": "rgba(255, 255, 255, 0.04)",
+        "arrow": "rgba(255, 255, 255, 0.1)"
+      },
+      {
+        "tile": "rgba(0, 0, 0, 0)",
+        "arrow": "rgba(255, 255, 255, 0.1)"
+      }
+    ],
+    "restTiles": [
+      "null: rgba(0, 0, 0, 0)",
+      "Escrever para olwtelet@outlook.com: rgba(165, 165, 165, 0.533)",
+      "Abrir o LinkedIn: rgba(165, 165, 165, 0.533)"
+    ],
+    "tap1": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "none",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          253,
+          50,
+          82,
+          103
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          237,
+          98,
+          98,
+          55
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          237,
+          98,
+          98,
+          55
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          736,
+          250
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "tap1Look": {
+      "tile": "rgba(255, 255, 255, 0.04)",
+      "arrow": "rgba(255, 255, 255, 0.1)"
+    },
+    "tap2": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "none",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          253,
+          50,
+          82,
+          103
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          237,
+          98,
+          98,
+          55
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          237,
+          98,
+          98,
+          55
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          736,
+          250
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "tap2Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgba(255, 255, 255, 0.1)"
+    },
+    "tilesAfterTaps": [
+      "null: rgba(0, 0, 0, 0)",
+      "Escrever para olwtelet@outlook.com: rgba(165, 165, 165, 0.533)",
+      "Abrir o LinkedIn: rgba(165, 165, 165, 0.533)"
+    ]
+  },
+  "t768h": {
+    "rest": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "none",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          253,
+          50,
+          82,
+          103
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          237,
+          98,
+          98,
+          55
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          237,
+          98,
+          98,
+          55
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          736,
+          250
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "restLook": [
+      {
+        "tile": "rgba(255, 255, 255, 0.04)",
+        "arrow": "rgba(255, 255, 255, 0.1)"
+      },
+      {
+        "tile": "rgba(0, 0, 0, 0)",
+        "arrow": "rgba(255, 255, 255, 0.1)"
+      }
+    ],
+    "restTiles": [
+      "null: rgba(0, 0, 0, 0)",
+      "Escrever para olwtelet@outlook.com: rgba(165, 165, 165, 0.533)",
+      "Abrir o LinkedIn: rgba(165, 165, 165, 0.533)"
+    ],
+    "hover1": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 1,
+        "filter": "none",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          253,
+          50,
+          82,
+          103
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          237,
+          98,
+          98,
+          55
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          237,
+          98,
+          98,
+          55
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          736,
+          250
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "hover1Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "out1": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "hover2": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "none",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          253,
+          50,
+          82,
+          103
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 1,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          237,
+          98,
+          98,
+          55
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 1,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          237,
+          98,
+          98,
+          55
+        ],
+        "card": [
+          356,
+          174
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          736,
+          250
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "hover2Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "out2": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "focus1": [
+      1,
+      0,
+      0,
+      null
+    ],
+    "focus1Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "focus2": [
+      0,
+      1,
+      1,
+      null
+    ],
+    "focus2Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    }
+  },
+  "d1024": {
+    "rest": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          351,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          351,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          351,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          726,
+          250
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "restLook": [
+      {
+        "tile": "rgba(255, 255, 255, 0.04)",
+        "arrow": "rgba(255, 255, 255, 0.1)"
+      },
+      {
+        "tile": "rgba(0, 0, 0, 0)",
+        "arrow": "rgba(255, 255, 255, 0.1)"
+      }
+    ],
+    "restTiles": [
+      "null: rgba(0, 0, 0, 0)",
+      "Escrever para olwtelet@outlook.com: rgba(165, 165, 165, 0.533)",
+      "Abrir o LinkedIn: rgba(165, 165, 165, 0.533)"
+    ],
+    "hover1": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 1,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          351,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          351,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          351,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          726,
+          250
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "hover1Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "out1": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "hover2": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          351,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 1,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          351,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 1,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          351,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          726,
+          250
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "hover2Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "out2": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "focus1": [
+      1,
+      0,
+      0,
+      null
+    ],
+    "focus1Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "focus2": [
+      0,
+      1,
+      1,
+      null
+    ],
+    "focus2Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    }
+  },
+  "d1280": {
+    "rest": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          447,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          447,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          447,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          918,
+          250
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "restLook": [
+      {
+        "tile": "rgba(255, 255, 255, 0.04)",
+        "arrow": "rgba(255, 255, 255, 0.1)"
+      },
+      {
+        "tile": "rgba(0, 0, 0, 0)",
+        "arrow": "rgba(255, 255, 255, 0.1)"
+      }
+    ],
+    "restTiles": [
+      "null: rgba(0, 0, 0, 0)",
+      "Escrever para olwtelet@outlook.com: rgba(165, 165, 165, 0.533)",
+      "Abrir o LinkedIn: rgba(165, 165, 165, 0.533)"
+    ],
+    "hover1": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 1,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          447,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          447,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          447,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          918,
+          250
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "hover1Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "out1": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "hover2": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 0,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          447,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 1,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          447,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "none",
+        "opacity": 1,
+        "filter": "none",
+        "inside": false,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": null,
+        "card": [
+          447,
+          122
+        ],
+        "imgLoaded": false
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          918,
+          250
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "hover2Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "out2": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "focus1": [
+      1,
+      0,
+      0,
+      null
+    ],
+    "focus1Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "focus2": [
+      0,
+      1,
+      1,
+      null
+    ],
+    "focus2Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    }
+  },
+  "d1440": {
+    "rest": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "none",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          229,
+          200,
+          116,
+          145
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "restLook": [
+      {
+        "tile": "rgba(255, 255, 255, 0.04)",
+        "arrow": "rgba(255, 255, 255, 0.1)"
+      },
+      {
+        "tile": "rgba(0, 0, 0, 0)",
+        "arrow": "rgba(255, 255, 255, 0.1)"
+      }
+    ],
+    "restTiles": [
+      "null: rgba(0, 0, 0, 0)",
+      "Escrever para olwtelet@outlook.com: rgba(165, 165, 165, 0.533)",
+      "Abrir o LinkedIn: rgba(165, 165, 165, 0.533)"
+    ],
+    "hover1": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 1,
+        "filter": "none",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          229,
+          200,
+          116,
+          145
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "hover1Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "out1": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "hover2": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "none",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          229,
+          200,
+          116,
+          145
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 1,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 1,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "hover2Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "out2": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "focus1": [
+      1,
+      0,
+      0,
+      null
+    ],
+    "focus1Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "focus2": [
+      0,
+      1,
+      1,
+      null
+    ],
+    "focus2Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    }
+  },
+  "d1920": {
+    "rest": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "none",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          229,
+          200,
+          116,
+          145
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "restLook": [
+      {
+        "tile": "rgba(255, 255, 255, 0.04)",
+        "arrow": "rgba(255, 255, 255, 0.1)"
+      },
+      {
+        "tile": "rgba(0, 0, 0, 0)",
+        "arrow": "rgba(255, 255, 255, 0.1)"
+      }
+    ],
+    "restTiles": [
+      "null: rgba(0, 0, 0, 0)",
+      "Escrever para olwtelet@outlook.com: rgba(165, 165, 165, 0.533)",
+      "Abrir o LinkedIn: rgba(165, 165, 165, 0.533)"
+    ],
+    "hover1": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 1,
+        "filter": "none",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          229,
+          200,
+          116,
+          145
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "hover1Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "out1": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "hover2": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "none",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          229,
+          200,
+          116,
+          145
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 1,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 1,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "hover2Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "out2": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "focus1": [
+      1,
+      0,
+      0,
+      null
+    ],
+    "focus1Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "focus2": [
+      0,
+      1,
+      1,
+      null
+    ],
+    "focus2Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    }
+  },
+  "w2560": {
+    "rest": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "none",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          229,
+          200,
+          116,
+          145
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "restLook": [
+      {
+        "tile": "rgba(255, 255, 255, 0.04)",
+        "arrow": "rgba(255, 255, 255, 0.1)"
+      },
+      {
+        "tile": "rgba(0, 0, 0, 0)",
+        "arrow": "rgba(255, 255, 255, 0.1)"
+      }
+    ],
+    "restTiles": [
+      "null: rgba(0, 0, 0, 0)",
+      "Escrever para olwtelet@outlook.com: rgba(165, 165, 165, 0.533)",
+      "Abrir o LinkedIn: rgba(165, 165, 165, 0.533)"
+    ],
+    "hover1": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 1,
+        "filter": "none",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          229,
+          200,
+          116,
+          145
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "hover1Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "out1": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "hover2": [
+      {
+        "eyebrow": "Projetos e parcerias",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 0,
+        "filter": "none",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          229,
+          200,
+          116,
+          145
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 1,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Veil",
+        "hasMedia": true,
+        "display": "block",
+        "opacity": 1,
+        "filter": "brightness(0.92)",
+        "inside": true,
+        "underTitle": false,
+        "underArrow": false,
+        "underEyebrow": false,
+        "media": [
+          116,
+          216,
+          229,
+          129
+        ],
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": true
+      },
+      {
+        "eyebrow": "Outros assuntos",
+        "hasMedia": false,
+        "display": null,
+        "opacity": null,
+        "filter": null,
+        "inside": null,
+        "underTitle": null,
+        "underArrow": null,
+        "underEyebrow": null,
+        "media": null,
+        "card": [
+          384,
+          384
+        ],
+        "imgLoaded": null
+      }
+    ],
+    "hover2Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "out2": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "focus1": [
+      1,
+      0,
+      0,
+      null
+    ],
+    "focus1Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    },
+    "focus2": [
+      0,
+      1,
+      1,
+      null
+    ],
+    "focus2Look": {
+      "tile": "rgba(0, 0, 0, 0)",
+      "arrow": "rgb(255, 255, 255)"
+    }
+  }
+}

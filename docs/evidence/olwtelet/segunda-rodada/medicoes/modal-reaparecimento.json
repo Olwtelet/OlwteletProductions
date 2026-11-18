@@ -1,0 +1,460 @@
+{
+ "build": "_kmMjqBIsp2D5eFvDbNj_",
+ "runs": {
+  "studio-desktop-immediate": [
+   {
+    "firstNewFrameMs": 172,
+    "longTasks": [
+     [
+      -1,
+      93
+     ],
+     [
+      92,
+      65
+     ]
+    ],
+    "framesAfter": 70,
+    "modalOpen": true,
+    "y": 1200
+   },
+   {
+    "firstNewFrameMs": 223,
+    "longTasks": [
+     [
+      -1,
+      136
+     ],
+     [
+      136,
+      68
+     ]
+    ],
+    "framesAfter": 116,
+    "modalOpen": true,
+    "y": 1200
+   },
+   {
+    "firstNewFrameMs": 177,
+    "longTasks": [
+     [
+      -1,
+      105
+     ],
+     [
+      105,
+      65
+     ],
+     [
+      243,
+      58
+     ]
+    ],
+    "framesAfter": 127,
+    "modalOpen": true,
+    "y": 1200
+   },
+   {
+    "firstNewFrameMs": 234,
+    "longTasks": [
+     [
+      -1,
+      128
+     ],
+     [
+      128,
+      65
+     ]
+    ],
+    "framesAfter": 130,
+    "modalOpen": true,
+    "y": 1200
+   }
+  ],
+  "studio-desktop-delayed": [
+   {
+    "firstNewFrameMs": 71,
+    "longTasks": [
+     [
+      571,
+      87
+     ]
+    ],
+    "framesAfter": 130,
+    "modalOpen": true,
+    "y": 272
+   },
+   {
+    "firstNewFrameMs": 56,
+    "longTasks": [
+     [
+      576,
+      82
+     ]
+    ],
+    "framesAfter": 118,
+    "modalOpen": true,
+    "y": 272
+   },
+   {
+    "firstNewFrameMs": 96,
+    "longTasks": [
+     [
+      574,
+      55
+     ],
+     [
+      700,
+      52
+     ]
+    ],
+    "framesAfter": 69,
+    "modalOpen": true,
+    "y": 272
+   },
+   {
+    "firstNewFrameMs": 145,
+    "longTasks": [
+     [
+      582,
+      57
+     ]
+    ],
+    "framesAfter": 120,
+    "modalOpen": true,
+    "y": 272
+   }
+  ],
+  "process-desktop-immediate": [
+   {
+    "firstNewFrameMs": 112,
+    "longTasks": [
+     [
+      -1,
+      60
+     ]
+    ],
+    "framesAfter": 145,
+    "modalOpen": true,
+    "y": 1200
+   },
+   {
+    "firstNewFrameMs": 101,
+    "longTasks": [
+     [
+      0,
+      55
+     ]
+    ],
+    "framesAfter": 145,
+    "modalOpen": true,
+    "y": 1200
+   },
+   {
+    "firstNewFrameMs": 111,
+    "longTasks": [
+     [
+      -1,
+      58
+     ]
+    ],
+    "framesAfter": 144,
+    "modalOpen": true,
+    "y": 1200
+   },
+   {
+    "firstNewFrameMs": 112,
+    "longTasks": [
+     [
+      0,
+      58
+     ]
+    ],
+    "framesAfter": 143,
+    "modalOpen": true,
+    "y": 1200
+   }
+  ],
+  "process-desktop-delayed": [
+   {
+    "firstNewFrameMs": 54,
+    "longTasks": [],
+    "framesAfter": 98,
+    "modalOpen": true,
+    "y": 272
+   },
+   {
+    "firstNewFrameMs": 62,
+    "longTasks": [],
+    "framesAfter": 134,
+    "modalOpen": true,
+    "y": 272
+   },
+   {
+    "firstNewFrameMs": 84,
+    "longTasks": [],
+    "framesAfter": 106,
+    "modalOpen": true,
+    "y": 272
+   },
+   {
+    "firstNewFrameMs": 63,
+    "longTasks": [],
+    "framesAfter": 141,
+    "modalOpen": true,
+    "y": 272
+   }
+  ],
+  "studio-mobile-immediate": [
+   {
+    "firstNewFrameMs": 167,
+    "longTasks": [
+     [
+      0,
+      100
+     ],
+     [
+      100,
+      62
+     ]
+    ],
+    "framesAfter": 136,
+    "modalOpen": true,
+    "y": 1200
+   },
+   {
+    "firstNewFrameMs": 143,
+    "longTasks": [
+     [
+      0,
+      66
+     ],
+     [
+      67,
+      72
+     ]
+    ],
+    "framesAfter": 137,
+    "modalOpen": true,
+    "y": 1200
+   },
+   {
+    "firstNewFrameMs": 120,
+    "longTasks": [
+     [
+      0,
+      68
+     ]
+    ],
+    "framesAfter": 142,
+    "modalOpen": true,
+    "y": 1200
+   },
+   {
+    "firstNewFrameMs": 125,
+    "longTasks": [
+     [
+      0,
+      71
+     ]
+    ],
+    "framesAfter": 142,
+    "modalOpen": true,
+    "y": 1200
+   }
+  ],
+  "studio-mobile-delayed": [
+   {
+    "firstNewFrameMs": 32,
+    "longTasks": [
+     [
+      582,
+      68
+     ]
+    ],
+    "framesAfter": 149,
+    "modalOpen": true,
+    "y": 216
+   },
+   {
+    "firstNewFrameMs": 31,
+    "longTasks": [],
+    "framesAfter": 150,
+    "modalOpen": true,
+    "y": 216
+   },
+   {
+    "firstNewFrameMs": 30,
+    "longTasks": [
+     [
+      584,
+      51
+     ]
+    ],
+    "framesAfter": 149,
+    "modalOpen": true,
+    "y": 216
+   },
+   {
+    "firstNewFrameMs": 31,
+    "longTasks": [
+     [
+      528,
+      50
+     ],
+     [
+      581,
+      53
+     ]
+    ],
+    "framesAfter": 149,
+    "modalOpen": true,
+    "y": 216
+   }
+  ],
+  "process-mobile-immediate": [
+   {
+    "firstNewFrameMs": 87,
+    "longTasks": [],
+    "framesAfter": 143,
+    "modalOpen": true,
+    "y": 1200
+   },
+   {
+    "firstNewFrameMs": 83,
+    "longTasks": [
+     [
+      -1,
+      60
+     ]
+    ],
+    "framesAfter": 145,
+    "modalOpen": true,
+    "y": 1200
+   },
+   {
+    "firstNewFrameMs": 78,
+    "longTasks": [],
+    "framesAfter": 147,
+    "modalOpen": true,
+    "y": 1200
+   },
+   {
+    "firstNewFrameMs": 103,
+    "longTasks": [
+     [
+      0,
+      79
+     ]
+    ],
+    "framesAfter": 144,
+    "modalOpen": true,
+    "y": 1200
+   }
+  ],
+  "process-mobile-delayed": [
+   {
+    "firstNewFrameMs": 30,
+    "longTasks": [],
+    "framesAfter": 150,
+    "modalOpen": true,
+    "y": 216
+   },
+   {
+    "firstNewFrameMs": 37,
+    "longTasks": [],
+    "framesAfter": 151,
+    "modalOpen": true,
+    "y": 216
+   },
+   {
+    "firstNewFrameMs": 26,
+    "longTasks": [],
+    "framesAfter": 151,
+    "modalOpen": true,
+    "y": 216
+   },
+   {
+    "firstNewFrameMs": 33,
+    "longTasks": [],
+    "framesAfter": 151,
+    "modalOpen": true,
+    "y": 216
+   }
+  ]
+ },
+ "summary": {
+  "studio-desktop-immediate": {
+   "firstNewFrameMs": [
+    172,
+    223,
+    177,
+    234
+   ],
+   "median": 177
+  },
+  "studio-desktop-delayed": {
+   "firstNewFrameMs": [
+    71,
+    56,
+    96,
+    145
+   ],
+   "median": 71
+  },
+  "process-desktop-immediate": {
+   "firstNewFrameMs": [
+    112,
+    101,
+    111,
+    112
+   ],
+   "median": 111
+  },
+  "process-desktop-delayed": {
+   "firstNewFrameMs": [
+    54,
+    62,
+    84,
+    63
+   ],
+   "median": 62
+  },
+  "studio-mobile-immediate": {
+   "firstNewFrameMs": [
+    167,
+    143,
+    120,
+    125
+   ],
+   "median": 125
+  },
+  "studio-mobile-delayed": {
+   "firstNewFrameMs": [
+    32,
+    31,
+    30,
+    31
+   ],
+   "median": 31
+  },
+  "process-mobile-immediate": {
+   "firstNewFrameMs": [
+    87,
+    83,
+    78,
+    103
+   ],
+   "median": 83
+  },
+  "process-mobile-delayed": {
+   "firstNewFrameMs": [
+    30,
+    37,
+    26,
+    33
+   ],
+   "median": 30
+  }
+ }
+}
