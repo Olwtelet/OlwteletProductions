@@ -1,6 +1,8 @@
 // /about/studio (Estúdio) and /about/process (Processo) — same page structure as the replica's About:
 // div.About_SlicesWrapper > Delay(500) > [SliceZone, AboutImageSequence (Estúdio only), footer]. The slices are
-// client-mounted 500 ms after the page mounts, so the server HTML has an empty wrapper.
+// client-mounted 500 ms after the page mounts, so the server HTML has an empty wrapper. Olwtelet: at once when the
+// page mounts again under the contact modal reopened by Back (Delay, immediateUnderContact): its scroll position is put
+// back behind the modal on the first frame, so closing the modal right away shows the page in place.
 // Content: src/content/pages.json (written by scripts/brand/build-content.mjs) + the creator panel of taxonomies.json.
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
@@ -44,7 +46,7 @@ export default async function AboutPage({ params }: Params) {
   const { slices, context } = buildContext(route);
   return (
     <div className={about.SlicesWrapper}>
-      <Delay delay={500}>
+      <Delay delay={500} immediateUnderContact>
         <SliceZone slices={slices} context={context} />
         {uid === 'studio' && <AwardsImageSequence />}
         <Footer />

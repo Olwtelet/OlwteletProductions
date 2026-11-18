@@ -28,36 +28,32 @@ import { useOptionalSound } from '@/components/providers/SoundProvider';
 import { ROUTES } from '@/lib/theme';
 import { CloseIcon } from './icons';
 import { ContactCloseContext, ContactOpenContext, createOpenApi, type CloseReason } from './openContext';
+import { readUnder, writeUnder, type Under } from './underContact';
 import styles from './contactModal.module.css';
-
-/** the page a /contact entry was opened over, kept in that history entry's own state (Next keeps custom keys of an
- *  entry on Back / Forward: traverse navigations preserve custom history state, app-router HistoryUpdater) */
-const UNDER_KEY = 'olwContactUnder';
-type Under = { path: string; y: number };
-
-function readUnder(): Under | null {
-  const u = (window.history.state as Record<string, unknown> | null)?.[UNDER_KEY] as Under | undefined;
-  return u && typeof u.y === 'number' && typeof u.path === 'string' ? u : null;
-}
-
-function writeUnder(u: Under) {
-  // the router's own keys (__NA, tree) are kept; no URL: nothing changes for the router
-  window.history.replaceState({ ...(window.history.state ?? {}), [UNDER_KEY]: u }, '');
-}
 
 let stopHold: (() => void) | null = null;
 /** the position the running hold is putting back */
 let holdTarget: Under | null = null;
 
 /** Privacy link → Back reopens the modal over a page that is rendered again: put it back where it was and keep it there
- *  for 1.5 s. MEASURED: a single scrollTo is undone (the page is still too short for ~0.6 s, and the router's smooth
- *  scroll and SplitType's offset restore run after it): the page sat at 272 instead of 1100 and glided back after X.
+ *  for at least 1.5 s. The About pages render their slices at once in that case (Delay, immediateUnderContact), so the
+ *  page is tall enough on its first frame; before, their 500 ms delay kept Estúdio 1068 px tall (1440 × 900), the
+ *  position clamped at 168 and a close in that half second showed the page near the top, then jumping to its place.
+ *  A single scrollTo is not enough: on the remounted page SplitType puts back the position it read when it split, with
+ *  window.scrollTo — MEASURED on Back: (0, 0) five times in the first 12–31 ms, before this hold, then (0, 1200).
+ *  The hold ends after 1.5 s and at least HOLD_FRAMES drawn frames: when the browser draws no frame for a while (a long
+ *  task, a busy GPU), a deadline in time alone can pass before any frame put the position back. MEASURED on the
+ *  previous build: in one run no frame was drawn from before 0.7 s to 2.0 s after Back (across the 1.5 s deadline), in
+ *  another for 14.4 s after Back; the hold ended on the first frame after its deadline and the page stayed at
+ *  272 / 212 px.
  *  The hold outlives the modal (a close within that window must not drop it), and stops when the URL is neither
  *  /contact nor that page, or at the visitor's first input on the page itself (no dialog open): wheel, touch, a press
  *  or any key (Tab included: its focus scroll must not be undone). */
+const HOLD_FRAMES = 45;
 function holdUnder(u: Under) {
   stopHold?.();
   const until = performance.now() + 1500;
+  let frames = 0;
   let raf = 0;
   const INPUT = ['wheel', 'touchmove', 'keydown', 'pointerdown'] as const;
   const onInput = () => {
@@ -74,8 +70,9 @@ function holdUnder(u: Under) {
   };
   const tick = () => {
     const p = window.location.pathname;
-    if (performance.now() > until || (p !== ROUTES.contact && p !== u.path)) return stop();
+    if ((performance.now() > until && frames >= HOLD_FRAMES) || (p !== ROUTES.contact && p !== u.path)) return stop();
     if (Math.abs(window.scrollY - u.y) > 1) window.scrollTo({ top: u.y, behavior: 'instant' });
+    frames++;
     raf = requestAnimationFrame(tick);
   };
   for (const t of INPUT) window.addEventListener(t, onInput, { capture: true, passive: true });
