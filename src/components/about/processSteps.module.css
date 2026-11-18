@@ -73,7 +73,11 @@
     padding-bottom: 120px;
   }
 }
-/* the lead: the paragraph token of the About pages, in the paragraphs' column, but measured (about 4 lines) */
+/* the lead: the paragraph token of the About pages, in the paragraphs' column, but measured: 15 em, five lines for the
+ * owner's sentence, none ending on a one-letter word ("a", "e"). The width scales with the font (3vw), so the breaks are
+ * the same from 414 px up. A no-break space cannot do this here: the reveal splits the text word by word (SplitType)
+ * and turns it into a plain space, so the lines would change when the split is reverted. At 16 em two lines ended on
+ * "a" and "e" (MEASURED 600–2560 px, second round of the owner, 18/11/2026). */
 .Lead {
   font-family: var(--font-helvetica-bold);
   font-size: clamp(1.5rem, 3vw, 3.5rem);
@@ -81,7 +85,7 @@
   grid-column: 1 / -1;
   letter-spacing: -0.03em;
   line-height: 1;
-  max-width: 16em;
+  max-width: 15em;
 }
 @media (width >= 1024px) {
   .Lead {
@@ -211,8 +215,8 @@
 }
 
 /* ---------------------------------------------------------------- figure: labels | diagram */
-/* one label column width for all four figures (the longest label, "NECESSIDADES", is about 4.9 rem in MonoDetail;
-   5.75 rem leaves room for the sans-serif fallback), so the four diagrams share one size and left edge */
+/* one label column width for every figure (5.75 rem: room for a 12-letter label in MonoDetail, about 4.9 rem, and for the
+   sans-serif fallback; the longest label now, "PROMISSORA", has 10), so the diagrams share one size and left edge */
 .StepFigure {
   column-gap: 8px;
   display: grid;

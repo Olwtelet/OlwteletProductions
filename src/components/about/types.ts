@@ -46,7 +46,7 @@ export interface AboutColumnsPrimary {
 }
 
 /** Olwtelet: Processo steps slice (`about_process_steps`, ProcessSteps.tsx) */
-export type ProcessDiagramKind = 'ideia' | 'investigacao' | 'construcao' | 'refinamento';
+export type ProcessDiagramKind = 'epifania' | 'analise' | 'desenvolvimento';
 export interface ProcessStepsPrimary {
   about_section_id?: string | null;
   sub_text?: string | null;

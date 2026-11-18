@@ -288,12 +288,17 @@ const row = (id, number, title, description, { link = null, image = {} } = {}) =
   slice_label: null,
 });
 const carousel = (id, items) => ({ variation: 'default', version: 'initial', items: items.map((image) => ({ image, video_url: null })), primary: { about_section_id: `section-${++sectionN}` }, id: `about_scrolling_carousel$${id}`, slice_type: 'about_scrolling_carousel', slice_label: null });
-// Processo steps (src/components/about/ProcessSteps.tsx): a lead and four steps, each with a diagram of its own
+// Processo steps (src/components/about/ProcessSteps.tsx): a lead and the steps, each with a diagram of its own
 // (src/components/about/ProcessDiagrams.tsx) and three labels taken word for word from its text.
+// A one-letter word ("a", "e", "o", "é") is kept with the next one (no-break space), so a line of a step's text never
+// ends on it ("…promissora, a / ideia…"). Step texts only: the lead is split word by word for its reveal (SplitType turns
+// a no-break space into a plain one during the animation, and the lines would change when it ends); its measure
+// (processSteps.module.css, .Lead) keeps its lines off one-letter words instead.
+const keepShortWords = (text) => text.replace(/(^|\s)([aeoéAEOÉ]) /g, '$1$2\u00A0');
 const processSteps = (id, subText, lead, steps) => ({
   variation: 'default',
   version: 'initial',
-  items: steps.map(([step_number, title, description, diagram, labels]) => ({ step_number, title, description, diagram, labels })),
+  items: steps.map(([step_number, title, description, diagram, labels]) => ({ step_number, title, description: keepShortWords(description), diagram, labels })),
   primary: { about_section_id: `section-${++sectionN}`, sub_text: subText, description: lead },
   id: `about_process_steps$${id}`,
   slice_type: 'about_process_steps',
@@ -380,15 +385,19 @@ async function buildAbout() {
     await imgOf(`${CASE}/d-sessao-86.jpg`, 'Filmes HD Online Grátis: rodapé com RSS'),
     await imgOf(`${CASE}/d-home.jpg`, 'Filmes HD Online Grátis: página inicial'),
   ];
-  // the four steps: the owner's texts; labels are words of each text; no team, results, clients or methodology claimed
+  // The owner's process (round of 2026-11-18): projects are born from an epiphany; when it proves promising, the idea
+  // goes into analysis and development. The lead is the owner's sentence; the steps follow it, one per moment it
+  // names (epiphany, analysis, development), and the step texts only restate it, with the kinds of project the Estúdio
+  // page already names (software, games, web applications). Labels are words of each text; no team, results, clients
+  // or methodology claimed.
+  const PROCESS_LEAD = `Os projetos da ${BRAND.name} nascem de uma epifania. Quando ela se mostra promissora, a ideia entra em análise e desenvolvimento.`;
   const process = [
-    cols('Processo', 'DA IDEIA AO REFINAMENTO.', { pageTitle: true, id: 'process-title' }),
+    cols('Processo', 'DA EPIFANIA AO PROJETO.', { pageTitle: true, id: 'process-title' }),
     carousel('process', processCarousel),
-    processSteps('process', 'Etapas', `Os projetos da ${BRAND.name} passam por quatro momentos: ideia, investigação, construção e refinamento.`, [
-      ['01', 'Ideia', 'Definir o que o projeto precisa fazer, para quem e qual experiência queremos criar.', 'ideia', ['Projeto', 'Para quem', 'Experiência']],
-      ['02', 'Investigação', 'Explorar referências, necessidades e restrições. Comparar possibilidades antes de escolher um caminho.', 'investigacao', ['Referências', 'Necessidades', 'Restrições']],
-      ['03', 'Construção', 'Dar forma à interface e à lógica, conectando conteúdo, interação e tecnologia.', 'construcao', ['Conteúdo', 'Interação', 'Tecnologia']],
-      ['04', 'Refinamento', 'Testar o uso real, revisar os detalhes e ajustar a experiência para que tudo funcione em conjunto.', 'refinamento', ['Testar', 'Revisar', 'Ajustar']],
+    processSteps('process', 'Etapas', PROCESS_LEAD, [
+      ['01', 'Epifania', 'Todo projeto começa com uma epifania, uma ideia que surge de repente. Nem toda epifania vira projeto.', 'epifania', ['Ideia', 'Epifania', 'Projeto']],
+      ['02', 'Análise', 'Quando a epifania se mostra promissora, a ideia entra em análise antes de seguir para o desenvolvimento.', 'analise', ['Epifania', 'Promissora', 'Análise']],
+      ['03', 'Desenvolvimento', 'Depois da análise, a ideia é desenvolvida e se torna software, jogo ou aplicação web.', 'desenvolvimento', ['Software', 'Jogo', 'Web']],
     ]),
     cols('Contato', `Para conversar sobre um projeto, uma parceria ou o Veil, escreva para ${BRAND.contact.email}.`, { cta: { text: 'Vamos conversar', href: '/contact' }, id: 'process-contato' }),
   ];
@@ -405,7 +414,7 @@ async function buildAbout() {
   });
   return [
     record('/about/studio', 'studio', studio, 'Estúdio', `${BRAND.name}: espaço de criação independente de ${BRAND.creator.name}, em ${BRAND.location.city}. Projetos próprios de software, jogos e aplicações web.`),
-    record('/about/process', 'process', process, 'Processo', `Como os projetos da ${BRAND.name} avançam: ideia, investigação, construção e refinamento.`),
+    record('/about/process', 'process', process, 'Processo', PROCESS_LEAD),
   ];
 }
 

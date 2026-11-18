@@ -4,8 +4,8 @@
 // label and word reveal of the paragraphs (TextReveal), the FadeIn of the rows, the 3vw / 700 number and title token,
 // the 8 / 12 / 16-column grid — with a measured lead, a readable body and one diagram per step (ProcessDiagrams.tsx).
 //   section
-//     intro: rule, lead (TextReveal "Etapas", at most ~16 em wide)
-//     ol: li × 4 = rule, FadeIn > [number | title + body | figure (labels + diagram)]
+//     intro: rule, lead (TextReveal "Etapas", at most 15 em wide)
+//     ol: li per step (three: epifania, análise, desenvolvimento) = rule, FadeIn > [number | title + body | figure]
 // Layout is pure CSS (no JS media queries, so no first-render swap); processSteps.module.css.
 import { FadeIn } from '@/components/ui/FadeIn';
 import { TextReveal } from '@/components/ui/TextReveal';
