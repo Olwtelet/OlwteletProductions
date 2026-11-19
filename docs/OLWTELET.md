@@ -1067,6 +1067,18 @@ reproduzido.
     - exceção, anterior a esta rodada: o 404 de segmento, descrito em "Limite anterior, do Next".
   - **Antes, na produção** (commit `ac2c83e2`): o mesmo teste mostrava "Página não encontrada · Olwtelet Productions"
     e "Estúdio · Olwtelet Productions".
+- **Medido no deployment** (https://olwteletproductions.vercel.app):
+  - **Origem**: commit `2c232b85`, build `RZVll4BUAXFCKpFDd3BaU`. O status da Vercel no GitHub dizia "Deployment has
+    completed".
+  - **`tab-title.mjs`, no servidor**: no HTML das 12 rotas, um único `<title>`, "Olwtelet Productions", com o
+    `og:title` de cada página. O 404 da raiz voltou a "Página não encontrada · Olwtelet Productions".
+  - **`tab-title.mjs`, no navegador**, em desktop e celular, nas 12 rotas e nos 19 passos:
+    - nenhum outro título;
+    - nenhum momento sem `<title>`;
+    - nenhum `<title>` vazio inserido.
+  - **Título interno da aba no Chrome**, com a CPU 4 vezes mais lenta:
+    - em `/`, `/projects/veil` e `/privacy-policy`, 0 de 30 carregamentos voltando ao endereço;
+    - no 404 de segmento, 10 de 10, por 3 a 35 ms. É o limite anterior descrito acima.
 
 ### 2. Imagens quebradas na Vercel
 
@@ -1127,7 +1139,14 @@ reproduzido.
     39 imagens decodificadas, sem resposta de erro.
   - **Trace da função**: o `route.js.nft.json` do build final tem 539 arquivos, com as 324 imagens de `public/`, sem
     `.cache`. O build não deu avisos.
-- **Medido no deployment**: pendente até o push deste commit; o resultado entra no commit seguinte.
+- **Medido no deployment** (https://olwteletproductions.vercel.app, commit `2c232b85`, build `RZVll4BUAXFCKpFDd3BaU`):
+  - **`image-audit.mjs`**:
+    - desktop: 40 de 40 imagens exibidas decodificadas;
+    - celular: 38 de 38, mais as 2 ocultas por design;
+    - todas as respostas de `/api/img` com 200, e nenhuma resposta de erro.
+
+    Antes, 58 de 78 estavam quebradas.
+  - **`/api/img` direto**: 200, com AVIF 611 × 382 e 613 × 383 e WebP 640 × 400, todos decodificados.
 
 ### Revisão independente
 
