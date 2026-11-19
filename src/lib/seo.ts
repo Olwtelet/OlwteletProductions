@@ -1,5 +1,6 @@
-// Metadata builders. Olwtelet Productions: titles, descriptions and Open Graph come from src/content/brand.ts and the
-// content records (pages.json, home.json, projects.json). Server-only.
+// Metadata builders. Olwtelet Productions: descriptions, sharing titles and Open Graph come from src/content/brand.ts
+// and the content records (pages.json, home.json, projects.json). The tab title is TAB_TITLE on every route, set here
+// in one place (rootMetadata, metadataFromSeo, notFoundMetadata). Server-only.
 //
 // Origin: canonical URLs and absolute og:url/og:image need the site's public address. It is read from
 // NEXT_PUBLIC_SITE_URL (or, on Vercel, VERCEL_PROJECT_PRODUCTION_URL) — never invented. Without one, canonicals are
@@ -7,7 +8,7 @@
 // Icons come from the file conventions in src/app (favicon.ico, icon.svg, apple-icon.png) and app/manifest.ts.
 import 'server-only';
 import type { Metadata } from 'next';
-import { BRAND, configuredOrigin } from '@/content/brand';
+import { BRAND, configuredOrigin, TAB_TITLE } from '@/content/brand';
 import { getHome, getPage, getProject } from './content';
 import type { Project, SeoRecord } from './types';
 
@@ -15,7 +16,10 @@ export const SITE_ORIGIN: string | null = configuredOrigin();
 export const SITE_NAME = BRAND.name;
 export const DEFAULT_OG_IMAGE = BRAND.assets.ogImage;
 
-/** `Página · Olwtelet Productions` */
+/** The tab title of every route: always TAB_TITLE, as `absolute`, so no template or page name is ever added. */
+const TAB: Metadata['title'] = { absolute: TAB_TITLE };
+
+/** `Página · Olwtelet Productions`: the sharing title of a page (Open Graph, Twitter), never the tab title. */
 export function pageTitle(title: string): string {
   return `${title} · ${BRAND.name}`;
 }
@@ -38,8 +42,8 @@ export function rootMetadata(): Metadata {
   return {
     ...(SITE_ORIGIN ? { metadataBase: new URL(SITE_ORIGIN) } : {}),
     applicationName: BRAND.name,
-    // default = the brand name only: it is also what the bare 404 shell of a segment notFound() shows before hydration
-    title: { default: BRAND.name, template: `%s · ${BRAND.name}` },
+    // the brand name only, with no template: also what the bare 404 shell of a segment notFound() shows
+    title: TAB_TITLE,
     description: BRAND.description,
     authors: [{ name: `${BRAND.creator.name} (${BRAND.creator.pseudonym})`, url: BRAND.links.site.href }],
     creator: BRAND.creator.name,
@@ -48,10 +52,9 @@ export function rootMetadata(): Metadata {
   };
 }
 
-/** Content SeoRecord → Next Metadata. */
+/** Content SeoRecord → Next Metadata. The tab title is always TAB_TITLE; the record's own titles go to sharing. */
 export function metadataFromSeo(seo: SeoRecord): Metadata {
-  const md: Metadata = {};
-  if (seo.title != null) md.title = { absolute: seo.title };
+  const md: Metadata = { title: TAB };
   if (seo.description) md.description = seo.description;
   const canonical = absolute(seo.canonical);
   if (canonical) md.alternates = { canonical };
@@ -84,15 +87,15 @@ export function metadataFromSeo(seo: SeoRecord): Metadata {
   return md;
 }
 
-/** Project pages: "<title> · Olwtelet Productions", description = summary, image = the project's Open Graph image. */
+/** Project pages: tab title TAB_TITLE; sharing title "<title> · Olwtelet Productions", description = summary, image =
+ *  the project's Open Graph image. */
 export function projectSeo(p: Project): SeoRecord {
   const d = p.data || {};
-  const title = pageTitle(d.title);
-  const ogTitle = d.meta_title || title;
+  const ogTitle = d.meta_title || pageTitle(d.title);
   const description: string | null = d.meta_description || null;
   const image: string = (d.meta_image && d.meta_image.url) || DEFAULT_OG_IMAGE;
   return {
-    title,
+    title: TAB_TITLE,
     description,
     canonical: `/projects/${p.uid}`,
     robots: null,
@@ -123,12 +126,12 @@ export function routeMetadata(route: string): Metadata {
   return notFoundMetadata;
 }
 
-/** 404 pages: "Página não encontrada · Olwtelet Productions", never indexed. */
+/** 404 pages: the same tab title as every page, never indexed; the sharing title names the page. A child openGraph
+ *  replaces the root one, so siteName, locale and type are repeated. */
 export const notFoundMetadata: Metadata = {
-  title: { absolute: pageTitle('Página não encontrada') },
+  title: TAB,
   description: 'Página não encontrada.',
   robots: { index: false, follow: true },
+  openGraph: { siteName: BRAND.name, locale: BRAND.ogLocale, type: 'website', title: pageTitle('Página não encontrada') },
+  twitter: { title: pageTitle('Página não encontrada') },
 };
-
-/** Kept for the 404 routes' generateMetadata (same as notFoundMetadata now: the title is in the server head). */
-export const notFoundHeadMetadata: Metadata = notFoundMetadata;

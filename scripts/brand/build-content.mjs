@@ -7,7 +7,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
-import { BRAND, PROJECTS, KINDS, CATEGORIES, STATUS_LABEL } from '../../src/content/brand.ts';
+import { BRAND, PROJECTS, KINDS, CATEGORIES, STATUS_LABEL, TAB_TITLE } from '../../src/content/brand.ts';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const require = createRequire(path.join(ROOT, 'package.json'));
@@ -207,18 +207,21 @@ async function buildProjects() {
 }
 
 // ------------------------------------------------------------------------------------------------ seo records
-const seo = (title, description, canonical, image = BRAND.assets.ogImage, robots = null) => ({
-  title,
+// `title` is the tab title, TAB_TITLE on every page (src/lib/seo.ts applies the same constant); the first argument is
+// the page's sharing title (Open Graph, Twitter), which stays per page.
+const seo = (shareTitle, description, canonical, image = BRAND.assets.ogImage, robots = null) => ({
+  title: TAB_TITLE,
   description,
   canonical,
   robots,
   googlebot: null,
-  og: { title, description, site_name: BRAND.name, image },
-  twitter: { card: 'summary_large_image', title, description, image },
+  og: { title: shareTitle, description, site_name: BRAND.name, image },
+  twitter: { card: 'summary_large_image', title: shareTitle, description, image },
   icons: [],
   otherMeta: [],
   headRobots: robots,
 });
+/** sharing title of a page: "Página · Olwtelet Productions" */
 const T = (s) => `${s} · ${BRAND.name}`;
 
 // ------------------------------------------------------------------------------------------------ home

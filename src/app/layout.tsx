@@ -9,6 +9,7 @@ import '@/styles/globals.css';
 import CookieBanner from '@/components/chrome/CookieBanner';
 import Header, { ShortDescription } from '@/components/chrome/Header';
 import Nav from '@/components/chrome/Nav';
+import { TabTitle } from '@/components/chrome/TabTitle';
 import { SmoothScroll } from '@/components/providers/SmoothScroll';
 import { SoundProvider } from '@/components/providers/SoundProvider';
 import { ThemeController } from '@/components/providers/ThemeController';
@@ -29,7 +30,8 @@ const TYPEKIT_SRI: Record<string, string> = { gtx3zug: 'sha384-zYG6sGlM2bOiMj7Ip
 /** Google tag: only loaded when configured (NEXT_PUBLIC_GA_ID); the cookie banner exists only then. */
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
-// Defaults (title template, description, Open Graph site name and locale, metadataBase when the origin is configured).
+// Defaults (the tab title TAB_TITLE with no template, description, Open Graph site name and locale, metadataBase when the
+// origin is configured).
 // Icons: src/app/favicon.ico, icon.svg, apple-icon.png and manifest.ts (file conventions).
 export const metadata: Metadata = rootMetadata();
 export const viewport: Viewport = { width: 'device-width', initialScale: 1, themeColor: '#000000' };
@@ -71,6 +73,8 @@ export default function RootLayout({ children, contact }: { children: ReactNode;
         <link rel="stylesheet" href={`https://use.typekit.net/${TYPEKIT_KIT}.css`} {...(sri ? { integrity: sri } : {})} crossOrigin="anonymous" />
       </head>
       <body>
+        {/* keeps the tab title (TAB_TITLE) mounted while Next swaps the metadata <title> of a client navigation */}
+        <TabTitle />
         <SoundProvider>
           <SmoothScroll>
             {structuredData().map((item, i) => (

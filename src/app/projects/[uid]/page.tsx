@@ -2,8 +2,8 @@
 //   [ <ViewedCaseStudy value=uid/>, <CaseStudy content={doc.data} uid/>, <RelatedWork/> (server-rendered) ]
 // Contract kept from the foundation stub: static params over all 140 projects (route uid; `15-years` is served as
 // `zendesk-15-years`, next.config.ts 308), unknown uid rendered on demand → notFound() with projectMetadata(uid) =
-// notFoundHeadMetadata (no title in the SSR head); ./not-found.tsx adds "Page not found" after hydration (MEASURED: the
-// original titles /projects/foo "Page not found" only once hydrated, while unmatched URLs get no <title>).
+// notFoundMetadata; the response is Next's bare 404 shell with the root head (tab title TAB_TITLE, as every page), and
+// ./not-found.tsx adds the 404 description after hydration.
 // The page is rendered per request (`connection()`): the original is `cache-control: no-store` and its Related
 // work cards are re-drawn on every request (MEASURED).
 import type { Metadata } from 'next';

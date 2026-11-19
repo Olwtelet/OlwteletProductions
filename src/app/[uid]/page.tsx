@@ -6,7 +6,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { LegalPage } from '@/components/legal/LegalPage';
 import { getPage } from '@/lib/content';
-import { notFoundHeadMetadata, routeMetadata } from '@/lib/seo';
+import { notFoundMetadata, routeMetadata } from '@/lib/seo';
 
 type Params = { params: Promise<{ uid: string }> };
 const PAGE_UIDS = ['privacy-policy'] as const;
@@ -19,8 +19,8 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { uid } = await params;
-  // unknown uid: the 404 metadata ("Página não encontrada", noindex)
-  return (PAGE_UIDS as readonly string[]).includes(uid) ? routeMetadata(`/${uid}`) : notFoundHeadMetadata;
+  // unknown uid: the 404 metadata (tab title TAB_TITLE, description "Página não encontrada.", noindex)
+  return (PAGE_UIDS as readonly string[]).includes(uid) ? routeMetadata(`/${uid}`) : notFoundMetadata;
 }
 
 export default async function UidPage({ params }: Params) {

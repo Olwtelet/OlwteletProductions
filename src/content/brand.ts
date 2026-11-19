@@ -60,6 +60,11 @@ export const BRAND = {
   },
 } as const;
 
+/** The browser tab title of every page: the brand name alone, with no page name, separator or description
+ *  (owner's request of 2026-11-19). Used by the metadata of every route (src/lib/seo.ts), the client 404 head, the
+ *  static /500 document (src/proxy.ts) and the content generator. Sharing titles (Open Graph, Twitter) stay per page. */
+export const TAB_TITLE: string = BRAND.name;
+
 export type ProjectStatus = 'published' | 'in-development';
 
 export const STATUS_LABEL: Record<ProjectStatus, string> = {
