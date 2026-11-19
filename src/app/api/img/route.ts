@@ -1,14 +1,17 @@
 // imgix emulation (images.prismic.io is imgix): GET /api/img?src=<local public url | original url>&rect=x,y,w,h
 //   &w=&h=&fit=crop|max|clip|min|scale|fill&q=&auto=format[&fm=webp|avif|jpg|png]
-// Reads ONLY files under /public (public/remote/<host>/… or site-root files). Results are cached on disk in
-// .cache/img/<sha1>.<ext> and served with a 1-year immutable Cache-Control.
+// Reads ONLY files under /public (site-root files such as /projects/…, /brand/…; next.config.ts traces them into this
+// function). Results are served with a 1-year immutable Cache-Control and, when a writable directory exists, kept in a
+// disk cache (<sha1>.<ext>). The cache is best effort: reading or writing it never decides the response.
+// MEASURED 2026-11-19 on the Vercel deployment: the function's filesystem is read-only outside /tmp, mkdir of
+// /var/task/.cache failed (ENOENT) inside the processing try, and every resized image was answered 500.
 // Semantics (imgix docs): rect crops the source first; fit=clip (default) fits inside w×h keeping the aspect
 // ratio (may upscale); max = clip without upscaling; crop = cover + centre crop; min = cover without upscaling;
 // scale = exact w×h (distort); fill = clip with the derived side rounded up, or exact w×h padded with
 // fill-color (default white) when fill=solid. q default 75. auto=format → AVIF if the Accept header allows
 // it, else WebP, else the source format (JPEG when the source is AVIF/WebP). Audit 2026-11-06: output sizes
 // checked against images.prismic.io for 24+ parameter sets (scripts/foundation/img-imgix-compare.mjs).
-import { createHash } from 'node:crypto';
+import { createHash, randomUUID } from 'node:crypto';
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import sharp, { type Metadata } from 'sharp';
@@ -17,7 +20,37 @@ import { publicFilePath } from '@/lib/media.server';
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
-const CACHE_DIR = path.join(process.cwd(), '.cache', 'img');
+// On Vercel only /tmp is writable (and it lives only as long as the function instance); locally, the project's .cache.
+// The cache helpers take a file NAME and build the path from CACHE_DIR themselves, with literal directories: an fs call
+// on a path the file tracer cannot follow (a parameter holding a whole path, os.tmpdir()) makes it trace the whole
+// project (MEASURED: "Dynamic filesystem access causes tracing of the whole project", ~13 500 files in this route's
+// trace).
+const CACHE_DIR = process.env.VERCEL ? '/tmp/olwtelet-img' : path.join(process.cwd(), '.cache', 'img');
+
+/** Cached result for `name` (<sha1>.<ext>), or null when there is none, it is empty or the cache cannot be read. */
+async function cacheRead(name: string): Promise<Buffer | null> {
+  try {
+    const buf = await fs.readFile(path.join(CACHE_DIR, name));
+    return buf.length > 0 ? buf : null;
+  } catch {
+    return null;
+  }
+}
+
+/** Keeps a result for later requests when the cache directory can be created and written; never throws. The file is
+ *  written under a unique temporary name and renamed into place, so a concurrent request for the same key reads either
+ *  nothing (a miss) or the whole image, never a partly written one. */
+async function cacheWrite(name: string, data: Buffer): Promise<void> {
+  const tmp = `${name}.${process.pid}.${randomUUID()}.tmp`;
+  try {
+    await fs.mkdir(CACHE_DIR, { recursive: true });
+    await fs.writeFile(path.join(CACHE_DIR, tmp), data);
+    await fs.rename(path.join(CACHE_DIR, tmp), path.join(CACHE_DIR, name));
+  } catch {
+    // no writable cache here (or the rename lost a race): the image is still returned
+    await fs.unlink(path.join(CACHE_DIR, tmp)).catch(() => {});
+  }
+}
 const MAX_DIM = 8192;
 const PASSTHROUGH = /\.(svg|gif)$/i;
 const MIME: Record<string, string> = {
@@ -121,15 +154,14 @@ export async function GET(req: Request) {
   const key = createHash('sha1')
     .update(JSON.stringify([rel, stat.size, stat.mtimeMs, rect, w, h, fit, q, fm, fillMode, fillColor, 2]))
     .digest('hex');
-  const cached = path.join(CACHE_DIR, `${key}.${fm}`);
+  const cacheName = `${key}.${fm}`;
   const headers: Record<string, string> = { 'content-type': MIME[fm], 'cache-control': LONG_CACHE };
   if (auto.includes('format') && !sp.get('fm')) headers.vary = 'Accept';
 
-  try {
-    const body = await fs.readFile(cached);
-    return new Response(new Uint8Array(body), { headers: { ...headers, 'x-img-cache': 'HIT' } });
-  } catch {}
+  const hit = await cacheRead(cacheName);
+  if (hit) return new Response(new Uint8Array(hit), { headers: { ...headers, 'x-img-cache': 'HIT' } });
 
+  let out: Buffer;
   try {
     let img = sharp(file, { failOn: 'none' }).rotate();
     let iw = meta.autoOrient?.width ?? meta.width ?? 0;
@@ -193,11 +225,10 @@ export async function GET(req: Request) {
     else if (fm === 'webp') img = img.webp({ quality: q });
     else if (fm === 'png') img = img.png();
     else img = img.jpeg({ quality: q, mozjpeg: true });
-    const out = await img.toBuffer();
-    await fs.mkdir(CACHE_DIR, { recursive: true });
-    await fs.writeFile(cached, out).catch(() => {});
-    return new Response(new Uint8Array(out), { headers: { ...headers, 'x-img-cache': 'MISS' } });
+    out = await img.toBuffer();
   } catch (e) {
     return bad(500, 'image processing failed: ' + (e as Error).message);
   }
+  await cacheWrite(cacheName, out);
+  return new Response(new Uint8Array(out), { headers: { ...headers, 'x-img-cache': 'MISS' } });
 }

@@ -38,6 +38,16 @@ const nextConfig: NextConfig = {
   distDir: process.env.NEXT_DIST_DIR || '.next',
   reactStrictMode: false,
   images: { unoptimized: true },
+  // /api/img reads the source images from public/ through the filesystem of its own function (on Vercel, /var/task).
+  // The tracer already finds them from path.join(process.cwd(), 'public') (MEASURED 2026-11-19: 324 images in
+  // route.js.nft.json); this keeps them in that function even if the code stops being analyzable that way.
+  outputFileTracingIncludes: {
+    '/api/img': ['./public/**/*.{jpg,jpeg,png,webp,avif,gif,svg}'],
+  },
+  // the route's local disk cache (.cache/img) is runtime data, never part of the function
+  outputFileTracingExcludes: {
+    '/api/img': ['./.cache/**/*'],
+  },
   // keep the dev "N" route indicator out of the visual comparisons (scripts/compare.mjs)
   devIndicators: false,
   async redirects() {
