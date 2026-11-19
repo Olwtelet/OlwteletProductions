@@ -20,7 +20,7 @@ evidências, os scripts e o espelho de mídia da réplica ficam no histórico do
 
 | Arquivo | Conteúdo |
 |---|---|
-| `src/content/brand.ts` | nome, assinatura, tagline, criador, local e fuso, e-mail, links, projetos (status, tipo, categorias, slot no grid, tema), rótulos e contagens, origem configurada |
+| `src/content/brand.ts` | nome, título da aba (`TAB_TITLE`), assinatura, tagline, criador, local e fuso, e-mail, links, projetos (status, tipo, categorias, slot no grid, tema), rótulos e contagens, origem configurada |
 | `src/content/brand-mark.ts` | símbolo vetorial |
 | `scripts/brand/build-content.mjs` | gera `src/content/{projects,home,pages,settings,taxonomies,page-themes}.json` a partir de brand.ts |
 | `scripts/brand/build-brand-assets.mjs` | gera logos, ícones, Open Graph, quadros da intro, modelo de partículas, sequência e máscaras do Sobre, atlas e `src/content/blueprint.json`, imagens dos projetos |
@@ -972,6 +972,207 @@ reproduzido.
     transformação), na tag de checkpoint e no stash. Nenhum deles foi enviado ao GitHub.
   - Nada disso foi reescrito.
 
+## Título da aba e imagens na Vercel (19/11/2026)
+
+### 1. Título da aba
+
+- **Pedido**: o título da aba é sempre "Olwtelet Productions", sem nome de página, separador ou descrição.
+- **Antes**: cada página tinha o próprio título. Os padrões eram:
+  - "Estúdio · Olwtelet Productions" e equivalentes em cada página;
+  - na home, "Olwtelet Productions — Software, jogos e experiências digitais";
+  - no 404, "Página não encontrada · Olwtelet Productions";
+  - no `/500`, "500: esta página não carregou · Olwtelet Productions".
+- **Agora**: uma constante, `TAB_TITLE` em `src/content/brand.ts`, é o título de todas as rotas.
+  - **`src/lib/seo.ts`**: o layout usa o nome sem template, e cada página e o 404 usam `title.absolute`. A regra fica
+    num lugar só.
+  - **Continuidade nas navegações internas** (`src/components/chrome/TabTitle.tsx`, no layout raiz):
+    - **Problema**: o Next troca o `<title>` dos metadados a cada rota, e em algumas navegações o antigo saía um
+      quadro antes de o novo chegar. Nesse quadro, a aba ficava sem título (detalhes em "Revisão independente",
+      abaixo).
+    - **Solução**: o componente monta um `<title itemProp="name">{TAB_TITLE}</title>` só depois da hidratação, e ele
+      fica montado durante a troca.
+    - **Por que `itemProp`**: o atributo faz o React renderizar esse `<title>` onde ele está, no começo do `<body>`,
+      em vez de levá-lo ao `<head>`. Enquanto o `<head>` tem um título, ele vem antes na ordem do documento, e é o
+      que vale. O do `<body>` só conta no intervalo em que o `<head>` fica sem nenhum.
+    - **O que não muda**:
+      - o HTML do servidor continua com um único `<title>`, o dos metadados, e a hidratação o aproveita sem mudança;
+      - o texto do componente é o mesmo, e o `document.title` nunca muda de valor;
+      - sem um `itemScope` em volta, leitores de microdados ignoram o atributo.
+  - **Demais pontos**:
+    - o documento estático do `/500` (`src/proxy.ts`) usa a mesma constante;
+    - o gerador de conteúdo (`scripts/brand/build-content.mjs`) grava `seo.title` com ela, e uma regeneração não
+      volta aos títulos antigos;
+    - `src/app/global-error.tsx` (novo) também. É a página de erro quando o próprio layout raiz falha. A do Next não
+      tinha título.
+  - **Sob o modal**: o `UnderlyingHead` copia o título da página que fica sob o modal do contato, e esse título agora
+    é o mesmo.
+  - **Nenhum remendo**: nada reescreve `document.title` depois do carregamento. O 404 renderizado no cliente
+    (`NotFoundHead`) deixou de renderizar `<title>` e só acrescenta a descrição.
+- **Por que não um `<title>` comum, levado ao `<head>`**: as duas primeiras versões foram assim, e as medições as
+  descartaram.
+  - **Como o React encaixa um `<title>` no `<head>`**: pega o primeiro `<title>` do documento. Se ele já pertence a
+    outro componente, insere um `<title>` novo e vazio e só depois põe o texto, dentro da mesma tarefa.
+  - **Ordem de hidratação**: o Next hidrata os metadados um pouco depois do layout, então o título do layout sempre
+    chegava antes.
+  - **Versão 1, `<title>` no layout renderizado no servidor**:
+    - um `<title>` vazio inserido em todo carregamento;
+    - o título interno da aba no Chrome (o que a lista de abas mostra) caindo para o endereço por 0 a 2 ms em 25 de 30
+      carregamentos, com a CPU 4 vezes mais lenta;
+    - um terceiro `<title>` órfão;
+    - dois `<title>` no HTML.
+  - **Versão 2, componente levado ao `<head>`**: a mesma inserção vazia, e 14 de 30 carregamentos com o título
+    interno caindo.
+  - **Versão final, componente no `<body>`**: nenhuma inserção vazia, 0 de 30 carregamentos com a CPU 4 vezes mais
+    lenta e 0 de 30 na velocidade normal. A página fica com dois `<title>` iguais depois de hidratar, nenhum órfão.
+  - **Documentação local do Next** (`layout.md`): recomenda a API de metadados em vez de um `<title>` manual no
+    layout raiz. O título do HTML continua sendo o dos metadados; o componente só cobre o intervalo da troca.
+- **Limite anterior, do Next**: o 404 de um segmento dinâmico (`/pagina-que-nao-existe`,
+  `/projects/projeto-que-nao-existe`) é respondido pelo Next com um documento de erro sem o layout.
+  - **No cliente**: esse documento é renderizado do zero, e o React limpa o `<head>` e põe os títulos de volta dentro
+    da mesma tarefa.
+  - **O que a página vê**: só "Olwtelet Productions".
+  - **Título interno da aba no Chrome**: volta ao endereço por 2 a 17 ms em parte dos carregamentos. O primeiro revisor
+    não viu o título da janela mudar, porque o Chrome só o atualiza depois de 200 ms.
+
+    | Build | CPU normal | CPU 4 vezes mais lenta |
+    |---|---|---|
+    | Produção antes desta rodada (`ac2c83e2`) | 8 de 20 | 17 de 20 |
+    | Build final | 4 de 20 | 15 de 20 |
+  - **Situação**: é anterior a esta rodada. Só mudaria com outra forma de responder ao 404 desses segmentos, e por
+    isso não foi mexido. No intervalo, o `<title>` do `TabTitle` mantém o `document.title` correto.
+- **Página estática de 500 do Next**: o Next serve uma página de 500 própria quando um erro escapa de todas as
+  fronteiras de erro (`pages/500.html`, gerada a partir de `next/dist/client/components/builtin/app-error`). Ela tem o
+  título fixo em inglês "500: This page couldn’t load".
+  - O App Router não tem convenção de arquivo que a substitua: a documentação local (`error.md`, "Global Error") trata
+    o `global-error` e a "built-in 500 page" como documentos distintos.
+  - O endereço dela, `/_global-error`, agora é respondido pelo `src/proxy.ts` com o mesmo documento do `/500`.
+  - Quando o próprio Next a serve internamente, depois de uma falha, o título continua o do Next.
+- **Preservado**: os títulos de compartilhamento por página (`og:title` e `twitter:title`, como "Estúdio · Olwtelet
+  Productions"), as descrições e os títulos visíveis das páginas. Ao regenerar o conteúdo, só mudaram os seis
+  `seo.title`. O 404 mantém "Página não encontrada · Olwtelet Productions" no compartilhamento.
+- **Medido no build local** `-uOkIoy2bEOp7qDlYV6DK` (`.next/BUILD_ID`, o mesmo `"b"` do HTML servido):
+  - **`tab-title.mjs`, no servidor**: no HTML das 12 rotas (as 11 do pedido e `/_global-error`), um único `<title>`,
+    "Olwtelet Productions", com o status certo (200, 404 e 500) e o `og:title` de cada página.
+  - **`tab-title.mjs`, no navegador**, em desktop e celular, nas 12 rotas e nos 19 passos dos três percursos:
+    - o observador não registrou nenhum outro título;
+    - nem ele nem o laço de quadros achou um momento sem `<title>`;
+    - nenhum `<title>` vazio foi inserido.
+  - **Compartilhamento**: com navegador e com `Twitterbot`, o `og:title` de cada página continua o mesmo. O 404 da
+    raiz (`/about/nope`, `/a/b/c`) voltou a "Página não encontrada · Olwtelet Productions". Os 404 de segmento
+    mantêm o padrão da raiz, como antes.
+  - **Título interno da aba no Chrome** (CDP `Target.getTargetInfo`, o que a lista de abas mostra):
+    - em `/`, `/projects/veil` e `/privacy-policy`, nunca voltou ao endereço: 0 de 30 carregamentos na velocidade
+      normal e 0 de 30 com a CPU 4 vezes mais lenta;
+    - nos 404 e em Estúdio, "Olwtelet Productions" de 0 a 3 s depois do carregamento;
+    - exceção, anterior a esta rodada: o 404 de segmento, descrito em "Limite anterior, do Next".
+  - **Antes, na produção** (commit `ac2c83e2`): o mesmo teste mostrava "Página não encontrada · Olwtelet Productions"
+    e "Estúdio · Olwtelet Productions".
+
+### 2. Imagens quebradas na Vercel
+
+- **Sintoma**, medido em https://olwteletproductions.vercel.app (build `Kl9clb_P7c88UAILnIeL5`) com
+  `scripts/brand/owner-checks/image-audit.mjs`: de 78 imagens exibidas, 58 estavam quebradas:
+
+  | Área | Desktop | Celular |
+  |---|---|---|
+  | Estúdio (carrossel, linhas dos projetos, rodapé) | 15 de 16 | 15 de 16 |
+  | Processo (carrossel, rodapé) | 11 de 11 | 11 de 11 |
+  | Capa de Filmes HD Online Grátis | 1 de 9 | 1 de 9 |
+  | Capa de Veil | 1 de 1 | 1 de 1 |
+  | Rodapé da política | 1 de 1 | 1 de 1 |
+  | Contato | 0 de 2 | 0 (imagens ocultas por design) |
+  | Home | sem `<img>` | sem `<img>` |
+
+  Todas eram `/api/img` (12 imagens de origem) respondendo **500**, com o texto `image processing failed: ENOENT: no
+  such file or directory, mkdir '/var/task/.cache'`. O navegador recebia texto em vez de imagem: `naturalWidth` 0 e
+  `decode()` com "The source image cannot be decoded".
+- **Funcionavam**: as imagens servidas direto de `public/` (galeria do case de Filmes, símbolo em SVG). O grid da home
+  não tem `<img>`: as células vazias são desenhos dentro do canvas WebGL, e as texturas dele (atlas) responderam todas
+  200.
+- **Causa**: a rota `/api/img` gravava o cache em `process.cwd()/.cache/img`. Na Vercel, o sistema de arquivos da
+  função só aceita gravação em `/tmp`. O `fs.mkdir` ficava dentro do bloco cujo erro virava resposta 500: a imagem já
+  estava processada e era descartada.
+- **Hipóteses conferidas e descartadas**:
+  - **Arquivos de `public/` fora da função**: o trace da rota (`route.js.nft.json`) já trazia as 324 imagens de
+    `public/`. Na Vercel, a função leu o arquivo e os metadados antes de falhar no `mkdir`.
+  - **Maiúsculas e minúsculas**: todas as referências literais batem com os arquivos versionados. Os únicos nomes com
+    maiúsculas são as fontes, referenciadas com a mesma grafia.
+  - **Limpeza da marca anterior**: mudou só comentários; nenhum arquivo referenciado saiu.
+- **Correção** (`src/app/api/img/route.ts`, `next.config.ts`):
+  - **Cache dispensável**: ler ou gravar o cache nunca decide a resposta. Na Vercel ele vai para `/tmp/olwtelet-img`;
+    no local, continua em `.cache/img`. Só um erro de processamento da imagem responde 500.
+  - **Gravação atômica**: o resultado é gravado com um nome temporário único e renomeado para o nome final. Um arquivo
+    vazio conta como ausente. Antes, uma requisição simultânea à mesma imagem podia ler o arquivo ainda vazio e
+    responder 200 com corpo vazio, guardado por um ano pelo navegador.
+  - **Caminho analisável**: as funções do cache recebem só o nome do arquivo e montam o caminho a partir de diretórios
+    literais. Numa primeira versão, com `os.tmpdir()` e o caminho inteiro como parâmetro, o build avisava "Dynamic
+    filesystem access causes tracing of the whole project", e o trace da rota subia para cerca de 13 500 arquivos.
+  - **Trace explícito**: `outputFileTracingIncludes` mantém as imagens de `public/` na função `/api/img`, mesmo que o
+    código deixe de ser analisável. `outputFileTracingExcludes` deixa o cache local fora dela. O trace final tem 539
+    arquivos, com as 324 imagens e sem `.cache` nem `.git`.
+  - **Sem mudança**: a validação do caminho (só arquivos dentro de `public/`), a CSP, os parâmetros, as proporções, os
+    recortes e a qualidade das imagens.
+- **Medido no build local**:
+  - **Cache bloqueado** (build `XeR5svv_ZrXXqMHpFCVr8`, com a mesma `route.ts` do final): com o diretório do cache
+    impossível de criar (um arquivo no lugar da pasta, como na Vercel), `/api/img` respondeu 200 com imagens válidas
+    (AVIF 701 × 438 e 703 × 439). Com o cache de volta, a mesma imagem saiu dele (`x-img-cache: HIT`).
+  - **Requisições simultâneas** (mesmo build): 24 pedidos ao mesmo tempo para cada uma de três imagens ainda fora do
+    cache responderam 200, com o mesmo tamanho. Nenhum arquivo temporário ou vazio ficou no cache.
+  - **`image-audit.mjs`**, depois de acionar o carregamento preguiçoso (mesmo build):
+    - desktop: 40 de 40 imagens exibidas decodificadas;
+    - celular: 38 de 38. As 2 imagens dos cards do contato ficam ocultas por design abaixo de 768 px;
+    - nenhuma resposta de erro;
+    - em cada visão, 29 das imagens exibidas vêm de `/api/img`.
+  - **Build final `-uOkIoy2bEOp7qDlYV6DK`**: Estúdio, Filmes e contato no desktop, Processo e política no celular. As
+    39 imagens decodificadas, sem resposta de erro.
+  - **Trace da função**: o `route.js.nft.json` do build final tem 539 arquivos, com as 324 imagens de `public/`, sem
+    `.cache`. O build não deu avisos.
+- **Medido no deployment**: pendente até o push deste commit; o resultado entra no commit seguinte.
+
+### Revisão independente
+
+Quatro revisores conferiram as mudanças, e cada achado passou por um verificador que tentou refutá-lo. Os cinco achados
+confirmados foram corrigidos:
+1. **Cache não atômico** em `/api/img` (acima, "Gravação atômica").
+2. **Aba sem título por um quadro** em algumas navegações internas: projeto → política, Voltar ao projeto depois de
+   recarregar a política e, no celular, contato → política. A medição achou de 10 a 40 ms sem nenhum `<title>`.
+   Corrigido com o `TabTitle`.
+3. **Compartilhamento do 404**: com o título da aba fixo, o `og:title` e o `twitter:title` do 404 tinham passado a
+   "Olwtelet Productions". Voltaram a "Página não encontrada · Olwtelet Productions".
+4. **Página de erro do Next com título em inglês**: no `/_global-error` e na falha do layout raiz (acima).
+5. **`<title>` redundante no `NotFoundHead`**: deixava 2 ou 3 títulos no 404. Removido, com os comentários
+   desatualizados de quatro arquivos de rota.
+
+Uma segunda revisão, sobre as correções, achou mais dois pontos:
+1. **`<title>` no layout renderizado no servidor**: a primeira correção do item 2 causava a inserção vazia na
+   hidratação, como descrito em "Por que não um `<title>` comum". Foi trocada pelo `TabTitle` no `<body>`, e a
+   verificação passou a contar essas inserções.
+2. **Comentário do `global-error.tsx`**: dizia que a página estática de 500 do Next saía dele, e isso não é verdade.
+   Foi corrigido.
+
+O mesmo revisor confirmou, sem achados:
+- os metadados de compartilhamento de todas as rotas iguais aos do commit anterior, fora o título, com navegador e
+  com robôs (`Twitterbot`, `facebookexternalhit`, `Googlebot`, `Slackbot`);
+- 32 combinações de parâmetros de `/api/img` com 16 requisições simultâneas cada, sem corpo vazio ou truncado;
+- no Windows, a troca de nome sobre um arquivo aberto falha com EPERM sem expor arquivo parcial;
+- a validação de caminho intacta (`..`, codificações e endereços externos respondem 403 ou 404);
+- a CSP aceitando os documentos de erro.
+
+Uma terceira revisão, só do `TabTitle` final, não achou defeitos. Os casos cobertos, na velocidade normal e com a CPU 4
+e 6 vezes mais lenta, em desktop e celular:
+- **Intervalo da troca**: um `<title>` novo dos metadados que chega enquanto o `<head>` está vazio é criado já com o
+  texto e nunca toma o do `<body>`. A inserção vazia só acontece para um `<title>` que está sendo hidratado. Com a
+  CPU 6 vezes mais lenta, projeto → política ficou cerca de 400 ms só com o título do `<body>`, e o `document.title`
+  continuou "Olwtelet Productions".
+- **Navegação**: cache de voltar e avançar, recarregar no meio de uma navegação, seis navegações seguidas a 25 ms uma
+  da outra, Voltar e Avançar repetidos, cliques rápidos em Estúdio/Processo.
+- **Contato**: o modal aberto e fechado sobre várias páginas.
+- **Efeitos colaterais**:
+  - nenhum seletor de CSS ou script depende do primeiro filho do `<body>`;
+  - nenhum aviso do React no build de desenvolvimento para um `<title>` com `itemProp` dentro do `<body>`;
+  - nenhum `itemscope` no site;
+  - nenhum erro de hidratação.
+
 ## Aplicações do logo
 
 Prancha: `docs/evidence/olwtelet/aplicacoes-do-logo.jpg`.
@@ -1193,9 +1394,9 @@ Resultados da lista:
 
 ### Disponibilidade local
 
-O servidor de produção (`scripts/start-production.cmd`, `next start -p 3000`) serve o build `BOgrxcTDg4qWhhxvDxK6i`
-em http://localhost:3000, gerado depois da limpeza da marca anterior a partir do branch publicado
-`olwtelet-productions`. O HTML servido traz o mesmo `"b"` que `.next/BUILD_ID`.
+O servidor de produção (`scripts/start-production.cmd`, `next start -p 3000`) serve o build `-uOkIoy2bEOp7qDlYV6DK`
+em http://localhost:3000, gerado com as correções do título da aba e das imagens (19/11/2026) a partir do branch
+publicado `olwtelet-productions`. O HTML servido traz o mesmo `"b"` que `.next/BUILD_ID`.
 
 ## Pendências de publicação (decisão do proprietário)
 
